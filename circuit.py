@@ -6,9 +6,9 @@ import shutil
 import subprocess
 import tempfile
 from pathlib import Path
+from analog_parts import KINDS, part_for, pins_for, spice_line, model_cards
 
 NAME = re.compile(r'^[A-Za-z_][A-Za-z0-9_]{0,31}$|^0$')
-KINDS = {'R', 'C', 'L', 'V', 'D'}
 
 
 def validate(project):
@@ -27,16 +27,20 @@ def validate(project):
         if cid.lower() in seen:
             raise ValueError('Duplicate component identifier.')
         seen.add(cid.lower())
-        for pin in ('a', 'b'):
+        profile=part_for(c)
+        for pin in pins_for(c):
             if not isinstance(c.get(pin),str) or not NAME.fullmatch(c[pin]):
                 raise ValueError('Invalid node name. Use letters, numbers and underscores.')
-        if c['a'].lower() == c['b'].lower():
+        if len(pins_for(c))==2 and c['a'].lower() == c['b'].lower():
             raise ValueError(f'{cid}: both pins connect to the same node.')
         v = c.get('value')
         if isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) or abs(v)>1e9:
             raise ValueError(f'{cid}: enter a finite numeric value.')
-        if kind in {'R','C','L'} and v<=0:
+        if kind in {'R','C','L','D','Q','M','J','X','S'} and v<=0:
             raise ValueError(f'{cid}: value must be greater than zero.')
+        ratio=c.get('ratio',.5)
+        if isinstance(ratio,bool) or not isinstance(ratio,(int,float)) or not math.isfinite(ratio) or not 0<=ratio<=1:
+            raise ValueError('Potentiometer ratio must be between 0 and 1.')
         if c.get('wave','dc') not in {'dc','sine','pulse'}:
             raise ValueError('Unsupported source waveform.')
         frequency=c.get('frequency',1000)
@@ -46,8 +50,8 @@ def validate(project):
             position=c.get(key,0)
             if not isinstance(position,(int,float)) or isinstance(position,bool) or not math.isfinite(position) or abs(position)>100000:
                 raise ValueError('Invalid component position.')
-        a,b=c['a'].lower(),c['b'].lower()
-        adjacency.setdefault(a,set()).add(b);adjacency.setdefault(b,set()).add(a)
+        nodes={c[k].lower() for k in pins_for(c)}
+        for node in nodes:adjacency.setdefault(node,set()).update(nodes-{node})
     wires=project.get('wires',[])
     if not isinstance(wires,list) or len(wires)>500:raise ValueError('Invalid wire list.')
     by_id={c['id']:c for c in components}
@@ -55,7 +59,7 @@ def validate(project):
         try:
             if not isinstance(wire,dict):raise ValueError('Invalid wire.')
             first,second=(wire[k].split(':') for k in ('a','b'))
-            if len(first)!=2 or len(second)!=2 or first[1] not in ('a','b') or second[1] not in ('a','b') or by_id[first[0]][first[1]].lower()!=by_id[second[0]][second[1]].lower():
+            if len(first)!=2 or len(second)!=2 or first[1] not in pins_for(by_id[first[0]]) or second[1] not in pins_for(by_id[second[0]]) or by_id[first[0]][first[1]].lower()!=by_id[second[0]][second[1]].lower():
                 raise ValueError('A wire disagrees with its electrical node connections.')
         except (KeyError,TypeError,AttributeError):raise ValueError('Invalid wire endpoint.')
     if '0' not in adjacency:
@@ -78,16 +82,8 @@ def netlist(project):
     validate(project)
     lines=['Mina circuit workbench — generated netlist']
     for c in project['components']:
-        value=f'{c["value"]:.12g}'
-        if c['type']=='V':
-            wave=c.get('wave','dc'); f=c.get('frequency',1000)
-            if wave=='sine':value=f'DC 0 SIN(0 {value} {f:.12g})'
-            elif wave=='pulse':value=f'DC 0 PULSE(0 {value} 0 1n 1n {0.5/f:.12g} {1/f:.12g})'
-            else:value='DC '+value
-        elif c['type']=='D':value='DDEFAULT'
-        lines.append(f'{c["id"]} {c["a"].lower()} {c["b"].lower()} {value}')
-    lines.append('.model DDEFAULT D(Is=2.52n N=1.752 Rs=0.568 Cjo=4p Tt=20n)')
-    return '\n'.join(lines)+'\n'
+        lines.append(spice_line(c))
+    return '\n'.join(lines)+'\n'+model_cards()
 
 
 def engine_path():
@@ -101,7 +97,7 @@ def engine_path():
 
 def simulate(project):
     deck=netlist(project)
-    nodes=sorted({c[p].lower() for c in project['components'] for p in ('a','b')}-{'0'})
+    nodes=sorted({c[p].lower() for c in project['components'] for p in pins_for(c)}-{'0'})
     analysis=project.get('analysis',{}); stop=analysis.get('stop',.005);step=analysis.get('step',.00001)
     expressions=' '.join(f'v({n})' for n in nodes)
     deck+=f'.control\nset noaskquit\nset wr_singlescale\nop\nwrdata dc.txt {expressions}\ntran {step:.12g} {stop:.12g}\nwrdata transient.txt {expressions}\nquit\n.endc\n.end\n'

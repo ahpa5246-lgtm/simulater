@@ -7,7 +7,7 @@ on:
       - 'scripts/capture-green-ui.cjs'
   workflow_dispatch:
 permissions:
-  contents: write
+  contents: read
 jobs:
   screenshots:
     runs-on: ubuntu-latest
@@ -31,10 +31,3 @@ jobs:
           name: current-green-ui-shots
           path: screenshots/green-ui
           if-no-files-found: warn
-      - if: success()
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add screenshots/green-ui
-          git commit -m "Capture verified green-grid UI screenshots"
-          git push origin HEAD:feat/mpu6050-motion-simulation

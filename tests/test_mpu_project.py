@@ -2,6 +2,11 @@ import unittest
 from boards.projects import prepare_project
 def project(c):return {'version':1,'board':'arduino-uno','durationMs':250,'components':[{'id':'imu',**c}]}
 class MPUProject(unittest.TestCase):
+ def test_catalogue_links_mpu_artwork_to_the_executable_model(self):
+  from boards.project_service import capabilities
+  row=next(r for r in capabilities()['records'] if r['id']=='wokwi-mpu6050')
+  self.assertEqual(row['models'],['mpu6050'])
+  self.assertEqual(row['status'],'behavioral-model-available')
  def test_addresses_and_defaults(self):
   for address in (104,105):
    d=prepare_project(project({'model':'mpu6050','address':address}))['i2cDevices'][0]

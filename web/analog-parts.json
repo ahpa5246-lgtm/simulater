@@ -1,0 +1,1116 @@
+[
+  {
+    "id": "resistor",
+    "name": "Resistor",
+    "type": "R",
+    "value": 1000,
+    "unit": "\u03a9",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part"
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor",
+    "type": "C",
+    "value": 1e-07,
+    "unit": "F",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part"
+  },
+  {
+    "id": "inductor",
+    "name": "Inductor",
+    "type": "L",
+    "value": 0.01,
+    "unit": "H",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part"
+  },
+  {
+    "id": "v-dc",
+    "name": "DC voltage source",
+    "type": "V",
+    "value": 5,
+    "unit": "V",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "dc"
+  },
+  {
+    "id": "v-sine",
+    "name": "Sine voltage source",
+    "type": "V",
+    "value": 5,
+    "unit": "V",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "sine"
+  },
+  {
+    "id": "v-pulse",
+    "name": "Pulse voltage source",
+    "type": "V",
+    "value": 5,
+    "unit": "V",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "pulse"
+  },
+  {
+    "id": "i-dc",
+    "name": "DC current source",
+    "type": "I",
+    "value": 0.001,
+    "unit": "A",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "dc"
+  },
+  {
+    "id": "i-sine",
+    "name": "Sine current source",
+    "type": "I",
+    "value": 0.001,
+    "unit": "A",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "sine"
+  },
+  {
+    "id": "i-pulse",
+    "name": "Pulse current source",
+    "type": "I",
+    "value": 0.001,
+    "unit": "A",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "wave": "pulse"
+  },
+  {
+    "id": "silicon-diode",
+    "name": "Silicon diode",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_SILICON"
+  },
+  {
+    "id": "schottky",
+    "name": "Schottky diode",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_SCHOTTKY"
+  },
+  {
+    "id": "zener-3v3",
+    "name": "Zener 3.3 V",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_Z3V3"
+  },
+  {
+    "id": "zener-5v1",
+    "name": "Zener 5.1 V",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_Z5V1"
+  },
+  {
+    "id": "zener-12v",
+    "name": "Zener 12 V",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_Z12"
+  },
+  {
+    "id": "led-red",
+    "name": "Red LED",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_LED_RED"
+  },
+  {
+    "id": "led-green",
+    "name": "Green LED",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_LED_GREEN"
+  },
+  {
+    "id": "led-blue",
+    "name": "Blue LED",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_LED_BLUE"
+  },
+  {
+    "id": "led-white",
+    "name": "White LED",
+    "type": "D",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Positive / pin 1",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Negative / pin 2",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_LED_WHITE"
+  },
+  {
+    "id": "npn",
+    "name": "NPN transistor",
+    "type": "Q",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Collector",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Base",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Emitter",
+        "x": 40,
+        "y": 50
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_NPN"
+  },
+  {
+    "id": "pnp",
+    "name": "PNP transistor",
+    "type": "Q",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Collector",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Base",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Emitter",
+        "x": 40,
+        "y": 50
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_PNP"
+  },
+  {
+    "id": "nmos",
+    "name": "N-channel MOSFET",
+    "type": "M",
+    "value": 10,
+    "unit": "W/L ratio",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Drain",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Gate",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Source",
+        "x": 40,
+        "y": 50
+      },
+      {
+        "key": "d",
+        "label": "Bulk",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_NMOS"
+  },
+  {
+    "id": "pmos",
+    "name": "P-channel MOSFET",
+    "type": "M",
+    "value": 10,
+    "unit": "W/L ratio",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Drain",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Gate",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Source",
+        "x": 40,
+        "y": 50
+      },
+      {
+        "key": "d",
+        "label": "Bulk",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_PMOS"
+  },
+  {
+    "id": "njfet",
+    "name": "N-channel JFET",
+    "type": "J",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Drain",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Gate",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Source",
+        "x": 40,
+        "y": 50
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_NJFET"
+  },
+  {
+    "id": "pjfet",
+    "name": "P-channel JFET",
+    "type": "J",
+    "value": 1,
+    "unit": "area",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Drain",
+        "x": 40,
+        "y": -50
+      },
+      {
+        "key": "b",
+        "label": "Gate",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Source",
+        "x": 40,
+        "y": 50
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_PJFET"
+  },
+  {
+    "id": "vcvs",
+    "name": "Voltage-controlled voltage source",
+    "type": "E",
+    "value": 2,
+    "unit": "V/V",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Output +",
+        "x": 60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Output \u2212",
+        "x": 60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Control +",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "d",
+        "label": "Control \u2212",
+        "x": -60,
+        "y": 20
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part"
+  },
+  {
+    "id": "vccs",
+    "name": "Voltage-controlled current source",
+    "type": "G",
+    "value": 0.001,
+    "unit": "A/V",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Output +",
+        "x": 60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Output \u2212",
+        "x": 60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Control +",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "d",
+        "label": "Control \u2212",
+        "x": -60,
+        "y": 20
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part"
+  },
+  {
+    "id": "voltage-switch",
+    "name": "Voltage-controlled switch",
+    "type": "S",
+    "value": 1,
+    "unit": "model",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Output +",
+        "x": 60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Output \u2212",
+        "x": 60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Control +",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "d",
+        "label": "Control \u2212",
+        "x": -60,
+        "y": 20
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_SWITCH"
+  },
+  {
+    "id": "opamp",
+    "name": "Ideal operational amplifier",
+    "type": "X",
+    "value": 100000,
+    "unit": "open-loop gain",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input +",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input \u2212",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Supply +",
+        "x": 0,
+        "y": -60
+      },
+      {
+        "key": "e",
+        "label": "Supply \u2212",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Supply-limited behavioral amplifier; no bandwidth, slew, input/output current or load limits",
+    "model": "MINA_OPAMP"
+  },
+  {
+    "id": "comparator",
+    "name": "Ideal comparator",
+    "type": "X",
+    "value": 1000000,
+    "unit": "open-loop gain",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input +",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input \u2212",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Supply +",
+        "x": 0,
+        "y": -60
+      },
+      {
+        "key": "e",
+        "label": "Supply \u2212",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Supply-limited ideal comparator; no delay, hysteresis or open-collector behavior",
+    "model": "MINA_OPAMP"
+  },
+  {
+    "id": "and",
+    "name": "AND gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_AND"
+  },
+  {
+    "id": "nand",
+    "name": "NAND gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_NAND"
+  },
+  {
+    "id": "or",
+    "name": "OR gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_OR"
+  },
+  {
+    "id": "nor",
+    "name": "NOR gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_NOR"
+  },
+  {
+    "id": "xor",
+    "name": "XOR gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_XOR"
+  },
+  {
+    "id": "xnor",
+    "name": "XNOR gate (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input A",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "Input B",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "d",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no delay, fanout, power or logic-family model",
+    "model": "MINA_XNOR"
+  },
+  {
+    "id": "buffer",
+    "name": "Buffer (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no propagation delay or fanout model",
+    "model": "MINA_BUFFER"
+  },
+  {
+    "id": "inverter",
+    "name": "Inverter (ideal)",
+    "type": "X",
+    "value": 5,
+    "unit": "logic HIGH (V)",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Input",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Output",
+        "x": 60,
+        "y": 0
+      },
+      {
+        "key": "c",
+        "label": "Ground",
+        "x": 0,
+        "y": 60
+      }
+    ],
+    "scope": "Ideal threshold at half logic HIGH; no propagation delay or fanout model",
+    "model": "MINA_INVERTER"
+  },
+  {
+    "id": "potentiometer",
+    "name": "Potentiometer",
+    "type": "X",
+    "value": 10000,
+    "unit": "\u03a9",
+    "pins": [
+      {
+        "key": "a",
+        "label": "Top",
+        "x": -60,
+        "y": 0
+      },
+      {
+        "key": "b",
+        "label": "Wiper",
+        "x": 0,
+        "y": 60
+      },
+      {
+        "key": "c",
+        "label": "Bottom",
+        "x": 60,
+        "y": 0
+      }
+    ],
+    "scope": "Resistive divider with adjustable wiper ratio 0\u20131; 1 \u00b5\u03a9 minimum segment",
+    "model": "MINA_POT"
+  },
+  {
+    "id": "bridge",
+    "name": "Bridge rectifier",
+    "type": "X",
+    "value": 1,
+    "unit": "model",
+    "pins": [
+      {
+        "key": "a",
+        "label": "AC input 1",
+        "x": -60,
+        "y": -20
+      },
+      {
+        "key": "b",
+        "label": "AC input 2",
+        "x": -60,
+        "y": 20
+      },
+      {
+        "key": "c",
+        "label": "DC positive",
+        "x": 60,
+        "y": -20
+      },
+      {
+        "key": "d",
+        "label": "DC negative",
+        "x": 60,
+        "y": 20
+      }
+    ],
+    "scope": "Generic ngspice electrical model; not a manufacturer-qualified part",
+    "model": "MINA_BRIDGE"
+  }
+]

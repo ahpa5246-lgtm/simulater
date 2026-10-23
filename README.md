@@ -1,6 +1,6 @@
 # Mina Circuit Workbench
 
-A local electronics workbench with an interactive SVG schematic editor and **real ngspice simulation**. This is an initial working milestone, not a complete Proteus replacement.
+A local electronics workbench with an interactive SVG schematic editor, **real ngspice simulation**, and executable Arduino firmware. It is not a complete Proteus replacement. Current capabilities and limitations are documented in [the verification report](docs/verification-current.md).
 
 ![Actual running application](screenshots/workbench.png)
 
@@ -15,26 +15,27 @@ The analog workbench needs no Python packages or frontend build step. The board 
 
 ## Working features
 
-- Place, select, drag, rotate and delete resistors, capacitors, inductors, diodes and voltage sources.
+- Place, select, drag, rotate and delete 39 executable analog/behavioral presets, including multi-terminal transistors, MOSFETs, JFETs, amplifiers, controlled sources and ideal logic gates.
 - Connect component pins with the wire tool; edit values and named nodes in the inspector.
 - Undo/redo, component search, zoom controls and keyboard shortcuts.
 - Local autosave, `.mina` project downloads and import, plus SPICE netlist export.
 - DC operating point and transient simulation through a native ngspice subprocess.
 - Computed voltage traces, sample counts and operating-point measurements.
-- Four executable examples: RC filter, resistor divider, RLC circuit and rectifier.
+- Four original examples plus 39 wired, downloadable component reference circuits.
 - Validation errors, timeout and missing-engine diagnostics; stale results clear on edits.
 
 Wires carry explicit endpoint references. Named nodes also connect electrically, even without a drawn wire. Renaming a connected node renames that net. Diodes use a fixed generic silicon model, not manufacturer-specific parameters. The source value is peak amplitude for sine/pulse and DC voltage for DC.
 
 ## Not implemented
 
-PCB editing/routing/3D/manufacturing outputs; MCU source-level debugging; physical hardware upload; AC sweep and advanced graph analyses; oscilloscope triggers/cursors; protocol analysers; flowcharts; IoT panels; arbitrary model imports; Proteus file compatibility; native desktop installer. See [full target inventory](docs/superpowers/specs/2026-10-23-electronics-workbench-design.md).
+PCB editing/routing/3D/manufacturing outputs; general MCU/analog co-simulation; MCU source-level debugging; physical hardware upload; AC sweep and advanced graph analyses; oscilloscope triggers/cursors; flowcharts; IoT panels; arbitrary model imports; Proteus file compatibility; native desktop installer. Captured GPIO supports the bundled SPI/I²C/UART protocol decoders. See [full target inventory](docs/superpowers/specs/2026-10-23-electronics-workbench-design.md).
 
 ## Verify
 
 ```sh
 python -m unittest discover -s tests -v
 node --check web/app.js
+npm run test:all
 ```
 
 Browser verification uses Playwright: install the version in `package.json`, run `npx playwright install chromium --only-shell`, then `npm run test:browser`. The browser test starts its own loopback server and writes an actual screenshot. Port 8765 must be free. It verifies calculated responses, editing, undo, persistence and viewport fit. Numerical tests check a 10 V equal-resistor divider and the RC charging time constant. The local server only accepts loopback Host headers and same-origin writes; it is not designed as a public hosted service.
@@ -70,6 +71,14 @@ All 33 component/output/instrument illustrations work offline. Use the searchabl
 ## Open-source integrations (v0.5)
 
 The Open-source lab adds all 50 Wokwi elements from the pinned bundle, an optional Arduino CLI manager, a native PICSimLab DS1621 model and upstream sigrok SPI/I²C/UART decoders for captured GPIO. A Fritzing visual-part importer and Renode STM32F103 launch-profile exporter extend interoperability. Read [integration status and limits](docs/open-source-integration.md) before treating a visual part or external profile as a supported simulated device.
+
+## Executable circuit library and complete regression runner (v0.6)
+
+The analog palette now has 39 selectable presets (including waveform and device-parameter variants), each with an executable ngspice reference circuit. Multi-terminal pins participate in drawing, wires, node renaming, rotation, save/import and SPICE export. Export now uses the same validated backend generator as simulation. Existing two-terminal projects remain supported.
+
+New models are generic educational parameter sets, not qualified manufacturer parts. Logic gates omit propagation delay and logic-family electrical characteristics. Amplifiers/comparators use ideal gain and near-ideal diode rail clamps; they omit bandwidth, slew rate, offset, input current and load/current limits. Practical firmware sensor models remain a separate workspace; adding a circuit part does not add MCU/analog feedback co-simulation.
+
+`npm run test:all` builds the native peripheral adapter, discovers every Python/Node unit suite and all eight browser suites, runs browsers sequentially, and writes `evidence/full-verification.json` with dependency availability, tested source fingerprint, failures and explicitly unverified capabilities. Missing suites/dependencies are not silently skipped. Full logs remain under `.state/verification/`. CI uploads the report, logs and actual application screenshots.
 
 ## MPU-6050 IMU (experimental register model)
 

@@ -1,13 +1,13 @@
 {
   "name": "mina-circuit-workbench",
-  "version": "0.5.0",
+  "version": "0.6.0",
   "private": true,
   "description": "Local schematic workbench with native ngspice simulation",
   "scripts": {
     "start": "python server.py",
     "test": "python -m unittest discover -s tests -v",
     "test:browser": "node tests/browser.cjs",
-    "test:boards": "node --test tests/test_pico.cjs",
+    "test:boards": "node --test tests/test_*.cjs",
     "test:boards-browser": "node tests/boards-browser.cjs",
     "test:instruments": "node --test tests/test_instruments.cjs",
     "test:instruments-browser": "node tests/instruments-browser.cjs",
@@ -19,7 +19,9 @@
     "vendor:components": "python scripts/vendor-components.py",
     "test:components-browser": "node tests/component-library-browser.cjs",
     "test:practical": "node --test tests/test_i2c_devices.cjs",
-    "test:practical-browser": "node tests/practical-browser.cjs"
+    "test:practical-browser": "node tests/practical-browser.cjs",
+    "test:analog-browser": "node tests/analog-parts-browser.cjs",
+    "test:all": "python scripts/verify-all.py"
   },
   "devDependencies": {
     "node-api-headers": "1.9.0",

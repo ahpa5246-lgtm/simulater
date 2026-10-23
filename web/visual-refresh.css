@@ -103,13 +103,24 @@ body.circuit-app .tool { border-radius: 8px; }
 body.circuit-app .tool:hover { background: #e3f3e9; }
 body.circuit-app .tool.active { color: #0a7650; background: #d6f0e1; }
 body.circuit-app .workbench {
-  height: calc(100vh - 248px);
+  height: calc(100vh - 253px);
   min-height: 610px;
   margin: 8px 13px 7px;
   border: 1px solid rgba(129, 217, 164, .22);
   border-radius: 15px;
   overflow: hidden;
   box-shadow: var(--mina-lift);
+}
+
+body.circuit-app #component-list { min-height: 0; overflow-y: auto; flex: 1; }
+body.circuit-app .model-scope { color: #53745f; font-size: 10px; line-height: 1.5; }
+body.circuit-app .toolbar-center select { max-width: 230px; }
+body.circuit-app .symbol-preview .part-symbol { stroke: #286b4c; }
+@media (min-width: 851px) {
+  body.circuit-app { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+  body.circuit-app > :is(header,nav,.workspace-tabs,.toolbar,footer) { flex-shrink: 0; }
+  body.circuit-app .workbench { flex: 1; min-height: 0; }
+  body.circuit-app .canvas-wrap { min-height: 180px; }
 }
 body.circuit-app .library,
 body.circuit-app .inspector { background: #f6faf7; }
