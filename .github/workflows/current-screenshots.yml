@@ -5,6 +5,11 @@ on:
     paths:
       - '.github/workflows/current-screenshots.yml'
       - 'scripts/capture-current-workbench.cjs'
+      - 'web/visual-refresh.css'
+      - 'web/index.html'
+      - 'web/boards.html'
+      - 'web/lab.html'
+      - 'server.py'
   workflow_dispatch:
 permissions:
   contents: write

@@ -28,6 +28,8 @@ async function run(){
  const errors=[];page.on('pageerror',e=>errors.push(e.message));
  try {
   await page.goto('http://127.0.0.1:8765/lab.html');
+  await page.locator('link[href="/visual-refresh.css"]').waitFor();
+  assert.match(await page.evaluate(()=>getComputedStyle(document.body).backgroundImage),/linear-gradient/);
   await waitFor(page,'project-status','Ready.');
   await page.selectOption('#project-example','imu');await page.locator('#load-example').click();
   assert.equal(await page.locator('.device-row').count(),2);

@@ -57,7 +57,7 @@ class Handler(SimpleHTTPRequestHandler):
             super().do_GET();return
         if asset.startswith('/parts/') and asset in {'/parts/'+p.name for p in (ROOT/'parts').glob('*') if p.suffix in {'.svg','.json'}}:
             super().do_GET();return
-        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js','/lab.html','/lab.js','/lab.css','/practical-examples.json'}:
+        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js','/lab.html','/lab.js','/lab.css','/practical-examples.json','/visual-refresh.css'}:
             self.send_error(404);return
         super().do_GET()
     def do_POST(self):
