@@ -17,7 +17,9 @@ function attachDevices(cpu,ports,config){
     busy=true;const pulse=Math.round(distance*58*16);cpu.addClockEvent(()=>{drive(echo,true);log('echo-start',{pin:'D'+echo});cpu.addClockEvent(()=>{drive(echo,false);busy=false;log('echo-end',{pin:'D'+echo,widthUs:pulse/16});},pulse);},3200);
    });devices.push({model:item.model,triggerPin:trig,echoPin:echo,distanceCm:distance,assumption:'≥10 µs trigger; 200 µs response delay; echo width 58 µs/cm; no scene/acoustic model'});
   }else if(['button','pir','reed-switch','ir-obstacle'].includes(item.model)){
-   claim(item.pin);inputs.push(item.pin);if(typeof item.value!=='boolean')throw Error('Digital device value must be true or false.');const activeLow=item.model!=='pir';drive(item.pin,activeLow?!item.value:item.value);devices.push({...item,activeLow,assumption:'Ideal digital signal; no bounce, optics, magnetic or motion physics'});
+   claim(item.pin);inputs.push(item.pin);if(typeof item.value!=='boolean')throw Error('Digital device value must be true or false.');const activeLow=item.model!=='pir';drive(item.pin,activeLow?!item.value:item.value);
+   const changes=item.changes||[];if(!Array.isArray(changes)||changes.length>64)throw Error('At most 64 digital input changes.');let last=-1;for(const event of changes){if(typeof event.atMs!=='number'||!Number.isFinite(event.atMs)||event.atMs<0||event.atMs>1000||event.atMs<=last||typeof event.value!=='boolean')throw Error('Invalid digital stimulus.');last=event.atMs;cpu.addClockEvent(()=>{drive(item.pin,activeLow?!event.value:event.value);log('stimulus',{pin:'D'+item.pin,value:event.value});},Math.max(1,Math.round(event.atMs*16000)));}
+   devices.push({...item,activeLow,assumption:'Ideal digital signal; no bounce, optics, magnetic or motion physics'});
   }else throw Error('Unsupported digital sensor model.');
  }
  return {devices,events,diagnostics(){return inputs.filter(pin=>{const p=portFor(pin);return cpu.data[p.port.portConfig.DDR]&(1<<p.index);}).map(pin=>`Device input D${pin} is configured as an MCU output; check wiring/pinMode.`);}};

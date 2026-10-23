@@ -14,6 +14,7 @@ from boards.service import run_board, compile_sketch, board_catalogue
 from boards.fritzing_parts import import_part, list_parts, svg_path
 from boards.protocols import decode_capture
 from boards import arduino_cli
+from boards.project_service import run_project, capabilities
 from boards.libraries import install_library, list_libraries
 from boards.verification import example_hex, example_sketches, verify_models
 
@@ -34,6 +35,7 @@ class Handler(SimpleHTTPRequestHandler):
             try:self.reply(200,example_hex())
             except OSError:self.reply(503,{'error':'Bundled firmware examples are missing.'})
             return
+        if self.path=='/api/projects/capabilities':self.reply(200,capabilities());return
         if self.path=='/api/boards/sketches':self.reply(200,example_sketches());return
         if self.path=='/api/boards':self.reply(200,{'boards':board_catalogue()});return
         if self.path=='/api/visual-parts':self.reply(200,{'parts':list_parts()});return
@@ -55,7 +57,7 @@ class Handler(SimpleHTTPRequestHandler):
             super().do_GET();return
         if asset.startswith('/parts/') and asset in {'/parts/'+p.name for p in (ROOT/'parts').glob('*') if p.suffix in {'.svg','.json'}}:
             super().do_GET();return
-        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js'}:
+        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js','/lab.html','/lab.js','/lab.css','/practical-examples.json'}:
             self.send_error(404);return
         super().do_GET()
     def do_POST(self):
@@ -64,7 +66,7 @@ class Handler(SimpleHTTPRequestHandler):
         expected=f'http://{self.headers.get("Host", "")}'
         if origin and origin!=expected:
             self.reply(403,{'error':'Cross-origin requests are not allowed.'});return
-        if self.path not in {'/api/simulate','/api/boards/run','/api/boards/compile','/api/libraries/install','/api/boards/verify','/api/arduino-cli/search','/api/arduino-cli/install','/api/boards/decode','/api/visual-parts/import'}:self.reply(404,{'error':'Unknown operation.'});return
+        if self.path not in {'/api/projects/run','/api/simulate','/api/boards/run','/api/boards/compile','/api/libraries/install','/api/boards/verify','/api/arduino-cli/search','/api/arduino-cli/install','/api/boards/decode','/api/visual-parts/import'}:self.reply(404,{'error':'Unknown operation.'});return
         try:
             size=int(self.headers.get('Content-Length','0'))
             if not 0<size<=(1500000 if self.path in {'/api/libraries/install','/api/boards/decode','/api/visual-parts/import'} else 300000):raise ValueError('Project exceeds the request limit.')
@@ -79,6 +81,7 @@ class Handler(SimpleHTTPRequestHandler):
                 elif self.path=='/api/boards/decode':result=decode_capture(config)
                 elif self.path=='/api/arduino-cli/search':result=arduino_cli.search_libraries(config.get('query'))
                 elif self.path=='/api/arduino-cli/install':result=arduino_cli.install_library(config.get('name'),config.get('version'))
+                elif self.path=='/api/projects/run':result=run_project(config)
                 elif self.path=='/api/simulate':result=simulate(config)
                 elif self.path=='/api/boards/verify':result=verify_models()
                 elif self.path=='/api/boards/run':result=run_board(config)

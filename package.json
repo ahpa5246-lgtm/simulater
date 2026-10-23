@@ -17,7 +17,9 @@
     "test:upstream-browser": "node tests/upstream-browser.cjs",
     "test:peripherals": "node --test tests/test_ds1621.cjs",
     "vendor:components": "python scripts/vendor-components.py",
-    "test:components-browser": "node tests/component-library-browser.cjs"
+    "test:components-browser": "node tests/component-library-browser.cjs",
+    "test:practical": "node --test tests/test_i2c_devices.cjs",
+    "test:practical-browser": "node tests/practical-browser.cjs"
   },
   "devDependencies": {
     "node-api-headers": "1.9.0",

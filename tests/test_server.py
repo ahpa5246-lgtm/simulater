@@ -18,6 +18,14 @@ class ServerTests(unittest.TestCase):
         connection=http.client.HTTPConnection('127.0.0.1',self.port,timeout=20)
         connection.request('POST' if body is not None else 'GET',path,body,headers or {})
         response=connection.getresponse();data=response.read();connection.close();return response.status,data
+    def test_practical_workspace_routes_and_early_validation(self):
+        self.assertEqual(self.request('/lab.html')[0],200)
+        self.assertEqual(self.request('/lab.js')[0],200)
+        status,body=self.request('/api/projects/capabilities')
+        self.assertEqual(status,200);self.assertEqual(len(json.loads(body)['records']),363)
+        status,body=self.request('/api/projects/run',json.dumps({'project':{'version':1,'board':'esp32','components':[]},'source':'invalid source'}),{'Content-Type':'application/json'})
+        self.assertEqual(status,400);self.assertIn(b'Uno',body)
+
     def test_serves_application(self):
         status,data=self.request();self.assertEqual(status,200);self.assertIn(b'Circuit Workbench',data)
     def test_serves_component_library_and_blocks_traversal(self):

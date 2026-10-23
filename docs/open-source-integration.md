@@ -39,3 +39,12 @@ inspection, pinned attribution and visual parts-list export are implemented.
 See [component library](component-library.md). All new records are visual-only;
 this expansion does not add executable boards or sensor behavior, and is not
 an accuracy or superiority benchmark against Wokwi/Tinkercad.
+
+## Practical project execution (2026-10-23)
+
+The [practical workspace](practical-simulation.md) executes editable multi-device
+projects, with shared I2C routing, pin/address checks, scheduled ADC/GPIO stimuli,
+firmware-driven output indicators, protocol state and exportable traces. ADS1115,
+BH1750 and PCF8574 behavioral models are added. The capability audit covers every
+catalogue entry and links matching chip artwork to available models. Unsupported
+artwork remains outside the executable picker; this is not all-device emulation.

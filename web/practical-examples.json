@@ -1,0 +1,116 @@
+{
+  "multi": {
+    "title": "Shared bus + scheduled GPIO/ADC",
+    "source": "#include <Wire.h>\nvoid setup(){Serial.begin(115200);Wire.begin();pinMode(2,INPUT_PULLUP);pinMode(13,OUTPUT);\nWire.beginTransmission(0x23);Wire.write(0x10);Wire.endTransmission();}\nvoid loop(){Wire.requestFrom(0x23,2);unsigned int light=((unsigned int)Wire.read()<<8)|Wire.read();\nWire.beginTransmission(0x49);Wire.write(0);Wire.endTransmission();Wire.requestFrom(0x49,2);int t=Wire.read();Wire.read();\nWire.beginTransmission(0x20);Wire.write(0xaa);Wire.endTransmission();Wire.requestFrom(0x20,1);int io=Wire.read();\nint b=digitalRead(2);digitalWrite(13,!b);Serial.print(light);Serial.print(',');Serial.print(t);Serial.print(',');Serial.print(io);Serial.print(',');Serial.print(b);Serial.print(',');Serial.println(analogRead(A1));delay(30);}\n",
+    "project": {
+      "version": 1,
+      "board": "arduino-uno",
+      "durationMs": 250,
+      "components": [
+        {
+          "id": "light",
+          "model": "bh1750",
+          "address": 35,
+          "lux": 1000
+        },
+        {
+          "id": "temp",
+          "model": "lm75",
+          "address": 73,
+          "temperature": 25
+        },
+        {
+          "id": "io",
+          "model": "pcf8574",
+          "address": 32,
+          "inputs": 240
+        },
+        {
+          "id": "knob",
+          "model": "potentiometer",
+          "pin": 1,
+          "value": 20,
+          "changes": [
+            {
+              "atMs": 100,
+              "value": 80
+            }
+          ]
+        },
+        {
+          "id": "button",
+          "model": "button",
+          "pin": 2,
+          "value": false,
+          "changes": [
+            {
+              "atMs": 100,
+              "value": true
+            }
+          ]
+        },
+        {
+          "id": "status",
+          "model": "led",
+          "pin": 13
+        }
+      ]
+    }
+  },
+  "adc": {
+    "title": "ADS1115 single-ended conversion",
+    "project": {
+      "version": 1,
+      "board": "arduino-uno",
+      "durationMs": 100,
+      "components": [
+        {
+          "id": "adc",
+          "model": "ads1115",
+          "address": 72,
+          "voltages": [
+            1,
+            2,
+            0,
+            0
+          ]
+        }
+      ]
+    },
+    "source": "#include <Wire.h>\nvoid setup(){Serial.begin(115200);Wire.begin();}\nvoid loop(){Wire.beginTransmission(0x48);Wire.write(1);Wire.write(0xc3);Wire.write(0x83);Wire.endTransmission();delay(9);Wire.beginTransmission(0x48);Wire.write(0);Wire.endTransmission();Wire.requestFrom(0x48,2);int16_t raw=((uint16_t)Wire.read()<<8)|Wire.read();Serial.print(\"ADC: \");Serial.println(raw);delay(10);}\n"
+  },
+  "echo": {
+    "title": "Ultrasonic pulseIn",
+    "project": {
+      "version": 1,
+      "board": "arduino-uno",
+      "durationMs": 250,
+      "components": [
+        {
+          "id": "range",
+          "model": "hcsr04",
+          "distanceCm": 100,
+          "triggerPin": 3,
+          "echoPin": 2
+        }
+      ]
+    },
+    "source": "// Original Mina reference sketch; see docs/instrument-validation.md for assumptions.\n\nvoid setup(){Serial.begin(9600);pinMode(3,OUTPUT);pinMode(2,INPUT);}\nvoid loop(){digitalWrite(3,LOW);delayMicroseconds(2);digitalWrite(3,HIGH);delayMicroseconds(12);digitalWrite(3,LOW);noInterrupts();unsigned long us=pulseIn(2,HIGH,30000);interrupts();Serial.println(us);delay(65);}\n"
+  },
+  "servo": {
+    "title": "Servo PWM command",
+    "project": {
+      "version": 1,
+      "board": "arduino-uno",
+      "durationMs": 100,
+      "components": [
+        {
+          "id": "servo",
+          "model": "servo",
+          "pin": 9
+        }
+      ]
+    },
+    "source": "// Original Mina reference sketch; see docs/instrument-validation.md for assumptions.\n\nvoid setup(){pinMode(9,OUTPUT);TCCR1A=0;TCCR1B=0;TCNT1=0;ICR1=39999;OCR1A=3000;TCCR1A=_BV(COM1A1)|_BV(WGM11);TCCR1B=_BV(WGM13)|_BV(WGM12)|_BV(CS11);}\nvoid loop(){}\n"
+  }
+}

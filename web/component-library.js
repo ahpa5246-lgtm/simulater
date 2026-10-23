@@ -14,6 +14,8 @@
     const response = await fetch('/vendor/components/catalog.json');
     if (!response.ok) throw Error('Component catalogue unavailable. Reload to retry.');
     const data = await response.json(), parts = data.parts;
+    let modelLinks = new Map();
+    try { const r = await fetch('/api/projects/capabilities'); if (r.ok) { const c = await r.json(); modelLinks = new Map(c.records.filter(p => p.models.length).map(p => [p.id, p.models[0]])); } } catch {}
     const search = el('input', '', {type: 'search', placeholder: 'Search names, connectors or properties', id: 'community-search'});
     search.setAttribute('aria-label', 'Search community components');
     const source = el('select', '', {id: 'community-source'}), category = el('select', '', {id: 'community-category'});
@@ -78,7 +80,7 @@
         const inspect = el('button', 'View connectors & source'); inspect.onclick = () => showDetail(part);
         const add = el('button', selected.has(part.id) ? 'Added to parts list' : 'Add to visual parts list'); add.disabled = selected.has(part.id);
         add.onclick = () => { selected.add(part.id); renderTray(); render(); };
-        card.append(image, el('b', part.name), el('small', 'Visual only · no simulation model'), el('span', `${part.repository} · ${part.category} · ${part.connectors.length} connectors · ${part.license}`), inspect, add); grid.append(card);
+        card.append(image, el('b', part.name), el('small', modelLinks.has(part.id) ? 'Artwork · compatible chip model available' : 'Visual only · no simulation model'), el('span', `${part.repository} · ${part.category} · ${part.connectors.length} connectors · ${part.license}`), inspect, add); if (modelLinks.has(part.id)) card.append(el('a', 'Configure chip model in simulator', {href: '/lab.html?model=' + encodeURIComponent(modelLinks.get(part.id))})); grid.append(card);
       }
       previous.disabled = page === 0; next.disabled = page >= totalPages - 1;
       position.textContent = `Page ${page + 1} / ${totalPages}`;
