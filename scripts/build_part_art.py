@@ -29,6 +29,8 @@ def sensor(id,name,body,labels=('VCC','OUT','GND')):
  save(id,name,'Sensors & inputs',body,pins)
 sensor('lm35','LM35',rect(85,36,70,60,'#252b30',12)+path('M85 55H155','#555e65',2)+text(120,69,'LM35',14))
 sensor('tmp36','TMP36',rect(85,36,70,60,'#252b30',12)+path('M85 55H155','#555e65',2)+text(120,69,'TMP36',13))
+sensor('bmp180','BMP180 barometer',rect(55,20,130,92,'#6a3e88',5)+chip(94,46,52,36)+text(120,36,'BMP180',12),('SDA','SCL','VCC','GND'))
+sensor('ds1621','DS1621 register model',rect(55,20,130,92,'#286b99',5)+chip(94,46,52,36)+text(120,36,'DS1621',12),('SDA','SCL','VCC','GND'))
 sensor('lm75','LM75 module',rect(55,20,130,92,'#286b99',5)+chip(94,46,52,36)+text(120,36,'LM75',12)+circle(66,31,5,'#d3bc80')+rect(68,57,12,22,'#c3ac7b'),('SDA','SCL','VCC','GND'))
 sensor('hcsr04','HC-SR04 ultrasonic',rect(15,24,210,90,'#236f9e',5)+circle(62,70,37,'url(#cone)')+circle(178,70,37,'url(#cone)')+text(120,34,'HC-SR04',10)+chip(100,62,38,20),('VCC','TRIG','ECHO','GND'))
 sensor('potentiometer','Rotary potentiometer',circle(120,70,44,'#577784')+circle(120,70,30,'#c0c8cc')+circle(120,70,19,'url(#metal)')+path('M120 70L133 45','#303b43',5))

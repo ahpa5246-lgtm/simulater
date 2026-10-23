@@ -46,6 +46,62 @@
     ]
   },
   {
+    "id": "bmp180",
+    "name": "BMP180 barometer",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "SDA",
+        "x": 45,
+        "y": 148
+      },
+      {
+        "name": "SCL",
+        "x": 95,
+        "y": 148
+      },
+      {
+        "name": "VCC",
+        "x": 145,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 195,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "ds1621",
+    "name": "DS1621 register model",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "SDA",
+        "x": 45,
+        "y": 148
+      },
+      {
+        "name": "SCL",
+        "x": 95,
+        "y": 148
+      },
+      {
+        "name": "VCC",
+        "x": 145,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 195,
+        "y": 148
+      }
+    ]
+  },
+  {
     "id": "lm75",
     "name": "LM75 module",
     "group": "Sensors & inputs",

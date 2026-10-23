@@ -1,0 +1,302 @@
+[
+  {
+    "tag": "wokwi-7segment",
+    "name": "7Segment",
+    "sourceFile": "7segment-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-analog-joystick",
+    "name": "Analog Joystick",
+    "sourceFile": "analog-joystick-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-arduino-mega",
+    "name": "Arduino Mega",
+    "sourceFile": "arduino-mega-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-arduino-nano",
+    "name": "Arduino Nano",
+    "sourceFile": "arduino-nano-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-arduino-uno",
+    "name": "Arduino Uno",
+    "sourceFile": "arduino-uno-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-biaxial-stepper",
+    "name": "Biaxial Stepper",
+    "sourceFile": "biaxial-stepper-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-big-sound-sensor",
+    "name": "Big Sound Sensor",
+    "sourceFile": "big-sound-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-buzzer",
+    "name": "Buzzer",
+    "sourceFile": "buzzer-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-dht22",
+    "name": "Dht22",
+    "sourceFile": "dht22-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-dip-switch-8",
+    "name": "Dip Switch 8",
+    "sourceFile": "dip-switch-8-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ds1307",
+    "name": "Ds1307",
+    "sourceFile": "ds1307-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-esp32-devkit-v1",
+    "name": "Esp32 Devkit V1",
+    "sourceFile": "esp32-devkit-v1-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-flame-sensor",
+    "name": "Flame Sensor",
+    "sourceFile": "flame-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-franzininho",
+    "name": "Franzininho",
+    "sourceFile": "franzininho-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-gas-sensor",
+    "name": "Gas Sensor",
+    "sourceFile": "gas-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-hc-sr04",
+    "name": "Hc Sr04",
+    "sourceFile": "hc-sr04-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-heart-beat-sensor",
+    "name": "Heart Beat Sensor",
+    "sourceFile": "heart-beat-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-hx711",
+    "name": "Hx711",
+    "sourceFile": "hx711-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ili9341",
+    "name": "Ili9341",
+    "sourceFile": "ili9341-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ir-receiver",
+    "name": "Ir Receiver",
+    "sourceFile": "ir-receiver-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ir-remote",
+    "name": "Ir Remote",
+    "sourceFile": "ir-remote-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ks2e-m-dc5",
+    "name": "Ks2E M Dc5",
+    "sourceFile": "ks2e-m-dc5-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ky-040",
+    "name": "Ky 040",
+    "sourceFile": "ky-040-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-lcd1602",
+    "name": "Lcd1602",
+    "sourceFile": "lcd1602-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-lcd2004",
+    "name": "Lcd2004",
+    "sourceFile": "lcd2004-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-led",
+    "name": "Led",
+    "sourceFile": "led-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-led-bar-graph",
+    "name": "Led Bar Graph",
+    "sourceFile": "led-bar-graph-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-led-ring",
+    "name": "Led Ring",
+    "sourceFile": "led-ring-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-membrane-keypad",
+    "name": "Membrane Keypad",
+    "sourceFile": "membrane-keypad-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-microsd-card",
+    "name": "Microsd Card",
+    "sourceFile": "microsd-card-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-mpu6050",
+    "name": "Mpu6050",
+    "sourceFile": "mpu6050-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-nano-rp2040-connect",
+    "name": "Nano Rp2040 Connect",
+    "sourceFile": "nano-rp2040-connect-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-neopixel",
+    "name": "Neopixel",
+    "sourceFile": "neopixel-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-neopixel-matrix",
+    "name": "Neopixel Matrix",
+    "sourceFile": "neopixel-matrix-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ntc-temperature-sensor",
+    "name": "Ntc Temperature Sensor",
+    "sourceFile": "ntc-temperature-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-photoresistor-sensor",
+    "name": "Photoresistor Sensor",
+    "sourceFile": "photoresistor-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-pir-motion-sensor",
+    "name": "Pir Motion Sensor",
+    "sourceFile": "pir-motion-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-potentiometer",
+    "name": "Potentiometer",
+    "sourceFile": "potentiometer-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-pushbutton",
+    "name": "Pushbutton",
+    "sourceFile": "pushbutton-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-pushbutton-6mm",
+    "name": "Pushbutton 6Mm",
+    "sourceFile": "pushbutton-6mm-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-resistor",
+    "name": "Resistor",
+    "sourceFile": "resistor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-rgb-led",
+    "name": "Rgb Led",
+    "sourceFile": "rgb-led-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-rotary-dialer",
+    "name": "Rotary Dialer",
+    "sourceFile": "rotary-dialer-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-servo",
+    "name": "Servo",
+    "sourceFile": "servo-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-slide-potentiometer",
+    "name": "Slide Potentiometer",
+    "sourceFile": "slide-potentiometer-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-slide-switch",
+    "name": "Slide Switch",
+    "sourceFile": "slide-switch-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-small-sound-sensor",
+    "name": "Small Sound Sensor",
+    "sourceFile": "small-sound-sensor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-ssd1306",
+    "name": "Ssd1306",
+    "sourceFile": "ssd1306-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-stepper-motor",
+    "name": "Stepper Motor",
+    "sourceFile": "stepper-motor-element.js",
+    "status": "visual-only"
+  },
+  {
+    "tag": "wokwi-tilt-switch",
+    "name": "Tilt Switch",
+    "sourceFile": "tilt-switch-element.js",
+    "status": "visual-only"
+  }
+]

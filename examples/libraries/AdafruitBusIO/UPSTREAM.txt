@@ -1,0 +1,2 @@
+Source: https://github.com/adafruit/Adafruit_BusIO
+Original source and copyright/license comments retained. Retrieved 2026-10-23.

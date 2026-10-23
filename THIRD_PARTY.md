@@ -31,3 +31,14 @@ Sketch compilation invokes externally installed GNU AVR GCC/binutils, avr-libc a
 ## Original component artwork
 
 `web/parts/*.svg` and `catalog.json` are original CC0 illustrations generated locally, not copied from Fritzing. See `web/parts/LICENSE.txt` and `docs/component-art.md`.
+
+## v0.5 integrations
+
+- Wokwi Elements 1.9.2 and bundled Lit dependencies: preserved licenses in web/vendor; presentation only unless an explicit adapter is connected.
+- PICSimLab DS1621 and peripheral I²C source: third_party/picsimlab, GPL-2.0-or-later, Luis Claudio Gambôa Lopes. Original notices and COPYING preserved; adapted peripheral-only frontend.
+- sigrok Python SPI/I²C/UART decoders and common helper: third_party/sigrokdecode, upstream per-file GPL notices and COPYING preserved. Mina decoder runtime GPL-3.0-or-later.
+- Renode STM32F103 platform: third_party/renode, Antmicro MIT license preserved.
+- Fritzing imported artwork retains its own attribution/license; official Fritzing graphics are CC BY-SA 3.0.
+See docs/open-source-integration.md. No blanket MIT grant is made for this combination.
+
+Adafruit BMP085/BMP180 and Adafruit BusIO firmware source packages are included under examples/libraries, with original license/copyright notices, BusIO LICENSE and UPSTREAM.txt links preserved. Used unmodified by the BMP180 reference firmware.

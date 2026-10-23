@@ -1,7 +1,8 @@
 {
   "scope": "Internal firmware/reference verification, not physical hardware validation. Ideal and subset model assumptions still apply.",
-  "generatedAt": "2026-10-23T13:21:59.869731+00:00",
-  "passed": 14,
+  "skipped": [],
+  "generatedAt": "2026-10-23T14:10:22.683236+00:00",
+  "passed": 23,
   "failed": 0,
   "cases": [
     {
@@ -842,6 +843,189 @@
         "i2cPresent": false
       },
       "serial": "",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "DS1621 native \u00b7 -10.5 \u00b0C",
+      "expected": -10.5,
+      "measured": -10.5,
+      "error": 0.0,
+      "tolerance": 0,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "72b6a3f61fbc484a65d1a6a7d71b31a307ed71c58174e22a22d5c41f5aa4ac08",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "ds1621",
+        "i2cTemperature": -10.5
+      },
+      "serial": "-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r\n-10.5\r",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "DS1621 native \u00b7 25.5 \u00b0C",
+      "expected": 25.5,
+      "measured": 25.5,
+      "error": 0.0,
+      "tolerance": 0,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "72b6a3f61fbc484a65d1a6a7d71b31a307ed71c58174e22a22d5c41f5aa4ac08",
+      "cycles": 1600002,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "ds1621",
+        "i2cTemperature": 25.5
+      },
+      "serial": "25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n25.5\r\n",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "DS1621 native \u00b7 100 \u00b0C",
+      "expected": 100,
+      "measured": 100.0,
+      "error": 0.0,
+      "tolerance": 0,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "72b6a3f61fbc484a65d1a6a7d71b31a307ed71c58174e22a22d5c41f5aa4ac08",
+      "cycles": 1600001,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "ds1621",
+        "i2cTemperature": 100
+      },
+      "serial": "100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0\r\n100.0",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 10 \u00b0C",
+      "expected": 10,
+      "measured": 10.0,
+      "error": 0.0,
+      "tolerance": 0.2,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400000,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 10,
+        "i2cPressureHpa": 900,
+        "durationMs": 150
+      },
+      "serial": "T: 10.0\r\nP: 90036\r\nT: 10.0\r\nP: 90036\r\nT: 10.0\r\nP: 90036\r\nT: ",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 900 hPa",
+      "expected": 90000,
+      "measured": 90036,
+      "error": 36,
+      "tolerance": 200,
+      "unit": "Pa",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400000,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 10,
+        "i2cPressureHpa": 900,
+        "durationMs": 150
+      },
+      "serial": "T: 10.0\r\nP: 90036\r\nT: 10.0\r\nP: 90036\r\nT: 10.0\r\nP: 90036\r\nT: ",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 25 \u00b0C",
+      "expected": 25,
+      "measured": 25.0,
+      "error": 0.0,
+      "tolerance": 0.2,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400001,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 25,
+        "i2cPressureHpa": 1013.25,
+        "durationMs": 150
+      },
+      "serial": "T: 25.0\r\nP: 101410\r\nT: 25.0\r\nP: 101410\r\nT: 25.0\r\nP: 101410\r\nT: ",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 1013.25 hPa",
+      "expected": 101325.0,
+      "measured": 101410,
+      "error": 85.0,
+      "tolerance": 200,
+      "unit": "Pa",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400001,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 25,
+        "i2cPressureHpa": 1013.25,
+        "durationMs": 150
+      },
+      "serial": "T: 25.0\r\nP: 101410\r\nT: 25.0\r\nP: 101410\r\nT: 25.0\r\nP: 101410\r\nT: ",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 40 \u00b0C",
+      "expected": 40,
+      "measured": 40.0,
+      "error": 0.0,
+      "tolerance": 0.2,
+      "unit": "\u00b0C",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400000,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 40,
+        "i2cPressureHpa": 1050,
+        "durationMs": 150
+      },
+      "serial": "T: 40.0\r\nP: 105137\r\nT: 40.0\r\nP: 105137\r\nT: 40.0\r\nP: 105137\r\nT: ",
+      "tracePreview": [],
+      "traceTruncated": false
+    },
+    {
+      "name": "BMP180 Adafruit driver \u00b7 1050 hPa",
+      "expected": 105000,
+      "measured": 105137,
+      "error": 137,
+      "tolerance": 200,
+      "unit": "Pa",
+      "passed": true,
+      "firmwareSha256": "85f6802c325f6b202dca03db42baa72572fe1a1871512d54a8062c22339916ff",
+      "cycles": 2400000,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cModel": "bmp180",
+        "i2cTemperature": 40,
+        "i2cPressureHpa": 1050,
+        "durationMs": 150
+      },
+      "serial": "T: 40.0\r\nP: 105137\r\nT: 40.0\r\nP: 105137\r\nT: 40.0\r\nP: 105137\r\nT: ",
       "tracePreview": [],
       "traceTruncated": false
     }

@@ -1,0 +1,18 @@
+{
+  "repository": "https://github.com/adafruit/Adafruit-BMP085-Library",
+  "files": [
+    {
+      "name": "Adafruit_BMP085.cpp",
+      "upstreamGitBlob": "4303616184e32b4fe0c01301586765da88b4b712"
+    },
+    {
+      "name": "Adafruit_BMP085.h",
+      "upstreamGitBlob": "dc36415915a73c2608617c1e299f2c5260e0d203"
+    },
+    {
+      "name": "library.properties",
+      "upstreamGitBlob": "85e69659a1a099b2f24784ec3f69f4035c093233"
+    }
+  ],
+  "modifiedSource": false
+}

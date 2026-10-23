@@ -1,0 +1,38 @@
+{
+  "source": "https://github.com/lcgamboa/picsimlab",
+  "license": "GPL-2.0-or-later",
+  "retrieved": "2026-10-23",
+  "files": [
+    {
+      "path": "sen_ds1621.cc",
+      "sha256": "b6f44bbcb477d9955a332bfaf50dbfe40634e7a212360e42ec3d04651d0a44c0",
+      "modified": false
+    },
+    {
+      "path": "sen_ds1621.h",
+      "sha256": "21660a8b68a39c66b49b5c55bd3e8e34fe219a43961df4fbbacc2ce282089303",
+      "modified": false
+    },
+    {
+      "path": "bitbang_i2c.cc",
+      "sha256": "ae8e9af5c128c3d347ade1e6bd2cc8472acef59dbb7ecbfba98d3ee6e3d6a7de",
+      "modified": true
+    },
+    {
+      "path": "bitbang_i2c.h",
+      "sha256": "19f773f585cefdfedeb5fa447ee46d8607de14af169e1bbb3a2abb5ce0b595c4",
+      "modified": false
+    },
+    {
+      "path": "sen_bmp180.cc",
+      "sha256": "6890a75d45f05890030cb6e06ca3b4b37d89e1c9912d91edfc19e6cdb7a1ec35",
+      "modified": false
+    },
+    {
+      "path": "sen_bmp180.h",
+      "sha256": "133a78e965a77637079b00ba4702bb537463f32dedcfe81101e4ab339a46c0ad",
+      "modified": false
+    }
+  ],
+  "adaptation": "bitbang_i2c.cc: remove board include and controller section. sen_ds1621 is unchanged. N-API adapter maps TWI byte callbacks to upstream register events; no bit-level I2C/conversion-delay conformance claim. BMP180 source unchanged; adapter verifies oversampling 3 through unmodified Adafruit driver. Other oversampling modes not validated. Adapter preserves external ambient inputs across BMP180 soft reset."
+}

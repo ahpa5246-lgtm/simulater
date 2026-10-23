@@ -1,0 +1,50 @@
+{
+  "repository": "https://github.com/adafruit/Adafruit_BusIO",
+  "files": [
+    {
+      "name": "Adafruit_BusIO_Register.cpp",
+      "upstreamGitBlob": "f3e8187b1dba0315d6974f72ca4b1a1748defd8e"
+    },
+    {
+      "name": "Adafruit_BusIO_Register.h",
+      "upstreamGitBlob": "046e04c396f5ad75a8c16df4b9e7940f396201da"
+    },
+    {
+      "name": "Adafruit_GenericDevice.cpp",
+      "upstreamGitBlob": "37f9cfd7cbe664f9bb309f414f3315345a6d2b8c"
+    },
+    {
+      "name": "Adafruit_GenericDevice.h",
+      "upstreamGitBlob": "d5cb3268ac806e8895e125868e33849672dfd079"
+    },
+    {
+      "name": "Adafruit_I2CDevice.cpp",
+      "upstreamGitBlob": "2633cf11fed82dad9d775b1ba6b0ac18ec2995ba"
+    },
+    {
+      "name": "Adafruit_I2CDevice.h",
+      "upstreamGitBlob": "6bda7bae205beb76eb8238a9e52c194c94ba1ed3"
+    },
+    {
+      "name": "Adafruit_I2CRegister.h",
+      "upstreamGitBlob": "186850fa6b9deacfb7e0da1ddae45e138c4f5ca8"
+    },
+    {
+      "name": "Adafruit_SPIDevice.cpp",
+      "upstreamGitBlob": "3283de66548031ec687edeb381ec9d4174527236"
+    },
+    {
+      "name": "Adafruit_SPIDevice.h",
+      "upstreamGitBlob": "82a0281557474238fce8a70de2e1811ead141c8c"
+    },
+    {
+      "name": "LICENSE",
+      "upstreamGitBlob": "860e3e28540ab79351cb14665f2078379596a094"
+    },
+    {
+      "name": "library.properties",
+      "upstreamGitBlob": "16154682810b3791636490ad2316157c157d4ebb"
+    }
+  ],
+  "modifiedSource": false
+}

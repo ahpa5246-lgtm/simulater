@@ -1,6 +1,6 @@
 {
   "name": "mina-circuit-workbench",
-  "version": "0.4.0",
+  "version": "0.5.0",
   "private": true,
   "description": "Local schematic workbench with native ngspice simulation",
   "scripts": {
@@ -11,12 +11,18 @@
     "test:boards-browser": "node tests/boards-browser.cjs",
     "test:instruments": "node --test tests/test_instruments.cjs",
     "test:instruments-browser": "node tests/instruments-browser.cjs",
-    "test:parts-browser": "node tests/parts-browser.cjs"
+    "test:parts-browser": "node tests/parts-browser.cjs",
+    "build:peripherals": "python scripts/build-picsimlab.py",
+    "vendor:wokwi": "python scripts/vendor-wokwi.py",
+    "test:upstream-browser": "node tests/upstream-browser.cjs",
+    "test:peripherals": "node --test tests/test_ds1621.cjs"
   },
   "devDependencies": {
+    "node-api-headers": "1.9.0",
     "playwright": "1.51.1"
   },
   "dependencies": {
+    "@wokwi/elements": "1.9.2",
     "avr8js": "0.21.0",
     "rp2040js": "1.3.3"
   }

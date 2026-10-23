@@ -66,3 +66,7 @@ The board workspace now includes 12 sensor/input models, GPIO logic traces, puls
 ## Illustrated components (v0.4)
 
 All 33 component/output/instrument illustrations work offline. Use the searchable **Component gallery**, illustrated parts palette, or **Component images** circuit-view toggle. Board connectors are clickable for signal inspection; images preserve existing simulation models and support labels. See [artwork scope and verification](docs/component-art.md).
+
+## Open-source integrations (v0.5)
+
+The Open-source lab adds all 50 Wokwi elements from the pinned bundle, an optional Arduino CLI manager, a native PICSimLab DS1621 model and upstream sigrok SPI/I²C/UART decoders for captured GPIO. A Fritzing visual-part importer and Renode STM32F103 launch-profile exporter extend interoperability. Read [integration status and limits](docs/open-source-integration.md) before treating a visual part or external profile as a supported simulated device.
