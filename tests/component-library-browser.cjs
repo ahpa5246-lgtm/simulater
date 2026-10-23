@@ -1,0 +1,48 @@
+const {chromium}=require('playwright');
+const assert=require('node:assert/strict');
+const {spawn}=require('node:child_process');
+const fs=require('node:fs');
+const server=spawn('python',['server.py'],{stdio:'ignore'});
+let browser;
+(async()=>{
+ for(let i=0;i<100;i++){try{await fetch('http://127.0.0.1:8765');break;}catch{await new Promise(r=>setTimeout(r,100));}}
+ browser=await chromium.launch({headless:true,args:['--no-sandbox']});
+ const page=await browser.newPage({viewport:{width:1440,height:1000}}), errors=[];
+ page.on('pageerror',e=>errors.push(e.message));
+ await page.goto('http://127.0.0.1:8765/boards.html');
+ await page.locator('#open-upstream').click();
+ await page.locator('#community-parts .part-card').first().waitFor();
+ const catalog=await(await page.request.get('http://127.0.0.1:8765/vendor/components/catalog.json')).json();
+ assert.ok(catalog.parts.length>=200);
+ assert.equal(await page.locator('#community-parts .part-card').count(),24);
+ const first=await page.locator('#community-parts .part-card').first().getAttribute('data-part');
+ await page.getByRole('button',{name:'Next page',exact:true}).click();
+ assert.notEqual(await page.locator('#community-parts .part-card').first().getAttribute('data-part'),first);
+ await page.selectOption('#community-source','Seeed-Studio/fritzing_parts');
+ assert.ok((await page.locator('#community-parts').innerText()).includes('Seeed-Studio'));
+ await page.selectOption('#community-category','Sensors');
+ assert.ok(await page.locator('#community-parts .part-card').count()>0);
+ await page.locator('#community-parts button').filter({hasText:'View connectors & source'}).first().click();
+ assert.match(await page.locator('#community-detail').innerText(),/Connectors:/);
+ assert.ok((await page.locator('#community-detail a').first().getAttribute('href')).startsWith('https://github.com/Seeed-Studio/'));
+ const chosenName=await page.locator('#community-parts b').first().innerText();
+ await page.locator('#community-parts button').filter({hasText:'Add to visual parts list'}).first().click();
+ assert.match(await page.locator('#community-tray h4').innerText(),/\(1\)/);
+ const downloading=page.waitForEvent('download');
+ await page.getByRole('button',{name:'Export parts list JSON'}).click();
+ const download=await downloading, payload=JSON.parse(fs.readFileSync(await download.path(),'utf8'));
+ assert.equal(payload.purpose,'visual-reference-only');assert.equal(payload.parts[0].name,chosenName);
+ await page.locator('#community-search').fill('zzzz-no-such-part');
+ assert.match(await page.locator('#community-parts').innerText(),/No components/);
+ await page.reload(); await page.locator('#open-upstream').click();
+ await page.locator('#community-parts .part-card').first().waitFor();
+ assert.match(await page.locator('#community-tray').innerText(),new RegExp(chosenName.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')));
+ await page.getByRole('button',{name:'Remove '+chosenName,exact:true}).click();
+ assert.match(await page.locator('#community-tray h4').innerText(),/\(0\)/);
+ for(const part of catalog.parts){const response=await page.request.get('http://127.0.0.1:8765'+part.svgUrl);assert.equal(response.status(),200,part.name);}
+ await page.screenshot({path:'screenshots/community-library.png',fullPage:true});
+ await page.setViewportSize({width:390,height:844});
+ assert.ok(await page.locator('#upstream-lab').evaluate(e=>e.scrollWidth<=e.clientWidth+2));
+ assert.deepEqual(errors,[]);
+ console.log(`PASS component library: ${catalog.parts.length} offline SVGs served, source/category/search, pagination, connector provenance, selection persistence, JSON export, mobile overflow, no browser errors`);
+})().catch(e=>{console.error(e);process.exitCode=1;}).finally(async()=>{if(browser)await browser.close();server.kill();});

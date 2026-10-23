@@ -1,0 +1,215 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="0.65in" viewBox="0 0 64.8 46.8" id="Layer_1" x="0px" y="0px" width="0.9in"><desc>
+        </desc>
+    <title>layer 21</title>
+    <g><title>element:FID1</title>
+        <g><title>package:FIDUCIAL_1MM</title>
+        </g>
+    </g>
+    <g><title>element:FID2</title>
+        <g><title>package:FIDUCIAL_1MM</title>
+        </g>
+    </g>
+    <g><title>element:JP1</title>
+        <g><title>package:1X08_ROUND_70</title>
+        </g>
+    </g>
+    <g><title>element:U$16</title>
+        <g><title>package:ADAFRUIT_3.5MM</title>
+        </g>
+    </g>
+    <g><path fill="#AF0202" d="M0,39.6V7.2C0,3.2236,3.2235,0,7.2,0c0,0,0,0,0,0h50.4c3.9765,0,7.2,3.2235,7.2,7.2c0,0,0,0,0,0v32.4c0,3.9765-3.2235,7.2-7.2,7.2c0,0,0,0,0,0H7.2C3.2235,46.8,0,43.5765,0,39.6C0,39.6,0,39.6,0,39.6 M5.7827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173S8.6173,40.3828,8.6173,39.6S7.9828,38.1827,7.2,38.1827S5.7827,38.8172,5.7827,39.6z M12.9827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173s1.4173-0.6346,1.4173-1.4173s-0.6346-1.4173-1.4173-1.4173S12.9827,38.8172,12.9827,39.6z M20.1827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173c0.7828,0,1.4173-0.6346,1.4173-1.4173s-0.6346-1.4173-1.4173-1.4173C20.8173,38.1827,20.1827,38.8172,20.1827,39.6z M27.3827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173c0.7828,0,1.4173-0.6346,1.4173-1.4173s-0.6346-1.4173-1.4173-1.4173C28.0173,38.1827,27.3827,38.8172,27.3827,39.6z M34.5827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173c0.7828,0,1.4173-0.6346,1.4173-1.4173l0,0c0-0.7828-0.6346-1.4173-1.4173-1.4173S34.5827,38.8172,34.5827,39.6z M41.7827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173s1.4173-0.6346,1.4173-1.4173l0,0c0-0.7828-0.6346-1.4173-1.4173-1.4173S41.7827,38.8172,41.7827,39.6z M48.9827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173c0.7828,0,1.4173-0.6346,1.4173-1.4173l0,0c0-0.7828-0.6346-1.4173-1.4173-1.4173S48.9827,38.8172,48.9827,39.6z M56.1827,39.6c0,0.7828,0.6346,1.4173,1.4173,1.4173s1.4173-0.6346,1.4173-1.4173l0,0c0-0.7828-0.6346-1.4173-1.4173-1.4173S56.1827,38.8172,56.1827,39.6z M4.0819,7.2c-0.0007,1.7221,1.3948,3.1186,3.1169,3.1193c1.7221,0.0007,3.1186-1.3948,3.1193-3.1169c0-0.0008,0-0.0016,0-0.0024c0-1.7221-1.396-3.1181-3.1181-3.1181S4.0819,5.4779,4.0819,7.2z M54.4819,7.2c0,1.7221,1.396,3.1181,3.1181,3.1181s3.1181-1.396,3.1181-3.1181S59.3221,4.0819,57.6,4.0819S54.4819,5.4779,54.4819,7.2z" />
+        <g><title>text:VIN</title>
+            <g transform="matrix(1 0 0 1 3.5769 36.2304)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">VIN</text>
+            </g>
+        </g>
+        <g><title>text:GND</title>
+            <g transform="matrix(1 0 0 1 10.7769 46.3104)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">GND</text>
+            </g>
+        </g>
+        <g><title>text:SCL</title>
+            <g transform="matrix(1 0 0 1 17.9769 36.2304)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">SCL</text>
+            </g>
+        </g>
+        <g><title>text:SDA</title>
+            <g transform="matrix(1 0 0 1 25.8969 46.3104)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">SDA</text>
+            </g>
+        </g>
+        <g><title>text:A0</title>
+            <g transform="matrix(1 0 0 1 33.5846 36.2304)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">A0</text>
+            </g>
+        </g>
+        <g><title>text:A1</title>
+            <g transform="matrix(1 0 0 1 40.7846 46.3104)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">A1</text>
+            </g>
+        </g>
+        <g><title>text:INT</title>
+            <g transform="matrix(1 0 0 1 46.7769 36.2304)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">INT</text>
+            </g>
+        </g>
+        <g><title>text:CT</title>
+            <g transform="matrix(1 0 0 1 55.1846 46.3104)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">CT</text>
+            </g>
+        </g>
+        <g><title>text:ADT7410 I2C
+TEMP. SENSOR</title>
+            <g transform="matrix(1, 0, 0, 1, 0, -2.088)"><g><g transform="matrix(1 0 0 1 15.7943 7.848)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="3.3408">ADT7410 I2C</text>
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(1, 0, 0, 1, 0, 2.088)"><g><g transform="matrix(1 0 0 1 14.2847 7.848)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="3.3408">TEMP. SENSOR</text>
+                    </g>
+                </g>
+            </g>
+        </g>
+        <g><title>element:C1</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="22.7339" x2="20.4661" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:C2</title>
+            <g><title>package:0805-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="7.92" x2="5.04" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R1</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="15.4261" x2="17.6939" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R2</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="10.3861" x2="12.6539" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R3</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="57.9061" x2="60.1739" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R4</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="52.8661" x2="55.1339" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R5</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="44.3339" x2="42.0661" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:R6</title>
+            <g><title>package:0603-NO</title>
+                <line fill="none" stroke-linecap="round" y1="21.6" y2="21.6" x1="49.3739" x2="47.1061" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:U$1</title>
+            <g><title>text:B</title>
+                <g transform="matrix(1 0 0 1 12.672 31.68)"><text fill="#FFFFFF" font-family="'OCRA'" font-size="2.67264">B</text>
+                </g>
+            </g>
+            <g><title>package:PCBFEAT-REV-040</title>
+                <circle fill="none" r="2.5455" cx="13.68" cy="30.24" stroke-width="0.864" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:U$3</title>
+            <g><title>package:MOUNTINGHOLE_2.0_PLATED</title>
+                <circle fill="none" r="5.1024" cx="7.2" cy="7.2" stroke-width="0.576" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:U$4</title>
+            <g><title>package:MOUNTINGHOLE_2.0_PLATED</title>
+                <circle fill="none" r="5.1024" cx="57.6" cy="7.2" stroke-width="0.576" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <g><title>element:U1</title>
+            <g><title>package:SOIC8_150MIL</title>
+                <line fill="none" stroke-linecap="round" y1="26.9858" y2="16.2142" x1="25.5969" x2="25.5969" stroke-width="0.576" stroke="#FFFFFF" />
+                <line fill="none" stroke-linecap="round" y1="16.2142" y2="26.9858" x1="39.2031" x2="39.2031" stroke-width="0.576" stroke="#FFFFFF" />
+                <circle fill="none" r="0.72" cx="26.928" cy="24.12" stroke-width="0.576" stroke="#FFFFFF" />
+            </g>
+        </g>
+        <rect fill="#9A916C" height="3.0472" id="connector5pin" x="20.1827" y="17.667" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector6pin" x="20.1827" y="22.4859" width="2.8347" />
+        <rect fill="#9A916C" height="3.515" id="connector7pin" x="4.354" y="17.1496" width="4.252" />
+        <rect fill="#9A916C" height="3.515" id="connector8pin" x="4.354" y="22.5354" width="4.252" />
+        <path fill="#9A916C" d="M13.68,12.2627L13.68,12.2627c0.7828,0,1.4173,0.6346,1.4173,1.4173v0c0,0.7828-0.6346,1.4173-1.4173,1.4173h0c-0.7828,0-1.4173-0.6346-1.4173-1.4173v0C12.2627,12.8973,12.8973,12.2627,13.68,12.2627z" id="connector9pin" />
+        <path fill="#9A916C" d="M43.2,31.7027L43.2,31.7027c0.7828,0,1.4173,0.6346,1.4173,1.4173v0c0,0.7828-0.6346,1.4173-1.4173,1.4173h0c-0.7828,0-1.4173-0.6346-1.4173-1.4173v0C41.7827,32.3373,42.4173,31.7027,43.2,31.7027z" id="connector10pin" />
+        <circle fill="none" r="1.9687" id="connector11pin" cx="7.2" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector12pin" cx="14.4" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector13pin" cx="21.6" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector14pin" cx="28.8" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector15pin" cx="36" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector16pin" cx="43.2" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector17pin" cx="50.4" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <circle fill="none" r="1.9687" id="connector18pin" cx="57.6" cy="39.6" stroke-width="1.1027" stroke="#9A916C" />
+        <rect fill="#9A916C" height="3.0472" id="connector19pin" x="15.1427" y="22.4859" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector20pin" x="15.1426" y="17.6669" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector21pin" x="10.1027" y="22.4859" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector22pin" x="10.1027" y="17.6669" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector23pin" x="57.6227" y="22.4855" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector24pin" x="57.6227" y="17.6673" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector25pin" x="52.5827" y="22.4855" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector26pin" x="52.5827" y="17.6673" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector27pin" x="41.7826" y="17.6669" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector28pin" x="41.7827" y="22.4859" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector29pin" x="46.8226" y="17.6669" width="2.8347" />
+        <rect fill="#9A916C" height="3.0472" id="connector30pin" x="46.8223" y="22.4859" width="2.8347" />
+        <circle fill="none" r="3.8381" id="connector31pin" cx="7.2" cy="7.2" stroke-width="1.44" stroke="#9A916C" />
+        <circle fill="none" r="3.8381" id="connector32pin" cx="57.6" cy="7.2" stroke-width="1.44" stroke="#9A916C" />
+        <rect fill="#9A916C" height="6.2362" id="connector33pin" x="26.1496" y="25.852" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector34pin" x="29.7496" y="25.852" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector35pin" x="33.3496" y="25.852" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector36pin" x="36.9496" y="25.852" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector37pin" x="36.9496" y="11.1118" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector38pin" x="33.3496" y="11.1118" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector39pin" x="29.7496" y="11.1118" width="1.7008" />
+        <rect fill="#9A916C" height="6.2362" id="connector40pin" x="26.1496" y="11.1118" width="1.7008" />
+        <path fill="#DCDCDC" d="M20.466,23.5775v-3.955c0-0.16,0.13-0.29,0.291-0.29h1.687c0.16,0,0.29,0.13,0.29,0.29v3.955c0,0.16-0.13,0.29-0.29,0.29h-1.687C20.596,23.8675,20.466,23.7375,20.466,23.5775z" />
+        <rect fill="#6E554B" height="2.268" x="20.466" y="20.4665" width="2.268" />
+        <path fill="#DCDCDC" d="M4.7085,24.1515v-5.103c0-0.156,0.127-0.283,0.283-0.283h2.977c0.156,0,0.283,0.127,0.283,0.283v5.102c0,0.157-0.127,0.283-0.283,0.283h-2.977C4.8355,24.4345,4.7085,24.3075,4.7085,24.1515z" />
+        <rect fill="#6E554B" height="3.543" x="4.7085" y="19.8285" width="3.543" />
+        <path fill="#DCDCDC" d="M17.694,19.6225v3.955c0,0.16-0.13,0.29-0.291,0.29h-1.687c-0.16,0-0.29-0.13-0.29-0.29v-3.955c0-0.16,0.13-0.29,0.29-0.29h1.687C17.564,19.3325,17.694,19.4625,17.694,19.6225z" />
+        <rect fill="#333333" height="2.268" x="15.426" y="20.4655" width="2.268" />
+        <path fill="#DCDCDC" d="M12.654,19.6225v3.955c0,0.16-0.13,0.29-0.291,0.29h-1.687c-0.16,0-0.29-0.13-0.29-0.29v-3.955c0-0.16,0.13-0.29,0.29-0.29h1.687C12.524,19.3325,12.654,19.4625,12.654,19.6225z" />
+        <rect fill="#333333" height="2.268" x="10.386" y="20.4655" width="2.268" />
+        <path fill="#DCDCDC" d="M60.174,19.6225v3.955c0,0.16-0.13,0.29-0.291,0.29h-1.687c-0.16,0-0.29-0.13-0.29-0.29v-3.955c0-0.16,0.13-0.29,0.29-0.29h1.687C60.044,19.3325,60.174,19.4625,60.174,19.6225z" />
+        <rect fill="#333333" height="2.268" x="57.906" y="20.4655" width="2.268" />
+        <path fill="#DCDCDC" d="M55.134,19.6225v3.955c0,0.16-0.13,0.29-0.291,0.29h-1.687c-0.16,0-0.29-0.13-0.29-0.29v-3.955c0-0.16,0.13-0.29,0.29-0.29h1.687C55.004,19.3325,55.134,19.4625,55.134,19.6225z" />
+        <rect fill="#333333" height="2.268" x="52.866" y="20.4655" width="2.268" />
+        <path fill="#DCDCDC" d="M42.066,23.5775v-3.955c0-0.16,0.13-0.29,0.291-0.29h1.687c0.16,0,0.29,0.13,0.29,0.29v3.955c0,0.16-0.13,0.29-0.29,0.29h-1.687C42.196,23.8675,42.066,23.7375,42.066,23.5775z" />
+        <rect fill="#333333" height="2.268" x="42.066" y="20.4665" width="2.268" />
+        <path fill="#DCDCDC" d="M47.106,23.5775v-3.955c0-0.16,0.13-0.29,0.291-0.29h1.687c0.16,0,0.29,0.13,0.29,0.29v3.955c0,0.16-0.13,0.29-0.29,0.29h-1.687C47.236,23.8675,47.106,23.7375,47.106,23.5775z" />
+        <rect fill="#333333" height="2.268" x="47.106" y="20.4665" width="2.268" />
+        <path fill="#DCDCDC" d="M58.5822,26.5464c-0.2,0.032-0.257,0.141-0.341,0.403c-0.064,0.199-0.489,1.533-0.489,1.533s-0.351,0.93,0.146,1.619c0.066,0.093,0.143,0.189,0.224,0.286c-0.097-0.082-0.193-0.158-0.286-0.224c-0.69-0.495-1.619-0.143-1.619-0.143s-1.334,0.427-1.533,0.492c-0.262,0.085-0.37,0.142-0.402,0.342c-0.032,0.2,0.054,0.288,0.277,0.449c0.17,0.122,1.307,0.939,1.307,0.939s0.777,0.621,1.586,0.361c0.109-0.034,0.224-0.077,0.341-0.125c-0.108,0.067-0.209,0.135-0.302,0.203c-0.684,0.503-0.636,1.496-0.636,1.496s-0.006,1.4-0.006,1.61c-0.001,0.275,0.02,0.396,0.201,0.488c0.181,0.091,0.291,0.037,0.513-0.126c0.169-0.124,1.297-0.953,1.297-0.953s0.83-0.546,0.834-1.395c0-0.114-0.005-0.236-0.014-0.362c0.03,0.122,0.064,0.24,0.1,0.348c0.267,0.806,1.226,1.067,1.226,1.067s1.33,0.438,1.529,0.503c0.261,0.086,0.383,0.103,0.526-0.04c0.143-0.144,0.126-0.265,0.04-0.526c-0.065-0.199-0.506-1.528-0.506-1.528s-0.263-0.958-1.07-1.224c-0.108-0.036-0.225-0.069-0.348-0.1c0.126,0.009,0.248,0.014,0.362,0.013c0.849-0.005,1.394-0.836,1.394-0.836s0.827-1.13,0.951-1.298c0.162-0.223,0.216-0.333,0.124-0.514c-0.092-0.181-0.213-0.201-0.488-0.2c-0.21,0.001-1.61,0.009-1.61,0.009s-0.993-0.047-1.495,0.639c-0.067,0.092-0.135,0.194-0.202,0.301c0.047-0.117,0.09-0.232,0.124-0.34c0.258-0.81-0.364-1.584-0.364-1.584s-0.819-1.136-0.941-1.306C58.8712,26.6004,58.7832,26.5144,58.5822,26.5464z M57.5512,31.3684c0.024-0.152,0.349-0.228,0.726-0.169c0.377,0.059,0.662,0.231,0.638,0.384c-0.024,0.153-0.349,0.229-0.725,0.169C57.8132,31.6934,57.5272,31.5214,57.5512,31.3684z M58.5502,33.3244c-0.138-0.07-0.11-0.402,0.063-0.742c0.173-0.34,0.425-0.558,0.563-0.488s0.11,0.402-0.063,0.742S58.6882,33.3944,58.5502,33.3244z M60.4282,32.2934c0.27,0.269,0.4,0.577,0.291,0.686c-0.109,0.109-0.416-0.02-0.686-0.29c-0.27-0.269-0.4-0.576-0.291-0.686C59.8512,31.8944,60.1582,32.0244,60.4282,32.2934z M61.0612,30.8094c0.07,0.138-0.148,0.39-0.487,0.563c-0.34,0.174-0.673,0.203-0.743,0.065c-0.07-0.138,0.148-0.39,0.487-0.563C60.6582,30.7014,60.9902,30.6724,61.0612,30.8094z M59.4882,30.4524c0.06,0.377-0.015,0.701-0.168,0.726c-0.153,0.024-0.325-0.262-0.385-0.638c-0.06-0.377,0.015-0.701,0.168-0.726C59.2562,29.7904,59.4282,30.0754,59.4882,30.4524z" />
+        <g id="g8119"><g transform="matrix(0, -2.10758, 2.11685, 0, -596.39, 1056.36)"><g id="g12969"><g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 193.9284 788.0078)"><rect fill="#303030" height="5.0885" id="rect30" x="487.6047" y="294.4957" width="6.7249" />
+                    </g>
+                    <polygon fill="#1F1F1F" id="polygon32" points="493.162,300.0279 493.162,294.0525 493.522,293.6925 493.522,300.3879 " />
+                    <polygon fill="#1F1F1F" id="polygon34" points="488.7711,300.0279 488.7711,294.0525 488.4111,293.6925 488.4111,300.3879 " />
+                    <polygon id="polygon36" points="488.7711,294.0525 493.162,294.0525 493.522,293.6925 488.4111,293.6925 " />
+                    <polygon fill="#3D3D3D" id="polygon38" points="488.7711,300.0279 493.162,300.0279 493.522,300.3879 488.4111,300.3879 " />
+                    <ellipse fill="#1F1F1F" id="circle40" cx="489.4915" cy="294.7722" rx="0.762" ry="0.7587" />
+                </g>
+            </g>
+            <g transform="matrix(0, -1, 1, 0, -119.993, 729.23)"><g id="g13034"><g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 542.8497 858.5309)"><rect fill="#CCCCCC" height="3.1181" id="rect14-8" x="700.1223" y="156.2823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 546.4497 854.931)"><rect fill="#CCCCCC" height="3.1181" id="rect13010" x="700.1223" y="152.6823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 550.0497 851.3309)"><rect fill="#CCCCCC" height="3.1181" id="rect13030" x="700.1223" y="149.0823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 553.6497 847.731)"><rect fill="#CCCCCC" height="3.1181" id="rect13032" x="700.1223" y="145.4823" width="1.1339" />
+                    </g>
+                </g>
+            </g>
+            <g transform="matrix(0, -1, 1, 0, -119.999, 715.344)"><g id="g13066"><g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 542.8497 858.5309)"><rect fill="#CCCCCC" height="3.1181" id="rect13068" x="700.1223" y="156.2823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 546.4497 854.931)"><rect fill="#CCCCCC" height="3.1181" id="rect13070" x="700.1223" y="152.6823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 550.0497 851.3309)"><rect fill="#CCCCCC" height="3.1181" id="rect13072" x="700.1223" y="149.0823" width="1.1339" />
+                    </g>
+                    <g transform="matrix(-2.535182e-06 -1 1 -2.535182e-06 553.6497 847.731)"><rect fill="#CCCCCC" height="3.1181" id="rect13074" x="700.1223" y="145.4823" width="1.1339" />
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

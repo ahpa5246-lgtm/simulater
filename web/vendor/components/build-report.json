@@ -1,0 +1,738 @@
+{
+  "accepted": 278,
+  "sources": [
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "commit": "6fe4856351c504d627c973129a01c5a8df1387ac",
+      "license": "CC-BY-SA-3.0",
+      "noticeFile": "notices/adafruit.txt",
+      "count": 110
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "commit": "71b17bbea66f92123f0a39dcf6f8c9ae566e31d1",
+      "license": "CC-BY-SA-4.0",
+      "noticeFile": "notices/sparkfun.txt",
+      "count": 110
+    },
+    {
+      "repository": "Seeed-Studio/fritzing_parts",
+      "commit": "aec4c5d84a93a3ecac34c1e2fb5de92975d1ddcc",
+      "license": "CC-BY-SA-4.0",
+      "noticeFile": "notices/seeed.txt",
+      "count": 58
+    }
+  ],
+  "skipped": [
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "LPD8806/LPD8806 RGB LED Strip.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "RPi_B/Raspberry_Pi__Model_B___00686a34fe2aba685c4f646a55662e10.fzp",
+      "reason": "missing or ambiguous standalone SVG"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Side Blue.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Side Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Side Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Side White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Side Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top Black.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top Blue.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/AdaGator Top Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 0.56 inch 7-segment LED Backpack Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 0.56 inch 7-segment LED Backpack Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 0.56 inch 7-segment LED Backpack White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 0.56 inch 7-segment LED Backpack Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.2 Inch 8x8 LED Matrix Backpack Pure Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.2 Inch 8x8 LED Matrix Backpack Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.2 Inch 8x8 LED Matrix Backpack White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.2 Inch 8x8 LED Matrix Backpack Yellow-Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.2 Inch 8x8 LED Matrix Backpack Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.54inch Tri-Color eInk-ePaper Display.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 1.8 Color TFT Shield with microSD and Joystick - v2.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 14-segment LED Alphanumeric Backpack Pure Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 14-segment LED Alphanumeric Backpack Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 14-segment LED Alphanumeric Backpack White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 14-segment LED Alphanumeric Backpack Yellow-Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 14-segment LED Alphanumeric Backpack Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 16x8 LED Matrix Backpack Orange.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 16x8 LED Matrix Backpack Pure Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 16x8 LED Matrix Backpack Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 16x8 LED Matrix Backpack White.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 16x8 LED Matrix Backpack Yellow-Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 2.4 inch TFT FeatherWing V2.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 24LC32 I2C EEPROM Breakout - 32Kbit - 4 KB - Stemma QT.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 3.5 inch 480x320 Capacitive Touch Display.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 3.5in Capacitive Touch TFT FeatherWing.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 5x5 NeoPixel Grid BFF.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit 7-Segment Backpack - 1.2 Tall Digits STEMMA QT.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit AD5693R Breakout Board.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ADG728 1-to-8 Analog Matrix Switch.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ADG729 Dual 1-to-4 Analog Switch.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ADS7830 8-Channel 8-Bit ADC.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ADT7410 Temperature Sensor STEMMA QT.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ANO Rotary Encoder to I2C Adapter - No Encoder.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "adafruit/Fritzing-Library",
+      "path": "parts/Adafruit ANO Rotary Encoder to I2C Adapter - with Encoder.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/00177_antenna_gps_embedded_sma.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/00258_sfe_serial_enabled_lcd_backpack.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/00341_polymer_lithium_ion_battery_850mah.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/07950_sfe_piezo_buzzer_through_hole_mini_speaker.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09151_speakers_0_5w_80_ohm.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09393_serial_enabled_16x2_cd_5v.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09457_sfe_motor_driver_1a_dual_tb6612fng.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09627_sfe_mini_fet_shield.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09695_sfe_mpr121_capacitive_touch_sensor_breakout_board.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/09806_tsr_3386ut_square_trimming_potentiometer.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10039_sfe_can_bus_shield.fzpz",
+      "reason": "Invalid XML document."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10097_serial_enabled_lcd_kit.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10250_sfe_mpr121_capacitive_touch_keypad_back.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10250_sfe_mpr121_capacitive_touch_keypad_front_side.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10302_Pushbutton_Blue.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10302_Pushbutton_Green.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10302_Pushbutton_Red.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10302_Pushbutton_Yellow.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10467_sfe_led_tactile_button_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10467_sfe_led_tactile_button_breakout_v10.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10508_sfe_touch_shield.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10508_sfe_touch_shield_v11.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10621_sfe_rpi-1031_tilt-a-whirl_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_button.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_buzzer.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_ftdi.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_light_sensor.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_pro_mini.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_protoboard.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/10889_sfe_protosnap_pro_mini_snapped_rgb_led.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11008_sfe_lilypad_vibe_board.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11084_sfe_pressure_sensor_mpl3115a2_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11087_sfe_uh_oh_battery_level_indicator_kit.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11231_sfe_powercell.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11231_sfe_powercell_lipo_charger_booster.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11231_sfe_powercell_no_smd_pads.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11285_lilypad_coin_cell_battery_holder_switched_20mm.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11364_lilytiny.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11364_lilytwinkle.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11446_sfe_triple_axis_accelerometer_breakout_adxl362.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11570_sfe_audio_jack_trrs_3.5mm_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11644_sfe_open_segment_serial_display.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11644_sfe_opensegment_serial_display_20mm.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11645_sfe_opensegment_serial_display_20mm_yellow.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11646_sfe_opensegment_serial_display_20mm_green.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11647_sfe_opensegment_serial_display_20mm_blue.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11648_sfe_opensegment_serial_display_20mm_white.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11771_sfe_voltage_level_translator_breakout_txb0104.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11777_sfe_rn_52_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11801_sfe_tiny_avr_programmer.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11850_sfe_picobuck_led_driver.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11858_copernicus_II_dip_module.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11891_lilypad_pixel_board.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11893_lilypad_simple_power.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/11955_sfe_PCA9306_Level_Translator_Breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12009_sfe_logic_level_converter_bidirectional.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12041_14520_sfe_capacitive_touch_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12064_sfe_HTU21D_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12072_sfe_cc3000_wifi_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12081_sfe_weather_shield.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12642_sfe_sound_detector.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12651_sfe_digital_sandbox.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12700_sfe_usb_type_a_female_breakout_board.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12705_sfe_ml8511_uv_sensor_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12757_sfe_redboard.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12779_easydriver.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12781_sfe_el_sequencer.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12787_sfe_apds_9960_rgb_and_gesture_sensor.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12820_wifi_smd_module_cc3000.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12859_big_easy_driver.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12885_sfe_sunny_buddy_solar_power_v13.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/12937_sfe_femtobuck_led_driver.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13038_sfe_block_for_intel_edison_gpio.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13043_sfe_block_for_intel_edison_dual_h_bridge.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13116_sfe_spectrum_shield.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13144_sfe_touch_potentiometer.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13169_sfe_blackberry_trackballer_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13230_sfe_load_cell_amplifier_hx711.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13266_sfe_max6675_thermocouple_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13279_sfe_large_digit_driver.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13303_sfe_LSM303C.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13314_sfe_digital_temperature_sensor_breakout-TMP102.fzpz",
+      "reason": "Invalid XML document."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13321_sfe_photon_redboard.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13322_sfe_soil_moisture_sensor.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13343_sfe_lilypad_reed_switch.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13679_sfe_acs723_current_sensor.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13712_sfe_openlog_data_logger.fzpz",
+      "reason": "duplicate product title"
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13741_sfe_badger_stick.fzpz",
+      "reason": "Invalid XML document."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13762_sfe_imu_sensor_9250.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/13795_sfe_LED_Array8x7.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/14002_sfe_that_1206_breakout_ingenius.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/14003_sfe_that_1646_breakout_outsmarts.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "sparkfun/Fritzing_Parts",
+      "path": "products/14006_little_soundie_audio_breakout.fzpz",
+      "reason": "XML DTD and ENTITY declarations are forbidden."
+    },
+    {
+      "repository": "Seeed-Studio/fritzing_parts",
+      "path": "src/part.lisa_ad06579d65071869cae244859b8af13a_2.fzp",
+      "reason": "duplicate product title"
+    }
+  ]
+}

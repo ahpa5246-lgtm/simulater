@@ -20,6 +20,16 @@ class ServerTests(unittest.TestCase):
         response=connection.getresponse();data=response.read();connection.close();return response.status,data
     def test_serves_application(self):
         status,data=self.request();self.assertEqual(status,200);self.assertIn(b'Circuit Workbench',data)
+    def test_serves_component_library_and_blocks_traversal(self):
+        self.assertEqual(self.request('/component-library.js')[0],200)
+        status,body=self.request('/vendor/components/catalog.json')
+        self.assertEqual(status,200)
+        part=json.loads(body)['parts'][0]
+        self.assertEqual(self.request(part['svgUrl'])[0],200)
+        self.assertEqual(self.request(part['noticeUrl'])[0],200)
+        for path in ['/vendor/components/art/../../../../server.py','/vendor/components/art/%2e%2e/server.py','/vendor/components/notices/../catalog.json','/vendor/components/']:
+            self.assertEqual(self.request(path)[0],404)
+
     def test_bundled_firmware_can_run_without_compilation(self):
         status,data=self.request('/api/boards/examples')
         self.assertEqual(status,200)

@@ -46,11 +46,16 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path=='/api/arduino-cli/libraries':self.reply(200,arduino_cli.list_libraries());return
         if self.path=='/api/libraries':self.reply(200,{'libraries':list_libraries()});return
         asset=self.path.split('?')[0]
+        if re.fullmatch(r'/vendor/components/(?:catalog\.json|(?:art/[a-z]+-[0-9a-f]{16}\.svg)|(?:notices/[a-z]+\.txt))',asset):
+            target=ROOT/asset.lstrip('/')
+            if target.is_file() and target.resolve()==target.absolute():
+                super().do_GET();return
+            self.send_error(404);return
         if asset.startswith('/vendor/') and asset in {'/vendor/'+p.name for p in (ROOT/'vendor').glob('*') if p.suffix in {'.js','.json','.txt'}}:
             super().do_GET();return
         if asset.startswith('/parts/') and asset in {'/parts/'+p.name for p in (ROOT/'parts').glob('*') if p.suffix in {'.svg','.json'}}:
             super().do_GET();return
-        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js'}:
+        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js'}:
             self.send_error(404);return
         super().do_GET()
     def do_POST(self):

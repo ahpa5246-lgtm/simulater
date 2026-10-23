@@ -30,3 +30,12 @@ Import `examples/libraries/AdafruitBusIO.zip` and `AdafruitBMP085.zip` through t
 Native peripheral build and execution were verified on Linux only. Platform-specific Windows/macOS adapter builds and packaging are pending. Review regression checks cover CLI descendant cleanup, SVG style preservation and BMP180 environmental inputs after reset.
 
 The reference bench retains 14 baseline checks and adds 9 freshly executed native sensor checks when the PICSimLab module is available (23 passed in this environment). When unavailable, the report explicitly lists the skipped native checks.
+
+## Community catalogue expansion (2026-10-23)
+
+278 additional offline artwork/metadata records from Adafruit, SparkFun and
+Seeed Studio are available through Open-source lab. Source filtering, connector
+inspection, pinned attribution and visual parts-list export are implemented.
+See [component library](component-library.md). All new records are visual-only;
+this expansion does not add executable boards or sensor behavior, and is not
+an accuracy or superiority benchmark against Wokwi/Tinkercad.

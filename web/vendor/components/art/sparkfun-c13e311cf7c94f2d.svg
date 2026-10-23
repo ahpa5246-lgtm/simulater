@@ -1,0 +1,766 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" y="0in" height="0.75808078in" x="0in" id="svg447" viewBox="0 0 44.350804 54.581822" width="0.61598408in"><desc>
+        </desc>
+    <defs id="defs451" />
+    <g transform="translate(-2.7504376e-5,-14.10629)"><g><g id="g445"><g id="breadboard" stroke-width="0"><g id="icon" stroke-width="0"><path stroke="none" fill="#c62717" id="path2" d="m 43.7754,68.3972 v -54 H 0.575434 v 54 H 43.7754 m -41.03997,-3.6 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.19997,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m -28.79997,-46.8 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.19997,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z m 7.2,0 a 1.44,1.44 0 1 1 2.88,0 1.44,1.44 0 1 1 -2.88,0 z" stroke-width="0" />
+                        <g id="g390" stroke-width="0"><title id="title4">layer 21</title>
+                            <g id="g18" stroke-width="0"><title id="title6">text:TXO</title>
+                                <g transform="translate(19.6554,60.4772)"><g><g id="g16"><g id="g14" stroke-width="0"><g transform="rotate(-90)"><g><g id="g12"><g id="g10" stroke-width="0"><text stroke="none" y="0" x="0" fill="#ffffff" font-size="2.13811" id="text8" stroke-width="0" font-family="OCRA" text-anchor="start">TXO</text>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="g32" stroke-width="0"><title id="title20">text:RXI</title>
+                                <g transform="translate(12.4554,60.4772)"><g><g id="g30"><g id="g28" stroke-width="0"><g transform="rotate(-90)"><g><g id="g26"><g id="g24" stroke-width="0"><text stroke="none" y="0" x="0" fill="#ffffff" font-size="2.13811" id="text22" stroke-width="0" font-family="OCRA" text-anchor="start">RXI</text>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="g46" stroke-width="0"><title id="title34">text:VCC</title>
+                                <g transform="translate(26.8554,60.4772)"><g><g id="g44"><g id="g42" stroke-width="0"><g transform="rotate(-90)"><g><g id="g40"><g id="g38" stroke-width="0"><text stroke="none" y="0" x="0" fill="#ffffff" font-size="2.13811" id="text36" stroke-width="0" font-family="OCRA" text-anchor="start">VCC</text>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="g52" stroke-width="0"><title id="title48">text:GND</title>
+                                <text stroke="none" y="60.4772" x="29.735399" fill="#ffffff" font-size="2.13811" id="text50" stroke-width="0" font-family="OCRA" text-anchor="start">GND</text>
+                            </g>
+                            <g id="g58" stroke-width="0"><title id="title54">text:BLK</title>
+                                <text stroke="none" y="60.4772" x="37.295399" fill="#ffffff" font-size="2.13811" id="text56" stroke-width="0" font-family="OCRA" text-anchor="start">BLK</text>
+                            </g>
+                            <g id="g64" stroke-width="0"><title id="title60">text:GRN</title>
+                                <text stroke="none" y="60.4772" x="1.2954299" fill="#ffffff" font-size="2.13811" id="text62" stroke-width="0" font-family="OCRA" text-anchor="start">GRN</text>
+                            </g>
+                            <g id="g70" stroke-width="0"><title id="title66">text:OpenLog</title>
+                                <text stroke="none" y="24.8372" x="13.1754" fill="#ffffff" font-size="2.67264" id="text68" stroke-width="0" font-family="OCRA" text-anchor="start">OpenLog</text>
+                            </g>
+                            <g id="g74" stroke-width="0"><title id="title72">text:N. Seidle</title>
+                            </g>
+                            <g id="g84" stroke-width="0"><title id="title76">element:C1</title>
+                                <g id="g82" stroke-width="0"><title id="title78">package:0402-CAP</title>
+                                    <line stroke="#ffffff" id="line80" x2="40.1754" y1="44.003601" stroke-width="1.15199995" y2="43.8307" x1="40.1754" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g94" stroke-width="0"><title id="title86">element:C2</title>
+                                <g id="g92" stroke-width="0"><title id="title88">package:0402-CAP</title>
+                                    <line stroke="#ffffff" id="line90" x2="4.1754298" y1="46.883598" stroke-width="1.15199995" y2="46.710701" x1="4.1754298" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g114" stroke-width="0"><title id="title106">element:C10</title>
+                                <g id="g112" stroke-width="0"><title id="title108">package:0402-CAP</title>
+                                    <line stroke="#ffffff" id="line110" x2="40.1754" y1="47.6036" stroke-width="1.15199995" y2="47.430698" x1="40.1754" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g130" stroke-width="0"><title id="title116">element:D1</title>
+                                <g id="g128" stroke-width="0"><title id="title118">package:LED-0603</title>
+                                    <line stroke="#ffffff" id="line120" x2="36.093498" y1="23.8932" stroke-width="0.57600099" y2="25.197201" x1="36.093498" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line122" x2="36.093498" y1="26.501101" stroke-width="0.57600099" y2="25.197201" x1="36.093498" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line124" x2="36.972301" y1="25.197201" stroke-width="0.57600099" y2="24.534401" x1="36.093498" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line126" x2="36.972301" y1="25.269199" stroke-width="0.57600099" y2="25.8162" x1="36.137199" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g146" stroke-width="0"><title id="title132">element:D3</title>
+                                <g id="g144" stroke-width="0"><title id="title134">package:LED-0603</title>
+                                    <line stroke="#ffffff" id="line136" x2="8.2573299" y1="26.501101" stroke-width="0.57600099" y2="25.197201" x1="8.2573299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line138" x2="8.2573299" y1="23.8932" stroke-width="0.57600099" y2="25.197201" x1="8.2573299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line140" x2="7.3785701" y1="25.197201" stroke-width="0.57600099" y2="25.8599" x1="8.2573299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line142" x2="7.3785701" y1="25.1252" stroke-width="0.57600099" y2="24.5781" x1="8.2137003" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g230" stroke-width="0"><title id="title148">element:JP1</title>
+                                <g id="g228" stroke-width="0"><title id="title150">package:1X06</title>
+                                    <line stroke="#ffffff" id="line152" x2="38.375401" y1="62.9972" stroke-width="0.57600099" y2="61.197201" x1="36.575401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line154" x2="41.975399" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="38.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line156" x2="43.775398" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="41.975399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line158" x2="41.975399" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="43.775398" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line160" x2="38.375401" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="41.975399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line162" x2="36.575401" y1="68.397202" stroke-width="0.57600099" y2="66.597198" x1="38.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line164" x2="27.575399" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="23.975401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line166" x2="29.375401" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="27.575399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line168" x2="27.575399" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="29.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line170" x2="31.1754" y1="62.9972" stroke-width="0.57600099" y2="61.197201" x1="29.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line172" x2="34.775398" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="31.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line174" x2="36.575401" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="34.775398" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line176" x2="34.775398" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="36.575401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line178" x2="31.1754" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="34.775398" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line180" x2="29.375401" y1="68.397202" stroke-width="0.57600099" y2="66.597198" x1="31.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line182" x2="16.7754" y1="62.9972" stroke-width="0.57600099" y2="61.197201" x1="14.9754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line184" x2="20.375401" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="16.7754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line186" x2="22.1754" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="20.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line188" x2="20.375401" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="22.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line190" x2="16.7754" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="20.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line192" x2="14.9754" y1="68.397202" stroke-width="0.57600099" y2="66.597198" x1="16.7754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line194" x2="22.1754" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="23.975401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line196" x2="23.975401" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="22.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line198" x2="23.975401" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="27.575399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line200" x2="5.97544" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="2.3754301" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line202" x2="7.7754302" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="5.97544" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line204" x2="5.97544" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="7.7754302" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line206" x2="9.5754299" y1="62.9972" stroke-width="0.57600099" y2="61.197201" x1="7.7754302" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line208" x2="13.1754" y1="61.197201" stroke-width="0.57600099" y2="61.197201" x1="9.5754299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line210" x2="14.9754" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="13.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line212" x2="13.1754" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="14.9754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line214" x2="9.5754299" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="13.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line216" x2="7.7754302" y1="68.397202" stroke-width="0.57600099" y2="66.597198" x1="9.5754299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line218" x2="0.57543403" y1="62.9972" stroke-width="0.57600099" y2="66.597198" x1="0.57543403" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line220" x2="0.57543403" y1="61.197201" stroke-width="0.57600099" y2="62.9972" x1="2.3754301" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line222" x2="2.3754301" y1="66.597198" stroke-width="0.57600099" y2="68.397202" x1="0.57543403" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line224" x2="2.3754301" y1="68.397202" stroke-width="0.57600099" y2="68.397202" x1="5.97544" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line226" x2="43.775398" y1="62.9972" stroke-width="0.57600099" y2="66.597198" x1="43.775398" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g290" stroke-width="0"><title id="title232">element:JP2</title>
+                                <g id="g288" stroke-width="0"><title id="title234">package:1X04</title>
+                                    <line stroke="#ffffff" id="line236" x2="34.775398" y1="14.3972" stroke-width="0.57600099" y2="14.3972" x1="31.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line238" x2="36.575401" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="34.775398" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line240" x2="34.775398" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="36.575401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line242" x2="23.975401" y1="16.197201" stroke-width="0.57600099" y2="14.3972" x1="22.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line244" x2="27.575399" y1="14.3972" stroke-width="0.57600099" y2="14.3972" x1="23.975401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line246" x2="29.375401" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="27.575399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line248" x2="27.575399" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="29.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line250" x2="23.975401" y1="21.5972" stroke-width="0.57600099" y2="21.5972" x1="27.575399" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line252" x2="22.1754" y1="21.5972" stroke-width="0.57600099" y2="19.797199" x1="23.975401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line254" x2="29.375401" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="31.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line256" x2="31.1754" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="29.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line258" x2="31.1754" y1="21.5972" stroke-width="0.57600099" y2="21.5972" x1="34.775398" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line260" x2="13.1754" y1="14.3972" stroke-width="0.57600099" y2="14.3972" x1="9.5754299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line262" x2="14.9754" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="13.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line264" x2="13.1754" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="14.9754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line266" x2="16.7754" y1="16.197201" stroke-width="0.57600099" y2="14.3972" x1="14.9754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line268" x2="20.375401" y1="14.3972" stroke-width="0.57600099" y2="14.3972" x1="16.7754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line270" x2="22.1754" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="20.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line272" x2="20.375401" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="22.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line274" x2="16.7754" y1="21.5972" stroke-width="0.57600099" y2="21.5972" x1="20.375401" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line276" x2="14.9754" y1="21.5972" stroke-width="0.57600099" y2="19.797199" x1="16.7754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line278" x2="7.7754302" y1="16.197201" stroke-width="0.57600099" y2="19.797199" x1="7.7754302" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line280" x2="7.7754302" y1="14.3972" stroke-width="0.57600099" y2="16.197201" x1="9.5754299" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line282" x2="9.5754299" y1="19.797199" stroke-width="0.57600099" y2="21.5972" x1="7.7754302" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line284" x2="9.5754299" y1="21.5972" stroke-width="0.57600099" y2="21.5972" x1="13.1754" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line286" x2="36.575401" y1="16.197201" stroke-width="0.57600099" y2="19.797199" x1="36.575401" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g302" stroke-width="0"><title id="title292">element:Q1</title>
+                                <g id="g300" stroke-width="0"><title id="title294">package:RESONATOR-SMD</title>
+                                    <line stroke="#ffffff" id="line296" x2="38.692902" y1="41.099499" stroke-width="0.57600099" y2="41.099499" x1="42.377998" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line298" x2="42.377998" y1="30.8948" stroke-width="0.57600099" y2="30.8948" x1="38.692902" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g346" stroke-width="0"><title id="title334">element:U$1</title>
+                                <g id="g344" stroke-width="0"><title id="title336">package:SFE-LOGO-FLAME</title>
+                                    <g id="g342" stroke-width="0"><title id="title338">polygon</title>
+                                        <path stroke="#ffffff" fill="none" id="path340" d="M 3.56372,51.8587 3.4268,51.8372 m 0,0 -0.26645,-0.021 m 0,0 -0.26646,0.021 m 0,0 -0.19815,0.0521 m 0,0 -0.18367,0.091 m 0,0 -0.16187,0.1259 m 0,0 -0.13294,0.1559 m 0,0 -0.11367,0.2075 m 0,0 -0.06832,0.2265 m 0,0 -0.01955,0.2355 m 0,0 v 4.2985 m 0,0 1.38217,-1.5554 m 0,0 0.24604,-0.2253 m 0,0 0.28687,-0.1707 m 0,0 0.10546,-0.0383 m 0,0 0.11054,-0.0192 m 0,0 h 0.64801 m 0,0 0.38636,-0.0352 m 0,0 0.37389,-0.1043 m 0,0 0.34867,-0.1701 m 0,0 L 6.2317,54.68 m 0,0 0.29253,-0.2755 m 0,0 0.25058,-0.3138 m 0,0 0.26844,-0.4765 m 0,0 0.178,-0.517 m 0,0 0.08165,-0.5406 m 0,0 -0.01699,-0.5465 m 0,0 -0.05868,-0.2948 m 0,0 -0.10149,-0.2829 m 0,0 -0.14201,-0.2648 m 0,0 -0.25711,-0.3223 m 0,0 -0.31889,-0.2611 m 0,0 v 0.252 m 0,0 -0.00567,0.0412 m 0,0 -0.01616,0.0382 m 0,0 -0.08419,0.104 m 0,0 -0.10998,0.076 m 0,0 -0.05783,0.0216 m 0,0 -0.16215,0.0176 m 0,0 -0.16043,-0.0298 m 0,0 -0.14542,-0.0743 m 0,0 -0.25909,-0.1871 m 0,0 -0.1199,-0.1032 m 0,0 -0.10318,-0.1202 m 0,0 -0.08306,-0.1346 m 0,0 -0.06094,-0.146 m 0,0 -0.01843,-0.0927 m 0,0 0.00397,-0.0947 m 0,0 0.04705,-0.1558 m 0,0 0.08589,-0.1386 m 0,0 0.11906,-0.1112 m 0,0 0.144,-0.0765 m 0,0 0.14513,-0.0409 m 0,0 0.14996,-0.017 m 0,0 h 0.17291 m 0,0 h -2.9e-4 m 0,0 -0.00708,-0.007 m 0,0 -0.12331,-0.0958 m 0,0 -0.14286,-0.0627 m 0,0 -0.10092,-0.0431 m 0,0 -0.06491,-0.0289 m 0,0 -0.24888,-0.062 m 0,0 -0.25512,-0.0245 m 0,0 -0.24633,0.0188 m 0,0 -0.23812,0.0657 m 0,0 -0.2211,0.11 m 0,0 -0.22026,0.1588 m 0,0 -0.19729,0.1867 m 0,0 -0.12217,0.1713 m 0,0 -0.07568,0.1961 m 0,0 -0.02467,0.2089 m 0,0 0.02835,0.2084 m 0,0 0.07909,0.1947 m 0,0 0.33619,0.4987 m 0,0 0.41244,0.4373 m 0,0 0.10857,0.1276 m 0,0 0.07201,0.151 m 0,0 0.03061,0.1645 m 0,0 -0.01304,0.1669 m 0,0 -0.05557,0.1579 m 0,0 -0.09467,0.1381 m 0,0 -0.127,0.1091 m 0,0 -0.15987,0.0862 m 0,0 -0.17207,0.0581 m 0,0 -0.17943,0.0286 m 0,0 -0.20977,-0.0104 m 0,0 -0.20069,-0.0613 m 0,0 -0.17971,-0.1083 m 0,0 -0.09525,-0.1003 m 0,0 -0.06321,-0.1231 m 0,0 -0.02806,-0.1261 m 0,0 v -0.1292 m 0,0 0.02806,-0.1262 m 0,0 0.02551,-0.0484 m 0,0 0.03912,-0.0381 m 0,0 0.23783,-0.1726 m 0,0 0.0445,-0.0238 m 0,0 0.04932,-0.0099 m 0,0 0.05018,0.0048 m -1.548,5.3065 h 0.05754 m -0.05754,-0.072 h 0.1216 m -0.1216,-0.072 H 2.2011 M 2.01572,56.9492 H 2.26516 M 2.01572,56.8772 H 2.32923 M 2.01572,56.8052 H 2.39329 M 2.01572,56.7332 H 2.45707 M 2.01572,56.6612 H 2.52113 M 2.01572,56.5892 H 2.5852 M 2.01572,56.5172 H 2.64897 M 2.01572,56.4452 H 2.71304 M 2.01572,56.3732 H 2.7771 m -0.76138,-0.072 h 0.82544 m -0.82544,-0.072 h 0.88923 m -0.88923,-0.072 h 0.95329 m -0.95329,-0.072 h 1.01735 m -1.01735,-0.072 h 1.08113 m -1.08113,-0.072 h 1.1452 m -1.1452,-0.072 h 1.20925 m -1.20925,-0.072 h 1.27332 m -1.27332,-0.072 h 1.3371 m -1.3371,-0.072 h 1.40541 m -1.40541,-0.072 h 1.48421 m -1.48421,-0.072 h 1.56274 m -1.56274,-0.072 h 1.64863 m -1.64863,-0.072 h 1.76967 m -1.76967,-0.072 h 1.8907 m -1.8907,-0.072 h 2.77909 m -2.77909,-0.072 h 3.29726 m -3.29726,-0.072 h 3.54841 m -3.54841,-0.072 h 3.6961 m -3.6961,-0.072 h 3.84379 m -3.84379,-0.072 h 3.95944 m -3.95944,-0.072 h 4.06121 m -4.06121,-0.072 h 4.16325 m -4.16325,-0.072 h 4.25283 m -4.25283,-0.072 h 4.32936 m -4.32936,-0.072 h 4.40561 m -4.40561,-0.072 h 4.48215 m -4.48215,-0.072 h 4.54621 m -4.54621,-0.072 h 4.60375 m -4.60375,-0.072 h 4.6613 m -4.6613,-0.072 h 4.71856 m -4.71856,-0.072 h 4.771 m -4.771,-0.072 h 4.81153 m -4.81153,-0.072 h 4.85207 m -4.85207,-0.072 h 4.89289 m -4.89289,-0.072 h 4.93342 m -4.93342,-0.072 h 4.97396 m -4.97396,-0.072 h 5.01449 m -5.01449,-0.072 h 5.04426 m -5.04426,-0.072 h 5.06921 m -5.06921,-0.072 h 5.09387 m -5.09387,-0.072 h 5.11853 m -5.11853,-0.072 h 5.14347 m -5.14347,-0.072 h 5.16813 m -5.16813,-0.072 h 5.19307 m -5.19307,-0.072 h 5.21093 m -5.21093,-0.072 h 5.22173 m -5.22032,-0.072 h 1.62624 m 0.31323,0 h 3.29158 m -5.2251,-0.072 h 1.40797 m 0.78577,0 h 3.04245 m -5.23023,-0.072 h 1.28268 m 1.03889,0 h 2.91938 m -5.235,-0.072 h 1.1931 m 1.21635,0 h 2.83635 m -5.2251,-0.072 h 1.11344 m 1.34929,0 h 2.77346 m -5.21465,-0.072 h 1.05505 m 1.43546,0 h 2.73487 m -5.20356,-0.072 h 1.00886 m 1.50037,0 h 2.69267 m -5.16618,-0.072 h 0.95697 m 1.54207,0 H 7.29865 M 2.17417,52.3412 H 3.0892 m 1.56643,0 h 2.64079 m -5.08284,-0.072 h 0.87618 m 1.57154,0 h 2.63281 m -5.02129,-0.072 h 0.8331 m 1.56105,0 H 7.29188 M 2.33405,52.1252 H 3.1286 m 1.52732,0 h 2.63366 m -4.87106,-0.072 h 0.77301 m 1.45106,0 h 2.64476 m -4.77613,-0.072 h 0.77952 m 1.32633,0 h 2.66315 m -4.62444,-0.072 h 0.73417 m 1.19282,0 H 7.26603 M 2.89389,51.8372 H 3.4268 m 1.10892,0 h 2.71591 m -2.77714,-0.072 h 2.76296 m -2.82872,-0.072 h 2.81086 m -2.8789,-0.072 h 2.8528 M 4.27295,51.5492 H 7.1677 M 4.20492,51.4772 H 7.1419 m -3.00474,-0.072 h 2.97412 m -3.04215,-0.072 h 3.00361 m -3.05945,-0.072 h 3.02089 m -3.06936,-0.072 h 3.03053 m -3.079,-0.072 h 1.96073 m 0.25682,0 h 0.80985 m -3.07587,-0.072 h 1.82637 m 0.57061,0 h 0.62135 m -3.06709,-0.072 h 1.76713 m 0.75316,0 h 0.48926 m -3.05802,-0.072 h 1.7161 m 0.90538,0 h 0.37928 m -3.04924,-0.072 h 1.66792 m 1.01764,0 h 0.29933 m -3.02003,-0.072 h 1.61944 m 1.10126,0 h 0.21146 m -2.96136,-0.072 h 1.58174 m 1.16816,0 h 0.12331 m -2.90241,-0.072 h 1.55084 m 1.22826,0 h 0.03543 m -2.82445,-0.072 h 1.51626 m -1.5259,-0.072 h 1.4848 m -1.49245,-0.072 h 1.4624 m -1.4539,-0.072 h 1.42697 m -1.41847,-0.072 h 1.4043 M 3.63061,50.1812 H 5.02385 M 3.65839,50.1092 H 5.03802 M 3.68617,50.0372 H 5.05985 M 3.72529,49.9652 H 5.0916 m -1.315,-0.072 H 5.1361 M 3.83046,49.8212 H 5.19733 M 3.90642,49.7492 H 5.27443 M 3.98239,49.6772 H 5.40766 M 4.07055,49.6052 H 5.8819 M 4.17061,49.5332 H 5.78949 M 4.28372,49.4612 H 5.64889 M 4.42857,49.3892 H 5.4825 m -0.81978,-0.072 h 0.55672" stroke-width="0.0720001" stroke-linecap="round" />
+                                    </g>
+                                </g>
+                            </g>
+                            <g id="g366" stroke-width="0"><title id="title348">element:U1</title>
+                                <g id="g364" stroke-width="0"><title id="title350">package:TQFP32-08</title>
+                                    <line stroke="#ffffff" id="line352" x2="12.24" y1="49.5326" stroke-width="0.43200001" y2="29.6618" x1="12.24" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line354" x2="32.110802" y1="29.6618" stroke-width="0.43200001" y2="29.6618" x1="12.24" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line356" x2="32.110802" y1="29.6618" stroke-width="0.43200001" y2="48.526299" x1="32.110802" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line358" x2="12.24" y1="49.5326" stroke-width="0.43200001" y2="49.5326" x1="31.104601" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line360" x2="32.110802" y1="49.5326" stroke-width="0.43200001" y2="48.526299" x1="31.104601" stroke-linecap="round" />
+                                    <circle stroke="#ffffff" fill="none" id="circle362" stroke-width="0.43200001" cx="29.951401" cy="47.373199" r="1.0182" />
+                                </g>
+                            </g>
+                            <g id="g380" stroke-width="0"><title id="title368">element:U2</title>
+                                <g id="g378" stroke-width="0"><title id="title370">package:SOT23-5</title>
+                                    <line stroke="#ffffff" id="line372" x2="36.0783" y1="57.669201" stroke-width="0.57600099" y2="57.669201" x1="38.512699" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line374" x2="38.512699" y1="49.605202" stroke-width="0.57600099" y2="49.605202" x1="36.0783" stroke-linecap="round" />
+                                    <line stroke="#ffffff" id="line376" x2="39.592701" y1="52.8764" stroke-width="0.57600099" y2="54.397999" x1="39.592701" stroke-linecap="round" />
+                                </g>
+                            </g>
+                            <g id="g388" stroke-width="0"><title id="title382">element:U3</title>
+                                <g id="g386" stroke-width="0"><title id="title384">package:MICRO-SD-SOCKET-PP</title>
+                                </g>
+                            </g>
+                        </g>
+                        <rect stroke="none" y="23.8932" height="2.6078801" x="36.093498" fill="#ffffff" id="rect398" stroke-width="0" fill-opacity="0.15" width="0.878739" />
+                        <rect stroke="none" y="23.8932" height="2.6078801" x="7.3785701" fill="#ffffff" id="rect400" stroke-width="0" fill-opacity="0.15" width="0.878739" />
+                        <rect stroke="none" y="30.8948" height="10.2047" x="38.692902" fill="#ffffff" id="rect402" stroke-width="0" fill-opacity="0.15" width="3.68504" />
+                        <rect stroke="none" y="27.7892" height="2.016" x="35.999401" fill="#ffffff" id="rect404" stroke-width="0" fill-opacity="0.15" width="1.152" />
+                        <g transform="matrix(0.99999818,0,0,0.99999818,-409.54817,-17.398538)"><g><g id="g3963"><g transform="rotate(135,22.208262,25.383598)"><g><g id="g3577"><g id="g3575"><g id="g3573"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-263.2955,91.1954)"><g><g id="g3571"><g id="g3569"><rect y="-273" height="1.6" x="-243.5" id="connector129pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,28.1918,53.816439)"><g><g id="g3588"><g id="g3586"><g id="g3584"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-250.7367,109.5479)"><g><g id="g3582"><g id="g3580"><rect y="-248.7" height="1.6" x="-259.39999" id="connector113pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,39.416316,36.608223)"><g><g id="g3599"><g id="g3597"><g id="g3595"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-247.8399,94.0922)"><g><g id="g3593"><g id="g3591"><rect y="-253.89999" height="3.5999999" x="-238.3" id="connector121pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,10.983596,42.591752)"><g><g id="g3610"><g id="g3608"><g id="g3606"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-266.1924,106.651)"><g><g id="g3604"><g id="g3602"><rect y="-269.79999" height="3.5999999" x="-262.60001" id="connector137pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,34.605748,47.402282)"><g><g id="g3621"><g id="g3619"><g id="g3617"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-248.08,103.1336)"><g><g id="g3615"><g id="g3613"><rect y="-248.7" height="1.6" x="-250.3" id="connector117pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,33.002171,30.194104)"><g><g id="g3632"><g id="g3630"><g id="g3628"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-254.2541,91.4354)"><g><g id="g3626"><g id="g3624"><rect y="-263" height="3.5999999" x="-238.3" id="connector125pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,15.794114,31.797672)"><g><g id="g3643"><g id="g3641"><g id="g3639"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-265.9523,97.6095)"><g><g id="g3637"><g id="g3635"><rect y="-273" height="1.6" x="-252.60001" id="connector133pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,17.397691,49.00585)"><g><g id="g3654"><g id="g3652"><g id="g3650"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-259.7782,109.3078)"><g><g id="g3648"><g id="g3646"><rect y="-260.70001" height="3.5999999" x="-262.60001" id="connector141pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,31.398774,50.60936)"><g><g id="g3665"><g id="g3663"><g id="g3661"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-249.4084,106.3408)"><g><g id="g3659"><g id="g3657"><rect y="-248.7" height="1.6" x="-254.89999" id="connector115pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,37.812651,44.195232)"><g><g id="g3676"><g id="g3674"><g id="g3672"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-246.7518,99.9266)"><g><g id="g3670"><g id="g3668"><rect y="-248.7" height="1.6" x="-245.8" id="connector119pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,36.209429,33.401211)"><g><g id="g3687"><g id="g3685"><g id="g3683"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-251.0469,92.7639)"><g><g id="g3681"><g id="g3679"><rect y="-258.5" height="3.5999999" x="-238.3" id="connector123pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,29.795263,26.987142)"><g><g id="g3698"><g id="g3696"><g id="g3694"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-257.461,90.1071)"><g><g id="g3692"><g id="g3690"><rect y="-267.5" height="3.5999999" x="-238.3" id="connector127pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,19.001188,28.590635)"><g><g id="g3709"><g id="g3707"><g id="g3705"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-264.6239,94.4024)"><g><g id="g3703"><g id="g3701"><rect y="-273" height="1.6" x="-248.10001" id="connector131pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,12.587111,35.00468)"><g><g id="g3720"><g id="g3718"><g id="g3716"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-267.2807,100.8165)"><g><g id="g3714"><g id="g3712"><rect y="-273" height="1.6" x="-257.10001" id="connector135pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,14.190633,45.798826)"><g><g id="g3731"><g id="g3729"><g id="g3727"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-262.9853,107.9794)"><g><g id="g3725"><g id="g3723"><rect y="-265.29999" height="3.5999999" x="-262.60001" id="connector139pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,20.604599,52.212812)"><g><g id="g3742"><g id="g3740"><g id="g3738"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-256.5713,110.636)"><g><g id="g3736"><g id="g3734"><rect y="-256.20001" height="3.5999999" x="-262.60001" id="connector143pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,29.795273,52.212864)"><g><g id="g3753"><g id="g3751"><g id="g3749"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-250.0725,107.9443)"><g><g id="g3747"><g id="g3745"><rect y="-248.7" height="1.6" x="-257.10001" id="connector114pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,33.002246,49.005786)"><g><g id="g3764"><g id="g3762"><g id="g3760"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-248.7442,104.7372)"><g><g id="g3758"><g id="g3756"><rect y="-248.7" height="1.6" x="-252.60001" id="connector116pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,36.2092,45.798757)"><g><g id="g3775"><g id="g3773"><g id="g3771"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-247.4159,101.5301)"><g><g id="g3769"><g id="g3767"><rect y="-248.7" height="1.6" x="-248.10001" id="connector118pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,39.416524,42.591823)"><g><g id="g3786"><g id="g3784"><g id="g3782"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-246.0873,98.3233)"><g><g id="g3780"><g id="g3778"><rect y="-248.7" height="1.6" x="-243.5" id="connector120pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,37.812662,35.004659)"><g><g id="g3797"><g id="g3795"><g id="g3793"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-249.4436,93.4279)"><g><g id="g3791"><g id="g3789"><rect y="-256.20001" height="3.5999999" x="-238.3" id="connector122pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,34.605825,31.797668)"><g><g id="g3808"><g id="g3806"><g id="g3804"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-252.6505,92.0996)"><g><g id="g3802"><g id="g3800"><rect y="-260.70001" height="3.5999999" x="-238.3" id="connector124pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,31.398917,28.590706)"><g><g id="g3819"><g id="g3817"><g id="g3815"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-255.8574,90.7714)"><g><g id="g3813"><g id="g3811"><rect y="-265.29999" height="3.5999999" x="-238.3" id="connector126pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,28.19176,25.383641)"><g><g id="g3830"><g id="g3828"><g id="g3826"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-259.0645,89.443)"><g><g id="g3824"><g id="g3822"><rect y="-269.79999" height="3.5999999" x="-238.3" id="connector128pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,20.60474,26.987152)"><g><g id="g3841"><g id="g3839"><g id="g3837"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-263.9597,92.799)"><g><g id="g3835"><g id="g3833"><rect y="-273" height="1.6" x="-245.8" id="connector130pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,17.397666,30.194189)"><g><g id="g3852"><g id="g3850"><g id="g3848"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-265.2881,96.006)"><g><g id="g3846"><g id="g3844"><rect y="-273" height="1.6" x="-250.3" id="connector132pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,14.190613,33.401176)"><g><g id="g3863"><g id="g3861"><g id="g3859"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-266.6165,99.213)"><g><g id="g3857"><g id="g3855"><rect y="-273" height="1.6" x="-254.89999" id="connector134pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,10.983589,36.608234)"><g><g id="g3874"><g id="g3872"><g id="g3870"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-267.9448,102.42)"><g><g id="g3868"><g id="g3866"><rect y="-273" height="1.6" x="-259.39999" id="connector136pad_1_" width="3.5999999" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,12.5871,44.195254)"><g><g id="g3885"><g id="g3883"><g id="g3881"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-264.5888,107.3152)"><g><g id="g3879"><g id="g3877"><rect y="-267.5" height="3.5999999" x="-262.60001" id="connector138pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,15.794137,47.402327)"><g><g id="g3896"><g id="g3894"><g id="g3892"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-261.3817,108.6436)"><g><g id="g3890"><g id="g3888"><rect y="-263" height="3.5999999" x="-262.60001" id="connector140pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,19.001174,50.609401)"><g><g id="g3907"><g id="g3905"><g id="g3903"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-258.1747,109.972)"><g><g id="g3901"><g id="g3899"><rect y="-258.5" height="3.5999999" x="-262.60001" id="connector142pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g transform="rotate(135,22.208274,53.816325)"><g><g id="g3918"><g id="g3916"><g id="g3914"><g transform="matrix(0.7071,0.7071,-0.7071,0.7071,-254.9677,111.3002)"><g><g id="g3912"><g id="g3910"><rect y="-253.89999" height="3.5999999" x="-262.60001" id="connector144pad_1_" width="1.6" fill="#8c8b8b" />
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                    <g id="g3961"><g id="g3957"><g id="g3955"><g transform="matrix(0.7071,-0.7071,0.7071,0.7071,6.6859,44.9441)"><g><g id="g3929"><g id="g3927"><g id="g3925"><g transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,279.98,734.3409)"><g><g id="g3923"><g id="g3921"><rect y="298.60001" height="21.200001" x="281.5" id="middle_3_" width="21.200001" fill="#30302f" />
+                                                                                </g>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g transform="matrix(0.7071,-0.7071,0.7071,0.7071,5.2793,48.3383)"><g><g id="g3940"><g id="g3938"><g id="g3936"><g transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,304.1458,727.1473)"><g><g id="g3934"><g id="g3932"><rect y="300.20001" height="0.80000001" x="292.10001" id="top_3_" width="21.200001" fill="#3d3d3d" />
+                                                                                </g>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <g transform="matrix(0.7073,-0.7069,0.7069,0.7073,8.0849,41.538)"><g><g id="g3951"><g id="g3949"><g id="g3947"><g transform="matrix(-0.7071,-0.7071,0.7071,-0.7071,256.0177,741.4887)"><g><g id="g3945"><g id="g3943"><rect y="317.29999" height="0.80000001" x="271" id="bottom_3_" width="21.200001" />
+                                                                                </g>
+                                                                            </g>
+                                                                        </g>
+                                                                    </g>
+                                                                </g>
+                                                            </g>
+                                                        </g>
+                                                    </g>
+                                                </g>
+                                                <polygon id="left_6_" points="421.2,46.4 422.1,47.3 422.1,66.8 421.2,67.6 " fill="#1f1f1f" />
+                                                <polygon id="left_5_" points="442.4,67.6 441.6,66.8 441.6,47.3 442.4,46.4 " fill="#1f1f1f" />
+                                            </g>
+                                        </g>
+                                        <circle id="circle3959" cx="439.70001" cy="64.900002" r="0.80000001" fill="#1f1f1f" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                        <g id="g5750"><rect stroke="none" height="1.8475939" y="52.669167" x="34.578991" fill="#8c8b8b" id="rect5752" stroke-opacity="1" stroke-width="0.25225529" fill-opacity="1" width="3.2785687" opacity="1" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" />
+                            <rect stroke="none" y="55.144264" height="1.8475939" x="34.578991" fill="#8c8b8b" id="rect5803" stroke-opacity="1" stroke-width="0.35402268" fill-opacity="1" width="6.4575219" opacity="1" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" />
+                            <rect stroke="none" height="1.8475939" y="50.194065" x="34.578991" fill="#8c8b8b" id="rect5805" stroke-opacity="1" stroke-width="0.35402268" fill-opacity="1" width="6.4575219" opacity="1" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" stroke-miterlimit="4" stroke-dasharray="none" stroke-dashoffset="0" />
+                            <rect stroke="none" height="8.0640001" y="49.605202" x="36.0783" fill="#333333" id="rect412" stroke-width="0" fill-opacity="1" width="3.51439" />
+                        </g>
+                        <circle stroke="#9a916c" fill="none" id="connector12pin" stroke-width="1.22399998" cx="4.1754298" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector13pin" stroke-width="1.22399998" cx="11.3754" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector14pin" stroke-width="1.22399998" cx="18.575399" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector15pin" stroke-width="1.22399998" cx="25.7754" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector16pin" stroke-width="1.22399998" cx="32.975399" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector17pin" stroke-width="1.22399998" cx="40.1754" cy="64.797203" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector18pin" stroke-width="1.22399998" cx="11.3754" cy="17.9972" r="2.052" />
+                        <rect stroke="#9a916c" y="15.9452" height="4.1040001" x="9.3234301" fill="none" id="rect421" stroke-width="1.22399998" width="4.1040001" />
+                        <circle stroke="#9a916c" fill="none" id="connector19pin" stroke-width="1.22399998" cx="18.575399" cy="17.9972" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector20pin" stroke-width="1.22399998" cx="25.7754" cy="17.9972" r="2.052" />
+                        <circle stroke="#9a916c" fill="none" id="connector21pin" stroke-width="1.22399998" cx="32.975399" cy="17.9972" r="2.052" />
+                        <g transform="rotate(90,37.994121,53.952321)"><g><g id="g5094"><rect y="84.207001" height="5.6700001" x="11.83" id="rect396-7" width="2.5599999" fill="#333333" />
+                                    <rect y="84.205002" height="5.6700001" x="11.833" id="rect398-9" width="0.021" opacity="0.2" />
+                                    <path id="path400" d="m 14.389,89.054 v 0 0 -0.065 0 c -0.174,-0.061 -0.813,-0.102 -1.002,-0.102 -0.199,0 -1.383,0.033 -1.56,0.102 v 0.888 h 2.562 z" fill="#cccccc" />
+                                    <path id="path402" d="m 14.318,85.092 h 0.071 v -0.888 h -2.561 v 0.888 c 0.184,0.063 1.078,0.116 1.279,0.116 0.239,0.001 1.006,-0.032 1.211,-0.116 z" fill="#cccccc" />
+                                    <rect y="84.204002" height="0.88800001" x="11.832" id="rect404-7" width="0.028999999" opacity="0.15" />
+                                    <rect y="84.204002" height="0.88800001" x="14.358" id="rect406-4" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <rect y="88.987999" height="0.88800001" x="11.832" id="rect408-5" width="0.029999999" opacity="0.15" />
+                                    <rect y="88.988998" height="0.88800001" x="14.359" id="rect410" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line412" x2="11.831" y1="84.747002" y2="84.747002" x1="11.831" fill="none" />
+                                    <rect y="89.771004" height="0.116" x="11.846" id="rect414" width="2.5420001" opacity="0.1" />
+                                    <rect y="84.205002" height="0.116" x="11.846" id="rect416" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,69.340018,56.074218)"><g><g id="g5145"><rect y="82.791" height="6.4219999" x="37.122002" id="rect280" width="1.398" fill="#dcdcdc" />
+                                    <line id="line282-1" x2="37.159" y1="82.792" y2="89.213997" x1="37.159" fill="none" />
+                                    <rect y="83.749001" height="4.5050001" x="37.155998" id="rect284" width="2.477" fill="#f2f2f2" />
+                                    <path id="path286" d="m 37.157,87.541 c 0,0 0.467,-0.168 0.426,0.052 -0.041,0.218 0.148,0.54 0,0.676 l -0.424,-0.015 z" fill="#22b573" fill-opacity="0.7" />
+                                    <rect y="85.573997" height="0.85399997" x="37.979" id="rect288" width="0.96100003" fill="#ffffff" />
+                                    <rect y="85.574997" height="0.85399997" x="37.952" id="rect290" width="0.050999999" fill="#b3b3b3" />
+                                    <polygon id="polygon292" points="38.208,88.268 38.104,87.305 37.581,87.305 37.477,88.268 " fill="#d1c690" />
+                                    <path id="path294" d="m 37.78,87.593 c 0,-0.002 0,-0.005 0,-0.007 0.035,-0.269 0.105,-0.449 0.162,-0.598 0.08,-0.209 0.141,-0.361 0.055,-0.636 -0.012,-0.024 0.012,-0.059 0.043,-0.063 0.035,-0.008 0.068,0.009 0.078,0.039 0.094,0.303 0.025,0.478 -0.059,0.694 -0.062,0.148 -0.123,0.318 -0.156,0.572 -0.004,0.03 -0.033,0.054 -0.068,0.049 -0.031,0.001 -0.055,-0.023 -0.055,-0.05 z" fill="#d1c690" />
+                                    <polygon id="polygon296" points="38.483,83.736 38.587,84.7 39.11,84.7 39.214,83.736 " fill="#d1c690" />
+                                    <path id="path298" d="m 38.306,85.96 c 0,-0.025 0.02,-0.049 0.047,-0.055 0.291,-0.063 0.42,-0.949 0.436,-1.492 0,-0.033 0.027,-0.06 0.063,-0.06 0.035,0.002 0.063,0.025 0.063,0.06 v 0.002 c -0.004,0.149 -0.053,1.498 -0.526,1.6 -0.035,0.007 -0.068,-0.012 -0.078,-0.042 -0.005,-0.004 -0.005,-0.008 -0.005,-0.013 z" fill="#d1c690" />
+                                    <path id="path300" d="m 38.29,86.43 c 0,0 0.002,-0.354 -0.311,-0.382 0,0.071 0,0.382 0,0.382 z" fill="#d1c690" />
+                                    <path id="path302" d="m 38.608,85.996 c 0,0 -0.305,0.158 -0.351,0.052 -0.049,-0.107 -0.053,-0.178 0.027,-0.24 0.086,-0.061 0.324,0.188 0.324,0.188 z" fill="#d1c690" />
+                                    <path id="path304" d="m 37.94,86.355 c 0.084,0.271 0.022,0.426 -0.055,0.635 -0.062,0.146 -0.128,0.329 -0.162,0.598 l 0.057,0.001 c 0.035,-0.269 0.105,-0.449 0.162,-0.598 0.08,-0.209 0.141,-0.361 0.055,-0.636 z" fill="#9d956c" />
+                                    <polygon id="polygon306" points="38.483,83.736 38.587,84.7 38.532,84.7 38.429,83.736 " fill="#9d956c" />
+                                    <path id="path308" d="m 38.296,85.904 c 0.291,-0.063 0.422,-0.947 0.437,-1.492 h 0.059 c -0.016,0.545 -0.145,1.434 -0.436,1.494 z" fill="#9d956c" />
+                                    <path id="path310" d="m 37.922,86.047 c 0,0.071 0,0.382 0,0.382 h 0.06 c 0,0 0,-0.311 0,-0.382 z" fill="#9d956c" />
+                                    <path id="path312" d="m 38.233,85.807 c -0.08,0.063 -0.076,0.131 -0.031,0.239 l 0.062,10e-4 C 38.212,85.94 38.21,85.869 38.29,85.807 Z" fill="#9d956c" />
+                                    <rect y="84.271004" height="3.4619999" x="39.580002" id="rect314" width="0.052999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path316" d="m 38.885,85.462 c 0.049,0 0.088,0.035 0.088,0.076 v 0.326 c 0,0.043 0.039,0.075 0.086,0.075 h 0.032 c -0.051,0 -0.09,-0.032 -0.09,-0.075 v -0.326 c 0,-0.043 -0.039,-0.078 -0.086,-0.078 z" fill="#ffffff" />
+                                    <path id="path318" d="m 39.212,87.452 c 0.052,0 0.09,-0.036 0.09,-0.077 v -1.356 c 0,-0.043 -0.038,-0.075 -0.09,-0.075 h 0.033 c 0.049,0 0.088,0.031 0.088,0.075 v 1.356 c 0,0.041 -0.039,0.077 -0.088,0.077 z" fill="#ffffff" />
+                                    <path id="path320" d="m 37.739,87.733 v -0.206 c 0,-0.041 0.039,-0.073 0.088,-0.073 h 0.031 c -0.047,0 -0.086,0.032 -0.086,0.073 v 0.205 z" fill="#ffffff" />
+                                    <path id="path322" d="m 39.301,84.27 v 1.029 c 0,0.041 -0.039,0.078 -0.091,0.078 h 0.033 c 0.049,0 0.088,-0.035 0.088,-0.078 V 84.27 Z" fill="#ffffff" />
+                                    <path id="path324" d="m 39.633,83.751 h -2.477 v 4.505 h 2.477 z" opacity="0.5" fill="#f2f2f2" />
+                                    <path id="path326" d="m 38.979,83.802 h 0.27 c 0.152,0.017 0.271,-0.012 0.271,0.096 0,0.613 0,3.944 0,4.099 0,0.167 -0.066,0.175 -0.066,-0.015 0,-0.131 0,-3.133 0,-3.586 0,-0.457 -0.104,-0.518 -0.195,-0.518 l -0.272,0.002 c -0.181,0 -0.181,-0.078 -0.008,-0.078 z" opacity="0.55" fill="#ffffff" />
+                                    <path id="path328" d="m 37.378,88.206 c -0.065,0 -0.137,0.012 -0.137,-0.1 0,-0.609 0,-3.941 0,-4.095 0,-0.168 0.066,-0.176 0.066,0.008 0,0.138 0.002,3.14 0.002,3.594 0,0.593 0.069,0.593 0.069,0.593 z" opacity="0.02999998" />
+                                    <path id="path330" d="m 37.157,82.794 v 0.77 h 0.521 c 0.125,0 0.213,0.082 0.268,0.188 h 1.688 v -1.009 h -2.428 -0.049" fill="#d1c690" />
+                                    <rect y="82.742996" height="1.006" x="39.582001" id="rect332" width="0.050999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path334" d="m 37.157,89.263 h 0.049 2.428 V 88.254 H 37.53 c -0.055,0.104 -0.146,0.188 -0.271,0.188 h -0.1 v 0.771" fill="#d1c690" />
+                                    <rect y="88.252998" height="1.01" x="39.580002" id="rect336" width="0.052999999" opacity="0.5" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(-90,-8.674115,72.201315)"><g><g id="g5145-5"><rect y="82.791" height="6.4219999" x="37.122002" id="rect280-1" width="1.398" fill="#dcdcdc" />
+                                    <line id="line282-8" x2="37.159" y1="82.792" y2="89.213997" x1="37.159" fill="none" />
+                                    <rect y="83.749001" height="4.5050001" x="37.155998" id="rect284-6" width="2.477" fill="#f2f2f2" />
+                                    <path id="path286-8" d="m 37.157,87.541 c 0,0 0.467,-0.168 0.426,0.052 -0.041,0.218 0.148,0.54 0,0.676 l -0.424,-0.015 z" fill="#22b573" fill-opacity="0.7" />
+                                    <rect y="85.573997" height="0.85399997" x="37.979" id="rect288-5" width="0.96100003" fill="#ffffff" />
+                                    <rect y="85.574997" height="0.85399997" x="37.952" id="rect290-0" width="0.050999999" fill="#b3b3b3" />
+                                    <polygon id="polygon292-1" points="37.477,88.268 38.208,88.268 38.104,87.305 37.581,87.305 " fill="#d1c690" />
+                                    <path id="path294-1" d="m 37.78,87.593 c 0,-0.002 0,-0.005 0,-0.007 0.035,-0.269 0.105,-0.449 0.162,-0.598 0.08,-0.209 0.141,-0.361 0.055,-0.636 -0.012,-0.024 0.012,-0.059 0.043,-0.063 0.035,-0.008 0.068,0.009 0.078,0.039 0.094,0.303 0.025,0.478 -0.059,0.694 -0.062,0.148 -0.123,0.318 -0.156,0.572 -0.004,0.03 -0.033,0.054 -0.068,0.049 -0.031,0.001 -0.055,-0.023 -0.055,-0.05 z" fill="#d1c690" />
+                                    <polygon id="polygon296-6" points="39.214,83.736 38.483,83.736 38.587,84.7 39.11,84.7 " fill="#d1c690" />
+                                    <path id="path298-2" d="m 38.306,85.96 c 0,-0.025 0.02,-0.049 0.047,-0.055 0.291,-0.063 0.42,-0.949 0.436,-1.492 0,-0.033 0.027,-0.06 0.063,-0.06 0.035,0.002 0.063,0.025 0.063,0.06 v 0.002 c -0.004,0.149 -0.053,1.498 -0.526,1.6 -0.035,0.007 -0.068,-0.012 -0.078,-0.042 -0.005,-0.004 -0.005,-0.008 -0.005,-0.013 z" fill="#d1c690" />
+                                    <path id="path300-7" d="m 38.29,86.43 c 0,0 0.002,-0.354 -0.311,-0.382 0,0.071 0,0.382 0,0.382 z" fill="#d1c690" />
+                                    <path id="path302-0" d="m 38.608,85.996 c 0,0 -0.305,0.158 -0.351,0.052 -0.049,-0.107 -0.053,-0.178 0.027,-0.24 0.086,-0.061 0.324,0.188 0.324,0.188 z" fill="#d1c690" />
+                                    <path id="path304-1" d="m 37.94,86.355 c 0.084,0.271 0.022,0.426 -0.055,0.635 -0.062,0.146 -0.128,0.329 -0.162,0.598 l 0.057,0.001 c 0.035,-0.269 0.105,-0.449 0.162,-0.598 0.08,-0.209 0.141,-0.361 0.055,-0.636 z" fill="#9d956c" />
+                                    <polygon id="polygon306-4" points="38.429,83.736 38.483,83.736 38.587,84.7 38.532,84.7 " fill="#9d956c" />
+                                    <path id="path308-5" d="m 38.296,85.904 c 0.291,-0.063 0.422,-0.947 0.437,-1.492 h 0.059 c -0.016,0.545 -0.145,1.434 -0.436,1.494 z" fill="#9d956c" />
+                                    <path id="path310-7" d="m 37.922,86.047 c 0,0.071 0,0.382 0,0.382 h 0.06 c 0,0 0,-0.311 0,-0.382 z" fill="#9d956c" />
+                                    <path id="path312-2" d="m 38.233,85.807 c -0.08,0.063 -0.076,0.131 -0.031,0.239 l 0.062,10e-4 C 38.212,85.94 38.21,85.869 38.29,85.807 Z" fill="#9d956c" />
+                                    <rect y="84.271004" height="3.4619999" x="39.580002" id="rect314-4" width="0.052999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path316-4" d="m 38.885,85.462 c 0.049,0 0.088,0.035 0.088,0.076 v 0.326 c 0,0.043 0.039,0.075 0.086,0.075 h 0.032 c -0.051,0 -0.09,-0.032 -0.09,-0.075 v -0.326 c 0,-0.043 -0.039,-0.078 -0.086,-0.078 z" fill="#ffffff" />
+                                    <path id="path318-1" d="m 39.212,87.452 c 0.052,0 0.09,-0.036 0.09,-0.077 v -1.356 c 0,-0.043 -0.038,-0.075 -0.09,-0.075 h 0.033 c 0.049,0 0.088,0.031 0.088,0.075 v 1.356 c 0,0.041 -0.039,0.077 -0.088,0.077 z" fill="#ffffff" />
+                                    <path id="path320-3" d="m 37.739,87.733 v -0.206 c 0,-0.041 0.039,-0.073 0.088,-0.073 h 0.031 c -0.047,0 -0.086,0.032 -0.086,0.073 v 0.205 z" fill="#ffffff" />
+                                    <path id="path322-1" d="m 39.301,84.27 v 1.029 c 0,0.041 -0.039,0.078 -0.091,0.078 h 0.033 c 0.049,0 0.088,-0.035 0.088,-0.078 V 84.27 Z" fill="#ffffff" />
+                                    <path id="path324-2" d="m 39.633,83.751 h -2.477 v 4.505 h 2.477 z" opacity="0.5" fill="#f2f2f2" />
+                                    <path id="path326-0" d="m 38.979,83.802 h 0.27 c 0.152,0.017 0.271,-0.012 0.271,0.096 0,0.613 0,3.944 0,4.099 0,0.167 -0.066,0.175 -0.066,-0.015 0,-0.131 0,-3.133 0,-3.586 0,-0.457 -0.104,-0.518 -0.195,-0.518 l -0.272,0.002 c -0.181,0 -0.181,-0.078 -0.008,-0.078 z" opacity="0.55" fill="#ffffff" />
+                                    <path id="path328-1" d="m 37.378,88.206 c -0.065,0 -0.137,0.012 -0.137,-0.1 0,-0.609 0,-3.941 0,-4.095 0,-0.168 0.066,-0.176 0.066,0.008 0,0.138 0.002,3.14 0.002,3.594 0,0.593 0.069,0.593 0.069,0.593 z" opacity="0.02999998" />
+                                    <path id="path330-2" d="m 37.157,82.794 v 0.77 h 0.521 c 0.125,0 0.213,0.082 0.268,0.188 h 1.688 v -1.009 h -2.428 -0.049" fill="#d1c690" />
+                                    <rect y="82.742996" height="1.006" x="39.582001" id="rect332-4" width="0.050999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path334-5" d="m 37.157,89.263 h 0.049 2.428 V 88.254 H 37.53 c -0.055,0.104 -0.146,0.188 -0.271,0.188 h -0.1 v 0.771" fill="#d1c690" />
+                                    <rect y="88.252998" height="1.01" x="39.580002" id="rect336-2" width="0.052999999" opacity="0.5" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(27.362214,-6.6623919)"><g><g id="g16-0"><path id="path4" d="m 15.075,46.233 c 0,0.312 -0.255,0.567 -0.567,0.567 h -2.792 c -0.312,0 -0.567,-0.255 -0.567,-0.567 v -7.241 c 0,-0.312 0.255,-0.567 0.567,-0.567 h 2.792 c 0.312,0 0.567,0.255 0.567,0.567 z" fill="#bfbfbf" />
+                                    <path id="path6" d="m 14.731,45.386 c 0,0.374 -0.306,0.68 -0.68,0.68 h -1.878 c -0.374,0 -0.68,-0.306 -0.68,-0.68 v -5.548 c 0,-0.374 0.306,-0.68 0.68,-0.68 h 1.878 c 0.374,0 0.68,0.306 0.68,0.68 z" fill="#d6d6d6" />
+                                    <path id="path8" d="m 11.149,39.138 c 0,-0.312 0.255,-0.567 0.567,-0.567 h 2.792 c 0.312,0 0.567,0.255 0.567,0.567 v -0.146 c 0,-0.312 -0.255,-0.567 -0.567,-0.567 h -2.792 c -0.312,0 -0.567,0.255 -0.567,0.567 z" fill="#cbcbcb" />
+                                    <path id="path10" d="m 11.149,46.124 c 0,0.312 0.255,0.567 0.567,0.567 h 2.792 c 0.312,0 0.567,-0.255 0.567,-0.567 v 0.109 c 0,0.312 -0.255,0.567 -0.567,0.567 h -2.792 c -0.312,0 -0.567,-0.255 -0.567,-0.567 z" fill="#acacac" />
+                                    <path id="path12" d="m 11.493,39.839 c 0,-0.374 0.306,-0.68 0.68,-0.68 h 1.878 c 0.374,0 0.68,0.306 0.68,0.68 v 0.146 c 0,-0.374 -0.306,-0.68 -0.68,-0.68 h -1.878 c -0.374,0 -0.68,0.306 -0.68,0.68 z" fill="#dddddd" />
+                                    <path id="path14" d="m 14.731,45.277 c 0,0.374 -0.306,0.68 -0.68,0.68 h -1.878 c -0.374,0 -0.68,-0.306 -0.68,-0.68 v 0.109 c 0,0.374 0.306,0.68 0.68,0.68 h 1.878 c 0.374,0 0.68,-0.306 0.68,-0.68 z" fill="#cccccc" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,55.1061,71.0333)"><g><g id="g1912"><rect height="5.6700001" y="84.207001" x="11.83" id="rect1890" width="2.5599999" fill="#333333" />
+                                    <rect height="5.6700001" y="84.205002" x="11.833" id="rect1892" width="0.021" opacity="0.2" />
+                                    <path id="path1894" d="m 14.389,89.054 v 0 0 -0.065 0 c -0.174,-0.061 -0.813,-0.102 -1.002,-0.102 -0.199,0 -1.383,0.033 -1.56,0.102 v 0.888 h 2.562 z" fill="#cccccc" />
+                                    <path id="path1896" d="m 14.318,85.092 h 0.071 v -0.888 h -2.561 v 0.888 c 0.184,0.063 1.078,0.116 1.279,0.116 0.239,0.001 1.006,-0.032 1.211,-0.116 z" fill="#cccccc" />
+                                    <rect height="0.88800001" y="84.204002" x="11.832" id="rect1898" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88800001" y="84.204002" x="14.358" id="rect1900" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <rect height="0.88800001" y="88.987999" x="11.832" id="rect1902" width="0.029999999" opacity="0.15" />
+                                    <rect height="0.88800001" y="88.988998" x="14.359" id="rect1904" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line1906" x2="11.831" y1="84.747002" y2="84.747002" x1="11.831" fill="none" />
+                                    <rect height="0.116" y="89.771004" x="11.846" id="rect1908" width="2.5420001" opacity="0.1" />
+                                    <rect height="0.116" y="84.205002" x="11.846" id="rect1910" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="translate(-8.4807804,-42.580864)"><g><g id="g5081"><rect y="76.366997" height="5.6700001" x="11.863" id="rect202" width="2.559" fill="#917c6f" />
+                                    <rect y="76.369003" height="5.6700001" x="14.399" id="rect204" width="0.021" opacity="0.2" />
+                                    <rect y="76.367996" height="5.671" x="11.862" id="rect206" width="0.030999999" opacity="0.2" fill="#ffffff" />
+                                    <path id="path208" d="m 11.862,77.189 v 0 0 0.065 0 c 0.171,0.06 0.813,0.1 1.002,0.1 0.199,0 1.379,-0.035 1.56,-0.1 v -0.891 h -2.562 z" fill="#dcdcdc" />
+                                    <path id="path210" d="m 11.933,81.151 h -0.071 v 0.887 h 2.561 v -0.887 c -0.184,-0.063 -1.354,-0.139 -1.559,-0.139 -0.234,0.001 -0.726,0.055 -0.931,0.139 z" fill="#dcdcdc" />
+                                    <rect y="81.151001" height="0.88700002" x="14.39" id="rect212" width="0.028999999" opacity="0.15" />
+                                    <rect y="81.151001" height="0.88700002" x="11.863" id="rect214" width="0.030999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path216" d="m 14.422,76.366 v 0.891" fill="#d1c690" />
+                                    <rect y="76.366997" height="0.88800001" x="14.39" id="rect218" width="0.028999999" opacity="0.15" />
+                                    <rect y="76.365997" height="0.88999999" x="11.863" id="rect220" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line222-1" x2="14.421" y1="81.495003" y2="81.495003" x1="14.421" fill="none" />
+                                    <rect y="76.355003" height="0.116" x="11.871" id="rect224" width="2.5420001" opacity="0.1" />
+                                    <rect y="81.920998" height="0.116" x="11.871" id="rect226" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,24.839174,58.55895)"><g><g id="g1972"><rect height="5.6700001" y="76.366997" x="11.863" id="rect1946" width="2.559" fill="#917c6f" />
+                                    <rect height="5.6700001" y="76.369003" x="14.399" id="rect1948" width="0.021" opacity="0.2" />
+                                    <rect height="5.671" y="76.367996" x="11.862" id="rect1950" width="0.030999999" opacity="0.2" fill="#ffffff" />
+                                    <path id="path1952" d="m 11.862,77.189 v 0 0 0.065 0 c 0.171,0.06 0.813,0.1 1.002,0.1 0.199,0 1.379,-0.035 1.56,-0.1 v -0.891 h -2.562 z" fill="#dcdcdc" />
+                                    <path id="path1954" d="m 11.933,81.151 h -0.071 v 0.887 h 2.561 v -0.887 c -0.184,-0.063 -1.354,-0.139 -1.559,-0.139 -0.234,0.001 -0.726,0.055 -0.931,0.139 z" fill="#dcdcdc" />
+                                    <rect height="0.88700002" y="81.151001" x="14.39" id="rect1956" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88700002" y="81.151001" x="11.863" id="rect1958" width="0.030999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path1960" d="m 14.422,76.366 v 0.891" fill="#d1c690" />
+                                    <rect height="0.88800001" y="76.366997" x="14.39" id="rect1962" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88999999" y="76.365997" x="11.863" id="rect1964" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line1966" x2="14.421" y1="81.495003" y2="81.495003" x1="14.421" fill="none" />
+                                    <rect height="0.116" y="76.355003" x="11.871" id="rect1968" width="2.5420001" opacity="0.1" />
+                                    <rect height="0.116" y="81.920998" x="11.871" id="rect1970" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,42.489005,76.823579)"><g><g id="g5081-2"><rect y="76.366997" height="5.6700001" x="11.863" id="rect202-5" width="2.559" fill="#917c6f" />
+                                    <rect y="76.369003" height="5.6700001" x="14.399" id="rect204-1" width="0.021" opacity="0.2" />
+                                    <rect y="76.367996" height="5.671" x="11.862" id="rect206-4" width="0.030999999" opacity="0.2" fill="#ffffff" />
+                                    <path id="path208-8" d="m 11.862,77.189 v 0 0 0.065 0 c 0.171,0.06 0.813,0.1 1.002,0.1 0.199,0 1.379,-0.035 1.56,-0.1 v -0.891 h -2.562 z" fill="#dcdcdc" />
+                                    <path id="path210-3" d="m 11.933,81.151 h -0.071 v 0.887 h 2.561 v -0.887 c -0.184,-0.063 -1.354,-0.139 -1.559,-0.139 -0.234,0.001 -0.726,0.055 -0.931,0.139 z" fill="#dcdcdc" />
+                                    <rect y="81.151001" height="0.88700002" x="14.39" id="rect212-0" width="0.028999999" opacity="0.15" />
+                                    <rect y="81.151001" height="0.88700002" x="11.863" id="rect214-4" width="0.030999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path216-9" d="m 14.422,76.366 v 0.891" fill="#d1c690" />
+                                    <rect y="76.366997" height="0.88800001" x="14.39" id="rect218-2" width="0.028999999" opacity="0.15" />
+                                    <rect y="76.365997" height="0.88999999" x="11.863" id="rect220-8" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line222-6" x2="14.421" y1="81.495003" y2="81.495003" x1="14.421" fill="none" />
+                                    <rect y="76.355003" height="0.116" x="11.871" id="rect224-5" width="2.5420001" opacity="0.1" />
+                                    <rect y="81.920998" height="0.116" x="11.871" id="rect226-5" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,44.25655,74.953568)"><g><g id="g2032"><rect height="5.6700001" y="76.366997" x="11.863" id="rect2006" width="2.559" fill="#534741" />
+                                    <rect height="5.6700001" y="76.369003" x="14.399" id="rect2008" width="0.021" opacity="0.2" />
+                                    <rect height="5.671" y="76.367996" x="11.862" id="rect2010" width="0.030999999" opacity="0.2" fill="#ffffff" />
+                                    <path id="path2012" d="m 11.862,77.189 v 0 0 0.065 0 c 0.171,0.06 0.813,0.1 1.002,0.1 0.199,0 1.379,-0.035 1.56,-0.1 v -0.891 h -2.562 z" fill="#dcdcdc" />
+                                    <path id="path2014" d="m 11.933,81.151 h -0.071 v 0.887 h 2.561 v -0.887 c -0.184,-0.063 -1.354,-0.139 -1.559,-0.139 -0.234,0.001 -0.726,0.055 -0.931,0.139 z" fill="#dcdcdc" />
+                                    <rect height="0.88700002" y="81.151001" x="14.39" id="rect2016" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88700002" y="81.151001" x="11.863" id="rect2018" width="0.030999999" opacity="0.5" fill="#ffffff" />
+                                    <path id="path2020" d="m 14.422,76.366 v 0.891" fill="#d1c690" />
+                                    <rect height="0.88800001" y="76.366997" x="14.39" id="rect2022" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88999999" y="76.365997" x="11.863" id="rect2024" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line2026" x2="14.421" y1="81.495003" y2="81.495003" x1="14.421" fill="none" />
+                                    <rect height="0.116" y="76.355003" x="11.871" id="rect2028" width="2.5420001" opacity="0.1" />
+                                    <rect height="0.116" y="81.920998" x="11.871" id="rect2030" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                        <g transform="rotate(90,30.56531,60.561402)"><g><g id="g2056"><rect height="5.6700001" y="84.207001" x="11.83" id="rect2034" width="2.5599999" fill="#333333" />
+                                    <rect height="5.6700001" y="84.205002" x="11.833" id="rect2036" width="0.021" opacity="0.2" />
+                                    <path id="path2038" d="m 14.389,89.054 v 0 0 -0.065 0 c -0.174,-0.061 -0.813,-0.102 -1.002,-0.102 -0.199,0 -1.383,0.033 -1.56,0.102 v 0.888 h 2.562 z" fill="#cccccc" />
+                                    <path id="path2040" d="m 14.318,85.092 h 0.071 v -0.888 h -2.561 v 0.888 c 0.184,0.063 1.078,0.116 1.279,0.116 0.239,0.001 1.006,-0.032 1.211,-0.116 z" fill="#cccccc" />
+                                    <rect height="0.88800001" y="84.204002" x="11.832" id="rect2042" width="0.028999999" opacity="0.15" />
+                                    <rect height="0.88800001" y="84.204002" x="14.358" id="rect2044" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <rect height="0.88800001" y="88.987999" x="11.832" id="rect2046" width="0.029999999" opacity="0.15" />
+                                    <rect height="0.88800001" y="88.988998" x="14.359" id="rect2048" width="0.029999999" opacity="0.5" fill="#ffffff" />
+                                    <line id="line2050" x2="11.831" y1="84.747002" y2="84.747002" x1="11.831" fill="none" />
+                                    <rect height="0.116" y="89.771004" x="11.846" id="rect2052" width="2.5420001" opacity="0.1" />
+                                    <rect height="0.116" y="84.205002" x="11.846" id="rect2054" width="2.5420001" opacity="0.2" fill="#ffffff" />
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                    <g transform="translate(1.95968,49.26)"><g><g id="g442"><g id="sfe-logo-flame" stroke-width="0"><g id="g435" stroke-width="0"><title id="title427">element:JP2</title>
+                                        <g id="g433" stroke-width="0"><title id="title429">package:SFE-LOGO-FLAME</title>
+                                            <title id="title431">polygon</title>
+                                        </g>
+                                    </g>
+                                    <g id="g439" stroke-width="0"><path fill="#ffffff" id="path437" d="m 4.378,1.29 c 0,0 0.113,0.482 -0.251,0.55 C 3.873,1.885 3.464,1.634 3.258,1.383 3.003,1.073 3.035,0.829 3.234,0.612002 c 0.297,-0.327 0.805004,-0.2 0.805004,-0.2 C 4.039004,0.412002 3.107,-0.406 2.136,0.263 1.273,0.858002 1.521,1.669 2.299,2.376 3.002001,3.016 2.443,3.717 1.734999,3.625 1.248998,3.563 1.049998,3.175 1.166998,2.935 c 0.102,-0.205 0.449,-0.33 0.449,-0.33 0,0 -0.4,-0.163 -0.870999,0.016 C 0.322,2.779 -0.027,3.129 0.001,4.004 v 4.06 c 0,0 0.438,-0.54 0.949998,-1.088 C 1.528,6.358 1.79,5.94 2.381,5.99 3.5,6.058 4.308,5.561 4.85701,4.764 5.91301,3.232 5.08701,1.519 4.378,1.29 Z" stroke-width="0" />
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

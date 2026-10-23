@@ -1,0 +1,451 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" height="24.13mm" width="26.67mm" viewBox="0 0 75.6 68.4"><desc>
+        </desc>
+    
+    <g><g id="Layer_1"><g id="breadboard"><g id="icon"><path d="M0,7.2C0,3.2235,3.2235,0,7.2,0h0s61.2,0,61.2,0c3.9764,0,7.2,3.2236,7.2,7.2v54c0,3.9765-3.2235,7.2-7.2,7.2H7.2C3.2235,68.4,0,65.1765,0,61.2h0V7.2M54.3827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM47.1827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM39.9827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM32.7827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM25.5827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM18.3827,10.8c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM3.9827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM11.1827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM18.3827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM25.5827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM32.7827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM39.9827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM47.1827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM54.3827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM61.5827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM68.7827,61.2c0,.7828.6346,1.4173,1.4173,1.4173s1.4173-.6346,1.4173-1.4173-.6346-1.4173-1.4173-1.4173-1.4173.6346-1.4173,1.4173ZM4.0819,7.2c-.0007,1.7221,1.3948,3.1186,3.1169,3.1193,1.7221.0007,3.1186-1.3948,3.1193-3.1169v-.0024c0-1.7221-1.396-3.1181-3.1181-3.1181s-3.1181,1.396-3.1181,3.1181ZM65.2819,7.2c0,1.7221,1.396,3.1181,3.1181,3.1181s3.1181-1.396,3.1181-3.1181-1.396-3.1181-3.1181-3.1181-3.1181,1.396-3.1181,3.1181ZM4.0819,48.6c-.0007,1.7221,1.3948,3.1186,3.1169,3.1193s3.1186-1.3948,3.1193-3.1169v-.0024c0-1.7221-1.396-3.1181-3.1181-3.1181s-3.1181,1.396-3.1181,3.1181ZM65.2819,48.6c0,1.7221,1.396,3.1181,3.1181,3.1181s3.1181-1.396,3.1181-3.1181h0c0-1.7221-1.396-3.1181-3.1181-3.1181s-3.1181,1.396-3.1181,3.1181Z" />
+                    <g><g transform="translate(2.177 58.1904)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">VDD</text>
+                            </g>
+                        </g>
+                        <g transform="translate(23.3027 67.5504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">STEP</text>
+                            </g>
+                        </g>
+                        <g transform="translate(16.577 58.1904)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">DIR</text>
+                            </g>
+                        </g>
+                        <g transform="translate(59.777 58.1904)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">SLP</text>
+                            </g>
+                        </g>
+                        <g transform="translate(52.577 67.5504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">RST</text>
+                            </g>
+                        </g>
+                        <g transform="translate(68.1713 67.9104)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">EN</text>
+                            </g>
+                        </g>
+                        <g transform="translate(30.977 58.1904)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">MS1</text>
+                            </g>
+                        </g>
+                        <g transform="translate(38.537 67.5504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">MS2</text>
+                            </g>
+                        </g>
+                        <g transform="translate(45.017 58.5504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">MS3</text>
+                            </g>
+                        </g>
+                        <g transform="translate(9.377 67.5504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">GND</text>
+                            </g>
+                        </g>
+                        <g transform="translate(31.2142 24.228)"><g fill="#fff" font-family="OCRA, OCRA" font-size="4.176"><text x="0" y="0">2B</text>
+                            </g>
+                        </g>
+                        <g transform="translate(38.5942 24.228)"><g fill="#fff" font-family="OCRA, OCRA" font-size="4.176"><text x="0" y="0">2A</text>
+                            </g>
+                        </g>
+                        <g transform="translate(45.9742 24.228)"><g fill="#fff" font-family="OCRA, OCRA" font-size="4.176"><text x="0" y="0">1A</text>
+                            </g>
+                        </g>
+                        <g transform="translate(53.5342 24.408)"><g fill="#fff" font-family="OCRA, OCRA" font-size="4.176"><text x="0" y="0">1B</text>
+                            </g>
+                        </g>
+                        <g transform="translate(60.694 16.7904)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">ILimit</text>
+                            </g>
+                        </g>
+                        <g transform="translate(62.0684 20.7504)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.3408"><text x="0" y="0">0-&gt;2A</text>
+                            </g>
+                        </g>
+                        <g transform="translate(1.3819 18.4392)"><g fill="#fff" font-family="OCRA, OCRA" font-size="3.7584"><text x="0" y="0">A4988</text>
+                            </g>
+                        </g>
+                        <line fill="none" x2="23.04" x1="23.04" stroke-linecap="round" y2="36.4139" y1="34.1461" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="58.68" x1="55.8" stroke-linecap="round" y2="47.52" y1="47.52" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="56.34" x1="56.34" stroke-linecap="round" y2="39.1861" y1="41.4539" stroke="#fff" stroke-width=".864" />
+                        <g><line fill="none" x2="1.8099" x1="6.4871" stroke-linecap="round" y2="37.6101" y1="37.6101" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="1.8099" x1="1.8099" stroke-linecap="round" y2="26.6967" y1="37.6101" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="5.6367" x1="1.8099" stroke-linecap="round" y2="22.8699" y1="26.6967" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="6.4871" x1="5.6367" stroke-linecap="round" y2="22.8699" y1="22.8699" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="12.7233" x1="11.8729" stroke-linecap="round" y2="22.8699" y1="22.8699" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="16.5501" x1="12.7233" stroke-linecap="round" y2="26.6967" y1="22.8699" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="16.5501" x1="16.5501" stroke-linecap="round" y2="37.6101" y1="26.6967" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="11.8729" x1="16.5501" stroke-linecap="round" y2="37.6101" y1="37.6101" stroke="#fff" stroke-width=".576" />
+                        </g>
+                        <line fill="none" x2="16.56" x1="16.56" stroke-linecap="round" y2="38.8261" y1="41.0939" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="30.5461" x1="32.8139" stroke-linecap="round" y2="50.76" y1="50.76" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="25.38" x1="25.38" stroke-linecap="round" y2="41.0939" y1="38.8261" stroke="#fff" stroke-width=".864" />
+                        <g><path fill="none" d="M25.524,48.6l.9-.72v1.44l-.9-.72" stroke-linecap="round" stroke="#fff" stroke-width=".432" />
+                            <rect fill="#fff" x="25.164" y="47.52" height="2.16" width=".36" />
+                        </g>
+                        <g><path fill="none" d="M25.524,52.56l.9-.72v1.44l-.9-.72" stroke-linecap="round" stroke="#fff" stroke-width=".432" />
+                            <rect fill="#fff" x="25.164" y="51.4801" height="2.16" width=".36" />
+                        </g>
+                        <g><path fill="none" d="M26.316,44.64l-.9.72v-1.44l.9.72" stroke-linecap="round" stroke="#fff" stroke-width=".432" />
+                            <rect fill="#fff" x="26.316" y="43.56" height="2.16" width=".36" />
+                        </g>
+                        <g><line fill="none" x2="15.4913" x1="60.1087" stroke-linecap="round" y2="19.5874" y1="19.5874" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="15.4913" x1="15.4913" stroke-linecap="round" y2="1.7291" y1="19.5874" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="46.7008" x1="15.4913" stroke-linecap="round" y2="1.7291" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="50.3858" x1="46.7008" stroke-linecap="round" y2="1.7291" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="57.4724" x1="54.0708" stroke-linecap="round" y2="1.7291" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="60.1087" x1="57.4724" stroke-linecap="round" y2="1.7291" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="60.1087" x1="60.1087" stroke-linecap="round" y2="19.5874" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="57.4724" x1="57.4724" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="54.0708" x1="57.4724" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="54.0708" x1="54.0708" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="50.3858" x1="54.0708" stroke-linecap="round" y2="1.7291" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="50.3858" x1="50.3858" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="46.7008" x1="50.3858" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="46.7008" x1="46.7008" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="43.0724" x1="43.0724" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="39.6708" x1="43.0724" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="39.6708" x1="39.6708" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="35.8724" x1="35.8724" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="32.4708" x1="35.8724" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="32.4708" x1="32.4708" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="55.7716" x1="55.7716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="56.622" x1="55.7716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="54.9212" x1="56.622" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="55.7716" x1="54.9212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="48.5716" x1="48.5716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="49.422" x1="48.5716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="47.7212" x1="49.422" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="48.5716" x1="47.7212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="41.3716" x1="41.3716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="42.222" x1="41.3716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="40.5212" x1="42.222" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="41.3716" x1="40.5212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="34.1716" x1="34.1716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="35.022" x1="34.1716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="33.3212" x1="35.022" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="34.1716" x1="33.3212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="28.6724" x1="28.6724" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="25.2708" x1="28.6724" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="25.2708" x1="25.2708" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="26.9716" x1="26.9716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="27.822" x1="26.9716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="26.1212" x1="27.822" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="26.9716" x1="26.1212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="21.4724" x1="21.4724" stroke-linecap="round" y2="5.1307" y1="1.7291" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="18.0708" x1="21.4724" stroke-linecap="round" y2="5.1307" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="18.0708" x1="18.0708" stroke-linecap="round" y2="1.7291" y1="5.1307" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="19.7716" x1="19.7716" stroke-linecap="round" y2="2.5795" y1="4.2803" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="20.622" x1="19.7716" stroke-linecap="round" y2="3.4299" y1="2.5795" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="18.9212" x1="20.622" stroke-linecap="round" y2="3.4299" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                            <line fill="none" x2="19.7716" x1="18.9212" stroke-linecap="round" y2="2.5795" y1="3.4299" stroke="#fff" stroke-width=".432" />
+                        </g>
+                        <line fill="none" x2="23.04" x1="23.04" stroke-linecap="round" y2="27.4139" y1="25.1461" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="55.8" x1="55.8" stroke-linecap="round" y2="25.1461" y1="27.4139" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="23.04" x1="23.04" stroke-linecap="round" y2="31.7339" y1="29.4661" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="67.68" x1="67.68" stroke-linecap="round" y2="39.1861" y1="41.4539" stroke="#fff" stroke-width=".864" />
+                        <g><line fill="none" x2="21.9685" x1="14.0315" stroke-linecap="round" y2="43.2142" y1="43.2142" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="14.0315" x1="21.9685" stroke-linecap="round" y2="53.9858" y1="53.9858" stroke="#fff" stroke-width=".576" />
+                        </g>
+                        <line fill="none" x2="55.8" x1="55.8" stroke-linecap="round" y2="32.4539" y1="30.1861" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="55.8" x1="55.8" stroke-linecap="round" y2="37.1339" y1="34.8661" stroke="#fff" stroke-width=".864" />
+                        <line fill="none" x2="35.0461" x1="37.3139" stroke-linecap="round" y2="50.76" y1="50.76" stroke="#fff" stroke-width=".864" />
+                        <g><line fill="none" x2="43.9342" x1="43.9342" stroke-linecap="round" y2="46.7915" y1="54.7285" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="54.7058" x1="54.7058" stroke-linecap="round" y2="54.7285" y1="46.7915" stroke="#fff" stroke-width=".576" />
+                        </g>
+                        <line fill="none" x2="39.3661" x1="41.6339" stroke-linecap="round" y2="50.76" y1="50.76" stroke="#fff" stroke-width=".864" />
+                        <g><line fill="none" x2="18.6749" x1="20.9248" stroke-linecap="round" y2="22.32" y1="22.32" stroke="#fff" stroke-width=".864" />
+                            <line fill="none" x2="19.8" x1="19.8" stroke-linecap="round" y2="23.4448" y1="21.1952" stroke="#fff" stroke-width=".864" />
+                            <circle cx="19.8" fill="none" cy="22.32" r="2.2158" stroke="#fff" stroke-width=".576" />
+                        </g>
+                        <g><line fill="none" x2="25.5149" x1="27.7648" stroke-linecap="round" y2="22.32" y1="22.32" stroke="#fff" stroke-width=".864" />
+                            <circle cx="26.64" fill="none" cy="22.32" r="2.2158" stroke="#fff" stroke-width=".576" />
+                        </g>
+                        <circle cx="7.2" fill="none" cy="7.2" r="5.1024" stroke="#fff" stroke-width=".576" />
+                        <circle cx="68.4" fill="none" cy="7.2" r="5.1024" stroke="#fff" stroke-width=".576" />
+                        <circle cx="7.2" fill="none" cy="48.6" r="5.1024" stroke="#fff" stroke-width=".576" />
+                        <circle cx="68.4" fill="none" cy="48.6" r="5.1024" stroke="#fff" stroke-width=".576" />
+                        <g><line fill="none" x2="31.7934" x1="31.7934" stroke-linecap="round" y2="26.7534" y1="28.1707" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="33.2107" x1="31.7934" stroke-linecap="round" y2="26.7534" y1="26.7534" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="45.9666" x1="44.5493" stroke-linecap="round" y2="26.7534" y1="26.7534" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="45.9666" x1="45.9666" stroke-linecap="round" y2="28.1707" y1="26.7534" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="45.9666" x1="44.5493" stroke-linecap="round" y2="40.9266" y1="40.9266" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="45.9666" x1="45.9666" stroke-linecap="round" y2="39.5093" y1="40.9266" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="31.7934" x1="33.2107" stroke-linecap="round" y2="40.9266" y1="40.9266" stroke="#fff" stroke-width=".576" />
+                            <line fill="none" x2="31.7934" x1="31.7934" stroke-linecap="round" y2="39.5093" y1="40.9266" stroke="#fff" stroke-width=".576" />
+                            <circle cx="29.2422" fill="none" cy="26.1865" r=".7087" stroke="#fff" stroke-width="1.4173" />
+                        </g>
+                        <g><line fill="none" x2="73.7748" x1="73.7748" stroke-linecap="round" y2="23.4255" y1="35.4727" stroke="#fff" stroke-width=".72" />
+                            <line fill="none" x2="71.0816" x1="73.7748" stroke-linecap="round" y2="23.4255" y1="23.4255" stroke="#fff" stroke-width=".72" />
+                            <line fill="none" x2="61.5855" x1="64.2784" stroke-linecap="round" y2="23.4255" y1="23.4255" stroke="#fff" stroke-width=".72" />
+                            <line fill="none" x2="61.5855" x1="61.5855" stroke-linecap="round" y2="35.1893" y1="23.4255" stroke="#fff" stroke-width=".72" />
+                            <line fill="none" x2="66.9713" x1="68.3887" stroke-linecap="round" y2="35.6145" y1="35.6145" stroke="#fff" stroke-width=".72" />
+                            <line fill="none" x2="70.2312" x1="66.2627" stroke-linecap="round" y2="28.1027" y1="32.0712" stroke="#fff" stroke-width=".288" />
+                            <line fill="none" x2="69.2391" x1="65.2705" stroke-linecap="round" y2="27.1105" y1="31.0791" stroke="#fff" stroke-width=".288" />
+                            <circle cx="67.68" fill="none" cy="29.52" r="3.1181" stroke="#fff" stroke-width=".288" />
+                        </g>
+                    </g>
+                    <rect fill="#9a916c" x="19.1069" y="33.8627" height="2.8346" width="3.0472" id="connector5pin" />
+                    <rect fill="#9a916c" x="23.9258" y="33.8627" height="2.8346" width="3.0472" id="connector6pin" />
+                    <rect fill="#9a916c" x="55.114" y="48.4554" height="3.515" width="4.252" id="connector7pin" />
+                    <rect fill="#9a916c" x="55.114" y="43.0695" height="3.515" width="4.252" id="connector8pin" />
+                    <rect fill="#9a916c" x="57.226" y="38.9027" height="2.8347" width="3.0472" id="connector9pin" />
+                    <rect fill="#9a916c" x="52.4069" y="38.9027" height="2.8347" width="3.0472" id="connector10pin" />
+                    <rect fill="#9a916c" x="7.1957" y="20.744" height="7.3701" width="3.9685" id="connector11pin" />
+                    <rect fill="#9a916c" x="7.1958" y="32.3659" height="7.3701" width="3.9685" id="connector12pin" />
+                    <rect fill="#9a916c" x="17.4459" y="38.5426" height="2.8346" width="3.0472" id="connector13pin" />
+                    <rect fill="#9a916c" x="12.627" y="38.5426" height="2.8346" width="3.0472" id="connector14pin" />
+                    <rect fill="#9a916c" x="30.263" y="46.8269" height="3.0472" width="2.8347" id="connector15pin" />
+                    <rect fill="#9a916c" x="30.2622" y="51.6459" height="3.0472" width="2.8347" id="connector16pin" />
+                    <rect fill="#9a916c" x="21.4469" y="38.5427" height="2.8346" width="3.0472" id="connector17pin" />
+                    <rect fill="#9a916c" x="26.2658" y="38.5427" height="2.8346" width="3.0472" id="connector18pin" />
+                    <rect fill="#9a916c" x="26.9121" y="47.4663" height="2.2677" width="2.2677" id="connector19pin" />
+                    <rect fill="#9a916c" x="22.6601" y="47.466" height="2.2677" width="2.2677" id="connector20pin" />
+                    <rect fill="#9a916c" x="26.9121" y="51.4263" height="2.2677" width="2.2677" id="connector21pin" />
+                    <rect fill="#9a916c" x="22.6601" y="51.426" height="2.2677" width="2.2677" id="connector22pin" />
+                    <rect fill="#9a916c" x="22.6602" y="43.506" height="2.2677" width="2.2677" id="connector23pin" />
+                    <rect fill="#9a916c" x="26.9124" y="43.5062" height="2.2677" width="2.2677" id="connector24pin" />
+                    <circle cx="55.8" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M54.0227,6.7122h3.5546v8.1757h-3.5546V6.7122M54.0227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="48.6" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M46.8227,6.7122h3.5546v8.1757h-3.5546V6.7122M46.8227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="41.4" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M39.6227,6.7122h3.5546v8.1757h-3.5546V6.7122M39.6227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="34.2" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M32.4227,6.7122h3.5546v8.1757h-3.5546V6.7122M32.4227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="27" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M25.2227,6.7122h3.5546v8.1757h-3.5546V6.7122M25.2227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="19.8" fill="none" cy="10.8" r="1.7773" stroke="#9a916c" stroke-width=".72" />
+                    <path fill="#9a916c" d="M18.0227,6.7122h3.5546v8.1757h-3.5546V6.7122M18.0227,10.8c0,.9816.7957,1.7773,1.7773,1.7773s1.7773-.7957,1.7773-1.7773-.7957-1.7773-1.7773-1.7773-1.7773.7957-1.7773,1.7773Z" />
+                    <circle cx="5.4" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector31pin" stroke-width="1.1027" />
+                    <circle cx="12.6" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector32pin" stroke-width="1.1027" />
+                    <circle cx="19.8" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector33pin" stroke-width="1.1027" />
+                    <circle cx="27" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector34pin" stroke-width="1.1027" />
+                    <circle cx="34.2" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector35pin" stroke-width="1.1027" />
+                    <circle cx="41.4" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector36pin" stroke-width="1.1027" />
+                    <circle cx="48.6" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector37pin" stroke-width="1.1027" />
+                    <circle cx="55.8" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector38pin" stroke-width="1.1027" />
+                    <circle cx="63" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector39pin" stroke-width="1.1027" />
+                    <circle cx="70.2" fill="none" cy="61.2" r="1.9687" stroke="#9a916c" id="connector40pin" stroke-width="1.1027" />
+                    <rect fill="#9a916c" x="19.1069" y="24.8627" height="2.8347" width="3.0472" id="connector41pin" />
+                    <rect fill="#9a916c" x="23.9258" y="24.8627" height="2.8347" width="3.0472" id="connector42pin" />
+                    <rect fill="#9a916c" x="56.686" y="24.8627" height="2.8347" width="3.0472" id="connector43pin" />
+                    <rect fill="#9a916c" x="51.8669" y="24.8627" height="2.8347" width="3.0472" id="connector44pin" />
+                    <rect fill="#9a916c" x="19.1069" y="29.1827" height="2.8347" width="3.0472" id="connector45pin" />
+                    <rect fill="#9a916c" x="23.9258" y="29.1827" height="2.8347" width="3.0472" id="connector46pin" />
+                    <rect fill="#9a916c" x="68.566" y="38.9027" height="2.8347" width="3.0472" id="connector47pin" />
+                    <rect fill="#9a916c" x="63.7469" y="38.9027" height="2.8347" width="3.0472" id="connector48pin" />
+                    <rect fill="#9a916c" x="19.1339" y="51.6476" height="1.2756" width="2.5512" id="connector49pin" />
+                    <rect fill="#9a916c" x="19.1338" y="49.0961" height="1.2756" width="2.5512" id="connector50pin" />
+                    <rect fill="#9a916c" x="19.1338" y="46.8284" height="1.2756" width="2.5512" id="connector51pin" />
+                    <rect fill="#9a916c" x="19.1338" y="44.2772" height="1.2756" width="2.5512" id="connector52pin" />
+                    <rect fill="#9a916c" x="14.3149" y="44.2772" height="1.2756" width="2.5512" id="connector53pin" />
+                    <rect fill="#9a916c" x="14.3149" y="46.8284" height="1.2756" width="2.5512" id="connector54pin" />
+                    <rect fill="#9a916c" x="14.3149" y="49.0961" height="1.2756" width="2.5512" id="connector55pin" />
+                    <rect fill="#9a916c" x="14.315" y="51.6473" height="1.2756" width="2.5512" id="connector56pin" />
+                    <rect fill="#9a916c" x="51.8669" y="29.9027" height="2.8347" width="3.0472" id="connector57pin" />
+                    <rect fill="#9a916c" x="56.6858" y="29.9027" height="2.8347" width="3.0472" id="connector58pin" />
+                    <rect fill="#9a916c" x="51.8669" y="34.5827" height="2.8347" width="3.0472" id="connector59pin" />
+                    <rect fill="#9a916c" x="56.6858" y="34.5827" height="2.8347" width="3.0472" id="connector60pin" />
+                    <rect fill="#9a916c" x="34.763" y="46.8269" height="3.0472" width="2.8347" id="connector61pin" />
+                    <rect fill="#9a916c" x="34.7622" y="51.6459" height="3.0472" width="2.8347" id="connector62pin" />
+                    <rect fill="#9a916c" x="52.3671" y="47.0748" height="2.5512" width="1.2756" id="connector63pin" />
+                    <rect fill="#9a916c" x="49.8163" y="47.0748" height="2.5512" width="1.2756" id="connector64pin" />
+                    <rect fill="#9a916c" x="47.548" y="47.0748" height="2.5512" width="1.2756" id="connector65pin" />
+                    <rect fill="#9a916c" x="44.9973" y="47.0748" height="2.5512" width="1.2756" id="connector66pin" />
+                    <rect fill="#9a916c" x="44.9973" y="51.8939" height="2.5512" width="1.2756" id="connector67pin" />
+                    <rect fill="#9a916c" x="47.548" y="51.8939" height="2.5512" width="1.2756" id="connector68pin" />
+                    <rect fill="#9a916c" x="49.8163" y="51.8939" height="2.5512" width="1.2756" id="connector69pin" />
+                    <rect fill="#9a916c" x="52.3671" y="51.8939" height="2.5512" width="1.2756" id="connector70pin" />
+                    <rect fill="#9a916c" x="39.083" y="46.8269" height="3.0472" width="2.8347" id="connector71pin" />
+                    <rect fill="#9a916c" x="39.0822" y="51.646" height="3.0472" width="2.8347" id="connector72pin" />
+                    <path fill="#9a916c" d="M62.568,1.5953h0c.3914,0,.7087.3173.7087.7087h0c0,.3914-.3173.7087-.7087.7087h0c-.3914,0-.7087-.3173-.7087-.7087h0c0-.3914.3173-.7087.7087-.7087Z" id="connector73pin" />
+                    <path fill="#9a916c" d="M12.78,54.9113h0c.3914,0,.7087.3173.7087.7087h0c0,.3914-.3173.7087-.7087.7087h0c-.3914,0-.7087-.3173-.7087-.7087h0c0-.3914.3173-.7087.7087-.7087Z" id="connector74pin" />
+                    <circle cx="7.2" fill="none" cy="7.2" r="3.8381" stroke="#9a916c" id="connector75pin" stroke-width="1.44" />
+                    <circle cx="68.4" fill="none" cy="7.2" r="3.8381" stroke="#9a916c" id="connector76pin" stroke-width="1.44" />
+                    <circle cx="7.2" fill="none" cy="48.6" r="3.8381" stroke="#9a916c" id="connector77pin" stroke-width="1.44" />
+                    <circle cx="68.4" fill="none" cy="48.6" r="3.8381" stroke="#9a916c" id="connector78pin" stroke-width="1.44" />
+                    <rect fill="#878787" x="30.4469" y="29.2054" height=".7654" width="3.2598" id="connector79pin" />
+                    <rect fill="#878787" x="30.4469" y="30.6227" height=".7654" width="3.2598" id="connector80pin" />
+                    <rect fill="#878787" x="30.4469" y="32.04" height=".7654" width="3.2598" id="connector81pin" />
+                    <rect fill="#878787" x="30.4469" y="33.4573" height=".7654" width="3.2598" id="connector82pin" />
+                    <rect fill="#878787" x="30.4469" y="34.8746" height=".7654" width="3.2598" id="connector83pin" />
+                    <rect fill="#878787" x="30.4469" y="36.292" height=".7654" width="3.2598" id="connector84pin" />
+                    <rect fill="#878787" x="30.4469" y="37.7093" height=".7654" width="3.2598" id="connector85pin" />
+                    <rect fill="#878787" x="34.2454" y="39.0131" height="3.2598" width=".7654" id="connector86pin" />
+                    <rect fill="#878787" x="35.6627" y="39.0134" height="3.2598" width=".7654" id="connector87pin" />
+                    <rect fill="#878787" x="37.08" y="39.0131" height="3.2598" width=".7654" id="connector88pin" />
+                    <rect fill="#878787" x="38.4974" y="39.0134" height="3.2598" width=".7654" id="connector89pin" />
+                    <rect fill="#878787" x="39.9147" y="39.0129" height="3.2598" width=".7654" id="connector90pin" />
+                    <rect fill="#878787" x="41.332" y="39.0134" height="3.2598" width=".7654" id="connector91pin" />
+                    <rect fill="#878787" x="42.7493" y="39.0131" height="3.2598" width=".7654" id="connector92pin" />
+                    <rect fill="#878787" x="44.0536" y="37.7092" height=".7654" width="3.2598" id="connector93pin" />
+                    <rect fill="#878787" x="44.0536" y="36.292" height=".7654" width="3.2598" id="connector94pin" />
+                    <rect fill="#878787" x="44.0536" y="34.8746" height=".7654" width="3.2598" id="connector95pin" />
+                    <rect fill="#878787" x="44.0536" y="33.4573" height=".7654" width="3.2598" id="connector96pin" />
+                    <rect fill="#878787" x="44.0536" y="32.04" height=".7654" width="3.2598" id="connector97pin" />
+                    <rect fill="#878787" x="44.0536" y="30.6226" height=".7654" width="3.2598" id="connector98pin" />
+                    <rect fill="#878787" x="44.0536" y="29.2053" height=".7654" width="3.2598" id="connector99pin" />
+                    <rect fill="#878787" x="42.7492" y="25.4069" height="3.2598" width=".7654" id="connector100pin" />
+                    <rect fill="#878787" x="41.332" y="25.4068" height="3.2598" width=".7654" id="connector101pin" />
+                    <rect fill="#878787" x="39.9146" y="25.4069" height="3.2598" width=".7654" id="connector102pin" />
+                    <rect fill="#878787" x="38.4973" y="25.407" height="3.2598" width=".7654" id="connector103pin" />
+                    <rect fill="#878787" x="37.0799" y="25.4069" height="3.2598" width=".7654" id="connector104pin" />
+                    <rect fill="#878787" x="35.6626" y="25.4069" height="3.2598" width=".7654" id="connector105pin" />
+                    <rect fill="#878787" x="34.2453" y="25.4069" height="3.2598" width=".7654" id="connector106pin" />
+                    <rect fill="#9a916c" x="34.4154" y="29.3754" height="8.9291" width="8.9291" id="connector107pin" />
+                    <rect fill="#9a916c" x="69.2392" y="32.3546" height="5.6693" width="3.685" id="connector108pin" />
+                    <rect fill="#9a916c" x="64.8454" y="21.2995" height="5.6693" width="5.6693" id="connector109pin" />
+                    <rect fill="#9a916c" x="62.4362" y="32.3546" height="5.6693" width="3.685" id="connector110pin" />
+                </g>
+                <g id="_x30_603-cap"><path fill="#dcdcdc" d="M25.0175,36.414h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#6e554b" x="21.9065" y="34.146" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_805-cap"><g><path fill="#dcdcdc" d="M59.0115,44.9685v5.103c0,.156-.127.283-.283.283h-2.977c-.156,0-.283-.127-.283-.283v-5.102c0-.157.127-.283.283-.283h2.977c.156-.001.283.126.283.282Z" />
+                        <rect fill="#6e554b" x="55.4685" y="45.7485" height="3.543" width="3.543" />
+                    </g>
+                </g>
+                <g id="_x30_603-cap-2"><g><path fill="#dcdcdc" d="M54.3625,39.186h3.955c.16,0,.29.13.29.291v1.687c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="#6e554b" x="55.2055" y="39.186" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="panasonic_c"><g><g id="g4190"><rect fill="#ccc" x="8.4795" y="22.0862" height="1.1339" width="1.4162" id="rect4192" />
+                            <rect x="9.6708" y="22.0862" height="1.1339" width=".226" opacity=".1" id="rect4194" />
+                            <rect fill="#fff" x="8.4795" y="22.0862" height="1.1339" width=".2271" opacity=".2" id="rect4196" />
+                        </g>
+                        <rect fill="#fff" x="8.694" y="37.5788" height=".8312" width=".1632" opacity=".2" id="rect13" />
+                        <g id="g4185"><rect fill="#ccc" x="8.4795" y="37.2726" height="1.1339" width="1.4162" id="rect7" />
+                            <rect x="9.6708" y="37.2726" height="1.1339" width=".226" opacity=".1" id="rect11" />
+                            <rect fill="#fff" x="8.4795" y="37.2726" height="1.1339" width=".2271" opacity=".2" id="rect15" />
+                        </g>
+                        <path fill="#1a1a1a" d="M1.8396,25.9452v10.5256c0,.608.4984,1.108,1.1064,1.108h12.464c.6112,0,1.1096-.5,1.1096-1.108v-10.5256l-3.0488-3.0472H4.886l-3.0464,3.0472Z" id="path17" />
+                        <circle cx="9.1796" fill="#e6e6e6" cy="30.2388" r="6.9624" id="circle19" />
+                        <path fill="#333" d="M1.8396,25.9452v10.5256c0,.608.4984,1.108,1.1064,1.108h12.464c.6112,0,1.1096-.5,1.1096-1.108v-10.5256l-3.0488-3.0472H4.886l-3.0464,3.0472Z" id="path21" />
+                        <path d="M13.3244,22.898l3.0488,3.0472v10.5256c0,.608-.4984,1.108-1.1096,1.108h.1472c.6112,0,1.1096-.5,1.1096-1.108v-10.5256l-3.0488-3.0472h-.1472Z" id="path23" />
+                        <path fill="#fff" d="M3.094,37.5788c-.6088,0-1.1072-.5-1.1072-1.108v-10.5256l3.0456-3.0472h-.1464l-3.0464,3.0472v10.5256c0,.608.4984,1.108,1.1064,1.108h.148Z" opacity=".1" id="path25" />
+                        <path fill="#e6e6e6" d="M16.2388,30.2388c0,1.504-.4832,2.892-1.2912,4.0304-1.2632,1.772-3.3304,2.9312-5.6704,2.9312-2.3416,0-4.4072-1.1592-5.6696-2.9312-.8104-1.1384-1.292-2.5264-1.292-4.0304,0-3.8448,3.1168-6.9624,6.9624-6.9624,3.8432,0,6.9608,3.1184,6.9608,6.9624Z" id="path27" />
+                        <path d="M9.1796,37.2004c2.3408,0,4.4072-1.1592,5.6704-2.9312H3.51c1.2616,1.772,3.328,2.9312,5.6696,2.9312Z" id="path29" />
+                        <path fill="#fff" d="M9.3748,23.2764c-3.8456,0-6.9624,3.1176-6.9624,6.9624,0,1.504.4832,2.892,1.2928,4.0304,1.2624,1.772,3.3288,2.9312,5.6696,2.9312h-.1952c-2.3416,0-4.408-1.1592-5.6696-2.9312-.8112-1.1384-1.292-2.5264-1.292-4.0304,0-3.8448,3.1168-6.9624,6.9616-6.9624,0,0,.1952,0,.1952,0Z" opacity=".3" id="path31" />
+                        <path fill="#fff" d="M8.9964,37.2004c2.34,0,4.4064-1.1592,5.6704-2.9312h.1832c-1.2632,1.772-3.3296,2.9312-5.6704,2.9312h-.1832,0Z" opacity=".5" id="path33" />
+                        <path d="M14.6668,34.2692c.8096-1.1384,1.292-2.5264,1.292-4.0304,0-3.8448-3.1184-6.9624-6.9624-6.9624h.1832c3.844,0,6.9624,3.1176,6.9624,6.9624,0,1.504-.4832,2.892-1.292,4.0304,0,0-.1832,0-.1832,0Z" opacity=".2" id="path35" />
+                    </g>
+                </g>
+                <g id="_x30_603-cap-3"><g><path fill="#dcdcdc" d="M14.5825,38.826h3.955c.16,0,.29.13.29.291v1.687c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="#6e554b" x="15.4255" y="38.826" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="_x30_603-cap-4"><g><path fill="#dcdcdc" d="M30.546,52.7374v-3.955c0-.16.13-.29.291-.29h1.687c.16,0,.29.13.29.29v3.955c0,.16-.13.29-.29.29h-1.687c-.161,0-.291-.13-.291-.29Z" />
+                        <rect fill="#6e554b" x="30.546" y="49.6264" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="_x30_603-cap-5"><path fill="#dcdcdc" d="M27.3575,41.094h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#6e554b" x="24.2465" y="38.826" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_603-led-red"><g><path fill="#dcdcdc" d="M23.9425,47.466h3.955c.16,0,.29.13.29.29v1.688c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="red" x="24.7861" y="47.4659" height="2.268" width="2.268" />
+                        <circle cx="25.9205" fill="#a00000" cy="48.6" r=".354" />
+                    </g>
+                </g>
+                <g id="_x30_603-led-yellow"><g><path fill="#dcdcdc" d="M23.9425,51.426h3.955c.16,0,.29.13.29.29v1.688c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="#ff0" x="24.7861" y="51.4259" height="2.268" width="2.268" />
+                        <circle cx="25.9205" fill="#b4b400" cy="52.56" r=".354" />
+                    </g>
+                </g>
+                <g id="_x30_603-led-green"><g><path fill="#dcdcdc" d="M27.8975,45.7741h-3.955c-.16,0-.29-.13-.29-.29v-1.688c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                        <rect fill="lime" x="24.7859" y="43.5062" height="2.268" width="2.268" />
+                        <circle cx="25.9195" fill="#00b400" cy="44.6401" r=".354" />
+                    </g>
+                </g>
+                <g id="_x30_603-res"><path fill="#dcdcdc" d="M25.0175,27.414h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#333" x="21.9065" y="25.146" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_603-res-2"><g><path fill="#dcdcdc" d="M53.8225,25.1459h3.955c.16,0,.29.13.29.291v1.687c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="#333" x="54.6655" y="25.1459" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="_x30_603-res-3"><path fill="#dcdcdc" d="M25.0175,31.7339h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#333" x="21.9065" y="29.4659" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_603-res-4"><g><path fill="#dcdcdc" d="M65.7025,39.186h3.955c.16,0,.29.13.29.291v1.687c0,.16-.13.29-.29.29h-3.955c-.16,0-.29-.13-.29-.29v-1.687c0-.161.13-.291.29-.291Z" />
+                        <rect fill="#333" x="66.5455" y="39.186" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="respack_4x0603"><g><rect fill="#dcdcdc" x="15.7325" y="51.2925" height="1.843" width="4.535" />
+                        <rect fill="#dcdcdc" x="15.7325" y="49.0255" height="1.417" width="4.535" />
+                        <rect fill="#dcdcdc" x="15.7325" y="46.7575" height="1.417" width="4.535" />
+                        <rect fill="#dcdcdc" x="15.7325" y="44.0645" height="1.843" width="4.535" />
+                        <rect fill="#303030" x="16.5825" y="44.0645" height="9.071" width="2.835" />
+                    </g>
+                </g>
+                <g id="_x30_603-res-5"><path fill="#dcdcdc" d="M57.7775,32.454h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#333" x="54.6665" y="30.186" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_603-res-6"><path fill="#dcdcdc" d="M57.7775,37.134h-3.955c-.16,0-.29-.13-.29-.291v-1.687c0-.16.13-.29.29-.29h3.955c.16,0,.29.13.29.29v1.687c0,.161-.13.291-.29.291Z" />
+                    <rect fill="#333" x="54.6665" y="34.866" height="2.268" width="2.268" />
+                </g>
+                <g id="_x30_603-res-7"><g><path fill="#dcdcdc" d="M35.046,52.7374v-3.955c0-.16.13-.29.291-.29h1.687c.16,0,.29.13.29.29v3.955c0,.16-.13.29-.29.29h-1.687c-.161,0-.291-.13-.291-.29Z" />
+                        <rect fill="#333" x="35.046" y="49.6264" height="2.268" width="2.268" />
+                    </g>
+                </g>
+                <g id="respack_4x0603-2"><g><rect fill="#dcdcdc" x="52.0125" y="48.4926" height="4.535" width="1.843" />
+                        <rect fill="#dcdcdc" x="49.7455" y="48.4926" height="4.535" width="1.417" />
+                        <rect fill="#dcdcdc" x="47.4775" y="48.4926" height="4.535" width="1.417" />
+                        <rect fill="#dcdcdc" x="44.7845" y="48.4926" height="4.535" width="1.843" />
+                        <rect fill="#303030" x="44.7845" y="49.3426" height="2.835" width="9.071" />
+                    </g>
+                </g>
+                <g id="_x30_603-res-8"><g><path fill="#dcdcdc" d="M39.366,52.7374v-3.955c0-.16.13-.29.291-.29h1.687c.16,0,.29.13.29.29v3.955c0,.16-.13.29-.29.29h-1.687c-.161,0-.291-.13-.291-.29Z" />
+                        <rect fill="#333" x="39.366" y="49.6264" height="2.268" width="2.268" />
+                    </g>
+                </g>
+            </g>
+            <g><rect fill="#dcdcdc" x="65.2707" y="21.5338" height="7.4063" width="4.9606" id="rect4164" />
+                <rect fill="#dcdcdc" x="69.5509" y="30.2361" height="7.4063" width="3.1607" id="rect4164-2" />
+                <rect fill="#dcdcdc" x="62.7266" y="30.2361" height="7.4063" width="3.1607" id="rect4164-3" />
+                <g transform="translate(96.8004 -38.5597) rotate(90)"><rect fill="#878787" ry="1.4173" x="61.4886" y="22.9289" height="12.3829" width="12.3829" rx="1.4173" />
+                </g>
+                <ellipse cx="67.73" fill="#ffe3a6" cy="29.2054" ry="3.221" rx="3.168" />
+                <g transform="translate(2.4458 63.5314) rotate(-51.0609)"><rect fill="#ceb78a" x="67.0886" y="26.0506" height="6.3096" width="1.2828" id="rect4188" />
+                </g>
+            </g>
+            <rect fill="#333" x="31.7934" y="26.7534" height="14.1732" width="14.1732" />
+            <g><rect fill="#22aa59" x="15.4255" y="3.1791" height="16.4083" width="22.8623" id="rect4160" />
+                <rect fill="#1e7a43" x="15.4255" y="1.7291" height="2.3502" width="22.8629" id="rect4237" />
+                <g id="g4185-2"><rect fill="#1e7a43" x="16.7137" y="15.9326" height="2.5801" width="5.2507" id="rect13-2" />
+                    <g id="g4180"><g id="g4177"><ellipse cx="19.363" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle9" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M19.7921,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path23-2" />
+                    </g>
+                    <rect fill="#8c8c8c" x="16.7257" y="2.1743" height="1.5481" width="5.2507" id="connector30pin" />
+                </g>
+                <g id="g4207"><rect fill="#1e7a43" x="24.3346" y="15.9326" height="2.5801" width="5.2507" id="rect4209" />
+                    <g id="g4211"><g id="g4213"><ellipse cx="26.9839" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle4215" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M27.4131,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path4217" />
+                    </g>
+                    <rect fill="#8c8c8c" x="24.3467" y="2.1743" height="1.5481" width="5.2507" id="connector29pin" />
+                </g>
+                <g id="g4221"><rect fill="#1e7a43" x="31.9556" y="15.9326" height="2.5801" width="5.2507" id="rect4223" />
+                    <g id="g4225"><g id="g4227"><ellipse cx="34.6049" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle4229" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M35.034,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path4231" />
+                    </g>
+                    <rect fill="#8c8c8c" x="31.9677" y="2.1743" height="1.5481" width="5.2507" id="connector28pin" />
+                </g>
+            </g>
+            <g><rect fill="#22aa59" x="37.4103" y="3.1791" height="16.4083" width="22.8623" id="rect4160-2" />
+                <rect fill="#1e7a43" x="37.4103" y="1.7291" height="2.3502" width="22.8629" id="rect4237-2" />
+                <g id="g4185-3"><rect fill="#1e7a43" x="38.6985" y="15.9326" height="2.5801" width="5.2507" id="rect13-3" />
+                    <g id="g4180-2"><g id="g4177-2"><ellipse cx="41.3478" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle9-2" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M41.7769,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path23-3" />
+                    </g>
+                    <rect fill="#8c8c8c" x="38.7105" y="2.1743" height="1.5481" width="5.2507" id="connector27pin" />
+                </g>
+                <g id="g4207-2"><rect fill="#1e7a43" x="46.3194" y="15.9326" height="2.5801" width="5.2507" id="rect4209-2" />
+                    <g id="g4211-2"><g id="g4213-2"><ellipse cx="48.9687" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle4215-2" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M49.3979,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path4217-2" />
+                    </g>
+                    <rect fill="#8c8c8c" x="46.3315" y="2.1743" height="1.5481" width="5.2507" id="connector26pin" />
+                </g>
+                <g id="g4221-2"><rect fill="#1e7a43" x="53.9404" y="15.9326" height="2.5801" width="5.2507" id="rect4223-2" />
+                    <g id="g4225-2"><g id="g4227-2"><ellipse cx="56.5897" fill="#b4b4b4" cy="9.6254" ry="4.1128" id="circle4229-2" rx="2.6254" />
+                        </g>
+                        <path fill="#646464" d="M57.0188,10.7849l-1.1726-.4994.0011.0108-1.8759-.788c.0057-.3147.0278-.6306.0819-.9476.0541-.317.1361-.6083.2315-.8851l1.8759.788.0086.0046,1.1624.4847-.0004.0018,1.8759.788c-.0057.3136-.0278.6306-.0819.9464-.0541.3159-.1361.6094-.2315.8862l-1.8759-.788.001-.0024Z" id="path4231-2" />
+                    </g>
+                    <rect fill="#8c8c8c" x="53.9525" y="2.1743" height="1.5481" width="5.2507" id="connector25pin" />
+                </g>
+            </g>
+        </g>
+        </g>
+</svg>

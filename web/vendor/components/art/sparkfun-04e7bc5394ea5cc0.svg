@@ -1,0 +1,170 @@
+<?xml version='1.0' encoding='utf-8'?>
+<svg xmlns="http://www.w3.org/2000/svg" width="77.208656" height="83.055115" viewBox="0 0 77.208654 83.055117" id="svg2"><desc>
+        </desc>
+    <defs id="defs2940" />
+    <g transform="matrix(0.95246025,0,0,0.9746615,-122.52321,-68.909586)"><g><g id="breadboard"><rect width="6.8254032" height="6.6537924" y="143.07408" x="201.18877" id="connector7" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="133.69618" x="201.15007" id="connector6" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="124.44305" x="201.18878" id="connector5" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="115.1469" x="201.28337" id="connector4" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="105.99657" x="201.16704" id="connector3" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="96.655983" x="201.15689" id="connector2" fill="none" />
+                <rect width="6.8254032" height="6.6537924" y="87.489426" x="201.11487" id="connector1" fill="none" />
+            </g>
+        </g>
+    </g>
+    <g transform="matrix(3.543307,0,0,3.543307,0.36000095,82.695103)"><g><g id="Stuff"><g transform="translate(0,-3.9804898e-6)"><g><g id="surface0"><rect width="21.59" height="20.32" y="-20.297991" x="0.024248289" id="Red Background" fill="#c52717" fill-opacity="1" stroke="#ffffff" stroke-width="0.20320003" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" stroke-dashoffset="0" />
+                            <text y="-2.0320001" x="18.669001" id="CS" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">CS</text>
+                            <text y="-14.732" x="18.669001" id="DO" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">DO</text>
+                            <text y="-12.192" x="18.669001" id="GND" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">GND</text>
+                            <text y="-7.112" x="18.669001" id="VCC" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">VCC</text>
+                            <text y="-9.6520004" x="18.669001" id="SCK" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">SCK</text>
+                            <text y="-4.572" x="18.669001" id="DI" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">DI</text>
+                            <text y="-17.271999" x="18.669001" id="CD" font-size="1.39699996px" text-anchor="end" fill="#ffffff" font-family="DroidSans">CD</text>
+                            <line y1="0" id="line101" y2="0" x1="0" x2="21.59" fill="none" stroke="#000000" stroke-width="0.2032" stroke-linecap="round" />
+                            <line y1="0" id="line103" y2="-20.32" x1="21.59" x2="21.59" fill="none" stroke="#000000" stroke-width="0.2032" stroke-linecap="round" />
+                            <line y1="-20.32" id="line105" y2="-20.32" x1="21.59" x2="0" fill="none" stroke="#000000" stroke-width="0.2032" stroke-linecap="round" />
+                            <line y1="-20.32" id="line107" y2="0" x1="0" x2="0" fill="none" stroke="#000000" stroke-width="0.2032" stroke-linecap="round" />
+                            <g id="White outline of gold pins" fill="#ffffff"><title id="title111">PART JP1</title>
+                                <line y1="-17.145" id="line127" y2="-18.415001" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-18.415001" id="line129" y2="-19.049999" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-19.049999" id="line131" y2="-18.415001" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-13.97" id="line133" y2="-14.605" x1="19.684999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-14.605" id="line135" y2="-15.875" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-15.875" id="line137" y2="-16.51" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-16.51" id="line139" y2="-15.875" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-15.875" id="line141" y2="-14.605" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-14.605" id="line143" y2="-13.97" x1="21.59" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-17.145" id="line145" y2="-16.51" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-16.51" id="line147" y2="-17.145" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-18.415001" id="line149" y2="-17.145" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-9.5249996" id="line151" y2="-10.795" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-10.795" id="line153" y2="-11.43" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-11.43" id="line155" y2="-10.795" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-11.43" id="line157" y2="-12.065" x1="19.684999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-12.065" id="line159" y2="-13.335" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-13.335" id="line161" y2="-13.97" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-13.97" id="line163" y2="-13.335" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-13.335" id="line165" y2="-12.065" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-12.065" id="line167" y2="-11.43" x1="21.59" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-6.3499999" id="line169" y2="-6.9850001" x1="19.684999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-6.9850001" id="line171" y2="-8.2550001" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-8.2550001" id="line173" y2="-8.8900003" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-8.8900003" id="line175" y2="-8.2550001" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-8.2550001" id="line177" y2="-6.9850001" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-6.9850001" id="line179" y2="-6.3499999" x1="21.59" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-9.5249996" id="line181" y2="-8.8900003" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-8.8900003" id="line183" y2="-9.5249996" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-10.795" id="line185" y2="-9.5249996" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-1.905" id="line187" y2="-3.175" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-3.175" id="line189" y2="-3.8099999" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-3.8099999" id="line191" y2="-3.175" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-3.8099999" id="line193" y2="-4.4450002" x1="19.684999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-4.4450002" id="line195" y2="-5.7150002" x1="19.049999" x2="19.049999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-5.7150002" id="line197" y2="-6.3499999" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-6.3499999" id="line199" y2="-5.7150002" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-5.7150002" id="line201" y2="-4.4450002" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-4.4450002" id="line203" y2="-3.8099999" x1="21.59" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-1.27" id="line205" y2="-1.27" x1="19.684999" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-1.905" id="line207" y2="-1.27" x1="19.049999" x2="19.684999" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-1.27" id="line209" y2="-1.905" x1="20.955" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-3.175" id="line211" y2="-1.905" x1="21.59" x2="21.59" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                                <line y1="-19.049999" id="line213" y2="-19.049999" x1="19.684999" x2="20.955" fill="#ffffff" stroke="#ffffff" stroke-width="0.2032" stroke-linecap="round" stroke-opacity="1" />
+                            </g>
+                        </g>
+                    </g>
+                </g>
+                <g transform="translate(23.711264,67.56969)"><g><g id="MicroSD Metal Slot"><path d="m -22.467536,-81.166665 3.51,0 0,11.150001 -3.51,0 z" id="path5519" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.657536,-78.086664 8.5400011,0 0,7.94 -8.5400011,0 z" id="path5521" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -16.697535,-70.016664 0,-0.4 c 0,-0.16 0.08,-0.3 0.189999,-0.3 l 0.75,0 c 0.11,0 0.190001,0.14 0.190001,0.3 l 0,0.4" id="path5523" fill="#404040" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -15.627536,-71.316664 -0.04,0.78 c -0.01,0.14 -0.09,0.26 -0.19,0.26 l -0.55,0 c -0.100001,0 -0.18,-0.12 -0.190001,-0.26 l -0.04,-0.83" id="path5525" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -11.067535,-70.016664 0,-0.4 c 0,-0.16 0.09,-0.3 0.19,-0.3 l 0.76,0 c 0.1,0 0.19,0.14 0.19,0.3 l 0,0.4" id="path5527" fill="#404040" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.9975352,-71.316664 -0.04,0.78 c 0,0.14 -0.09,0.26 -0.18,0.26 l -0.56,0 c -0.09,0 -0.18,-0.12 -0.18,-0.26 l -0.04,-0.83" id="path5529" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -18.007536,-80.426665 8.8900011,0 0,1.350001 -8.8900011,0 z" id="path5531" fill="#404040" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -14.277535,-82.186665 0.36,0 0,1.660001 -0.36,0 z" id="path5533" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -15.347536,-82.186665 0.350001,0 0,1.660001 -0.350001,0 z" id="path5535" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -16.417535,-82.186665 0.349999,0 0,1.660001 -0.349999,0 z" id="path5537" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.487536,-82.186665 0.350001,0 0,1.660001 -0.350001,0 z" id="path5539" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.817535,-82.186665 0.3599999,0 0,1.660001 -0.3599999,0 z" id="path5541" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -10.887535,-82.186665 0.36,0 0,1.660001 -0.36,0 z" id="path5543" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -11.957535,-82.186665 0.35,0 0,1.660001 -0.35,0 z" id="path5545" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -13.027535,-82.186665 0.35,0 0,1.660001 -0.35,0 z" id="path5547" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.617536,-80.716665 0,0.100001 -0.1,0 0,0.899999 4.050001,0 0,-0.899999 -0.13,0 0,-0.100001 -0.6,0 0,0.100001 -0.47,0 0,-0.100001 -0.600001,0 0,0.100001 -0.47,0 0,-0.100001 -0.599999,0 0,0.100001 -0.480001,0 0,-0.100001 z" id="path5549" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -13.147535,-80.716665 0,0.100001 -0.09,0 0,0.899999 4.05,0 0,-0.899999 -0.1300001,0 0,-0.100001 -0.5999999,0 0,0.100001 -0.47,0 0,-0.100001 -0.6,0 0,0.100001 -0.48,0 0,-0.100001 -0.6,0 0,0.100001 -0.48,0 0,-0.100001 z" id="path5551" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.567535,-80.546665 0.509999,0 0,0.11 -0.509999,0 z" id="path5553" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -16.497536,-80.546665 0.510001,0 0,0.11 -0.510001,0 z" id="path5555" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -15.427535,-80.546665 0.509999,0 0,0.11 -0.509999,0 z" id="path5557" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -14.357535,-80.546665 0.52,0 0,0.11 -0.52,0 z" id="path5559" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -14.277535,-80.496664 0.36,0 0,0.769999 -0.36,0 z" id="path5561" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -15.347536,-80.496664 0.350001,0 0,0.769999 -0.350001,0 z" id="path5563" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -16.417535,-80.496664 0.349999,0 0,0.769999 -0.349999,0 z" id="path5565" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.487536,-80.496664 0.350001,0 0,0.769999 -0.350001,0 z" id="path5567" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.747536,-79.956664 4.310001,0 0,0.69 -4.310001,0 z" id="path5569" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -13.107535,-80.546665 0.51,0 0,0.11 -0.51,0 z" id="path5571" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -12.037535,-80.546665 0.51,0 0,0.11 -0.51,0 z" id="path5573" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -10.967535,-80.546665 0.51,0 0,0.11 -0.51,0 z" id="path5575" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.8975351,-80.546665 0.5200001,0 0,0.11 -0.5200001,0 z" id="path5577" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.817535,-80.496664 0.3599999,0 0,0.769999 -0.3599999,0 z" id="path5579" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -10.887535,-80.496664 0.36,0 0,0.769999 -0.36,0 z" id="path5581" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -11.957535,-80.496664 0.35,0 0,0.769999 -0.35,0 z" id="path5583" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -13.027535,-80.496664 0.35,0 0,0.769999 -0.35,0 z" id="path5585" fill="#b7b7b7" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -13.287535,-79.956664 4.3100001,0 0,0.69 -4.3100001,0 z" id="path5587" fill="#000000" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.1375351,-85.416665 -0.5299999,0.9 -8.580001,0 -0.49,-0.83 -0.81,0 -0.51,-0.93 -1.75,0 0,0.99 0.68,0 c 0.1,0 0.1,0.19 0,0.19 l -0.11,0 c -0.13,0 -0.18,0.03 -0.18,0.12 l 0,0.38 c 0,0.09 0.05,0.12 0.18,0.12 l 0.11,0 c 0.1,0 0.1,0.18 0,0.18 l -1.44,0 0,1.21 14.1700011,0 0,-2.33 -0.7400002,0 z" id="path5589" fill="#666666" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -9.1375351,-85.296665 -0.5299999,0.9 -8.580001,0 -0.49,-0.83 -0.81,0 -0.51,-0.93 -1.75,0 0,1 0.68,0 c 0.1,0 0.1,0.18 0,0.18 l -0.11,0 c -0.13,0 -0.18,0.03 -0.18,0.12 l 0,0.38 c 0,0.09 0.05,0.12 0.18,0.12 l 0.11,0 c 0.1,0 0.1,0.18 0,0.18 l -1.44,0 0,14.160001 1.37,0 0.03,-0.24 c 0.01,-0.06 0.06,-0.11 0.11,-0.11 l 0.07,0 c 0.05,0 0.11,0.05 0.11,0.11 l 0.03,0.24 3.88,0 -0.19,-7.13 c -0.01,-0.12 0.06,-0.22 0.14,-0.22 0.09,0 0.160001,0.1 0.170001,0.22 l 0.31,6.57 c 0.01,0.12 0.08,0.22 0.169999,0.22 l 0.47,0 c 0.09,0 0.160001,-0.1 0.160001,-0.22 l 0.32,-6.57 c 0.01,-0.12 0.08,-0.22 0.16,-0.22 0.09,0 0.15,0.1 0.15,0.22 l -0.19,7.13 3.96,0 -0.19,-7.13 c 0,-0.12 0.07,-0.22 0.15,-0.22 0.08,0 0.16,0.1 0.16,0.22 l 0.32,6.57 c 0.01,0.12 0.08,0.22 0.16,0.22 l 0.48,0 c 0.08,0 0.15,-0.1 0.16,-0.22 l 0.32,-6.57 c 0,-0.12 0.08,-0.22 0.1599999,-0.22 0.08,0 0.15,0.1 0.15,0.22 l -0.1899999,7.13 1.2600001,0 0,-15.280001 -0.7400002,0 z m -11.0200009,5.46 0.14,0 c 0.05,0 0.1,0.04 0.1,0.100001 0,0.05 -0.02,0.1 -0.04,0.1 -0.03,0 -0.04,0.05 -0.04,0.11 l 0,4.79 c 0,0.06 -0.05,0.11 -0.11,0.11 l -2.33,0 0,-6.060001 0.46,0 c 0.05,0 0.11,0.05 0.12,0.11 l 0.41,2.950001 c 0.01,0.06 -0.02,0.14 -0.06,0.18 l -0.16,0.18 c -0.04,0.05 -0.07,0.13 -0.07,0.19 l 0,0.99 c 0,0.06 0.04,0.11 0.1,0.11 l 1.26,0 c 0.05,0 0.1,-0.05 0.1,-0.11 l 0,-0.93 c 0,-0.06 -0.04,-0.14 -0.08,-0.18 l -0.36,-0.31 c -0.04,-0.04 -0.08,-0.12 -0.08,-0.18 l -0.22,-2.890001 c -0.01,-0.06 0.03,-0.11 0.09,-0.11 l 0.95,0 c 0.03,0 0.06,0.05 0.06,0.1 0,0.06 -0.05,0.100001 -0.1,0.100001 l -0.14,0 c -0.05,0 -0.1,0.05 -0.1,0.11 l 0,0.43 c 0,0.06 0.05,0.109999 0.1,0.109999 z m 6.370001,-0.219999 c 0,0.12 -0.09,0.219999 -0.21,0.219999 l -3.42,0 c -0.110001,0 -0.200001,-0.1 -0.200001,-0.219999 l 0,-2.220001 c 0,-0.12 0.09,-0.22 0.200001,-0.22 l 3.42,0 c 0.12,0 0.21,0.1 0.21,0.22 l 0,2.220001 z m 4.4699999,0 c 0,0.12 -0.09,0.219999 -0.2099999,0.219999 l -3.42,0 c -0.11,0 -0.2,-0.1 -0.2,-0.219999 l 0,-2.220001 c 0,-0.12 0.09,-0.22 0.2,-0.22 l 3.42,0 c 0.1200001,0 0.2099999,0.1 0.2099999,0.22 l 0,2.220001 z" id="path5591" fill="#606060" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -22.497536,-84.176665 0.36,0 0,3.49 -0.36,0 z" id="path5593" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -21.707536,-86.156665 0.51,0 0,1 -0.51,0 z" id="path5595" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -22.497536,-74.626664 0.36,0 0,4.61 -0.36,0 z" id="path5597" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -8.7075351,-85.296665 0.25,0 0,15.280001 -0.25,0 z" id="path5599" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -21.817536,-80.606665 0.42,2.970001 c 0,0.06 -0.02,0.14 -0.06,0.19 l -0.17,0.21 c -0.04,0.05 -0.07,0.13 -0.07,0.19 l 0,0.9" id="path5601" fill="none" stroke="#ffffff" stroke-width="0.09" stroke-linecap="round" stroke-linejoin="round" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -22.497536,-80.686665 0.06,0 0,6.060001 -0.06,0 z" id="path5603" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -15.447535,-77.176664 c 0,0 -0.300001,6.34 -0.320001,6.52 -0.01,0.18 -0.09,0.18 -0.09,0.18" id="path5605" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -16.817536,-77.186664 c 0,0 0.3,6.35 0.32,6.53 0.02,0.18 0.09,0.18 0.09,0.18" id="path5607" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -9.817535,-77.176664 c 0,0 -0.29,6.34 -0.31,6.52 -0.02,0.18 -0.09,0.18 -0.09,0.18" id="path5609" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -11.177535,-77.186664 c 0,0 0.3,6.35 0.32,6.53 0.02,0.18 0.09,0.18 0.09,0.18" id="path5611" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -17.657536,-82.296665 0,2.250001 c 0,0.13 0.11,0.25 0.240001,0.25 l 3.43,0 c 0.13,0 0.23,-0.12 0.23,-0.25 l 0,-2.250001" id="path5613" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -17.417535,-82.536665 3.47,0" id="path5615" fill="none" stroke="#353535" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -13.187535,-82.296665 0,2.250001 c 0,0.13 0.11,0.25 0.24,0.25 l 3.43,0 c 0.1300001,0 0.2299999,-0.12 0.2299999,-0.25 l 0,-2.250001" id="path5617" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -12.947535,-82.536665 3.4799999,0" id="path5619" fill="none" stroke="#353535" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -22.337536,-80.606665 0.2,0 0,5.980001 -0.2,0 z" id="path5621" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -17.197536,-77.166664 0.190001,7.02" id="path5623" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -15.067536,-77.166664 -0.189999,7.02" id="path5625" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -11.557535,-77.166664 0.19,7.02" id="path5627" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -9.4275351,-77.166664 -0.19,7.02" id="path5629" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -21.077536,-75.976664 0.08,0 0,1.35 -0.08,0 z" id="path5631" fill="#404040" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -21.077536,-75.976664 0.08,0 0,0.06 -0.08,0 z" id="path5633" fill="#353535" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -21.077536,-74.686664 0.08,0 0,0.06 -0.08,0 z" id="path5635" fill="#353535" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -20.067536,-74.606664 c 0.05,0 0.1,-0.04 0.1,-0.1 l 0,-4.8 c 0,-0.06 0.02,-0.1 0.04,-0.1" id="path5637" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -20.017536,-79.836665 -0.14,0 c -0.05,0 -0.1,-0.05 -0.1,-0.109999 l 0,-0.43 c 0,-0.06 0.05,-0.11 0.1,-0.11 l 0.14,0" id="path5639" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                            <path d="m -20.077536,-86.116665 0.51,0.93 0.81,0 0.49,0.83 8.620001,0 0.5300001,-0.9" id="path5641" fill="none" stroke="#ffffff" stroke-width="0.07" stroke-linecap="round" stroke-linejoin="miter" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="none" />
+                            <path d="m -21.237536,-84.976665 c -0.13,0 -0.18,0.03 -0.18,0.12 l 0,0.38 c 0,0.09 0.05,0.12 0.18,0.12 l 0,-0.62 z" id="path5643" fill="#ffffff" fill-opacity="1" fill-rule="nonzero" stroke="none" />
+                        </g>
+                    </g>
+                </g>
+                <line y1="-23.240004" id="Line to alot room for removing SD card" y2="-23.240004" x1="15.24" x2="4.2399998" fill="#c52717" fill-opacity="1" stroke="#000000" stroke-width="0.20320001" stroke-linecap="round" stroke-miterlimit="4" stroke-opacity="1" stroke-dasharray="0.40640002, 0.40640002" stroke-dashoffset="0" />
+                <g transform="translate(31.793654,-17.364295)"><g><g id="Gold Connector Pins"><g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="1" cx="3.5999999" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" stroke-miterlimit="4" stroke-dasharray="none" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="2" cx="10.8" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="3" cx="18" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="4" cx="25.200001" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="5" cx="32.400002" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="6" cx="39.599998" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                            <g transform="matrix(0,0.3527778,-0.3527778,0,-10.203454,-1.6859056)"><g><circle cy="3.5999999" id="7" cx="46.799999" r="2.052" fill="none" stroke="#9a916c" stroke-width="1.22399998" />
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
