@@ -1,17 +1,25 @@
 # Mina Circuit Workbench
 
-A local electronics workbench with an interactive SVG schematic editor, **real ngspice simulation**, and executable Arduino firmware. It is not a complete Proteus replacement. Current capabilities and limitations are documented in [the verification report](docs/verification-current.md).
+A local electronics workbench with a university laboratory, bundled CircuitJS editor, an interactive SVG schematic editor, **real ngspice simulation**, and executable Arduino firmware. It is not a complete Proteus replacement. Current capabilities and limitations are documented in [the verification report](docs/verification-current.md).
 
 ![Actual running application](screenshots/workbench.png)
 
 ## Run
 
-1. Install Python 3.10+ and [ngspice](https://ngspice.sourceforge.io/download.html).
+1. Install Python 3.12+ and [ngspice](https://ngspice.sourceforge.io/download.html).
 2. Ensure `ngspice` is on PATH, or set `NGSPICE_BIN` to the full executable path.
 3. Run `python server.py` from this directory.
 4. Open **http://127.0.0.1:8765**.
 
 The analog workbench needs no Python packages or frontend build step. The board workspace additionally requires Node.js 18+ and `npm ci`. The UI runs in your browser and the server runs locally; this release is not a packaged native Windows executable. On Windows, set the engine location in PowerShell with `$env:NGSPICE_BIN = 'C:\path\to\ngspice.exe'` before starting the server. Windows packaging has not been tested.
+
+## University laboratory and complete CircuitJS editor (v0.7)
+
+- Open **http://127.0.0.1:8765/university.html**: 19 wired experiments with mathematical reference checks, editable values and circuits, native ngspice OP/transient/AC/DC, voltage/current/power, Bode magnitude/phase, interactive plots and CSV/JSON exports.
+- Open **http://127.0.0.1:8765/circuitjs/circuitjs.html**: locally bundled CircuitJS editor, 148 registered element classes and 373 example files. Source archive, GPL notices, pinned asset hashes and rebuild script are included. This is a separate engine/file format, with cloud-only integrations disabled.
+- Exact scope, experiment list and verification boundaries: [university laboratory](docs/university-lab.md).
+
+![University AC analysis](screenshots/university-ac.png)
 
 ## Working features
 
@@ -28,7 +36,7 @@ Wires carry explicit endpoint references. Named nodes also connect electrically,
 
 ## Not implemented
 
-PCB editing/routing/3D/manufacturing outputs; general MCU/analog co-simulation; MCU source-level debugging; physical hardware upload; AC sweep and advanced graph analyses; oscilloscope triggers/cursors; flowcharts; IoT panels; arbitrary model imports; Proteus file compatibility; native desktop installer. Captured GPIO supports the bundled SPI/I²C/UART protocol decoders. See [full target inventory](docs/superpowers/specs/2026-10-23-electronics-workbench-design.md).
+PCB editing/routing/3D/manufacturing outputs; general MCU/analog co-simulation; MCU source-level debugging; physical hardware upload; general cross-engine model import; flowcharts; IoT panels; arbitrary model imports; Proteus file compatibility; native desktop installer. Captured GPIO supports the bundled SPI/I²C/UART protocol decoders. See [full target inventory](docs/superpowers/specs/2026-10-23-electronics-workbench-design.md).
 
 ## Verify
 
@@ -42,7 +50,7 @@ Browser verification uses Playwright: install the version in `package.json`, run
 
 ## Reuse
 
-ngspice performs the numerical calculations. No Proteus source code, bundled device models, artwork or libraries are included. Dependency details and scope are in [THIRD_PARTY.md](THIRD_PARTY.md). No license is assigned to this repository yet; do not assume unrestricted redistribution of the application until the owner chooses a license.
+Native ngspice performs SPICE calculations; bundled GPL CircuitJS supplies its own browser simulation engine. No Proteus source code, bundled device models, artwork or libraries are included. Dependency details and scope are in [THIRD_PARTY.md](THIRD_PARTY.md). No license is assigned to this repository yet; do not assume unrestricted redistribution of the application until the owner chooses a license.
 
 
 ## Boards, sensors and installable libraries (v0.2)

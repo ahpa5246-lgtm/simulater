@@ -1,12 +1,24 @@
 {
-  "timestamp": "2026-10-23T21:01:21.200398+00:00",
-  "baseCommit": "247f9a05e7923d3a49eda395ede838d19b324a4d",
+  "timestamp": "2026-10-23T22:54:53.477593+00:00",
+  "baseCommit": "2b229067862858a895438b178f82356c2af84a79",
   "workingTreeModified": true,
-  "sourceSha256": "899a8d7ff8d7bf8994fabd22723b0657633a2dd00ec3ab49e9f7c40ed8a61bd5",
+  "sourceSha256": "01f922b348dd86f23cfafb170f1d234e7b9ed5f00d5be6aced16f6ecbf851b1a",
   "sourceStable": true,
   "platform": "linux",
   "python": "3.12.14",
   "checks": [
+    {
+      "name": "circuitjs-upstream",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/test-circuitjs-upstream.py"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 1.49,
+      "testCount": 60,
+      "log": ".state/verification/circuitjs-upstream.log"
+    },
     {
       "name": "native-peripherals",
       "command": [
@@ -15,7 +27,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.491,
+      "seconds": 0.541,
       "testCount": null,
       "log": ".state/verification/native-peripherals.log"
     },
@@ -32,8 +44,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 23.907,
-      "testCount": 87,
+      "seconds": 23.396,
+      "testCount": 93,
       "log": ".state/verification/python.log"
     },
     {
@@ -49,7 +61,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.832,
+      "seconds": 0.821,
       "testCount": 20,
       "log": ".state/verification/node.log"
     },
@@ -62,7 +74,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.05,
+      "seconds": 0.065,
       "testCount": null,
       "log": ".state/verification/syntax-analog-ui.log"
     },
@@ -75,7 +87,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.049,
+      "seconds": 0.051,
       "testCount": null,
       "log": ".state/verification/syntax-app.log"
     },
@@ -88,7 +100,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.055,
+      "seconds": 0.053,
       "testCount": null,
       "log": ".state/verification/syntax-boards.log"
     },
@@ -101,7 +113,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.057,
+      "seconds": 0.065,
       "testCount": null,
       "log": ".state/verification/syntax-component-library.log"
     },
@@ -114,7 +126,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.049,
+      "seconds": 0.056,
       "testCount": null,
       "log": ".state/verification/syntax-integrations.log"
     },
@@ -127,7 +139,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.05,
+      "seconds": 0.051,
       "testCount": null,
       "log": ".state/verification/syntax-lab.log"
     },
@@ -140,9 +152,22 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.054,
+      "seconds": 0.053,
       "testCount": null,
       "log": ".state/verification/syntax-parts-ui.log"
+    },
+    {
+      "name": "syntax-university",
+      "command": [
+        "node",
+        "--check",
+        "web/university.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.051,
+      "testCount": null,
+      "log": ".state/verification/syntax-university.log"
     },
     {
       "name": "analog-parts-browser",
@@ -152,7 +177,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.311,
+      "seconds": 2.21,
       "testCount": null,
       "log": ".state/verification/analog-parts-browser.log"
     },
@@ -164,7 +189,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 5.391,
+      "seconds": 5.839,
       "testCount": null,
       "log": ".state/verification/boards-browser.log"
     },
@@ -176,9 +201,21 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.194,
+      "seconds": 2.054,
       "testCount": null,
       "log": ".state/verification/browser.log"
+    },
+    {
+      "name": "circuitjs-browser",
+      "command": [
+        "node",
+        "tests/circuitjs-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 15.53,
+      "testCount": null,
+      "log": ".state/verification/circuitjs-browser.log"
     },
     {
       "name": "component-library-browser",
@@ -188,7 +225,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.101,
+      "seconds": 3.242,
       "testCount": null,
       "log": ".state/verification/component-library-browser.log"
     },
@@ -200,7 +237,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 7.371,
+      "seconds": 7.452,
       "testCount": null,
       "log": ".state/verification/instruments-browser.log"
     },
@@ -212,7 +249,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.269,
+      "seconds": 3.344,
       "testCount": null,
       "log": ".state/verification/parts-browser.log"
     },
@@ -224,9 +261,21 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.829,
+      "seconds": 4.812,
       "testCount": null,
       "log": ".state/verification/practical-browser.log"
+    },
+    {
+      "name": "university-browser",
+      "command": [
+        "node",
+        "tests/university-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 4.259,
+      "testCount": null,
+      "log": ".state/verification/university-browser.log"
     },
     {
       "name": "upstream-browser",
@@ -236,15 +285,15 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.046,
+      "seconds": 4.067,
       "testCount": null,
       "log": ".state/verification/upstream-browser.log"
     }
   ],
-  "seconds": 58.128,
+  "seconds": 79.555,
   "allPassed": true,
-  "unitTests": 107,
-  "browserSuites": 8,
+  "unitTests": 173,
+  "browserSuites": 10,
   "scope": "Internal solver, firmware and browser regression tests; no physical validation, public hosting or Proteus parity certification.",
   "dependencies": {
     "node": {

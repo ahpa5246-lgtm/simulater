@@ -1,0 +1,3373 @@
+{
+  "scope": "Import and finite-output smoke checks only. Not numerical validation of every example or interactive tool.",
+  "referenceDivider": [
+    {
+      "v": 5,
+      "i": 0.005
+    },
+    {
+      "v": 5,
+      "i": 0.005
+    }
+  ],
+  "examples": [
+    {
+      "name": "3-cgand.txt",
+      "time": 0.00017500000000000013,
+      "running": true,
+      "elements": 46,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-cgor.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 47,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-f211.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-f220.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-f221.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-invert.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3motor.txt",
+      "time": 0.0026399999999999766,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3phasewye.txt",
+      "time": 0.000054999999999999995,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3way.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "4way.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555dutycycle.txt",
+      "time": 9.000000000000005e-7,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555int.txt",
+      "time": 0.00006500000000000001,
+      "running": true,
+      "elements": 47,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555lowduty.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555missing.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555monostable.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555pulsemod.txt",
+      "time": 0.00006500000000000001,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555saw.txt",
+      "time": 0.00022000000000000025,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555schmitt.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555sequencer.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 63,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "555square.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "7segdecoder.txt",
+      "time": 0,
+      "running": true,
+      "elements": 262,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "actbutterband.txt",
+      "time": 0.0007656250000000006,
+      "running": true,
+      "elements": 54,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "actbutterhi.txt",
+      "time": 0.0011250000000000008,
+      "running": true,
+      "elements": 44,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "actbutterlo.txt",
+      "time": 0.00021875000000000009,
+      "running": true,
+      "elements": 44,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "adder4-sc.txt",
+      "time": 0.000115,
+      "running": true,
+      "elements": 110,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "allpass1.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "allpass2.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "alu74181.txt",
+      "time": 0,
+      "running": true,
+      "elements": 420,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amdetect.txt",
+      "time": 0.00033000000000000054,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-dfdx.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-diff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-follower.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-fullrect.txt",
+      "time": 0.00022500000000000026,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-integ.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-invert.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-noninvert.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-rect.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-schmitt.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "amp-sum.txt",
+      "time": 0.00022500000000000026,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "analogrecip.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 48,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "avr8js-analog.txt",
+      "time": 0,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "avr8js-logic.txt",
+      "time": 0.0014499999999999995,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "avr8js-strobe.txt",
+      "time": 0.0013999999999999996,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "bandnoise.txt",
+      "time": 0.0035625000000000027,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "bandpass.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "besselbutter.txt",
+      "time": 0.000015000000000000002,
+      "running": true,
+      "elements": 41,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "blank.txt",
+      "time": 0,
+      "running": true,
+      "elements": 0,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "brentkung.txt",
+      "time": 0,
+      "running": true,
+      "elements": 324,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "butter10hi.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "butter10hiaud.txt",
+      "time": 0.00021875000000000009,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "butter10lo.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "butter10loaud.txt",
+      "time": 0.00021875000000000009,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "butterbandstop.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 30,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cap.txt",
+      "time": 0.00021000000000000023,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "capac.txt",
+      "time": 0.00019000000000000017,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "capmult.txt",
+      "time": 0.00025000000000000033,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "capmultcaps.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "capmultfreq.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cappar.txt",
+      "time": 0.00022000000000000025,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "capseries.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cc2.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cc2imp.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 38,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cc2impn.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 56,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cc2n.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ccdiff.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cciamp.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ccinductor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 24,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ccint.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ccitov.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ccvccs.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ceamp.txt",
+      "time": 0.00022500000000000026,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "chaos1.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 37,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "chaos2.txt",
+      "time": 0.0013500000000000018,
+      "running": true,
+      "elements": 64,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "chua.txt",
+      "time": 0.00006,
+      "running": true,
+      "elements": 74,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "classd.txt",
+      "time": 0.000115,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "clockedsrff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 50,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosinverter.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosinvertercap.txt",
+      "time": 2.6999999999999997e-11,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosinverterslow.txt",
+      "time": 8.1e-12,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosmsff.txt",
+      "time": 0.000115,
+      "running": true,
+      "elements": 28,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosnand.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosnor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmostransgate.txt",
+      "time": 0.00026000000000000036,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cmosxor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 27,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "colpitts.txt",
+      "time": 0.000035000000000000004,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "comb.txt",
+      "time": 0.0005781250000000004,
+      "running": true,
+      "elements": 26,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "conv-boost.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "conv-buck.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "conv-buckboost.txt",
+      "time": 0.000025,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "conv-cuk.txt",
+      "time": 0.000025,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "conv-sepic.txt",
+      "time": 0.000025,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "counter.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 44,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "counter8.txt",
+      "time": 0.0002850000000000004,
+      "running": true,
+      "elements": 101,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "coupled1.txt",
+      "time": 0.00017000000000000012,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "coupled2.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "coupled3.txt",
+      "time": 0.00021500000000000024,
+      "running": true,
+      "elements": 33,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "crossover.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "crystalosc.txt",
+      "time": 5.749999999999987e-9,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "crystalosc2.txt",
+      "time": 1.0500000000000003e-9,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-currentadder.txt",
+      "time": 0.00013000000000000002,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-diff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-fullrectifier.txt",
+      "time": 0.00022000000000000025,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-integrator.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-multiplier.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-opamp.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-opamprail.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-ramp.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-resistor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-varicap.txt",
+      "time": 0.0002000000000000002,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-varinduct.txt",
+      "time": 0.00019000000000000017,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cs-varyresistor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "cube.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "currentsrc.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "currentsrcelm.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 24,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "currentsrcramp.txt",
+      "time": 0.00019500000000000019,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dac.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "darlington.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dcrestoration.txt",
+      "time": 0.000019000000000000004,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "deccounter.txt",
+      "time": 0.00017500000000000013,
+      "running": true,
+      "elements": 72,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "decoder.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 28,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "delayrc.txt",
+      "time": 1.3500000000000006e-7,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "delta-pwm.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 26,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "deltasigma.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 34,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "diff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "digcompare.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 60,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "digsine.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 60,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "diodeclip.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "diodecurve.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "diodelimit.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "diodevar.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "divideby2.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "divideby3.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dram.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 72,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dtlinverter.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dtlnand.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "dtlnor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 27,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "early.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "eclnor.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 62,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "eclosc.txt",
+      "time": 0,
+      "running": true,
+      "elements": 38,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "edgedff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 43,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "fanout.txt",
+      "time": 0.000015000000000000002,
+      "running": true,
+      "elements": 88,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-hipass-l.txt",
+      "time": 0.000085,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-hipass.txt",
+      "time": 0.00009,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-lopass-l.txt",
+      "time": 0.00009,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-lopass.txt",
+      "time": 0.00009,
+      "running": true,
+      "elements": 5,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-vcvs-hipass.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "filt-vcvs-lopass.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "flashadc.txt",
+      "time": 0.00009,
+      "running": true,
+      "elements": 68,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "follower.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "freqdouble.txt",
+      "time": 0.00009,
+      "running": true,
+      "elements": 33,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "fulladd.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 29,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "fullrect-sc.txt",
+      "time": 0.0002800000000000004,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "fullrect.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "fullrectf.txt",
+      "time": 0.00017999999999999998,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "gilbertcell.txt",
+      "time": 0.00017000000000000012,
+      "running": true,
+      "elements": 98,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "graycode.txt",
+      "time": 0.0003050000000000005,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "grid.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 60,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "grid2.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 157,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "gyrator.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "gyratorelm.txt",
+      "time": 0.000018,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "halfadd.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "hartley.txt",
+      "time": 0.00005,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "hfadc.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 42,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "howland.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "impedance.txt",
+      "time": 0.00007000000000000001,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "indmultfreq.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "indmultind.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "indpar.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "indseries.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "induct.txt",
+      "time": 0.00021000000000000023,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "inductac.txt",
+      "time": 0.00019000000000000017,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "inductkick-block.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "inductkick-snub.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "inductkick.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "inv-osc.txt",
+      "time": 0.0009900000000000022,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "invertamp.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "itov.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jerk.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 35,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jfetamp.txt",
+      "time": 0.0004350000000000008,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jfetcurrentsrc.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jfetfollower-nooff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jfetfollower.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jkff.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 53,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "johnsonctr.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 124,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "joule-thief.txt",
+      "time": 1.0500000000000004e-7,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "jsinterface.txt",
+      "time": 0.0002750000000000004,
+      "running": true,
+      "elements": 78,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ladder.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 76,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lambda-diode-osc.txt",
+      "time": 0.00001,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lambda-diode.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "latchingrelay.txt",
+      "time": 0.13500000000000004,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "leadingedge.txt",
+      "time": 4.000000000000001e-8,
+      "running": true,
+      "elements": 40,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ledarray.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 61,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ledflasher.txt",
+      "time": 0.00003,
+      "running": true,
+      "elements": 42,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lightbulb.txt",
+      "time": 0.0005600000000000008,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lissa.txt",
+      "time": 0.0007100000000000015,
+      "running": true,
+      "elements": 24,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "logconvert.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "longdist.txt",
+      "time": 0.000105,
+      "running": true,
+      "elements": 30,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lrc-critical.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "lrc.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "majority.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "masterslaveff.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 41,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mirror.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "moscurrentramp.txt",
+      "time": 0.0002050000000000002,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "moscurrentsrc.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mosfetamp.txt",
+      "time": 0.0005750000000000012,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mosfollower.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mosmirror.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mosswitch.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "motorprotect.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-crossbar.txt",
+      "time": 7e-8,
+      "running": true,
+      "elements": 40,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-sine.txt",
+      "time": 0.0000012999999999999992,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-sine2.txt",
+      "time": 0.0000012999999999999992,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-sine3.txt",
+      "time": 0.0000012999999999999992,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-square.txt",
+      "time": 0.0000012999999999999992,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr-triangle.txt",
+      "time": 0.0000012999999999999992,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mr.txt",
+      "time": 8e-8,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "multivib-a.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 26,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "multivib-bi.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 26,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "multivib-mono.txt",
+      "time": 0.000115,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mux.txt",
+      "time": 0.0002750000000000004,
+      "running": true,
+      "elements": 38,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "mux3state.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 38,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nandff.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nic-r.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nmosfet.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nmosinverter.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nmosinverter2.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nmosinverter3.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "nmosnand.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "norton-invert.txt",
+      "time": 0.00022000000000000025,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "norton-noninvert.txt",
+      "time": 0.00022000000000000025,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "norton-saw.txt",
+      "time": 0.0014625850340232018,
+      "running": true,
+      "elements": 24,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "norton.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 33,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "notch.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "npn.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ohms.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opamp-regulator.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opamp.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opampfeedback.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opint-current.txt",
+      "time": 0.00005,
+      "running": true,
+      "elements": 107,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opint-invert-amp.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 107,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opint-slew.txt",
+      "time": 6e-7,
+      "running": true,
+      "elements": 107,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "opint.txt",
+      "time": 0.000019999999999999998,
+      "running": true,
+      "elements": 102,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ota-gain.txt",
+      "time": 0.00037999999999999997,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ota-ringmod.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ota-vca.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ota-vcf-single.txt",
+      "time": 0.000043749999999999986,
+      "running": true,
+      "elements": 37,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "peak-detect.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "phasecomp.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "phasecompint.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 29,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "phaseseq.txt",
+      "time": 0.00034,
+      "running": true,
+      "elements": 67,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "phaseshiftosc.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 18,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "phasesplit.txt",
+      "time": 0.0002350000000000003,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "piso-sr.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 34,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pll.txt",
+      "time": 0.00021000000000000023,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pll2.txt",
+      "time": 0.0002000000000000002,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pll2a.txt",
+      "time": 0.00019500000000000019,
+      "running": true,
+      "elements": 22,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "plot2d-checker.txt",
+      "time": 0.000024000000000000007,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "plot2d-color.txt",
+      "time": 0.00002600000000000001,
+      "running": true,
+      "elements": 28,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "plot2d-smile.txt",
+      "time": 0.00008299999999999986,
+      "running": true,
+      "elements": 35,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pmosfet.txt",
+      "time": 0.00015500000000000008,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pnp.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pot.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "potdivide.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "powerfactor1.txt",
+      "time": 0.00019000000000000017,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "powerfactor2.txt",
+      "time": 0.0002800000000000004,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "priencoder.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pushpull.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "pushpullxover.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "qam-256.txt",
+      "time": 0.00009999999999999999,
+      "running": true,
+      "elements": 172,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "r2rladder.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 44,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rectify.txt",
+      "time": 0.00017500000000000013,
+      "running": true,
+      "elements": 4,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relaxosc.txt",
+      "time": 0.000046875,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relay.txt",
+      "time": 0.0004049999999999997,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayand.txt",
+      "time": 0.00037499999999999974,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayctr.txt",
+      "time": 0.0020000000000000005,
+      "running": true,
+      "elements": 104,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayff.txt",
+      "time": 0.0014299999999999996,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relaymux.txt",
+      "time": 0.0004349999999999997,
+      "running": true,
+      "elements": 31,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayor.txt",
+      "time": 0.0004049999999999997,
+      "running": true,
+      "elements": 26,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayosc.txt",
+      "time": 0.001695000000000004,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relays.txt",
+      "time": 0.00027000000000000006,
+      "running": true,
+      "elements": 60,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relaytff.txt",
+      "time": 0.0011749999999999998,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "relayxor.txt",
+      "time": 0.00037499999999999974,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "res-par.txt",
+      "time": 0.00019500000000000019,
+      "running": true,
+      "elements": 30,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "res-series.txt",
+      "time": 0.00019500000000000019,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "resistors.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ringcascade.txt",
+      "time": 0.0005450000000000011,
+      "running": true,
+      "elements": 46,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ringing.txt",
+      "time": 0.00006,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ringmod.txt",
+      "time": 0.000025,
+      "running": true,
+      "elements": 34,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rmsconverter.txt",
+      "time": 0.0019400000000000047,
+      "running": true,
+      "elements": 91,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rossler.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 66,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rtlinverter.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rtlnand.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "rtlnor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "samplenhold.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 29,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "satcore-comparison.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "satcore-inductor.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "satcore-transformer.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "sawtooth.txt",
+      "time": 0,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "schmitt.txt",
+      "time": 0.00021500000000000024,
+      "running": true,
+      "elements": 25,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "scr.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "scractrig.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "sine.txt",
+      "time": 0.00014062500000000002,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "sinediode.txt",
+      "time": 0.000055,
+      "running": true,
+      "elements": 54,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "sipo-sr.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 24,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "spark-marx.txt",
+      "time": 0.0007000000000000005,
+      "running": true,
+      "elements": 33,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "spark-sawtooth.txt",
+      "time": 0.00011399999999999978,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "spikegen.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "sram.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 88,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "switchedcap.txt",
+      "time": 0.00023000000000000028,
+      "running": true,
+      "elements": 19,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "switchfilter.txt",
+      "time": 0.0004440000000000003,
+      "running": true,
+      "elements": 42,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "swtreedac.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 50,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "synccounter.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 47,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "td4-add2.txt",
+      "time": 0,
+      "running": true,
+      "elements": 109,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "td4-ctr-dn.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 109,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "td4-ctr-up-dn.txt",
+      "time": 0.00026500000000000037,
+      "running": true,
+      "elements": 109,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "td4-ctr.txt",
+      "time": 0.00004,
+      "running": true,
+      "elements": 109,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "td4.txt",
+      "time": 0.000035000000000000004,
+      "running": true,
+      "elements": 109,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tdiode.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tdosc.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tdrelax.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tesla.txt",
+      "time": 3.1000000000000016e-7,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "thevenin.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 31,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tl.txt",
+      "time": 1.35e-10,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlfreq.txt",
+      "time": 1.6500000000000005e-10,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tllight.txt",
+      "time": 6.699999999999997e-10,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tllopass.txt",
+      "time": 1.55e-11,
+      "running": true,
+      "elements": 35,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlmatch1.txt",
+      "time": 6.199999999999998e-10,
+      "running": true,
+      "elements": 29,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlmatch2.txt",
+      "time": 3.400000000000001e-10,
+      "running": true,
+      "elements": 36,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlmis1.txt",
+      "time": 2.85e-10,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlmismatch.txt",
+      "time": 1.7000000000000006e-10,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlstand.txt",
+      "time": 6.999999999999999e-12,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "tlterm.txt",
+      "time": 1.900000000000001e-10,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "traffic.txt",
+      "time": 0.013199999999999998,
+      "running": true,
+      "elements": 67,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "trans-diffamp-common.txt",
+      "time": 0.00007500000000000001,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "trans-diffamp-cursrc.txt",
+      "time": 0.00007500000000000001,
+      "running": true,
+      "elements": 27,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "trans-diffamp.txt",
+      "time": 0.00007500000000000001,
+      "running": true,
+      "elements": 21,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transformer.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transformerdc.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transformerdown.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transformerup.txt",
+      "time": 0.00012,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transrectifier.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 8,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "transswitch.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "triacdimmer.txt",
+      "time": 0.0008000000000000018,
+      "running": true,
+      "elements": 9,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "triangle.txt",
+      "time": 0,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "trianglevco.txt",
+      "time": 0.00011,
+      "running": true,
+      "elements": 43,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "triode.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "triodeamp.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 17,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ttlinverter.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ttlnand.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ttlnor.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "twint.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 14,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "ujtosc.txt",
+      "time": 0,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "unishiftreg.txt",
+      "time": 0.00011,
+      "running": true,
+      "elements": 216,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "updownctr.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 67,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "varactor.txt",
+      "time": 1.0799999999999999e-10,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "varactorvco.txt",
+      "time": 4.5000000000000026e-11,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "vco.txt",
+      "time": 0.000046875,
+      "running": true,
+      "elements": 32,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "vilnius.txt",
+      "time": 0,
+      "running": true,
+      "elements": 23,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "voltdivide.txt",
+      "time": 0.000125,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "voltdouble.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "voltdouble2.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "voltinvert.txt",
+      "time": 0.00005,
+      "running": true,
+      "elements": 20,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "voltquad.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "volttriple.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 13,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "volume.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 11,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "wheatstone.txt",
+      "time": 0.000015000000000000002,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "wienbridge.txt",
+      "time": 0.00014500000000000006,
+      "running": true,
+      "elements": 16,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "xor.txt",
+      "time": 0.00002,
+      "running": true,
+      "elements": 15,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "xorphasedet.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 6,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "zeneriv.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 3,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "zenerref.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 7,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "zenerreffollow.txt",
+      "time": 0.00013500000000000003,
+      "running": true,
+      "elements": 12,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    }
+  ],
+  "needsReview": []
+}

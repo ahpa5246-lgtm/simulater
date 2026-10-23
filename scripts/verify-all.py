@@ -41,7 +41,7 @@ def source_fingerprint():
     digest=hashlib.sha256()
     for name in sorted(set(result.stdout.splitlines())):
         p=ROOT/name
-        if p.suffix not in {'.py','.js','.cjs','.json','.css','.html','.cc','.h','.cpp','.ino','.hex','.uf2','.yml'} or name.startswith(('screenshots/','evidence/')):continue
+        if p.suffix not in {'.py','.js','.cjs','.json','.css','.html','.cc','.h','.cpp','.ino','.hex','.uf2','.yml','.mjs','.gz','.woff','.woff2','.ttf','.png','.txt'} or name.startswith(('screenshots/','evidence/')):continue
         digest.update(name.encode()+b'\0'+p.read_bytes()+b'\0')
     return digest.hexdigest()
 
@@ -57,7 +57,8 @@ def main():
     sha=subprocess.run(['git','rev-parse','HEAD'],capture_output=True,text=True,check=True).stdout.strip()
     dirty=bool(subprocess.run(['git','status','--porcelain'],capture_output=True,text=True,check=True).stdout.strip())
     dependencies=dependency_snapshot(env)
-    checks=[('native-peripherals',[sys.executable,'scripts/build-picsimlab.py']),
+    checks=[('circuitjs-upstream',[sys.executable,'scripts/test-circuitjs-upstream.py']),
+            ('native-peripherals',[sys.executable,'scripts/build-picsimlab.py']),
             ('python',[sys.executable,'-m','unittest','discover','-s','tests','-v']),
             ('node',['node','--test',*[str(p.relative_to(ROOT)) for p in sorted((ROOT/'tests').glob('test_*.cjs'))]])]
     for p in sorted((ROOT/'web').glob('*.js')):checks.append(('syntax-'+p.stem,['node','--check',str(p.relative_to(ROOT))]))
@@ -71,7 +72,7 @@ def main():
         except subprocess.TimeoutExpired as exc:
             output=str(exc);code=124
         (logs/(label+'.log')).write_text(output)
-        count=re.search(r'Ran (\d+) tests?',output) if label=='python' else re.search(r'(?:#|ℹ) tests (\d+)',output) if label=='node' else None
+        count=re.search(r'Ran (\d+) tests?',output) if label=='python' else re.search(r'(?:#|ℹ) tests (\d+)',output) if label=='node' else re.search(r'Tests\s+(\d+) passed',output) if label=='circuitjs-upstream' else None
         skipped=re.search(r'(?:#|ℹ) skipped (\d+)',output)
         status='passed' if code==0 else 'failed'
         if re.search(r'OK \(skipped=',output) or skipped and int(skipped[1])>0:status='incomplete'

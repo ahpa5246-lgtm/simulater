@@ -34,21 +34,21 @@ def validate(project):
         if len(pins_for(c))==2 and c['a'].lower() == c['b'].lower():
             raise ValueError(f'{cid}: both pins connect to the same node.')
         v = c.get('value')
-        if isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) or abs(v)>1e9:
+        if isinstance(v,bool) or not isinstance(v,(int,float)) or not -1e9<=v<=1e9:
             raise ValueError(f'{cid}: enter a finite numeric value.')
         if kind in {'R','C','L','D','Q','M','J','X','S'} and v<=0:
             raise ValueError(f'{cid}: value must be greater than zero.')
         ratio=c.get('ratio',.5)
-        if isinstance(ratio,bool) or not isinstance(ratio,(int,float)) or not math.isfinite(ratio) or not 0<=ratio<=1:
+        if isinstance(ratio,bool) or not isinstance(ratio,(int,float)) or not 0<=ratio<=1:
             raise ValueError('Potentiometer ratio must be between 0 and 1.')
         if c.get('wave','dc') not in {'dc','sine','pulse'}:
             raise ValueError('Unsupported source waveform.')
         frequency=c.get('frequency',1000)
-        if not isinstance(frequency,(int,float)) or isinstance(frequency,bool) or not math.isfinite(frequency) or not 1<=frequency<=1e7:
+        if not isinstance(frequency,(int,float)) or isinstance(frequency,bool) or not 1<=frequency<=1e7:
             raise ValueError('Frequency must be between 1 Hz and 10 MHz.')
         for key in ('x','y','rotation'):
             position=c.get(key,0)
-            if not isinstance(position,(int,float)) or isinstance(position,bool) or not math.isfinite(position) or abs(position)>100000:
+            if not isinstance(position,(int,float)) or isinstance(position,bool) or not -100000<=position<=100000:
                 raise ValueError('Invalid component position.')
         nodes={c[k].lower() for k in pins_for(c)}
         for node in nodes:adjacency.setdefault(node,set()).update(nodes-{node})
@@ -73,7 +73,7 @@ def validate(project):
     analysis=project.get('analysis',{})
     if not isinstance(analysis,dict):raise ValueError('Invalid analysis settings.')
     stop,step=analysis.get('stop',.005),analysis.get('step',.00001)
-    if any(isinstance(v,bool) or not isinstance(v,(int,float)) or not math.isfinite(v) or v<=0 for v in (stop,step)) or stop>10 or step>stop or stop/step>20000:
+    if any(isinstance(v,bool) or not isinstance(v,(int,float)) or not 0<v<=10 for v in (stop,step)) or stop>10 or step>stop or stop/step>20000:
         raise ValueError('Choose a positive duration ≤10 s and at most 20,000 time steps.')
     return project
 

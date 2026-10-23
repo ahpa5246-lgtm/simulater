@@ -42,3 +42,15 @@ Sketch compilation invokes externally installed GNU AVR GCC/binutils, avr-libc a
 See docs/open-source-integration.md. No blanket MIT grant is made for this combination.
 
 Adafruit BMP085/BMP180 and Adafruit BusIO firmware source packages are included under examples/libraries, with original license/copyright notices, BusIO LICENSE and UPSTREAM.txt links preserved. Used unmodified by the BMP180 reference firmware.
+
+## CircuitJS TypeScript engine (v0.7)
+
+Upstream https://github.com/pfalstad/circuitjs1, pinned commit `778723096a46f3c5ce4e11bd9edc24324754f02c`. Copyright Paul Falstad, Iain Sharp and contributors; GPL-2.0-or-later. `third_party/circuitjs/source.tar.gz` is the exact corresponding upstream source including per-file notices and locked build dependencies; `COPYING.txt` preserves the license. `scripts/vendor-circuitjs.py` contains all integration modifications and reproducibly builds `web/circuitjs`. `manifest.json` contains source and asset hashes. The app also offers the archive through `/api/circuitjs/source`. Disconnected cloud services and deployment-specific service-worker setup are disabled; a Mina return link is added. The source package's incidental package.json license field does not override its GPL source notices. The archive contains the engine's lz-string/canvas2svg/font and other bundled dependency notices. No blanket license grant is made for the whole application.
+
+## uPlot 1.6.32
+
+https://github.com/leeoniya/uPlot, MIT, Leon Sorokin. License retained at `web/vendor/uplot-LICENSE.txt`. `scripts/vendor-uplot.py` copies the pinned npm distribution and changes only the numeric locale selection to explicit en-US, avoiding startup failure on environments whose navigator.language is not a valid BCP-47 language tag. Interactive native solver charts use this library; the library does not generate electrical results.
+
+## Vitest 4.1.7 and lz-string 1.5.0
+
+Vitest (MIT) is a pinned development dependency for running the archived upstream CircuitJS tests. lz-string (MIT) is pinned for those tests and is also bundled by the upstream engine. npm dependency licenses are retained in node_modules and upstream source references; the lockfile pins exact dependency artifacts.
