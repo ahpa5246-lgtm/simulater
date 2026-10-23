@@ -1,0 +1,48 @@
+{
+  "commit": "bed036b693bfbb4dc0873203f1913ded943e49db",
+  "notice": "Authentic app screenshots; quick capture does not execute firmware.",
+  "shots": [
+    {
+      "file": "01-mpu6050-practical-green.png",
+      "caption": "MPU-6050 experiment and green technical-grid interface",
+      "bytes": 420050,
+      "url": "http://127.0.0.1:8765/lab.html"
+    },
+    {
+      "file": "02-multiple-device-workspace.png",
+      "caption": "Multiple I2C and GPIO sensor controls",
+      "bytes": 480804,
+      "url": "http://127.0.0.1:8765/lab.html"
+    },
+    {
+      "file": "03-arduino-green-workspace.png",
+      "caption": "Arduino board, sensor controls and firmware studio",
+      "bytes": 454121,
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "04-ultrasonic-board-view.png",
+      "caption": "HC-SR04 hardware preview and green PCB-style grid",
+      "bytes": 465534,
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "05-open-source-component-gallery.png",
+      "caption": "Visual component library dialog on current app",
+      "bytes": 395176,
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "06-analog-schematic-grid.png",
+      "caption": "Analog schematic editor with green grid",
+      "bytes": 201811,
+      "url": "http://127.0.0.1:8765/"
+    },
+    {
+      "file": "07-mobile-practical-layout.png",
+      "caption": "Mobile screen at 390px width",
+      "bytes": 312657,
+      "url": "http://127.0.0.1:8765/lab.html"
+    }
+  ]
+}
