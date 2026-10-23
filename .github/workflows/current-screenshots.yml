@@ -1,0 +1,48 @@
+name: Fresh browser screenshots
+on:
+  push:
+    branches: [feat/mpu6050-motion-simulation]
+    paths:
+      - '.github/workflows/current-screenshots.yml'
+      - 'scripts/capture-current-workbench.cjs'
+  workflow_dispatch:
+permissions:
+  contents: write
+jobs:
+  capture:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install simulation and browser dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ngspice gcc-avr binutils-avr avr-libc arduino-core-avr
+          npm ci
+          npx playwright install chromium --only-shell
+      - name: Capture actual UI with simulated firmware
+        run: node scripts/capture-current-workbench.cjs
+      - name: Store screenshots as workflow artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-simulator-screenshots
+          path: screenshots/current/
+          if-no-files-found: warn
+      - name: Publish verified screenshots on this feature branch
+        if: success()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add screenshots/current/
+          git commit -m "Capture fresh verified live simulator screens from current branch"
+          git push origin HEAD:feat/mpu6050-motion-simulation
