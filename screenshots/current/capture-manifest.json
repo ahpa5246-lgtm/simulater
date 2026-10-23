@@ -1,0 +1,62 @@
+{
+  "sourceCommit": "4a2ce39b0bafc9ec955066f39e377df6e9b0196d",
+  "generated": "2026-10-23T18:18:04.441Z",
+  "screenshots": [
+    {
+      "file": "01-mpu6050-live-firmware.png",
+      "description": "MPU-6050 registers read by compiled Arduino Wire firmware",
+      "bytes": 357731,
+      "at": "2026-10-23T18:17:57.134Z",
+      "url": "http://127.0.0.1:8765/lab.html"
+    },
+    {
+      "file": "02-mpu6050-updated-motion.png",
+      "description": "Changed IMU stimulus; fresh actual firmware output",
+      "bytes": 348863,
+      "at": "2026-10-23T18:17:58.894Z",
+      "url": "http://127.0.0.1:8765/lab.html"
+    },
+    {
+      "file": "03-multiple-connected-sensors.png",
+      "description": "Multi-device I2C and scheduled GPIO/ADC simulation",
+      "bytes": 399323,
+      "at": "2026-10-23T18:18:00.784Z",
+      "url": "http://127.0.0.1:8765/lab.html"
+    },
+    {
+      "file": "04-board-firmware-workspace.png",
+      "description": "Arduino board, connected sensor and firmware studio",
+      "bytes": 245070,
+      "at": "2026-10-23T18:18:01.607Z",
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "05-oscilloscope-logic-analyser.png",
+      "description": "Logic analyser and live HC-SR04 firmware pulse widths",
+      "bytes": 69574,
+      "at": "2026-10-23T18:18:02.220Z",
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "06-component-catalogue.png",
+      "description": "Current open-source component library and search dialogue",
+      "bytes": 339207,
+      "at": "2026-10-23T18:18:03.027Z",
+      "url": "http://127.0.0.1:8765/boards.html"
+    },
+    {
+      "file": "07-ngspice-analog-workbench.png",
+      "description": "Actual ngspice RC circuit schematic and waveform",
+      "bytes": 155968,
+      "at": "2026-10-23T18:18:04.020Z",
+      "url": "http://127.0.0.1:8765/"
+    },
+    {
+      "file": "08-mobile-layout.png",
+      "description": "Current mobile-width responsive firmware workspace",
+      "bytes": 236551,
+      "at": "2026-10-23T18:18:04.441Z",
+      "url": "http://127.0.0.1:8765/lab.html"
+    }
+  ]
+}
