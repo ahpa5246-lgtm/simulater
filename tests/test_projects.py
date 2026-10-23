@@ -54,6 +54,9 @@ class PracticalExamples(unittest.TestCase):
     self.assertGreater(result['cycles'],0)
     self.assertEqual(len(result['evidence']['projectSha256']),64)
     if name=='adc':self.assertIn('ADC: 8000',result['serial'])
+    if name=='imu':
+     self.assertIn('AX:8192 AZ:16384 GY:11790',result['serial'])
+     self.assertTrue(result['outputs'][0]['high'])
     if name=='echo':self.assertAlmostEqual(result['instruments']['D2']['highUs'],5800,delta=1)
     if name=='servo':self.assertAlmostEqual(result['outputs'][0]['commandDegrees'],90,delta=.2)
     if name=='multi':self.assertTrue(result['outputs'][0]['high'])

@@ -70,3 +70,7 @@ All 33 component/output/instrument illustrations work offline. Use the searchabl
 ## Open-source integrations (v0.5)
 
 The Open-source lab adds all 50 Wokwi elements from the pinned bundle, an optional Arduino CLI manager, a native PICSimLab DS1621 model and upstream sigrok SPI/I²C/UART decoders for captured GPIO. A Fritzing visual-part importer and Renode STM32F103 launch-profile exporter extend interoperability. Read [integration status and limits](docs/open-source-integration.md) before treating a visual part or external profile as a supported simulated device.
+
+## MPU-6050 IMU (experimental register model)
+
+In **Practical simulation** (`/lab.html`), load **MPU-6050 motion sensor (I²C)**. The included Arduino `Wire.h` sketch wakes the sensor, reads 14 accelerometer/temperature/gyroscope bytes and drives an LED. The editable three-axis acceleration, angular velocity and temperature inputs are forwarded to executable I²C registers, not illustrated outputs. Addresses 0x68 and 0x69, identity, sleep/reset and measurement ranges are included. See [behavioral scope, omissions and checks](docs/mpu6050-simulation.md). This does not add ESP32 firmware, mechanics, DMP or FIFO simulation.

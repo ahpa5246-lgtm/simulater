@@ -25,3 +25,21 @@ jobs:
           node --test tests/test_mpu6050.cjs tests/test_i2c_devices.cjs
           python -m unittest discover -s tests -p test_mpu_project.py -v
           node --check web/lab.js
+  firmware-integration:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Arduino AVR compiler and core
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y gcc-avr binutils-avr avr-libc arduino-core-avr
+          npm ci
+      - name: Run compiled real-firmware simulation tests
+        run: python -m unittest discover -s tests -p test_projects.py -v
