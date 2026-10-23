@@ -52,6 +52,7 @@ async function run(){
   assert.match(await page.locator('#serial-output').innerText(),/ADC:/);
   await capture(page,'04-board-firmware-workspace.png','Arduino board, connected sensor and firmware studio');
   await page.selectOption('#sketch-example','ultrasonic');
+  await page.locator('#sensor-value').fill('100');
   await page.locator('#use-bundled').click();await waitFor(page,'board-status','Bundled firmware ready');
   await page.locator('#run-board').click();await waitFor(page,'board-status','Execution complete');
   assert.match(await page.locator('#serial-output').innerText(),/5800/);
