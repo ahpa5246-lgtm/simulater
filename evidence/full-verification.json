@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-23T20:56:26.815049+00:00",
-  "baseCommit": "c5510c8cf6c3e05c59240234790677ff79e4cb08",
+  "timestamp": "2026-10-23T21:01:21.200398+00:00",
+  "baseCommit": "247f9a05e7923d3a49eda395ede838d19b324a4d",
   "workingTreeModified": true,
-  "sourceSha256": "8cd165e874b5dfe805115a9f6cd224d06c0b965c5357c17357f6b5ed8319bc34",
+  "sourceSha256": "899a8d7ff8d7bf8994fabd22723b0657633a2dd00ec3ab49e9f7c40ed8a61bd5",
   "sourceStable": true,
   "platform": "linux",
   "python": "3.12.14",
@@ -15,7 +15,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.406,
+      "seconds": 0.491,
       "testCount": null,
       "log": ".state/verification/native-peripherals.log"
     },
@@ -32,7 +32,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 23.211,
+      "seconds": 23.907,
       "testCount": 87,
       "log": ".state/verification/python.log"
     },
@@ -49,7 +49,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.853,
+      "seconds": 0.832,
       "testCount": 20,
       "log": ".state/verification/node.log"
     },
@@ -62,7 +62,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.051,
+      "seconds": 0.05,
       "testCount": null,
       "log": ".state/verification/syntax-analog-ui.log"
     },
@@ -75,7 +75,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.054,
+      "seconds": 0.049,
       "testCount": null,
       "log": ".state/verification/syntax-app.log"
     },
@@ -88,7 +88,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.056,
+      "seconds": 0.055,
       "testCount": null,
       "log": ".state/verification/syntax-boards.log"
     },
@@ -101,7 +101,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.053,
+      "seconds": 0.057,
       "testCount": null,
       "log": ".state/verification/syntax-component-library.log"
     },
@@ -114,7 +114,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.059,
+      "seconds": 0.049,
       "testCount": null,
       "log": ".state/verification/syntax-integrations.log"
     },
@@ -127,7 +127,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.048,
+      "seconds": 0.05,
       "testCount": null,
       "log": ".state/verification/syntax-lab.log"
     },
@@ -152,7 +152,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.356,
+      "seconds": 2.311,
       "testCount": null,
       "log": ".state/verification/analog-parts-browser.log"
     },
@@ -164,7 +164,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 5.334,
+      "seconds": 5.391,
       "testCount": null,
       "log": ".state/verification/boards-browser.log"
     },
@@ -176,7 +176,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 1.978,
+      "seconds": 2.194,
       "testCount": null,
       "log": ".state/verification/browser.log"
     },
@@ -188,7 +188,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.922,
+      "seconds": 3.101,
       "testCount": null,
       "log": ".state/verification/component-library-browser.log"
     },
@@ -200,7 +200,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 6.994,
+      "seconds": 7.371,
       "testCount": null,
       "log": ".state/verification/instruments-browser.log"
     },
@@ -212,7 +212,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.452,
+      "seconds": 3.269,
       "testCount": null,
       "log": ".state/verification/parts-browser.log"
     },
@@ -224,7 +224,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.914,
+      "seconds": 4.829,
       "testCount": null,
       "log": ".state/verification/practical-browser.log"
     },
@@ -236,12 +236,12 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.881,
+      "seconds": 4.046,
       "testCount": null,
       "log": ".state/verification/upstream-browser.log"
     }
   ],
-  "seconds": 56.694,
+  "seconds": 58.128,
   "allPassed": true,
   "unitTests": 107,
   "browserSuites": 8,

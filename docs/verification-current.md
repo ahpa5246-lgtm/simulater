@@ -4,7 +4,7 @@ This is a regression verification record, not a certificate that every possible 
 
 ## Result
 
-The final local run passed **107 unit/integration tests (87 Python, 20 Node)** and **all eight browser suites**, with no skipped tests and a stable source fingerprint. Total matrix duration: 56.694 seconds. The optional-CLI missing-binary browser path also passed in a separate run. Independent review ran 26 additional amplifier/comparator supply probes and found no Critical solver/editor defect. These figures refer to the source fingerprint in the JSON report; hosted CI is a separate check.
+The final local run passed **107 unit/integration tests (87 Python, 20 Node)** and **all eight browser suites**, with no skipped tests and a stable source fingerprint. Total matrix duration: 58.128 seconds. The optional-CLI missing-binary browser path also passed in a separate run. Independent review ran 26 additional amplifier/comparator supply probes and found no Critical solver/editor defect. These figures refer to the source fingerprint in the JSON report; hosted CI is a separate check.
 
 ## Implemented and exercised
 
@@ -46,6 +46,7 @@ The existing practical firmware workspace retains 21 behavioral/output model typ
 - SPICE export used a separate two-terminal-only frontend generator; it now shares execution's validated multi-terminal backend.
 - Imported source profiles could display a DC symbol/control while the solver selected the profile's sine waveform; frontend/backend defaults now agree. Explicit null profiles are rejected during import.
 - The illustration browser test counted cards from another hidden dialog. It now scopes its assertions to the illustration gallery.
+- A second CI invocation exposed an asynchronous import assertion race in the new browser test. The test now waits for the actual import result instead of sampling the previous status.
 - The optional CLI browser test assumed an installed binary; it now checks either real status or the real unavailable diagnostic. Live online installation remains unverified.
 
 ## Accuracy and remaining gaps

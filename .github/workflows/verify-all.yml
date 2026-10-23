@@ -29,6 +29,7 @@ jobs:
         if: always()
         with:
           name: simulator-verification
+          include-hidden-files: true
           path: |
             evidence/full-verification.json
             .state/verification/
