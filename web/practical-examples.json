@@ -112,5 +112,37 @@
       ]
     },
     "source": "// Original Mina reference sketch; see docs/instrument-validation.md for assumptions.\n\nvoid setup(){pinMode(9,OUTPUT);TCCR1A=0;TCCR1B=0;TCNT1=0;ICR1=39999;OCR1A=3000;TCCR1A=_BV(COM1A1)|_BV(WGM11);TCCR1B=_BV(WGM13)|_BV(WGM12)|_BV(CS11);}\nvoid loop(){}\n"
+  },
+  "imu": {
+    "title": "MPU-6050 real Arduino I²C read",
+    "project": {
+      "version": 1,
+      "board": "arduino-uno",
+      "durationMs": 250,
+      "components": [
+        {
+          "id": "imu",
+          "model": "mpu6050",
+          "address": 104,
+          "accelG": [
+            0.5,
+            0,
+            1
+          ],
+          "gyroDps": [
+            0,
+            90,
+            0
+          ],
+          "temperature": 36.53
+        },
+        {
+          "id": "status-led",
+          "model": "led",
+          "pin": 13
+        }
+      ]
+    },
+    "source": "#include <Wire.h>\nint16_t sampleAxis(){int hi=Wire.read();int lo=Wire.read();return (int16_t)((hi<<8)|lo);}\nvoid setup(){Serial.begin(115200);Wire.begin();pinMode(13,OUTPUT);Wire.beginTransmission(0x68);Wire.write(0x6B);Wire.write(0);Wire.endTransmission();}\nvoid loop(){Wire.beginTransmission(0x68);Wire.write(0x3B);Wire.endTransmission();Wire.requestFrom(0x68,14);if(Wire.available()>=14){int16_t ax=sampleAxis();sampleAxis();int16_t az=sampleAxis();sampleAxis();sampleAxis();int16_t gy=sampleAxis();sampleAxis();Serial.print(\"AX:\");Serial.print(ax);Serial.print(\" AZ:\");Serial.print(az);Serial.print(\" GY:\");Serial.println(gy);digitalWrite(13,ax>0);}delay(25);}\n"
   }
 }

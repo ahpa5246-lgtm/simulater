@@ -19,6 +19,7 @@ MODELS = {
  'bh1750': {'kind':'i2c','address':35,'lux':1000,'range':[0,100000],'unit':'lux'},
  'ads1115': {'kind':'i2c','address':72,'voltages':[1,2,0,0],'unit':'V'},
  'pcf8574': {'kind':'i2c','address':32,'inputs':255,'unit':'8-bit external input mask'},
+ 'mpu6050': {'kind':'i2c','address':104,'accelG':[0,0,1],'gyroDps':[0,0,0],'temperature':25,'range':[-40,85],'unit':'g / deg/s / °C'},
  'led': {'kind':'output','pin':13}, 'servo': {'kind':'output','pin':9}, 'buzzer': {'kind':'output','pin':9},
 }
 
@@ -48,7 +49,7 @@ def prepare_project(project):
   if 'connected' in c and not isinstance(c['connected'],bool):raise ValueError('Connected must be boolean.')
   if kind=='i2c':
    c.setdefault('address',profile['address']);address=number(c['address'],8,119,'I2C address',True)
-   valid=(address in [35,92] if model=='bh1750' else address==119 if model=='bmp180' else 72<=address<=75 if model=='ads1115' else 32<=address<=39 if model=='pcf8574' else 72<=address<=79)
+   valid=(address in [104,105] if model=='mpu6050' else address in [35,92] if model=='bh1750' else address==119 if model=='bmp180' else 72<=address<=75 if model=='ads1115' else 32<=address<=39 if model=='pcf8574' else 72<=address<=79)
    if not valid:raise ValueError('Unsupported I2C address for '+model)
    if address in addresses:raise ValueError('I2C address conflict: '+hex(address))
    addresses.add(address)
@@ -56,6 +57,11 @@ def prepare_project(project):
    if model=='bh1750':c['lux']=number(c.get('lux',1000),0,100000,'Lux')
    if model=='bmp180':c['pressureHpa']=number(c.get('pressureHpa',1013.25),300,1100,'Pressure')
    if model=='pcf8574':c['inputs']=number(c.get('inputs',255),0,255,'Input mask',True)
+   if model=='mpu6050':
+    for key,bound in [('accelG',16),('gyroDps',2000)]:
+     values=c.get(key,profile[key])
+     if not isinstance(values,list) or len(values)!=3:raise ValueError(key+' requires a three-axis numeric vector.')
+     c[key]=[number(x,-bound,bound,key) for x in values]
    if model=='ads1115':
     v=c.get('voltages',[1,2,0,0])
     if not isinstance(v,list) or len(v)!=4:raise ValueError('ADS1115 requires four voltages.')
