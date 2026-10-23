@@ -1,0 +1,850 @@
+{
+  "scope": "Internal firmware/reference verification, not physical hardware validation. Ideal and subset model assumptions still apply.",
+  "generatedAt": "2026-10-23T13:21:59.869731+00:00",
+  "passed": 14,
+  "failed": 0,
+  "cases": [
+    {
+      "name": "HC-SR04 20 cm \u00b7 captured ECHO",
+      "expected": 1160,
+      "measured": 1160,
+      "error": 0,
+      "tolerance": 0.25,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 20,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "1160\r\n1160\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 24615,
+          "ms": 1.5384375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1068430,
+          "ms": 66.776875,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1068713,
+          "ms": 66.7945625,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1071912,
+          "ms": 66.9945,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1090472,
+          "ms": 68.1545,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "HC-SR04 20 cm \u00b7 firmware pulseIn",
+      "expected": 1160,
+      "measured": 1160,
+      "error": 0,
+      "tolerance": 4,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 20,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "1160\r\n1160\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 24615,
+          "ms": 1.5384375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1068430,
+          "ms": 66.776875,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1068713,
+          "ms": 66.7945625,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1071912,
+          "ms": 66.9945,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1090472,
+          "ms": 68.1545,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "HC-SR04 100 cm \u00b7 captured ECHO",
+      "expected": 5800,
+      "measured": 5800,
+      "error": 0,
+      "tolerance": 0.25,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 100,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "5800\r\n5800\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 98855,
+          "ms": 6.1784375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1142748,
+          "ms": 71.42175,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1143031,
+          "ms": 71.4394375,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1146230,
+          "ms": 71.639375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1239030,
+          "ms": 77.439375,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "HC-SR04 100 cm \u00b7 firmware pulseIn",
+      "expected": 5800,
+      "measured": 5800,
+      "error": 0,
+      "tolerance": 4,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 100,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "5800\r\n5800\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 98855,
+          "ms": 6.1784375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1142748,
+          "ms": 71.42175,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1143031,
+          "ms": 71.4394375,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1146230,
+          "ms": 71.639375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1239030,
+          "ms": 77.439375,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "HC-SR04 200 cm \u00b7 captured ECHO",
+      "expected": 11600,
+      "measured": 11600,
+      "error": 0,
+      "tolerance": 0.25,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600001,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 200,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "11600\r\n11600\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 191655,
+          "ms": 11.9784375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1236165,
+          "ms": 77.2603125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1236448,
+          "ms": 77.278,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1239647,
+          "ms": 77.4779375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1425247,
+          "ms": 89.0779375,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "HC-SR04 200 cm \u00b7 firmware pulseIn",
+      "expected": 11600,
+      "measured": 11600,
+      "error": 0,
+      "tolerance": 4,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600001,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "hcsr04",
+            "distanceCm": 200,
+            "triggerPin": 3,
+            "echoPin": 2
+          }
+        ]
+      },
+      "serial": "11600\r\n11600\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 6055,
+          "ms": 0.3784375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 191655,
+          "ms": 11.9784375,
+          "pin": "D2",
+          "value": false
+        },
+        {
+          "cycle": 1236165,
+          "ms": 77.2603125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1236448,
+          "ms": 77.278,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1239647,
+          "ms": 77.4779375,
+          "pin": "D2",
+          "value": true
+        },
+        {
+          "cycle": 1425247,
+          "ms": 89.0779375,
+          "pin": "D2",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Disconnected ECHO \u00b7 firmware timeout",
+      "expected": 0,
+      "measured": 0,
+      "error": 0,
+      "tolerance": 0,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "1e6c9d63d70e266bb9126c5eb0247509fc172b431743e929c11c6d45408bc977",
+      "cycles": 1600001,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": []
+      },
+      "serial": "0\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2573,
+          "ms": 0.1608125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 2856,
+          "ms": 0.1785,
+          "pin": "D3",
+          "value": false
+        },
+        {
+          "cycle": 1374645,
+          "ms": 85.9153125,
+          "pin": "D3",
+          "value": true
+        },
+        {
+          "cycle": 1374928,
+          "ms": 85.933,
+          "pin": "D3",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Button released",
+      "expected": 1,
+      "measured": 1,
+      "error": 0,
+      "tolerance": 0,
+      "unit": "logic",
+      "passed": true,
+      "firmwareSha256": "27664413514510d16111869b3017ac7d1c221f6efd96704c2c8ec1848ed6d291",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "button",
+            "pin": 2,
+            "value": false
+          }
+        ]
+      },
+      "serial": "1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n1\r\n",
+      "tracePreview": [
+        {
+          "cycle": 0,
+          "ms": 0,
+          "pin": "D2",
+          "value": true
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Button pressed",
+      "expected": 0,
+      "measured": 0,
+      "error": 0,
+      "tolerance": 0,
+      "unit": "logic",
+      "passed": true,
+      "firmwareSha256": "27664413514510d16111869b3017ac7d1c221f6efd96704c2c8ec1848ed6d291",
+      "cycles": 1600001,
+      "clockHz": 16000000,
+      "inputs": {
+        "devices": [
+          {
+            "model": "button",
+            "pin": 2,
+            "value": true
+          }
+        ]
+      },
+      "serial": "0\r\n0\r\n0\r\n0\r\n0\r\n0\r\n0\r\n0\r\n0\r\n0\r\n",
+      "tracePreview": [
+        {
+          "cycle": 2503,
+          "ms": 0.1564375,
+          "pin": "D13",
+          "value": true
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "NTC10k at 25 \u00b0C \u00b7 divider midpoint",
+      "expected": 512,
+      "measured": 512,
+      "error": 0,
+      "tolerance": 1,
+      "unit": "ADC counts",
+      "passed": true,
+      "firmwareSha256": "54412dfc60d7c4a9e144b2ded4cd486902ca90575d6e901c21ab461cb3f2eb92",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {
+        "sensors": [
+          {
+            "model": "ntc10k",
+            "pin": 0,
+            "value": 25
+          }
+        ]
+      },
+      "serial": "ADC: 512  Voltage: 2.500\r\nADC: 512  Voltage: 2.500\r\nADC: 512  Voltage: 2.500\r\nADC: 512  Voltage:",
+      "tracePreview": [
+        {
+          "cycle": 5891,
+          "ms": 0.3681875,
+          "pin": "D13",
+          "value": true
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Timer1 servo-style pulse width",
+      "expected": 1500,
+      "measured": 1499.953125,
+      "error": 0.046875,
+      "tolerance": 1,
+      "unit": "\u00b5s",
+      "passed": true,
+      "firmwareSha256": "98e50a76cbd834d408ca714e99f57aaedf38bcb6b54fc43ad1907785a6ac8833",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {},
+      "serial": "",
+      "tracePreview": [
+        {
+          "cycle": 321586,
+          "ms": 20.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 345586,
+          "ms": 21.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 641586,
+          "ms": 40.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 665586,
+          "ms": 41.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 961589,
+          "ms": 60.0993125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 985586,
+          "ms": 61.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 1281586,
+          "ms": 80.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 1305586,
+          "ms": 81.599125,
+          "pin": "D9",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Timer1 servo-style repetition",
+      "expected": 50,
+      "measured": 50,
+      "error": 0,
+      "tolerance": 0.05,
+      "unit": "Hz",
+      "passed": true,
+      "firmwareSha256": "98e50a76cbd834d408ca714e99f57aaedf38bcb6b54fc43ad1907785a6ac8833",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {},
+      "serial": "",
+      "tracePreview": [
+        {
+          "cycle": 321586,
+          "ms": 20.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 345586,
+          "ms": 21.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 641586,
+          "ms": 40.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 665586,
+          "ms": 41.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 961589,
+          "ms": 60.0993125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 985586,
+          "ms": 61.599125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 1281586,
+          "ms": 80.099125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 1305586,
+          "ms": 81.599125,
+          "pin": "D9",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "Buzzer tone frequency",
+      "expected": 1000,
+      "measured": 1000.0404056729565,
+      "error": 0.04040567295646724,
+      "tolerance": 2,
+      "unit": "Hz",
+      "passed": true,
+      "firmwareSha256": "1b4259912c4af19c51d4deef597c88693b7bac9baff8c0ffe56d6c0f16f4e2ee",
+      "cycles": 1600000,
+      "clockHz": 16000000,
+      "inputs": {},
+      "serial": "",
+      "tracePreview": [
+        {
+          "cycle": 3854,
+          "ms": 0.240875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 11787,
+          "ms": 0.7366875,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 19788,
+          "ms": 1.23675,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 27787,
+          "ms": 1.7366875,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 35790,
+          "ms": 2.236875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 43789,
+          "ms": 2.7368125,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 51787,
+          "ms": 3.2366875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 59787,
+          "ms": 3.7366875,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 67787,
+          "ms": 4.2366875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 75787,
+          "ms": 4.7366875,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 83789,
+          "ms": 5.2368125,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 91788,
+          "ms": 5.73675,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 99787,
+          "ms": 6.2366875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 107787,
+          "ms": 6.7366875,
+          "pin": "D9",
+          "value": false
+        },
+        {
+          "cycle": 115787,
+          "ms": 7.2366875,
+          "pin": "D9",
+          "value": true
+        },
+        {
+          "cycle": 123789,
+          "ms": 7.7368125,
+          "pin": "D9",
+          "value": false
+        }
+      ],
+      "traceTruncated": false
+    },
+    {
+      "name": "I\u00b2C absent address returns NACK",
+      "expected": true,
+      "measured": true,
+      "error": 0,
+      "tolerance": 0,
+      "unit": "bus",
+      "passed": true,
+      "firmwareSha256": "d078c0afe8d8025d1c1764ea556ff3def298f9a9e3cdd8b04c022cdcfd66df84",
+      "cycles": 1600002,
+      "clockHz": 16000000,
+      "inputs": {
+        "i2cPresent": false
+      },
+      "serial": "",
+      "tracePreview": [],
+      "traceTruncated": false
+    }
+  ],
+  "reference": "HC-SR04 58 \u00b5s/cm; ATmega328P Timer1 16 MHz / 8; generic 10k/B3950 divider; 10-bit ADC; absent I\u00b2C address NACK."
+}

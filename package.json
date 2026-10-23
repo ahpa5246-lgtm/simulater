@@ -1,0 +1,23 @@
+{
+  "name": "mina-circuit-workbench",
+  "version": "0.4.0",
+  "private": true,
+  "description": "Local schematic workbench with native ngspice simulation",
+  "scripts": {
+    "start": "python server.py",
+    "test": "python -m unittest discover -s tests -v",
+    "test:browser": "node tests/browser.cjs",
+    "test:boards": "node --test tests/test_pico.cjs",
+    "test:boards-browser": "node tests/boards-browser.cjs",
+    "test:instruments": "node --test tests/test_instruments.cjs",
+    "test:instruments-browser": "node tests/instruments-browser.cjs",
+    "test:parts-browser": "node tests/parts-browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.51.1"
+  },
+  "dependencies": {
+    "avr8js": "0.21.0",
+    "rp2040js": "1.3.3"
+  }
+}

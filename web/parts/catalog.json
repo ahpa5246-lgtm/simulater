@@ -1,0 +1,845 @@
+[
+  {
+    "id": "lm35",
+    "name": "LM35",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "tmp36",
+    "name": "TMP36",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "lm75",
+    "name": "LM75 module",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "SDA",
+        "x": 45,
+        "y": 148
+      },
+      {
+        "name": "SCL",
+        "x": 95,
+        "y": 148
+      },
+      {
+        "name": "VCC",
+        "x": 145,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 195,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "hcsr04",
+    "name": "HC-SR04 ultrasonic",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 45,
+        "y": 148
+      },
+      {
+        "name": "TRIG",
+        "x": 95,
+        "y": 148
+      },
+      {
+        "name": "ECHO",
+        "x": 145,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 195,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "potentiometer",
+    "name": "Rotary potentiometer",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "light-divider",
+    "name": "Light-dependent resistor divider",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "ntc10k",
+    "name": "NTC 10k thermistor",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "A0",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "joystick-axis",
+    "name": "Joystick module \u00b7 one axis",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "VRx",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "button",
+    "name": "Tactile pushbutton",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "pir",
+    "name": "PIR motion module",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "reed-switch",
+    "name": "Reed contact module",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "ir-obstacle",
+    "name": "IR obstacle module",
+    "group": "Sensors & inputs",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "VCC",
+        "x": 60,
+        "y": 148
+      },
+      {
+        "name": "OUT",
+        "x": 120,
+        "y": 148
+      },
+      {
+        "name": "GND",
+        "x": 180,
+        "y": 148
+      }
+    ]
+  },
+  {
+    "id": "resistor",
+    "name": "Resistor",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "1",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "2",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "capacitor",
+    "name": "Capacitor",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "+",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "\u2212",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "inductor",
+    "name": "Inductor",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "1",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "2",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "diode",
+    "name": "Silicon diode",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "A",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "K",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "dc-source",
+    "name": "DC voltage source",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "+",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "\u2212",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "ac-source",
+    "name": "AC voltage source",
+    "group": "Circuit components",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "+",
+        "x": 0,
+        "y": 40
+      },
+      {
+        "name": "\u2212",
+        "x": 120,
+        "y": 40
+      }
+    ]
+  },
+  {
+    "id": "arduino-uno",
+    "name": "Arduino Uno R3",
+    "group": "Boards",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "D13",
+        "x": 90,
+        "y": 28
+      },
+      {
+        "name": "D12",
+        "x": 109,
+        "y": 28
+      },
+      {
+        "name": "D11",
+        "x": 128,
+        "y": 28
+      },
+      {
+        "name": "D10",
+        "x": 147,
+        "y": 28
+      },
+      {
+        "name": "D9",
+        "x": 166,
+        "y": 28
+      },
+      {
+        "name": "D8",
+        "x": 185,
+        "y": 28
+      },
+      {
+        "name": "D7",
+        "x": 204,
+        "y": 28
+      },
+      {
+        "name": "D6",
+        "x": 223,
+        "y": 28
+      },
+      {
+        "name": "D5",
+        "x": 242,
+        "y": 28
+      },
+      {
+        "name": "D4",
+        "x": 261,
+        "y": 28
+      },
+      {
+        "name": "D3",
+        "x": 280,
+        "y": 28
+      },
+      {
+        "name": "D2",
+        "x": 299,
+        "y": 28
+      },
+      {
+        "name": "D1",
+        "x": 318,
+        "y": 28
+      },
+      {
+        "name": "D0",
+        "x": 337,
+        "y": 28
+      },
+      {
+        "name": "5V",
+        "x": 90,
+        "y": 222
+      },
+      {
+        "name": "GND",
+        "x": 124,
+        "y": 222
+      },
+      {
+        "name": "A0",
+        "x": 158,
+        "y": 222
+      },
+      {
+        "name": "A1",
+        "x": 192,
+        "y": 222
+      },
+      {
+        "name": "A2",
+        "x": 226,
+        "y": 222
+      },
+      {
+        "name": "A3",
+        "x": 260,
+        "y": 222
+      },
+      {
+        "name": "A4",
+        "x": 294,
+        "y": 222
+      },
+      {
+        "name": "A5",
+        "x": 328,
+        "y": 222
+      }
+    ]
+  },
+  {
+    "id": "arduino-nano",
+    "name": "Arduino Nano classic",
+    "group": "Boards",
+    "support": "modeled",
+    "pins": [
+      {
+        "name": "D13",
+        "x": 90,
+        "y": 75
+      },
+      {
+        "name": "D12",
+        "x": 109,
+        "y": 75
+      },
+      {
+        "name": "D11",
+        "x": 128,
+        "y": 75
+      },
+      {
+        "name": "D10",
+        "x": 147,
+        "y": 75
+      },
+      {
+        "name": "D9",
+        "x": 166,
+        "y": 75
+      },
+      {
+        "name": "D8",
+        "x": 185,
+        "y": 75
+      },
+      {
+        "name": "D7",
+        "x": 204,
+        "y": 75
+      },
+      {
+        "name": "D6",
+        "x": 223,
+        "y": 75
+      },
+      {
+        "name": "D5",
+        "x": 242,
+        "y": 75
+      },
+      {
+        "name": "D4",
+        "x": 261,
+        "y": 75
+      },
+      {
+        "name": "D3",
+        "x": 280,
+        "y": 75
+      },
+      {
+        "name": "D2",
+        "x": 299,
+        "y": 75
+      },
+      {
+        "name": "D1",
+        "x": 318,
+        "y": 75
+      },
+      {
+        "name": "D0",
+        "x": 337,
+        "y": 75
+      },
+      {
+        "name": "5V",
+        "x": 90,
+        "y": 175
+      },
+      {
+        "name": "GND",
+        "x": 124,
+        "y": 175
+      },
+      {
+        "name": "A0",
+        "x": 158,
+        "y": 175
+      },
+      {
+        "name": "A1",
+        "x": 192,
+        "y": 175
+      },
+      {
+        "name": "A2",
+        "x": 226,
+        "y": 175
+      },
+      {
+        "name": "A3",
+        "x": 260,
+        "y": 175
+      },
+      {
+        "name": "A4",
+        "x": 294,
+        "y": 175
+      },
+      {
+        "name": "A5",
+        "x": 328,
+        "y": 175
+      }
+    ]
+  },
+  {
+    "id": "raspberry-pi-pico",
+    "name": "Raspberry Pi Pico",
+    "group": "Boards",
+    "support": "experimental",
+    "pins": [
+      {
+        "name": "GP0",
+        "x": 90,
+        "y": 75
+      },
+      {
+        "name": "GP1",
+        "x": 109,
+        "y": 75
+      },
+      {
+        "name": "GP2",
+        "x": 128,
+        "y": 75
+      },
+      {
+        "name": "GP3",
+        "x": 147,
+        "y": 75
+      },
+      {
+        "name": "GP4",
+        "x": 166,
+        "y": 75
+      },
+      {
+        "name": "GP5",
+        "x": 185,
+        "y": 75
+      },
+      {
+        "name": "GP6",
+        "x": 204,
+        "y": 75
+      },
+      {
+        "name": "GP7",
+        "x": 223,
+        "y": 75
+      },
+      {
+        "name": "GP8",
+        "x": 242,
+        "y": 75
+      },
+      {
+        "name": "GP9",
+        "x": 261,
+        "y": 75
+      },
+      {
+        "name": "GP10",
+        "x": 280,
+        "y": 75
+      },
+      {
+        "name": "GP11",
+        "x": 299,
+        "y": 75
+      },
+      {
+        "name": "GP12",
+        "x": 318,
+        "y": 75
+      },
+      {
+        "name": "GP13",
+        "x": 337,
+        "y": 75
+      },
+      {
+        "name": "VBUS",
+        "x": 90,
+        "y": 175
+      },
+      {
+        "name": "GND",
+        "x": 124,
+        "y": 175
+      },
+      {
+        "name": "GP26",
+        "x": 158,
+        "y": 175
+      },
+      {
+        "name": "GP27",
+        "x": 192,
+        "y": 175
+      },
+      {
+        "name": "GP28",
+        "x": 226,
+        "y": 175
+      },
+      {
+        "name": "3V3",
+        "x": 260,
+        "y": 175
+      },
+      {
+        "name": "VSYS",
+        "x": 294,
+        "y": 175
+      },
+      {
+        "name": "RUN",
+        "x": 328,
+        "y": 175
+      }
+    ]
+  },
+  {
+    "id": "raspberry-pi-4",
+    "name": "Raspberry Pi 4 / 5 family",
+    "group": "Boards",
+    "support": "visual only",
+    "pins": []
+  },
+  {
+    "id": "esp32",
+    "name": "ESP32 family",
+    "group": "Boards",
+    "support": "visual only",
+    "pins": []
+  },
+  {
+    "id": "stm32",
+    "name": "STM32 family",
+    "group": "Boards",
+    "support": "visual only",
+    "pins": []
+  },
+  {
+    "id": "pic",
+    "name": "PIC / dsPIC family",
+    "group": "Boards",
+    "support": "visual only",
+    "pins": []
+  },
+  {
+    "id": "led",
+    "name": "Onboard LED",
+    "group": "Outputs",
+    "support": "GPIO output",
+    "pins": [
+      {
+        "name": "A",
+        "x": 95,
+        "y": 145
+      },
+      {
+        "name": "K",
+        "x": 145,
+        "y": 145
+      }
+    ]
+  },
+  {
+    "id": "servo",
+    "name": "Servo-style PWM signal",
+    "group": "Outputs",
+    "support": "Signal only \u00b7 no mechanics",
+    "pins": []
+  },
+  {
+    "id": "buzzer",
+    "name": "Buzzer tone output",
+    "group": "Outputs",
+    "support": "GPIO tone \u00b7 no audio synthesis",
+    "pins": []
+  },
+  {
+    "id": "serial-monitor",
+    "name": "Serial monitor",
+    "group": "Tools",
+    "support": "existing tool",
+    "pins": []
+  },
+  {
+    "id": "logic-analyser",
+    "name": "Logic analyser",
+    "group": "Tools",
+    "support": "existing tool",
+    "pins": []
+  },
+  {
+    "id": "waveform-viewer",
+    "name": "Waveform viewer",
+    "group": "Tools",
+    "support": "existing tool",
+    "pins": []
+  },
+  {
+    "id": "library-manager",
+    "name": "Library manager",
+    "group": "Tools",
+    "support": "existing tool",
+    "pins": []
+  },
+  {
+    "id": "firmware-studio",
+    "name": "Firmware studio",
+    "group": "Tools",
+    "support": "existing tool",
+    "pins": []
+  }
+]

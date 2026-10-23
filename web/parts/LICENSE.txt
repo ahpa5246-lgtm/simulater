@@ -1,0 +1,11 @@
+Original Mina component illustrations and connector catalog
+CC0 1.0 Universal dedication
+
+To the extent possible under law, the authors of scripts/build_part_art.py
+waive all copyright and related or neighboring rights to the SVG illustrations
+and catalog.json generated in this directory. See:
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+This dedication does not apply to the simulator application or its dependencies.
+Names identify illustrated component families; no manufacturer affiliation or
+exact physical footprint is claimed.
