@@ -9,7 +9,9 @@ import threading
 from http.server import ThreadingHTTPServer, SimpleHTTPRequestHandler
 from pathlib import Path
 from urllib.parse import urlparse
-from circuit import simulate
+from circuit import simulate, netlist, validate
+from analog_parts import PARTS, reference_project
+from university import experiments, run_experiment
 from boards.service import run_board, compile_sketch, board_catalogue
 from boards.fritzing_parts import import_part, list_parts, svg_path
 from boards.protocols import decode_capture
@@ -20,17 +22,25 @@ from boards.verification import example_hex, example_sketches, verify_models
 
 ROOT=Path(__file__).parent/'web'
 SLOTS=threading.BoundedSemaphore(2)
+CIRCUITJS_FILES=set(json.loads((ROOT.parent/'third_party/circuitjs/manifest.json').read_text())['files'])
 
 class Handler(SimpleHTTPRequestHandler):
     def __init__(self,*args,**kwargs):super().__init__(*args,directory=str(ROOT),**kwargs)
     def end_headers(self):
         self.send_header('X-Content-Type-Options','nosniff')
-        self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; frame-ancestors 'none'")
+        if self.path.startswith('/circuitjs/'):
+            self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: blob:; media-src 'self' blob:; object-src 'none'; frame-ancestors 'self'")
+        else:self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; object-src 'none'; frame-ancestors 'none'")
         super().end_headers()
     def valid_host(self):
         return self.headers.get('Host') in {f'127.0.0.1:{self.server.server_port}',f'localhost:{self.server.server_port}'}
     def do_GET(self):
         if not self.valid_host():self.reply(403,{'error':'Invalid local host.'});return
+        if self.path=='/api/circuitjs/source':
+            body=(ROOT.parent/'third_party/circuitjs/source.tar.gz').read_bytes()
+            self.send_response(200);self.send_header('Content-Type','application/gzip');self.send_header('Content-Disposition','attachment; filename=mina-circuitjs-source.tar.gz');self.send_header('Content-Length',str(len(body)));self.end_headers();self.wfile.write(body);return
+        if self.path=='/api/university/experiments':self.reply(200,experiments());return
+        if self.path=='/api/circuit/examples':self.reply(200,{p['id']:reference_project(p['id']) for p in PARTS});return
         if self.path=='/api/boards/examples':
             try:self.reply(200,example_hex())
             except OSError:self.reply(503,{'error':'Bundled firmware examples are missing.'})
@@ -48,16 +58,20 @@ class Handler(SimpleHTTPRequestHandler):
         if self.path=='/api/arduino-cli/libraries':self.reply(200,arduino_cli.list_libraries());return
         if self.path=='/api/libraries':self.reply(200,{'libraries':list_libraries()});return
         asset=self.path.split('?')[0]
+        if asset.startswith('/circuitjs/'):
+            if asset[len('/circuitjs/'):] in CIRCUITJS_FILES:super().do_GET()
+            else:self.send_error(404)
+            return
         if re.fullmatch(r'/vendor/components/(?:catalog\.json|(?:art/[a-z]+-[0-9a-f]{16}\.svg)|(?:notices/[a-z]+\.txt))',asset):
             target=ROOT/asset.lstrip('/')
             if target.is_file() and target.resolve()==target.absolute():
                 super().do_GET();return
             self.send_error(404);return
-        if asset.startswith('/vendor/') and asset in {'/vendor/'+p.name for p in (ROOT/'vendor').glob('*') if p.suffix in {'.js','.json','.txt'}}:
+        if asset.startswith('/vendor/') and asset in {'/vendor/'+p.name for p in (ROOT/'vendor').glob('*') if p.suffix in {'.js','.json','.txt','.css'}}:
             super().do_GET();return
         if asset.startswith('/parts/') and asset in {'/parts/'+p.name for p in (ROOT/'parts').glob('*') if p.suffix in {'.svg','.json'}}:
             super().do_GET();return
-        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js','/lab.html','/lab.js','/lab.css','/practical-examples.json'}:
+        if self.path.split('?')[0] not in {'/','/index.html','/style.css','/app.js','/analog-ui.js','/analog-parts.json','/favicon.svg','/boards.html','/boards.css','/boards.js','/parts-ui.js','/parts.css','/integrations.js','/component-library.js','/lab.html','/lab.js','/lab.css','/practical-examples.json','/visual-refresh.css','/design-system.css','/studio.html','/studio.js','/university.html','/university.js','/university.css'}:
             self.send_error(404);return
         super().do_GET()
     def do_POST(self):
@@ -66,7 +80,7 @@ class Handler(SimpleHTTPRequestHandler):
         expected=f'http://{self.headers.get("Host", "")}'
         if origin and origin!=expected:
             self.reply(403,{'error':'Cross-origin requests are not allowed.'});return
-        if self.path not in {'/api/projects/run','/api/simulate','/api/boards/run','/api/boards/compile','/api/libraries/install','/api/boards/verify','/api/arduino-cli/search','/api/arduino-cli/install','/api/boards/decode','/api/visual-parts/import'}:self.reply(404,{'error':'Unknown operation.'});return
+        if self.path not in {'/api/university/run','/api/circuit/netlist','/api/projects/run','/api/simulate','/api/boards/run','/api/boards/compile','/api/libraries/install','/api/boards/verify','/api/arduino-cli/search','/api/arduino-cli/install','/api/boards/decode','/api/visual-parts/import'}:self.reply(404,{'error':'Unknown operation.'});return
         try:
             size=int(self.headers.get('Content-Length','0'))
             if not 0<size<=(1500000 if self.path in {'/api/libraries/install','/api/boards/decode','/api/visual-parts/import'} else 300000):raise ValueError('Project exceeds the request limit.')
@@ -74,7 +88,8 @@ class Handler(SimpleHTTPRequestHandler):
                 self.reply(429,{'error':'Simulation is busy. Try again shortly.'});return
             try:
                 config=json.loads(self.rfile.read(size))
-                if self.path=='/api/visual-parts/import':
+                if self.path=='/api/university/run':result=run_experiment(config)
+                elif self.path=='/api/visual-parts/import':
                     try:packed=base64.b64decode(config.get('archive',''),validate=True)
                     except (binascii.Error,TypeError):raise ValueError('Invalid Fritzing archive')
                     result=import_part(packed)
@@ -83,6 +98,9 @@ class Handler(SimpleHTTPRequestHandler):
                 elif self.path=='/api/arduino-cli/install':result=arduino_cli.install_library(config.get('name'),config.get('version'))
                 elif self.path=='/api/projects/run':result=run_project(config)
                 elif self.path=='/api/simulate':result=simulate(config)
+                elif self.path=='/api/circuit/netlist':
+                    validate(config);analysis=config.get('analysis',{})
+                    result={'netlist':netlist(config)+f'.tran {analysis.get("step",.00001):.12g} {analysis.get("stop",.005):.12g}\n.end\n'}
                 elif self.path=='/api/boards/verify':result=verify_models()
                 elif self.path=='/api/boards/run':result=run_board(config)
                 elif self.path=='/api/boards/compile':result=compile_sketch(config.get('source'),board=config.get('board','arduino-uno'))

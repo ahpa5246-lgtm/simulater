@@ -1,0 +1,368 @@
+{
+  "timestamp": "2026-10-24T17:51:22.188659+00:00",
+  "baseCommit": "41ba034d26f5324645a56865899524eca9046662",
+  "workingTreeModified": true,
+  "sourceSha256": "400d1c19341af94bd819943a468a9a5d0522c48a0277d28932ea3e56b2509170",
+  "sourceStable": true,
+  "platform": "linux",
+  "python": "3.12.14",
+  "checks": [
+    {
+      "name": "circuitjs-upstream",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/test-circuitjs-upstream.py"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 2.326,
+      "testCount": 60,
+      "log": ".state/verification/circuitjs-upstream.log"
+    },
+    {
+      "name": "native-peripherals",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "scripts/build-picsimlab.py"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.699,
+      "testCount": null,
+      "log": ".state/verification/native-peripherals.log"
+    },
+    {
+      "name": "python",
+      "command": [
+        "/opt/codex/runtimes/codex-primary-runtime/dependencies/python/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 42.744,
+      "testCount": 97,
+      "log": ".state/verification/python.log"
+    },
+    {
+      "name": "node",
+      "command": [
+        "node",
+        "--test",
+        "tests/test_ds1621.cjs",
+        "tests/test_i2c_devices.cjs",
+        "tests/test_instruments.cjs",
+        "tests/test_mpu6050.cjs",
+        "tests/test_pico.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 1.251,
+      "testCount": 20,
+      "log": ".state/verification/node.log"
+    },
+    {
+      "name": "syntax-analog-ui",
+      "command": [
+        "node",
+        "--check",
+        "web/analog-ui.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.102,
+      "testCount": null,
+      "log": ".state/verification/syntax-analog-ui.log"
+    },
+    {
+      "name": "syntax-app",
+      "command": [
+        "node",
+        "--check",
+        "web/app.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.089,
+      "testCount": null,
+      "log": ".state/verification/syntax-app.log"
+    },
+    {
+      "name": "syntax-boards",
+      "command": [
+        "node",
+        "--check",
+        "web/boards.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.095,
+      "testCount": null,
+      "log": ".state/verification/syntax-boards.log"
+    },
+    {
+      "name": "syntax-component-library",
+      "command": [
+        "node",
+        "--check",
+        "web/component-library.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.09,
+      "testCount": null,
+      "log": ".state/verification/syntax-component-library.log"
+    },
+    {
+      "name": "syntax-integrations",
+      "command": [
+        "node",
+        "--check",
+        "web/integrations.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.111,
+      "testCount": null,
+      "log": ".state/verification/syntax-integrations.log"
+    },
+    {
+      "name": "syntax-lab",
+      "command": [
+        "node",
+        "--check",
+        "web/lab.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.148,
+      "testCount": null,
+      "log": ".state/verification/syntax-lab.log"
+    },
+    {
+      "name": "syntax-parts-ui",
+      "command": [
+        "node",
+        "--check",
+        "web/parts-ui.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.083,
+      "testCount": null,
+      "log": ".state/verification/syntax-parts-ui.log"
+    },
+    {
+      "name": "syntax-studio",
+      "command": [
+        "node",
+        "--check",
+        "web/studio.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.089,
+      "testCount": null,
+      "log": ".state/verification/syntax-studio.log"
+    },
+    {
+      "name": "syntax-university",
+      "command": [
+        "node",
+        "--check",
+        "web/university.js"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 0.116,
+      "testCount": null,
+      "log": ".state/verification/syntax-university.log"
+    },
+    {
+      "name": "accessibility-browser",
+      "command": [
+        "node",
+        "tests/accessibility-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 7.322,
+      "testCount": null,
+      "log": ".state/verification/accessibility-browser.log"
+    },
+    {
+      "name": "analog-parts-browser",
+      "command": [
+        "node",
+        "tests/analog-parts-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 3.154,
+      "testCount": null,
+      "log": ".state/verification/analog-parts-browser.log"
+    },
+    {
+      "name": "boards-browser",
+      "command": [
+        "node",
+        "tests/boards-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 8.644,
+      "testCount": null,
+      "log": ".state/verification/boards-browser.log"
+    },
+    {
+      "name": "browser",
+      "command": [
+        "node",
+        "tests/browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 2.975,
+      "testCount": null,
+      "log": ".state/verification/browser.log"
+    },
+    {
+      "name": "circuitjs-browser",
+      "command": [
+        "node",
+        "tests/circuitjs-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 20.18,
+      "testCount": null,
+      "log": ".state/verification/circuitjs-browser.log"
+    },
+    {
+      "name": "component-library-browser",
+      "command": [
+        "node",
+        "tests/component-library-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 6.15,
+      "testCount": null,
+      "log": ".state/verification/component-library-browser.log"
+    },
+    {
+      "name": "instruments-browser",
+      "command": [
+        "node",
+        "tests/instruments-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 12.456,
+      "testCount": null,
+      "log": ".state/verification/instruments-browser.log"
+    },
+    {
+      "name": "parts-browser",
+      "command": [
+        "node",
+        "tests/parts-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 4.926,
+      "testCount": null,
+      "log": ".state/verification/parts-browser.log"
+    },
+    {
+      "name": "practical-browser",
+      "command": [
+        "node",
+        "tests/practical-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 7.879,
+      "testCount": null,
+      "log": ".state/verification/practical-browser.log"
+    },
+    {
+      "name": "university-browser",
+      "command": [
+        "node",
+        "tests/university-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 5.798,
+      "testCount": null,
+      "log": ".state/verification/university-browser.log"
+    },
+    {
+      "name": "upstream-browser",
+      "command": [
+        "node",
+        "tests/upstream-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 5.891,
+      "testCount": null,
+      "log": ".state/verification/upstream-browser.log"
+    },
+    {
+      "name": "visual-design-browser",
+      "command": [
+        "node",
+        "tests/visual-design-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 8.763,
+      "testCount": null,
+      "log": ".state/verification/visual-design-browser.log"
+    }
+  ],
+  "seconds": 142.163,
+  "allPassed": true,
+  "unitTests": 177,
+  "browserSuites": 12,
+  "scope": "Internal solver, firmware and browser regression tests; no physical validation, public hosting or Proteus parity certification.",
+  "dependencies": {
+    "node": {
+      "available": true,
+      "optional": false,
+      "version": "v24.22.1",
+      "exitCode": 0
+    },
+    "ngspice": {
+      "available": true,
+      "optional": false,
+      "version": "******\n** ngspice-42 : Circuit level simulation program\n** Compiled with KLU Direct Linear Solver\n** The U. C. Berkeley CAD Group\n** Copyright 1985-1994, Regents of the University of California.\n** Copyright 2001-2023, The ngspice team.\n** Please get your ngspice manual from https://ngspice.sourceforge.io/docs.html\n** Please file your bug-reports at http://ngspice.sourceforge.net/bugrep.html\n** Creation Date: Sun Mar 31 20:15:14 UTC 2024\n******",
+      "exitCode": 0
+    },
+    "avrCompiler": {
+      "available": true,
+      "optional": false,
+      "version": "avr-g++ (GCC) 7.3.0\nCopyright (C) 2017 Free Software Foundation, Inc.\nThis is free software; see the source for copying conditions.  There is NO\nwarranty; not even for MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.",
+      "exitCode": 0
+    },
+    "arduinoCli": {
+      "available": true,
+      "optional": true,
+      "version": "{\n  \"Application\": \"arduino-cli\",\n  \"VersionString\": \"1.5.1\",\n  \"Commit\": \"01f3d4f2b\",\n  \"Status\": \"\",\n  \"Date\": \"2026-06-05T10:22:17Z\"\n}",
+      "exitCode": 0
+    }
+  },
+  "unverifiedCapabilities": [
+    "Live Arduino CLI registry search/download/install (local CLI status and bounded command/diagnostic handling are tested).",
+    "External Renode firmware execution (launch-profile export only).",
+    "Physical device accuracy, Windows/macOS toolchain/installer operation and hardware upload.",
+    "General MCU/analog closed-loop co-simulation, ESP32/STM32/PIC/Raspberry Pi Linux execution, PCB routing and Proteus import (not implemented)."
+  ],
+  "claim": "All discovered regression suites passed."
+}

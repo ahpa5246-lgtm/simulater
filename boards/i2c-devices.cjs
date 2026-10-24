@@ -1,21 +1,24 @@
 // Behavioral byte-level models; see docs/practical-simulation.md for datasheets and limits.
 const CLOCK=16000000;
+const {createMPU6050}=require('./mpu6050.cjs');
 function finite(value,min,max,label){if(typeof value!=='number'||!Number.isFinite(value)||value<min||value>max)throw Error(`${label} must be ${min}–${max}.`);return value;}
 function createI2CBus(cpu,configs){
  if(!Array.isArray(configs)||configs.length>16)throw Error('At most 16 I2C devices are supported.');
  const devices=new Map();let selected=null,writeMode=false;
  for(const c of configs){
   if(!c||typeof c!=='object')throw Error('Invalid I2C device.');
-  const defaults={lm75:0x48,ds1621:0x48,bmp180:0x77,ads1115:0x48,bh1750:0x23,pcf8574:0x20};
+  const defaults={lm75:0x48,ds1621:0x48,bmp180:0x77,ads1115:0x48,bh1750:0x23,pcf8574:0x20,mpu6050:0x68};
   if(!(c.model in defaults))throw Error('Unsupported I2C model: '+c.model);
   if('connected' in c&&typeof c.connected!=='boolean')throw Error('Connected must be boolean.');
   const address=c.address??defaults[c.model];
-  const allowed={lm75:[0x48,0x4f],ds1621:[0x48,0x4f],bmp180:[0x77,0x77],ads1115:[0x48,0x4b],pcf8574:[0x20,0x27]};
+  const allowed={lm75:[0x48,0x4f],ds1621:[0x48,0x4f],bmp180:[0x77,0x77],ads1115:[0x48,0x4b],pcf8574:[0x20,0x27],mpu6050:[0x68,0x69]};
   if(!Number.isInteger(address)||(c.model==='bh1750'?![0x23,0x5c].includes(address):address<allowed[c.model][0]||address>allowed[c.model][1]))throw Error('Invalid address for '+c.model);
   if(devices.has(address))throw Error('I2C address conflict at 0x'+address.toString(16));
   let readIndex=0,writeIndex=0,pointer=0,state={model:c.model,address};
   let device;
-  if(c.model==='lm75'){
+  if(c.model==='mpu6050'){
+   device=createMPU6050({...c,address});
+  }else if(c.model==='lm75'){
    const temperature=finite(c.temperature??25,-55,125,'LM75 temperature');let config=0;const thresholds=[0x4b00,0x5000];
    device={begin(){readIndex=writeIndex=0;},write(v){if(writeIndex++===0)pointer=v&3;else if(pointer===1)config=v&0x1f;else if(pointer>1){const shift=(writeIndex%2===0)?8:0;thresholds[pointer-2]=(thresholds[pointer-2]&(~(255<<shift)))|(v<<shift);}},read(){if(pointer===1)return config;const raw=pointer===0?(Math.round(temperature*2)<<7)&65535:thresholds[pointer-2];return (raw>>(readIndex++%2===0?8:0))&255;},snapshot:()=>({...state,temperature,config,pointer})};
   }else if(c.model==='pcf8574'){

@@ -1,13 +1,13 @@
 {
   "name": "mina-circuit-workbench",
-  "version": "0.5.0",
+  "version": "0.7.0",
   "private": true,
   "description": "Local schematic workbench with native ngspice simulation",
   "scripts": {
     "start": "python server.py",
     "test": "python -m unittest discover -s tests -v",
     "test:browser": "node tests/browser.cjs",
-    "test:boards": "node --test tests/test_pico.cjs",
+    "test:boards": "node --test tests/test_*.cjs",
     "test:boards-browser": "node tests/boards-browser.cjs",
     "test:instruments": "node --test tests/test_instruments.cjs",
     "test:instruments-browser": "node tests/instruments-browser.cjs",
@@ -19,15 +19,27 @@
     "vendor:components": "python scripts/vendor-components.py",
     "test:components-browser": "node tests/component-library-browser.cjs",
     "test:practical": "node --test tests/test_i2c_devices.cjs",
-    "test:practical-browser": "node tests/practical-browser.cjs"
+    "test:practical-browser": "node tests/practical-browser.cjs",
+    "test:analog-browser": "node tests/analog-parts-browser.cjs",
+    "test:all": "python scripts/verify-all.py",
+    "vendor:circuitjs": "python scripts/vendor-circuitjs.py",
+    "vendor:uplot": "python scripts/vendor-uplot.py",
+    "test:circuitjs": "python scripts/test-circuitjs-upstream.py",
+    "test:circuitjs-browser": "node tests/circuitjs-browser.cjs",
+    "test:university-browser": "node tests/university-browser.cjs",
+    "test:accessibility": "node tests/accessibility-browser.cjs"
   },
   "devDependencies": {
+    "axe-core": "4.14.0",
     "node-api-headers": "1.9.0",
-    "playwright": "1.51.1"
+    "playwright": "1.51.1",
+    "vitest": "4.1.7"
   },
   "dependencies": {
     "@wokwi/elements": "1.9.2",
     "avr8js": "0.21.0",
-    "rp2040js": "1.3.3"
+    "lz-string": "1.5.0",
+    "rp2040js": "1.3.3",
+    "uplot": "1.6.32"
   }
 }

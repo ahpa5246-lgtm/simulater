@@ -1,0 +1,33 @@
+name: Capture green simulator interface
+on:
+  push:
+    branches: [feat/mpu6050-motion-simulation]
+    paths:
+      - '.github/workflows/green-ui-capture.yml'
+      - 'scripts/capture-green-ui.cjs'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  screenshots:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: |
+          npm ci
+          npx playwright install chromium --only-shell
+      - run: node scripts/capture-green-ui.cjs
+      - if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: current-green-ui-shots
+          path: screenshots/green-ui
+          if-no-files-found: warn

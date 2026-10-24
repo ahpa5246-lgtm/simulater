@@ -1,0 +1,399 @@
+/* Mina Workbench — visual refresh.
+   A dark instrument-panel shell frames light, legible engineering work surfaces.
+   No external fonts, images, or scripts; CSS grid is decorative and pointer-safe. */
+:root {
+  --mina-night: #071b16;
+  --mina-deep: #0b2921;
+  --mina-grid: rgba(77, 194, 124, .16);
+  --mina-leaf: #167a52;
+  --mina-mint: #baffd3;
+  --mina-paper: #f8fcf9;
+  --mina-stroke: #d9e8df;
+  --mina-lift: 0 17px 42px rgba(4, 28, 18, .15), 0 2px 9px rgba(4, 28, 18, .06);
+}
+body.circuit-app,
+body.board-app,
+body.practical-app {
+  background-color: var(--mina-night);
+  background-image:
+    radial-gradient(ellipse 760px 400px at 13% 8%, rgba(33, 133, 78, .29), transparent 75%),
+    radial-gradient(ellipse 850px 460px at 88% 89%, rgba(20, 95, 71, .29), transparent 80%),
+    linear-gradient(to right, var(--mina-grid) 1px, transparent 1px),
+    linear-gradient(to bottom, var(--mina-grid) 1px, transparent 1px);
+  background-size: auto, auto, 32px 32px, 32px 32px;
+  background-attachment: fixed;
+}
+body.circuit-app,
+body.board-app {
+  --green: #117957;
+  --line: #dae9e0;
+}
+body.circuit-app button,
+body.board-app button,
+body.practical-app button {
+  transition: background-color .16s ease, color .16s ease, border-color .16s ease,
+    box-shadow .16s ease, transform .16s ease;
+}
+body.circuit-app button:active:not(:disabled),
+body.board-app button:active:not(:disabled),
+body.practical-app button:active:not(:disabled) { transform: translateY(1px); }
+body.circuit-app :is(button,a,input,select,textarea):focus-visible,
+body.board-app :is(button,a,input,select,textarea):focus-visible,
+body.practical-app :is(button,a,input,select,textarea):focus-visible {
+  outline: 2px solid #37b879;
+  outline-offset: 3px;
+}
+body.circuit-app .titlebar,
+body.board-app .titlebar {
+  color: #eafbf0;
+  background: linear-gradient(105deg, #0a2820, #103a2c 66%, #0d2a24);
+  border-color: rgba(181, 245, 198, .15);
+}
+body.circuit-app .brandmark,
+body.board-app .brandmark { color: #8ff8ab; }
+body.circuit-app .brand>span:last-child,
+body.board-app .brand>span:last-child { color: #abd0bd; }
+body.circuit-app .brand-divider,
+body.board-app .brand-divider { background: rgba(171, 239, 190, .24); }
+body.circuit-app .local-badge,
+body.board-app .local-badge { color: #b5d8c5; }
+body.circuit-app .local-badge span,
+body.board-app .local-badge span { color: #6c9e82; }
+body.circuit-app .titlebar i,
+body.board-app .titlebar i { background: #9efabc;box-shadow: 0 0 0 4px rgba(126, 251, 169, .1); }
+body.circuit-app .run,
+body.board-app .run,
+body.practical-app button.primary {
+  color: #f6fff9;
+  background: linear-gradient(135deg, #189664, #0d7152);
+  border: 1px solid rgba(23, 99, 63, .3);
+  box-shadow: 0 6px 16px rgba(7, 94, 60, .2), inset 0 1px 0 rgba(255, 255, 255, .18);
+  border-radius: 9px;
+  font-weight: 650;
+}
+body.circuit-app .run:hover:not(:disabled),
+body.board-app .run:hover:not(:disabled),
+body.practical-app button.primary:hover:not(:disabled) {
+  background: linear-gradient(135deg, #19a972, #117853);
+  box-shadow: 0 8px 22px rgba(7, 94, 60, .25);
+}
+body.circuit-app select,
+body.board-app select,
+body.practical-app select { border-radius: 8px; }
+body.circuit-app dialog,
+body.board-app dialog {
+  border-radius: 16px;
+  box-shadow: 0 28px 80px rgba(0, 12, 8, .36);
+}
+
+/* ANALOG CIRCUITS: instrument-like chrome, clean schematic canvas. */
+body.circuit-app .menubar,
+body.circuit-app .workspace-tabs,
+body.circuit-app .toolbar {
+  background: #f5faf6;
+  border-color: #dceae1;
+}
+body.circuit-app .menubar { background: #0f3026; border-color: #234c3b; }
+body.circuit-app .menubar button { color: #d2e8d9; border-radius: 6px; }
+body.circuit-app .menubar button:hover { color: white; background: rgba(152, 240, 177, .12); }
+body.circuit-app .workspace-tabs { background: #edf6ef; }
+body.circuit-app .workspace-tabs .active { color: #086946; border-color: #1d9662; }
+body.circuit-app .toolbar { box-shadow: 0 3px 13px rgba(12, 69, 45, .08); }
+body.circuit-app .tool { border-radius: 8px; }
+body.circuit-app .tool:hover { background: #e3f3e9; }
+body.circuit-app .tool.active { color: #0a7650; background: #d6f0e1; }
+body.circuit-app .workbench {
+  height: calc(100vh - 253px);
+  min-height: 610px;
+  margin: 8px 13px 7px;
+  border: 1px solid rgba(129, 217, 164, .22);
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: var(--mina-lift);
+}
+
+body.circuit-app #component-list { min-height: 0; overflow-y: auto; flex: 1; }
+body.circuit-app .model-scope { color: #53745f; font-size: 10px; line-height: 1.5; }
+body.circuit-app .toolbar-center select { max-width: 230px; }
+body.circuit-app .symbol-preview .part-symbol { stroke: #286b4c; }
+@media (min-width: 851px) {
+  body.circuit-app { height: 100dvh; display: flex; flex-direction: column; overflow: hidden; }
+  body.circuit-app > :is(header,nav,.workspace-tabs,.toolbar,footer) { flex-shrink: 0; }
+  body.circuit-app .workbench { flex: 1; min-height: 0; }
+  body.circuit-app .canvas-wrap { min-height: 180px; }
+}
+body.circuit-app .library,
+body.circuit-app .inspector { background: #f6faf7; }
+body.circuit-app .center,
+body.circuit-app .document-heading,
+body.circuit-app .results { background: #ffffff; }
+body.circuit-app .search { border-radius: 9px; }
+body.circuit-app .component-item { border-radius: 9px; }
+body.circuit-app .component-item:hover,
+body.circuit-app .component-item.chosen { background: #dff2e6; }
+body.circuit-app .canvas-wrap {
+  background-color: #f8fffa;
+  background-image:
+    linear-gradient(rgba(33, 139, 78, .055) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(33, 139, 78, .055) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+body.circuit-app #grid circle { fill: #8ab69d; }
+body.circuit-app .zoom {
+  border-radius: 10px;
+  box-shadow: 0 4px 18px rgba(7, 47, 29, .1);
+}
+body.circuit-app .engine-card {
+  background: linear-gradient(140deg, #e7f6ec, #dceddf);
+  border-color: #cae8d6;
+  border-radius: 11px;
+}
+body.circuit-app .results { border-top: 2px solid #d7ebe0; }
+body.circuit-app .statusbar {
+  color: #bbdfc9;
+  background: #0d2921;
+  border-color: #2e5240;
+}
+body.circuit-app .statusbar #status { color: #e2f5e7; }
+
+/* BOARDS: separate three substantial work areas, show a green engineering grid. */
+body.board-app .board-nav {
+  color: #d9eee2;
+  background: #123228;
+  border-color: #255442;
+}
+body.board-app .board-nav a { color: #b5d8c5; }
+body.board-app .board-nav a:hover { color: #fff; }
+body.board-app .board-nav .current {
+  color: #bdffd3;
+  border-bottom-color: #9efabc;
+}
+body.board-app .board-nav button { color: #d2ecdc; }
+body.board-app .nav-right { color: #a1c6b2; }
+body.board-app .lab-top { color: #effef3; padding-block: 30px 24px; }
+body.board-app .lab-top h1 {
+  font-size: clamp(23px, 2.6vw, 35px);
+  font-weight: 680;
+  letter-spacing: -1px;
+}
+body.board-app .lab-top .eyebrow,
+body.board-app .top-badges span { color: #a9ddbe; }
+body.board-app .board-layout {
+  gap: 14px;
+  background: transparent;
+  border: 0;
+  border-radius: 0;
+  overflow: visible;
+}
+body.board-app .board-sidebar,
+body.board-app .lab-main,
+body.board-app .firmware-panel,
+body.board-app .instrument-workspace {
+  min-width: 0;
+  background: #fafffb;
+  border: 1px solid #c9dfd0;
+  border-radius: 15px;
+  box-shadow: var(--mina-lift);
+}
+body.board-app .board-sidebar { padding: 21px 14px; }
+body.board-app .lab-main { overflow: hidden; }
+body.board-app .firmware-panel { padding: 0 18px 18px; }
+body.board-app .board-option {
+  background: #fff;
+  border: 1px solid #e0eae3;
+  border-radius: 11px;
+  margin-bottom: 9px;
+}
+body.board-app .board-option:hover:not(:disabled) {
+  background: #f0faf3;
+  border-color: #abdbc0;
+  box-shadow: 0 4px 14px rgba(7, 87, 45, .06);
+  transform: translateY(-1px);
+}
+body.board-app .board-option.selected {
+  border-color: #73ba91;
+  background: #e6f7ec;
+  box-shadow: inset 3px 0 0 #1b9b61;
+}
+body.board-app .stage-heading {
+  background: #f7fcf8;
+  border-color: #e2eee5;
+}
+body.board-app .board-stage {
+  background-color: #f0fbf4;
+  background-image:
+    linear-gradient(rgba(47, 157, 87, .12) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(47, 157, 87, .12) 1px, transparent 1px),
+    radial-gradient(circle at 50% 45%, #fafffa 0, #e9f6ed 100%);
+  background-size: 24px 24px, 24px 24px, auto;
+}
+body.board-app .sensor-controls { background: #fbfefa; }
+body.board-app .sensor-row select { max-width: min(195px, 42%); }
+body.board-app .serial-panel pre,
+body.board-app #source-editor,
+body.board-app .logic-pane {
+  color: #235b3f;
+  background: #f2faf4;
+  border-color: #d5e9da;
+  border-radius: 10px;
+}
+body.board-app .execution-strip {
+  background: #f4fbf6;
+  border-color: #dceee2;
+}
+body.board-app .execution-strip b,
+body.board-app .sensor-row output { color: #0c7950; }
+body.board-app .instrument-workspace {
+  margin-top: 18px;
+  padding: 23px;
+}
+body.board-app .instrument-heading h2 { font-weight: 650; }
+body.board-app .logic-pane { border-radius: 12px; }
+body.board-app #logic-plot {
+  background-image:
+    linear-gradient(rgba(35, 137, 80, .075) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(35, 137, 80, .075) 1px, transparent 1px);
+  background-size: 22px 22px;
+  border-radius: 9px;
+}
+body.board-app .secondary {
+  background: #ecf8f0;
+  border-color: #bfe4cd;
+  border-radius: 9px;
+}
+
+/* PRACTICAL SIMULATION: a light control room floating above the green grid. */
+body.practical-app {
+  color: #20392e;
+  --mina-border: #d3e8da;
+}
+body.practical-app header {
+  color: #d9f3e0;
+  background: #0e2e24;
+  border-color: #26513c;
+}
+body.practical-app header .brand { color: #a9ffc6; }
+body.practical-app header nav a { color: #c2dfcb; }
+body.practical-app header nav a[aria-current] {
+  color: #d7ffdf;
+  text-decoration: underline;
+  text-decoration-color: #5bd18c;
+  text-underline-offset: 9px;
+}
+body.practical-app header>span { color: #a4cfb4; }
+body.practical-app .heading { color: #f0fff5; }
+body.practical-app .heading h1 {
+  font-size: clamp(29px, 3.5vw, 44px);
+  letter-spacing: -1.6px;
+}
+body.practical-app .heading small { color: #a1f3bf; }
+body.practical-app .heading p { color: #b2d7c0; }
+body.practical-app .heading button {
+  color: #dbf5e4;
+  border: 1px solid rgba(168, 241, 187, .3);
+  background: rgba(23, 86, 59, .8);
+}
+body.practical-app .heading button:hover { border-color: #b2ffc8; background: #1d6244; }
+body.practical-app main { max-width: 1650px; padding: 35px clamp(16px, 3vw, 48px); }
+body.practical-app .project-bar {
+  background: #edf8f0;
+  border: 1px solid #bcddc7;
+  border-radius: 15px;
+  padding: 18px;
+  box-shadow: var(--mina-lift);
+}
+body.practical-app button,
+body.practical-app input,
+body.practical-app select,
+body.practical-app textarea { border-radius: 9px; }
+body.practical-app button:not(.primary):not(:disabled):hover { border-color: #7ac299; background-color: #eff9f2; }
+body.practical-app .project-bar button.primary { margin-left: auto; }
+body.practical-app .panel {
+  background: #fafffb;
+  border-color: var(--mina-border);
+  border-radius: 16px;
+  box-shadow: var(--mina-lift);
+  padding: 23px;
+}
+body.practical-app .panel-title { border-bottom: 1px solid #e2eee5; padding-bottom: 12px; }
+body.practical-app .panel-title h2 { color: #173e2b; }
+body.practical-app .device-row {
+  border: 1px solid #dbeae0;
+  background: #f5fbf6;
+  border-radius: 12px;
+}
+body.practical-app .device-row:hover { border-color: #b3dec3; }
+body.practical-app .device-row h3 { color: #20563a; }
+body.practical-app #project-status {
+  background: #e4f7e9;
+  color: #17633e;
+  border: 1px solid #aadcbc;
+  border-radius: 10px;
+}
+body.practical-app #project-status.error {
+  background: #fff0ed;
+  border-color: #f0bcb1;
+  color: #933c35;
+}
+body.practical-app #project-wiring,
+body.practical-app #project-waveform {
+  border: 1px solid #d6ecdb;
+  border-radius: 11px;
+  background-color: #f1faf3;
+  background-image:
+    linear-gradient(rgba(34, 150, 71, .08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(34, 150, 71, .08) 1px, transparent 1px);
+  background-size: 20px 20px;
+}
+body.practical-app .wiring-board { fill: #126a4c; }
+body.practical-app .wiring-line { stroke: #6dbaa0; }
+body.practical-app .wiring-device { fill: #fff; stroke: #acd6bd; }
+body.practical-app .wiring-label { fill: #477e65; }
+body.practical-app .wiring-text { fill: #255e43; }
+body.practical-app #project-source,
+body.practical-app pre {
+  background: #f1f8f3;
+  border: 1px solid #e0eee3;
+  border-radius: 9px;
+  color: #224d38;
+}
+body.practical-app #project-waveform path { stroke: #19845e; }
+body.practical-app .output-card { border-color: #bcdcc7; border-radius: 10px; }
+body.practical-app #audit-records .audit-row { border-color: #e5eee7; }
+body.practical-app .audit-row.supported span { color: #17754c; }
+body.practical-app .metrics { color: #46795a; }
+
+/* Accessible viewport adjustments and user motion preference. */
+@media (max-width: 1100px) {
+  body.circuit-app .workbench { margin-inline: 7px; }
+  body.board-app .board-layout { gap: 10px; margin-inline: 12px; }
+}
+@media (max-width: 950px) {
+  body.board-app .board-layout { min-width: 650px; }
+  body.board-app .firmware-panel {
+    grid-column: 1 / -1;
+    padding: 18px;
+  }
+  body.board-app .instrument-workspace { margin-inline: 12px; }
+}
+@media (max-width: 850px) {
+  body.circuit-app .workbench {
+    height: auto;
+    min-height: 620px;
+    overflow: visible;
+  }
+  body.practical-app main { padding: 16px; }
+  body.practical-app .heading { margin-bottom: 20px; }
+  body.practical-app .project-bar { padding: 12px; }
+  body.practical-app .panel { padding: 16px; }
+  body.practical-app .project-bar button.primary { margin-left: 0; }
+}
+@media (max-width: 600px) {
+  body.practical-app .device-fields { grid-template-columns: 1fr; }
+  body.practical-app .project-bar button.primary { width: 100%; }
+}
+@media (prefers-reduced-motion: reduce) {
+  body.circuit-app button,
+  body.board-app button,
+  body.practical-app button { transition: none; }
+}

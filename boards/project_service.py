@@ -5,6 +5,7 @@ import re
 from pathlib import Path
 from .projects import MODELS, prepare_project
 from .service import compile_sketch,run_board
+from analog_parts import PARTS
 
 ROOT=Path(__file__).resolve().parents[1]
 
@@ -37,7 +38,7 @@ def capabilities():
   value=json.loads((ROOT/file).read_text());items=value[key] if key else value
   for p in items:
    ident=p.get('id',p.get('tag'));name=p['name'];matches=[]
-   for chip in ['lm35','tmp36','lm75','ds1621','bmp180','bh1750','ads1115','pcf8574']:
+   for chip in ['lm35','tmp36','lm75','ds1621','bmp180','bh1750','ads1115','pcf8574','mpu6050']:
     if re.search(r'(?<![a-z0-9])'+chip+r'(?![a-z0-9])',name,re.I):matches.append(chip)
    if ident in MODELS:matches.append(ident)
    aliases={'wokwi-hc-sr04':'hcsr04','wokwi-pushbutton':'button','wokwi-pushbutton-6mm':'button','wokwi-potentiometer':'potentiometer','wokwi-analog-joystick':'joystick-axis','wokwi-pir-motion-sensor':'pir','wokwi-ntc-temperature-sensor':'ntc10k','wokwi-led':'led','wokwi-servo':'servo','wokwi-buzzer':'buzzer'}
@@ -53,4 +54,4 @@ def capabilities():
    elif matches:status='behavioral-model-available';detail='Use the listed model in a project; module wiring/power details require review.'
    else:status='no-model';detail='Artwork only; excluded from executable component picker.'
    records.append({'id':ident,'name':name,'catalogue':file,'models':matches,'boardTarget':target,'status':status,'detail':detail})
- return {'models':MODELS,'records':records,'scope':'Explicit behavioral model support. Matching a chip name does not validate an entire breakout board. No general mixed-signal co-simulation.'}
+ return {'models':MODELS,'analogParts':PARTS,'records':records,'scope':'Explicit behavioral model support. Matching a chip name does not validate an entire breakout board. No general mixed-signal co-simulation.'}

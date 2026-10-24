@@ -15,3 +15,9 @@ Servo and buzzer artwork represents existing PWM/tone examples. It does not add 
 `node tests/parts-browser.cjs` loads every asset, selects all 12 sensor illustrations, checks pending-board gates, selects a sensor from the gallery, exercises connector inspection, executes actual HC-SR04 firmware, and verifies ngspice output across illustrated/schematic views and rotation. Existing circuit, board and instrument browser suites remain applicable. `python scripts/build_part_art.py` deterministically regenerates the artwork and connector inventory.
 
 Visual reference: [Fritzing's project-view documentation](https://fritzing.org/learning/get-started/project-view), reviewed 2026-10-23. The recognizable-parts palette and separate symbol/image views informed this interaction; no Fritzing compatibility or complete feature parity is claimed.
+
+## Consistent visual design — 2026-10-24
+
+Six additional original CC0 SVG illustrations (`mpu6050`, `ads1115`, `bh1750`, `pcf8574`, `opamp`, `transistor`) support the practical connection view and university parameter cards. They are presentation assets, not new models or manufacturer-qualified footprints. The original gallery inventory and executable model counts are unchanged. The practical diagram retains its explicit logical-wiring labels and supply/network limitations.
+
+`web/design-system.css` shares the selected board-workspace reference palette across the site. `/studio.html` places the unchanged CircuitJS distribution in a matching frame, using its native background/voltage-color display options and a child stylesheet. Its original menus and tools remain available. `tests/visual-design-browser.cjs` verifies real RC/IMU/AVR results, numerical CircuitJS output through the frame, native export, dropdown contrast, asset loading and narrow-screen layouts.

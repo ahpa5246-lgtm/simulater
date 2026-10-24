@@ -1,0 +1,36 @@
+name: Complete simulator verification
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install real simulation engines and browser
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ngspice gcc-avr binutils-avr avr-libc arduino-core-avr g++
+          npm ci
+          npx playwright install --with-deps chromium --only-shell
+      - run: npm run test:all
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: simulator-verification
+          include-hidden-files: true
+          path: |
+            evidence/
+            .state/verification/
+            screenshots/

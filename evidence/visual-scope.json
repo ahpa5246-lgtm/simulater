@@ -1,0 +1,27 @@
+{
+  "baseline": "0114a20b71b4cc038fd72936c49edd7027ca78a5",
+  "scope": "Presentation only: shared palette, CSS, illustrative assets, rendering and branded studio frame.",
+  "unchangedProtectedPaths": [
+    "analyses.py",
+    "circuit.py",
+    "university.py",
+    "boards",
+    "web/app.js",
+    "web/boards.js",
+    "web/analog-ui.js",
+    "web/circuitjs",
+    "third_party"
+  ],
+  "protectedChanges": [],
+  "simulationModelCountsUnchanged": true,
+  "newIllustrations": [
+    "mpu6050",
+    "ads1115",
+    "bh1750",
+    "pcf8574",
+    "opamp",
+    "transistor"
+  ],
+  "regressionReport": "evidence/full-verification.json",
+  "browserSuite": "tests/visual-design-browser.cjs"
+}
