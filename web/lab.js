@@ -15,10 +15,30 @@ function persist(){try{localStorage.setItem('mina-practical-project-v1',JSON.str
 function invalidate(){revision++;result=null;$('export-result').disabled=$('export-vcd').disabled=true;$('project-serial').textContent='Configuration changed. Run again for a fresh capture.';$('project-bus').textContent='No current capture';$('output-devices').replaceChildren();$('project-waveform').replaceChildren();$('cpu-evidence').textContent='No current execution';$('project-hash').textContent='';$('project-evidence').textContent='';$('waveform-measurement').textContent='';persist();}
 function changed(){invalidate();draw();status('Project changed. Compile and run to measure the new configuration.');}
 function svg(tag,attrs={},text=''){const n=document.createElementNS('http://www.w3.org/2000/svg',tag);for(const [key,value]of Object.entries(attrs))n.setAttribute(key,value);n.textContent=text;return n;}
-function draw(){const root=$('project-wiring');root.replaceChildren();const height=Math.max(300,project.components.length*66+60);root.setAttribute('viewBox',`0 0 700 ${height}`);root.append(svg('rect',{x:25,y:25,width:160,height:height-50,rx:12,class:'wiring-board'}),svg('text',{x:45,y:58,class:'wiring-title'},project.board==='arduino-nano'?'Arduino Nano':'Arduino Uno'));
-for(const [i,c]of project.components.entries()){const p=registry.models[c.model],y=50+i*66;let label=p.kind==='i2c'?`A4 / A5 · 0x${Number(c.address).toString(16)}`:p.kind==='pulse'?`D${c.triggerPin} TRIG / D${c.echoPin} ECHO`:(p.kind==='analog'?'A':'D')+c.pin;root.append(svg('path',{d:`M185 ${y+15}H${240+(i%3)*35}V${y+20}H410`,class:'wiring-line'+(c.connected===false?' wiring-off':'')}),svg('text',{x:195,y:y+8,class:'wiring-label'},label),svg('rect',{x:410,y,width:265,height:48,rx:7,class:'wiring-device'}),svg('text',{x:425,y:y+20,class:'wiring-text'},c.id+' · '+c.model.toUpperCase()),svg('text',{x:425,y:y+37,class:'wiring-label'},c.connected===false?'DISCONNECTED':p.kind==='output'?'Firmware-driven output':'Connected behavioral model'));}}
+// Illustration lookup only; executable registry and pin assignments are unchanged.
+function artFor(model){return ({'joystick-axis':'joystick-axis','ir-obstacle':'ir-obstacle'})[model]||model;}
+function draw(){
+ const root=$('project-wiring');root.replaceChildren();
+ const height=Math.max(300,project.components.length*76+70);root.setAttribute('viewBox',`0 0 700 ${height}`);
+ const board=project.board==='arduino-nano'?'arduino-nano':'arduino-uno';
+ root.append(svg('rect',{x:20,y:25,width:230,height:height-50,rx:14,class:'wiring-device'}),
+  svg('text',{x:40,y:51,class:'wiring-board-title'},project.board==='arduino-nano'?'Arduino Nano':'Arduino Uno R3'),
+  svg('image',{x:35,y:Math.max(65,(height-145)/2),width:200,height:145,href:'/parts/'+board+'.svg',class:'wiring-hardware'}),
+  svg('text',{x:40,y:height-40,class:'wiring-label'},'CONTROLLER · LOGICAL PORTS'));
+ for(const [i,c]of project.components.entries()){
+  const p=registry.models[c.model],y=50+i*76;
+  const label=p.kind==='i2c'?`A4 / A5 · 0x${Number(c.address).toString(16)}`:p.kind==='pulse'?`D${c.triggerPin} TRIG / D${c.echoPin} ECHO`:(p.kind==='analog'?'A':'D')+c.pin;
+  root.append(svg('path',{d:`M250 ${y+26}H${315+(i%3)*22}V${y+26}H410`,class:'wiring-line'+(c.connected===false?' wiring-off':'')}),
+   svg('circle',{cx:250,cy:y+26,r:4,class:'wiring-contact'}),
+   svg('text',{x:265,y:y+15,class:'wiring-label'},label),
+   svg('rect',{x:410,y,width:265,height:60,rx:9,class:'wiring-device'}),
+   svg('image',{x:420,y:y+7,width:60,height:45,href:'/parts/'+artFor(c.model)+'.svg',class:'wiring-hardware'}),
+   svg('text',{x:490,y:y+24,class:'wiring-text'},c.id+' · '+c.model.toUpperCase()),
+   svg('text',{x:490,y:y+42,class:'wiring-label'},c.connected===false?'DISCONNECTED':p.kind==='output'?'Firmware-driven output':'Connected model'));
+ }
+}
 function render(){for(const c of project.components){const p=registry.models[c.model];for(const key of ['value','distanceCm','address','temperature','pressureHpa','lux','voltages','inputs','accelG','gyroDps'])if(key in p&&c[key]===undefined)c[key]=structuredClone(p[key]);if(['analog','digital','output'].includes(p.kind)&&c.pin===undefined)c.pin=p.pin??(p.kind==='analog'?0:2);if(p.kind==='pulse'){c.triggerPin??=3;c.echoPin??=2;}}fieldError=false;$('project-board').value=project.board;$('project-duration').value=String(project.durationMs);$('project-source').value=source;$('device-count').textContent=project.components.length+' devices';const root=$('project-components');root.replaceChildren();
-for(const c of project.components){const profile=registry.models[c.model],row=node('article','',{className:'device-row'}),title=node('div'),remove=node('button','Remove');remove.setAttribute('aria-label','Remove '+c.id);remove.onclick=()=>{project.components=project.components.filter(x=>x!==c);changed();render();};title.append(node('h3',c.id+' · '+c.model.toUpperCase()),remove);const fields=node('div','',{className:'device-fields'});
+for(const c of project.components){const profile=registry.models[c.model],row=node('article','',{className:'device-row'}),title=node('div'),remove=node('button','Remove');remove.setAttribute('aria-label','Remove '+c.id);remove.onclick=()=>{project.components=project.components.filter(x=>x!==c);changed();render();};const thumbnail=node('img','',{src:'/parts/'+artFor(c.model)+'.svg',alt:'',className:'device-thumbnail'});title.append(thumbnail,node('h3',c.id+' · '+c.model.toUpperCase()),remove);const fields=node('div','',{className:'device-fields'});
 function field(key,label,type='number',limits){const wrapper=node('label',label),input=node('input','',{type});input.setAttribute('aria-label',c.id+' '+label);if(type==='checkbox')input.checked=c[key]!==false;else input.value=type==='text'?(Array.isArray(c[key])?c[key].join(', '):c[key]):String(c[key]);if(type==='number'){input.step='any';if(limits){input.min=limits[0];input.max=limits[1];}}
 input.onchange=()=>{if(['voltages','accelG','gyroDps'].includes(key)){const values=input.value.split(',').map(x=>x.trim()===''?NaN:Number(x.trim()));const size=key==='voltages'?4:3;if(values.length!==size||values.some(v=>!Number.isFinite(v))){input.setCustomValidity('Enter '+size+' finite numeric values separated by commas');input.reportValidity();fieldError=true;invalidate();return;}c[key]=values;}else c[key]=type==='checkbox'?input.checked:type==='number'?Number(input.value):input.value;input.setCustomValidity('');fieldError=false;changed();};wrapper.append(input);fields.append(wrapper);}
 field('connected','Connected','checkbox');

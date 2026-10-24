@@ -2,7 +2,7 @@
 
 A local electronics workbench with a university laboratory, bundled CircuitJS editor, an interactive SVG schematic editor, **real ngspice simulation**, and executable Arduino firmware. It is not a complete Proteus replacement. Current capabilities and limitations are documented in [the verification report](docs/verification-current.md).
 
-![Actual running application](screenshots/workbench.png)
+![Actual running application](screenshots/visual-update/08-illustrated-circuit.png)
 
 ## Run
 
@@ -16,10 +16,10 @@ The analog workbench needs no Python packages or frontend build step. The board 
 ## University laboratory and complete CircuitJS editor (v0.7)
 
 - Open **http://127.0.0.1:8765/university.html**: 19 wired experiments with mathematical reference checks, editable values and circuits, native ngspice OP/transient/AC/DC, voltage/current/power, Bode magnitude/phase, interactive plots and CSV/JSON exports.
-- Open **http://127.0.0.1:8765/circuitjs/circuitjs.html**: locally bundled CircuitJS editor, 148 registered element classes and 373 example files. Source archive, GPL notices, pinned asset hashes and rebuild script are included. This is a separate engine/file format, with cloud-only integrations disabled.
+- Open **http://127.0.0.1:8765/studio.html**: locally bundled CircuitJS editor, 148 registered element classes and 373 example files. Source archive, GPL notices, pinned asset hashes and rebuild script are included. This is a separate engine/file format, with cloud-only integrations disabled.
 - Exact scope, experiment list and verification boundaries: [university laboratory](docs/university-lab.md).
 
-![University AC analysis](screenshots/university-ac.png)
+![University AC analysis](screenshots/visual-update/02-university.png)
 
 ## Working features
 
