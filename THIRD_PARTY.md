@@ -1,5 +1,15 @@
 # Third-party foundations
 
+## axe-core 4.14.0
+
+Deque Systems and contributors, https://github.com/dequelabs/axe-core, MPL-2.0.
+Pinned development dependency, unmodified; its LICENSE is retained in the npm
+package and exact distribution integrity is recorded in package-lock.json.
+`tests/accessibility-browser.cjs` executes the upstream rules locally against
+first-party workspace DOM at desktop and mobile sizes. It is not shipped as a
+runtime script and does not generate simulation results. Rule failures and
+incomplete/manual-review findings are retained in evidence/accessibility-audit.json.
+
 ## ngspice
 
 - Project: https://ngspice.sourceforge.io/

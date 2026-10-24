@@ -1,0 +1,81 @@
+{
+  "timestamp": "2026-10-24T17:44:27.631189+00:00",
+  "baseCommit": "41ba034d26f5324645a56865899524eca9046662",
+  "sourceSha256": "749e46b9b8209c44e2b2fa59b13b457a7c0e356ee8fa1ec52a8632f942be94e4",
+  "sourceStable": true,
+  "unitTests": 177,
+  "browserSuites": 11,
+  "seconds": 162.549,
+  "allPassed": false,
+  "failedChecks": [
+    {
+      "name": "browser",
+      "error": "Invalid-import assertion read previous Simulation complete status before asynchronous File.text() finished.",
+      "correction": "Await actual Invalid status, then require rejection and unchanged circuit; no application validation bypass."
+    }
+  ],
+  "accessibilityBaseline": [
+    {
+      "route": "/",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "affectedNodes": 31
+        },
+        {
+          "id": "label-content-name-mismatch",
+          "affectedNodes": 11
+        }
+      ]
+    },
+    {
+      "route": "/boards.html",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "affectedNodes": 44
+        },
+        {
+          "id": "nested-interactive",
+          "affectedNodes": 1
+        },
+        {
+          "id": "select-name",
+          "affectedNodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/lab.html",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "affectedNodes": 14
+        },
+        {
+          "id": "scrollable-region-focusable",
+          "affectedNodes": 1
+        }
+      ]
+    },
+    {
+      "route": "/university.html",
+      "width": 1440,
+      "violations": [
+        {
+          "id": "color-contrast",
+          "affectedNodes": 36
+        }
+      ]
+    },
+    {
+      "route": "/studio.html",
+      "width": 1440,
+      "violations": []
+    }
+  ],
+  "note": "Initial run retained honestly. Latest results are in full-verification.json; automatic accessibility findings are separate from manual-review findings."
+}

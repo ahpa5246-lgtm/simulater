@@ -4,7 +4,7 @@ This is a regression verification record, not a certificate that every possible 
 
 ## Result
 
-The current full local matrix passed **177 tests (97 Python, 20 Node, 60 pinned upstream CircuitJS)** and **all eleven browser suites**, with no skipped tests and a stable source fingerprint. Total duration: **162.443 seconds**. Exact commands, exit codes and the tested fingerprint are in `evidence/full-verification.json`.
+The current full local matrix passed **177 tests (97 Python, 20 Node, 60 pinned upstream CircuitJS)** and **all twelve browser suites**, with no skipped tests and a stable source fingerprint. Total duration: **142.163 seconds**. Exact commands, exit codes and the tested fingerprint are in `evidence/full-verification.json`.
 
 A subsequent independent audit ran 110 seeded passive circuit cases, 440 point comparisons and 39,520 RC transient sample comparisons against analytical equations. It found and fixed degenerate sparse AC sweeps and narrow-frequency output rounding. Both defects were reproduced as failing regressions before their fixes. CircuitJS now has deterministic transient measurements at half a time constant and a stopped-clock assertion. [Independent audit, evidence and limits](independent-verification.md).
 
@@ -13,6 +13,8 @@ The latest presentation update applies the user-selected board-workspace palette
 Version 0.7 adds 19 native ngspice university experiments with OP/transient/AC/DC, current/power and Bode plots; all original reference checks pass. It also bundles the pinned GPL CircuitJS engine, 148 registered element classes (including variants/graphics) and 373 example files. The example audit checks import, parser/runtime errors and finite electrical outputs; it is not an accuracy certificate for every example/tool. A CircuitJS divider is independently checked at 5 V / 5 mA. [New laboratory scope and source provenance](university-lab.md).
 
 Independent review found and corrected four defects in the new work: huge-integer validation overflow, stale PASS/results after invalid component edits, failed JSON import committing invalid active state, and descending DC axes passed directly to uPlot. Added regressions cover these cases. The earlier amplifier/component audit below remains applicable. The current evidence is local; hosted CI is a separate check.
+
+The latest reliability audit adds pinned Deque axe-core 4.14.0 (MPL-2.0), ten desktop/mobile initial-state scans, board pin keyboard activation and fixes for real contrast/semantic findings. It also corrects an asynchronous import-test race without weakening validation. Automatic scans report zero violations; incomplete findings remain for manual review. [Coverage, failed baseline and limitations](reliability-audit.md).
 
 ## Implemented and exercised
 
@@ -25,7 +27,7 @@ Independent review found and corrected four defects in the new work: huge-intege
 | Sensors | Existing analog/digital inputs and I²C models, including the MPU-6050 register model; disconnection/address conflicts and invalid inputs are tested |
 | Instruments/integrations | GPIO measurements, VCD and execution export, bundled sigrok decoder logic, native PICSimLab register adapters, Fritzing sanitization/import and Renode profile export |
 | Artwork | 35 original illustrations, 50 Wokwi visual elements, 278 credited community SVGs; artwork availability is not firmware/device support |
-| Regression infrastructure | Every discovered Python/Node test, pinned upstream CircuitJS tests and eleven browser suites run; failures preserve logs and return nonzero. Source edits during the matrix invalidate its success claim. |
+| Regression infrastructure | Every discovered Python/Node test, pinned upstream CircuitJS tests and twelve browser suites run; failures preserve logs and return nonzero. Source edits during the matrix invalidate its success claim. |
 
 ## Added executable options
 
@@ -63,6 +65,6 @@ Generic educational diode/transistor parameters have not been compared with phys
 
 Regression success does **not** verify live Arduino CLI registry search/download/install. The report records whether the actual CLI binary is available; local ZIP-library installation/compilation and bounded CLI subprocess/error handling are exercised separately. Renode tests export profiles, not STM32 execution. RP2040 execution remains the documented experimental single-core application subset.
 
-Still unavailable: ESP32/STM32/PIC/Raspberry Pi Linux execution, general MCU/analog feedback co-simulation, PCB routing/manufacturing/3D, MCU source debugger, AC sweep, arbitrary model import and Proteus file compatibility. Windows/macOS/native installer, public hosting and physical hardware upload are not verified.
+Still unavailable: ESP32/STM32/PIC/Raspberry Pi Linux execution, general MCU/analog feedback co-simulation, PCB routing/manufacturing/3D, MCU source debugger, arbitrary model import and Proteus file compatibility. Windows/macOS/native installer, public hosting and physical hardware upload are not verified.
 
 Proteus' defining capability includes interaction between real MCU machine-code execution and connected analog/digital electronics ([official description](https://www.labcenter.com/simulation/)). This project has not reached that general co-simulation scope. A larger visual library or this passing regression matrix is not evidence of Proteus parity.

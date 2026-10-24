@@ -11,7 +11,7 @@ async function run(page){await page.locator('#run').click();for(let i=0;i<200;i+
  const page=await browser.newPage({viewport:{width:1536,height:1000}}),errors=[];
  page.on('pageerror',e=>errors.push(e.message));await page.goto('http://127.0.0.1:8765');
  await page.locator('#component-list button').first().waitFor();assert.equal(await page.locator('#component-list button').count(),39);
- await page.locator('#search').fill('N-channel MOSFET');await page.getByRole('button',{name:'Place N-channel MOSFET',exact:true}).click();
+ await page.locator('#search').fill('N-channel MOSFET');await page.locator('[data-part-name="N-channel MOSFET"]').click();
  await page.locator('#schematic').click({position:{x:250,y:200}});
  assert.equal(await page.locator('[data-cid="M1"] [data-pin]').count(),4);
  assert.ok(await page.locator('#prop-c').isVisible());assert.ok(await page.locator('#prop-d').isVisible());

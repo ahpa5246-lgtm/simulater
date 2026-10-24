@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-24T17:21:01.662963+00:00",
-  "baseCommit": "0114a20b71b4cc038fd72936c49edd7027ca78a5",
+  "timestamp": "2026-10-24T17:51:22.188659+00:00",
+  "baseCommit": "41ba034d26f5324645a56865899524eca9046662",
   "workingTreeModified": true,
-  "sourceSha256": "749e46b9b8209c44e2b2fa59b13b457a7c0e356ee8fa1ec52a8632f942be94e4",
+  "sourceSha256": "400d1c19341af94bd819943a468a9a5d0522c48a0277d28932ea3e56b2509170",
   "sourceStable": true,
   "platform": "linux",
   "python": "3.12.14",
@@ -15,7 +15,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.642,
+      "seconds": 2.326,
       "testCount": 60,
       "log": ".state/verification/circuitjs-upstream.log"
     },
@@ -27,7 +27,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.729,
+      "seconds": 0.699,
       "testCount": null,
       "log": ".state/verification/native-peripherals.log"
     },
@@ -44,7 +44,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 48.678,
+      "seconds": 42.744,
       "testCount": 97,
       "log": ".state/verification/python.log"
     },
@@ -61,7 +61,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 1.257,
+      "seconds": 1.251,
       "testCount": 20,
       "log": ".state/verification/node.log"
     },
@@ -74,7 +74,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.074,
+      "seconds": 0.102,
       "testCount": null,
       "log": ".state/verification/syntax-analog-ui.log"
     },
@@ -87,7 +87,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.093,
+      "seconds": 0.089,
       "testCount": null,
       "log": ".state/verification/syntax-app.log"
     },
@@ -100,7 +100,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.085,
+      "seconds": 0.095,
       "testCount": null,
       "log": ".state/verification/syntax-boards.log"
     },
@@ -113,7 +113,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.087,
+      "seconds": 0.09,
       "testCount": null,
       "log": ".state/verification/syntax-component-library.log"
     },
@@ -126,7 +126,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.102,
+      "seconds": 0.111,
       "testCount": null,
       "log": ".state/verification/syntax-integrations.log"
     },
@@ -139,7 +139,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.088,
+      "seconds": 0.148,
       "testCount": null,
       "log": ".state/verification/syntax-lab.log"
     },
@@ -152,7 +152,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.077,
+      "seconds": 0.083,
       "testCount": null,
       "log": ".state/verification/syntax-parts-ui.log"
     },
@@ -165,7 +165,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.153,
+      "seconds": 0.089,
       "testCount": null,
       "log": ".state/verification/syntax-studio.log"
     },
@@ -178,9 +178,21 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.106,
+      "seconds": 0.116,
       "testCount": null,
       "log": ".state/verification/syntax-university.log"
+    },
+    {
+      "name": "accessibility-browser",
+      "command": [
+        "node",
+        "tests/accessibility-browser.cjs"
+      ],
+      "status": "passed",
+      "exitCode": 0,
+      "seconds": 7.322,
+      "testCount": null,
+      "log": ".state/verification/accessibility-browser.log"
     },
     {
       "name": "analog-parts-browser",
@@ -190,7 +202,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.738,
+      "seconds": 3.154,
       "testCount": null,
       "log": ".state/verification/analog-parts-browser.log"
     },
@@ -202,7 +214,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 12.248,
+      "seconds": 8.644,
       "testCount": null,
       "log": ".state/verification/boards-browser.log"
     },
@@ -214,7 +226,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.582,
+      "seconds": 2.975,
       "testCount": null,
       "log": ".state/verification/browser.log"
     },
@@ -226,7 +238,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 21.378,
+      "seconds": 20.18,
       "testCount": null,
       "log": ".state/verification/circuitjs-browser.log"
     },
@@ -238,7 +250,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 5.905,
+      "seconds": 6.15,
       "testCount": null,
       "log": ".state/verification/component-library-browser.log"
     },
@@ -250,7 +262,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 11.801,
+      "seconds": 12.456,
       "testCount": null,
       "log": ".state/verification/instruments-browser.log"
     },
@@ -262,7 +274,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 5.852,
+      "seconds": 4.926,
       "testCount": null,
       "log": ".state/verification/parts-browser.log"
     },
@@ -274,7 +286,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 7.601,
+      "seconds": 7.879,
       "testCount": null,
       "log": ".state/verification/practical-browser.log"
     },
@@ -286,7 +298,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 6.703,
+      "seconds": 5.798,
       "testCount": null,
       "log": ".state/verification/university-browser.log"
     },
@@ -298,7 +310,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 19.051,
+      "seconds": 5.891,
       "testCount": null,
       "log": ".state/verification/upstream-browser.log"
     },
@@ -310,15 +322,15 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 9.197,
+      "seconds": 8.763,
       "testCount": null,
       "log": ".state/verification/visual-design-browser.log"
     }
   ],
-  "seconds": 162.443,
+  "seconds": 142.163,
   "allPassed": true,
   "unitTests": 177,
-  "browserSuites": 11,
+  "browserSuites": 12,
   "scope": "Internal solver, firmware and browser regression tests; no physical validation, public hosting or Proteus parity certification.",
   "dependencies": {
     "node": {

@@ -26,9 +26,11 @@
     "vendor:uplot": "python scripts/vendor-uplot.py",
     "test:circuitjs": "python scripts/test-circuitjs-upstream.py",
     "test:circuitjs-browser": "node tests/circuitjs-browser.cjs",
-    "test:university-browser": "node tests/university-browser.cjs"
+    "test:university-browser": "node tests/university-browser.cjs",
+    "test:accessibility": "node tests/accessibility-browser.cjs"
   },
   "devDependencies": {
+    "axe-core": "4.14.0",
     "node-api-headers": "1.9.0",
     "playwright": "1.51.1",
     "vitest": "4.1.7"

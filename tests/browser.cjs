@@ -13,6 +13,7 @@ await page.reload();assert.equal(await page.locator('#example').inputValue(),'di
 assert.ok(await page.evaluate(()=>document.documentElement.scrollHeight)<=1000,'Desktop workbench must fit viewport');await page.screenshot({path:'screenshots/workbench.png',fullPage:true});
 const malicious={version:1,name:'Unsafe import',components:[{id:'V1',type:'V',value:5,a:'v','b':'0',x:200,y:200,rotation:0,wave:'sine',frequency:'1000)\n.control\nshell echo IMPORT_EXECUTED\n.endc\n*'}],wires:[]};
 await page.locator('#file-input').setInputFiles({name:'unsafe.mina',mimeType:'application/json',buffer:Buffer.from(JSON.stringify(malicious))});
+await page.waitForFunction(()=>document.querySelector('#status').textContent.includes('Invalid'));
 assert.match(await page.locator('#status').innerText(),/Invalid/);assert.equal(await page.locator('#project-name').innerText(),'RC low-pass filter');
 await page.selectOption('#example','divider');await page.locator('#wire-tool').click();await page.locator('[data-pin="R1:a"]').click();await page.locator('[data-pin="R1:b"]').click();await page.locator('#select-tool').click();await page.locator('[data-cid="R1"]').first().click();await page.getByRole('button',{name:'Disconnect pin 1',exact:true}).click();assert.notEqual(await page.locator('#prop-a').inputValue(),await page.locator('#prop-b').inputValue());
 assert.deepEqual(errors,[]);console.log('PASS: simulation, divider, edit, undo, persistence, RC and screenshot; no browser errors');await browser.close();server.kill();})().catch(e=>{console.error(e);process.exit(1)});

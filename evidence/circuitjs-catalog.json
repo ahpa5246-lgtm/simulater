@@ -13,7 +13,7 @@
   "examples": [
     {
       "name": "3-cgand.txt",
-      "time": 0.0002000000000000002,
+      "time": 0.00025500000000000034,
       "running": true,
       "elements": 46,
       "finite": true,
@@ -22,7 +22,7 @@
     },
     {
       "name": "3-cgor.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 47,
       "finite": true,
@@ -31,24 +31,6 @@
     },
     {
       "name": "3-f211.txt",
-      "time": 0.00014500000000000006,
-      "running": true,
-      "elements": 10,
-      "finite": true,
-      "parseErrors": [],
-      "status": "loaded"
-    },
-    {
-      "name": "3-f220.txt",
-      "time": 0.00017500000000000013,
-      "running": true,
-      "elements": 10,
-      "finite": true,
-      "parseErrors": [],
-      "status": "loaded"
-    },
-    {
-      "name": "3-f221.txt",
       "time": 0.00015000000000000007,
       "running": true,
       "elements": 10,
@@ -57,8 +39,26 @@
       "status": "loaded"
     },
     {
+      "name": "3-f220.txt",
+      "time": 0.00015000000000000007,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
+      "name": "3-f221.txt",
+      "time": 0.00014000000000000004,
+      "running": true,
+      "elements": 10,
+      "finite": true,
+      "parseErrors": [],
+      "status": "loaded"
+    },
+    {
       "name": "3-invert.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -67,7 +67,7 @@
     },
     {
       "name": "3motor.txt",
-      "time": 0.004164999999999914,
+      "time": 0.0030549999999999597,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -76,7 +76,7 @@
     },
     {
       "name": "3phasewye.txt",
-      "time": 0.000059999999999999995,
+      "time": 0.000065,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -103,7 +103,7 @@
     },
     {
       "name": "555dutycycle.txt",
-      "time": 0,
+      "time": 0.0000012000000000000004,
       "running": true,
       "elements": 18,
       "finite": true,
@@ -130,7 +130,7 @@
     },
     {
       "name": "555missing.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -148,7 +148,7 @@
     },
     {
       "name": "555pulsemod.txt",
-      "time": 0.00006500000000000001,
+      "time": 0.00007000000000000001,
       "running": true,
       "elements": 16,
       "finite": true,
@@ -157,7 +157,7 @@
     },
     {
       "name": "555saw.txt",
-      "time": 0.0002350000000000003,
+      "time": 0.00022000000000000025,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -175,7 +175,7 @@
     },
     {
       "name": "555sequencer.txt",
-      "time": 0.00004,
+      "time": 0,
       "running": true,
       "elements": 63,
       "finite": true,
@@ -184,7 +184,7 @@
     },
     {
       "name": "555square.txt",
-      "time": 0.00007000000000000001,
+      "time": 0.00006500000000000001,
       "running": true,
       "elements": 18,
       "finite": true,
@@ -202,7 +202,7 @@
     },
     {
       "name": "actbutterband.txt",
-      "time": 0,
+      "time": 0.0010000000000000007,
       "running": true,
       "elements": 54,
       "finite": true,
@@ -211,7 +211,7 @@
     },
     {
       "name": "actbutterhi.txt",
-      "time": 0.0012031250000000009,
+      "time": 0.0011250000000000008,
       "running": true,
       "elements": 44,
       "finite": true,
@@ -229,7 +229,7 @@
     },
     {
       "name": "adder4-sc.txt",
-      "time": 0,
+      "time": 0.00015000000000000007,
       "running": true,
       "elements": 110,
       "finite": true,
@@ -238,7 +238,7 @@
     },
     {
       "name": "allpass1.txt",
-      "time": 0.00015000000000000007,
+      "time": 0.00017000000000000012,
       "running": true,
       "elements": 11,
       "finite": true,
@@ -265,7 +265,7 @@
     },
     {
       "name": "amdetect.txt",
-      "time": 0.00045000000000000086,
+      "time": 0.00033000000000000054,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -274,7 +274,7 @@
     },
     {
       "name": "amp-dfdx.txt",
-      "time": 0.00014000000000000004,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 11,
       "finite": true,
@@ -301,7 +301,7 @@
     },
     {
       "name": "amp-fullrect.txt",
-      "time": 0.00019500000000000019,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -310,7 +310,7 @@
     },
     {
       "name": "amp-integ.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -319,7 +319,7 @@
     },
     {
       "name": "amp-invert.txt",
-      "time": 0.0001650000000000001,
+      "time": 0.00015000000000000007,
       "running": true,
       "elements": 11,
       "finite": true,
@@ -355,7 +355,7 @@
     },
     {
       "name": "amp-sum.txt",
-      "time": 0.0002400000000000003,
+      "time": 0.00022500000000000026,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -364,7 +364,7 @@
     },
     {
       "name": "analogrecip.txt",
-      "time": 0.000125,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 48,
       "finite": true,
@@ -382,7 +382,7 @@
     },
     {
       "name": "avr8js-logic.txt",
-      "time": 0.0011,
+      "time": 0.0014499999999999995,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -391,7 +391,7 @@
     },
     {
       "name": "avr8js-strobe.txt",
-      "time": 0.0014499999999999995,
+      "time": 0.0013499999999999996,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -400,7 +400,7 @@
     },
     {
       "name": "bandnoise.txt",
-      "time": 0.005343750000000004,
+      "time": 0.003796875000000003,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -409,7 +409,7 @@
     },
     {
       "name": "bandpass.txt",
-      "time": 0.000115,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -445,7 +445,7 @@
     },
     {
       "name": "butter10hi.txt",
-      "time": 0.00006500000000000001,
+      "time": 0.00006,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -454,7 +454,7 @@
     },
     {
       "name": "butter10hiaud.txt",
-      "time": 0.00026562500000000013,
+      "time": 0.00021875000000000009,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -463,7 +463,7 @@
     },
     {
       "name": "butter10lo.txt",
-      "time": 0.00007500000000000001,
+      "time": 0.00007000000000000001,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -481,7 +481,7 @@
     },
     {
       "name": "butterbandstop.txt",
-      "time": 0.00007500000000000001,
+      "time": 0.00007000000000000001,
       "running": true,
       "elements": 30,
       "finite": true,
@@ -490,7 +490,7 @@
     },
     {
       "name": "cap.txt",
-      "time": 0.00018500000000000016,
+      "time": 0.00021500000000000024,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -508,7 +508,7 @@
     },
     {
       "name": "capmult.txt",
-      "time": 0.0002400000000000003,
+      "time": 0.00025500000000000034,
       "running": true,
       "elements": 21,
       "finite": true,
@@ -517,7 +517,7 @@
     },
     {
       "name": "capmultcaps.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -535,7 +535,7 @@
     },
     {
       "name": "cappar.txt",
-      "time": 0.00022500000000000026,
+      "time": 0.00022000000000000025,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -553,7 +553,7 @@
     },
     {
       "name": "cc2.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -580,7 +580,7 @@
     },
     {
       "name": "cc2n.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -589,7 +589,7 @@
     },
     {
       "name": "ccdiff.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -607,7 +607,7 @@
     },
     {
       "name": "ccinductor.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 24,
       "finite": true,
@@ -616,7 +616,7 @@
     },
     {
       "name": "ccint.txt",
-      "time": 0.00015500000000000008,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -625,7 +625,7 @@
     },
     {
       "name": "ccitov.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -643,7 +643,7 @@
     },
     {
       "name": "ceamp.txt",
-      "time": 0.00021000000000000023,
+      "time": 0.00022500000000000026,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -652,7 +652,7 @@
     },
     {
       "name": "chaos1.txt",
-      "time": 0.00007000000000000001,
+      "time": 0.00006500000000000001,
       "running": true,
       "elements": 37,
       "finite": true,
@@ -679,7 +679,7 @@
     },
     {
       "name": "classd.txt",
-      "time": 0.000125,
+      "time": 0.000115,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -697,7 +697,7 @@
     },
     {
       "name": "cmosff.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 50,
       "finite": true,
@@ -706,7 +706,7 @@
     },
     {
       "name": "cmosinverter.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -715,7 +715,7 @@
     },
     {
       "name": "cmosinvertercap.txt",
-      "time": 2.8999999999999997e-11,
+      "time": 3.2000000000000006e-11,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -733,7 +733,7 @@
     },
     {
       "name": "cmosmsff.txt",
-      "time": 0.00012,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 28,
       "finite": true,
@@ -751,7 +751,7 @@
     },
     {
       "name": "cmosnor.txt",
-      "time": 0.000125,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 18,
       "finite": true,
@@ -769,7 +769,7 @@
     },
     {
       "name": "cmosxor.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 27,
       "finite": true,
@@ -787,7 +787,7 @@
     },
     {
       "name": "comb.txt",
-      "time": 0.0005781250000000004,
+      "time": 0.0005625000000000004,
       "running": true,
       "elements": 26,
       "finite": true,
@@ -796,7 +796,7 @@
     },
     {
       "name": "conv-boost.txt",
-      "time": 0.00003,
+      "time": 0.000025,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -805,7 +805,7 @@
     },
     {
       "name": "conv-buck.txt",
-      "time": 0.00003,
+      "time": 0.000035000000000000004,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -841,7 +841,7 @@
     },
     {
       "name": "counter.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 44,
       "finite": true,
@@ -859,7 +859,7 @@
     },
     {
       "name": "coupled1.txt",
-      "time": 0.00018000000000000015,
+      "time": 0.00017000000000000012,
       "running": true,
       "elements": 16,
       "finite": true,
@@ -868,7 +868,7 @@
     },
     {
       "name": "coupled2.txt",
-      "time": 0.00015000000000000007,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -877,7 +877,7 @@
     },
     {
       "name": "coupled3.txt",
-      "time": 0.00023000000000000028,
+      "time": 0.00026000000000000036,
       "running": true,
       "elements": 33,
       "finite": true,
@@ -886,7 +886,7 @@
     },
     {
       "name": "crossover.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00015000000000000007,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -895,7 +895,7 @@
     },
     {
       "name": "crystalosc.txt",
-      "time": 4.399999999999997e-9,
+      "time": 4.7499999999999946e-9,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -904,7 +904,7 @@
     },
     {
       "name": "crystalosc2.txt",
-      "time": 1.0000000000000003e-9,
+      "time": 1.0500000000000003e-9,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -913,7 +913,7 @@
     },
     {
       "name": "cs-currentadder.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.000125,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -922,7 +922,7 @@
     },
     {
       "name": "cs-diff.txt",
-      "time": 0.0001600000000000001,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -931,7 +931,7 @@
     },
     {
       "name": "cs-fullrectifier.txt",
-      "time": 0.00025000000000000033,
+      "time": 0.0003950000000000007,
       "running": true,
       "elements": 5,
       "finite": true,
@@ -940,7 +940,7 @@
     },
     {
       "name": "cs-integrator.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00017000000000000012,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -949,7 +949,7 @@
     },
     {
       "name": "cs-multiplier.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -994,7 +994,7 @@
     },
     {
       "name": "cs-varicap.txt",
-      "time": 0.00019000000000000017,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -1003,7 +1003,7 @@
     },
     {
       "name": "cs-varinduct.txt",
-      "time": 0.00018500000000000016,
+      "time": 0.00017500000000000013,
       "running": true,
       "elements": 11,
       "finite": true,
@@ -1039,7 +1039,7 @@
     },
     {
       "name": "currentsrcelm.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 24,
       "finite": true,
@@ -1048,7 +1048,7 @@
     },
     {
       "name": "currentsrcramp.txt",
-      "time": 0.00019500000000000019,
+      "time": 0.0002050000000000002,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -1057,7 +1057,7 @@
     },
     {
       "name": "dac.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -1066,7 +1066,7 @@
     },
     {
       "name": "darlington.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -1084,7 +1084,7 @@
     },
     {
       "name": "deccounter.txt",
-      "time": 0.00017500000000000013,
+      "time": 0.00017000000000000012,
       "running": true,
       "elements": 72,
       "finite": true,
@@ -1120,7 +1120,7 @@
     },
     {
       "name": "deltasigma.txt",
-      "time": 0.00019500000000000019,
+      "time": 0.00017000000000000012,
       "running": true,
       "elements": 34,
       "finite": true,
@@ -1129,7 +1129,7 @@
     },
     {
       "name": "diff.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 4,
       "finite": true,
@@ -1138,7 +1138,7 @@
     },
     {
       "name": "digcompare.txt",
-      "time": 0.00002,
+      "time": 0.000025,
       "running": true,
       "elements": 60,
       "finite": true,
@@ -1147,7 +1147,7 @@
     },
     {
       "name": "digsine.txt",
-      "time": 0.000125,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 60,
       "finite": true,
@@ -1156,7 +1156,7 @@
     },
     {
       "name": "diodeclip.txt",
-      "time": 0.0001600000000000001,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -1192,7 +1192,7 @@
     },
     {
       "name": "divideby2.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -1210,7 +1210,7 @@
     },
     {
       "name": "dram.txt",
-      "time": 0.00007000000000000001,
+      "time": 0.00006500000000000001,
       "running": true,
       "elements": 72,
       "finite": true,
@@ -1228,7 +1228,7 @@
     },
     {
       "name": "dtlnand.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 18,
       "finite": true,
@@ -1237,7 +1237,7 @@
     },
     {
       "name": "dtlnor.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 27,
       "finite": true,
@@ -1273,7 +1273,7 @@
     },
     {
       "name": "edgedff.txt",
-      "time": 0.00011,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 43,
       "finite": true,
@@ -1327,7 +1327,7 @@
     },
     {
       "name": "filt-vcvs-hipass.txt",
-      "time": 0.00014000000000000004,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -1336,7 +1336,7 @@
     },
     {
       "name": "filt-vcvs-lopass.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -1381,7 +1381,7 @@
     },
     {
       "name": "fullrect-sc.txt",
-      "time": 0.0002850000000000004,
+      "time": 0.00040500000000000074,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -1390,7 +1390,7 @@
     },
     {
       "name": "fullrect.txt",
-      "time": 0.00014000000000000004,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -1399,7 +1399,7 @@
     },
     {
       "name": "fullrectf.txt",
-      "time": 0.00017999999999999998,
+      "time": 0.00019999999999999998,
       "running": true,
       "elements": 17,
       "finite": true,
@@ -1408,7 +1408,7 @@
     },
     {
       "name": "gilbertcell.txt",
-      "time": 0.0001,
+      "time": 0.00014000000000000004,
       "running": true,
       "elements": 98,
       "finite": true,
@@ -1462,7 +1462,7 @@
     },
     {
       "name": "halfadd.txt",
-      "time": 0.000025,
+      "time": 0.00002,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -1480,7 +1480,7 @@
     },
     {
       "name": "hfadc.txt",
-      "time": 0.00015000000000000007,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 42,
       "finite": true,
@@ -1489,7 +1489,7 @@
     },
     {
       "name": "howland.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 22,
       "finite": true,
@@ -1507,7 +1507,7 @@
     },
     {
       "name": "indmultfreq.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -1525,7 +1525,7 @@
     },
     {
       "name": "indpar.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000035000000000000004,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -1543,7 +1543,7 @@
     },
     {
       "name": "induct.txt",
-      "time": 0.0002000000000000002,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 8,
       "finite": true,
@@ -1552,7 +1552,7 @@
     },
     {
       "name": "inductac.txt",
-      "time": 0.00021000000000000023,
+      "time": 0.00019000000000000017,
       "running": true,
       "elements": 4,
       "finite": true,
@@ -1561,7 +1561,7 @@
     },
     {
       "name": "inductkick-block.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00011,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -1588,7 +1588,7 @@
     },
     {
       "name": "inv-osc.txt",
-      "time": 0.0009300000000000021,
+      "time": 0.0009900000000000022,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -1615,7 +1615,7 @@
     },
     {
       "name": "jerk.txt",
-      "time": 0.00015000000000000007,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 35,
       "finite": true,
@@ -1624,7 +1624,7 @@
     },
     {
       "name": "jfetamp.txt",
-      "time": 0.0004350000000000008,
+      "time": 0.00041000000000000075,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -1660,7 +1660,7 @@
     },
     {
       "name": "jkff.txt",
-      "time": 0.00014000000000000004,
+      "time": 0.00019000000000000017,
       "running": true,
       "elements": 53,
       "finite": true,
@@ -1678,7 +1678,7 @@
     },
     {
       "name": "joule-thief.txt",
-      "time": 1.0500000000000004e-7,
+      "time": 9.000000000000003e-8,
       "running": true,
       "elements": 22,
       "finite": true,
@@ -1687,7 +1687,7 @@
     },
     {
       "name": "jsinterface.txt",
-      "time": 0.00018500000000000016,
+      "time": 0.00025500000000000034,
       "running": true,
       "elements": 78,
       "finite": true,
@@ -1696,7 +1696,7 @@
     },
     {
       "name": "ladder.txt",
-      "time": 0.000035000000000000004,
+      "time": 0.00004,
       "running": true,
       "elements": 76,
       "finite": true,
@@ -1741,7 +1741,7 @@
     },
     {
       "name": "ledarray.txt",
-      "time": 0.000125,
+      "time": 0.0001875,
       "running": true,
       "elements": 61,
       "finite": true,
@@ -1768,7 +1768,7 @@
     },
     {
       "name": "lissa.txt",
-      "time": 0.0006300000000000013,
+      "time": 0.0006700000000000014,
       "running": true,
       "elements": 24,
       "finite": true,
@@ -1777,7 +1777,7 @@
     },
     {
       "name": "logconvert.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00015000000000000007,
       "running": true,
       "elements": 32,
       "finite": true,
@@ -1786,7 +1786,7 @@
     },
     {
       "name": "longdist.txt",
-      "time": 0.000095,
+      "time": 0.0001,
       "running": true,
       "elements": 30,
       "finite": true,
@@ -1858,7 +1858,7 @@
     },
     {
       "name": "mosfetamp.txt",
-      "time": 0.000510000000000001,
+      "time": 0.0005450000000000011,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -1867,7 +1867,7 @@
     },
     {
       "name": "mosfollower.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -1894,7 +1894,7 @@
     },
     {
       "name": "motorprotect.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014000000000000004,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -1939,7 +1939,7 @@
     },
     {
       "name": "mr-square.txt",
-      "time": 0.0000012999999999999992,
+      "time": 0.0000011999999999999993,
       "running": true,
       "elements": 3,
       "finite": true,
@@ -1948,7 +1948,7 @@
     },
     {
       "name": "mr-triangle.txt",
-      "time": 0.0000013499999999999991,
+      "time": 0.0000012999999999999992,
       "running": true,
       "elements": 3,
       "finite": true,
@@ -1966,7 +1966,7 @@
     },
     {
       "name": "multivib-a.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 26,
       "finite": true,
@@ -1993,7 +1993,7 @@
     },
     {
       "name": "mux.txt",
-      "time": 0.0004350000000000008,
+      "time": 0.00026000000000000036,
       "running": true,
       "elements": 38,
       "finite": true,
@@ -2038,7 +2038,7 @@
     },
     {
       "name": "nmosinverter.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -2047,7 +2047,7 @@
     },
     {
       "name": "nmosinverter2.txt",
-      "time": 0.00015500000000000008,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 11,
       "finite": true,
@@ -2065,7 +2065,7 @@
     },
     {
       "name": "nmosnand.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -2074,7 +2074,7 @@
     },
     {
       "name": "norton-invert.txt",
-      "time": 0.00023000000000000028,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -2083,7 +2083,7 @@
     },
     {
       "name": "norton-noninvert.txt",
-      "time": 0.0002050000000000002,
+      "time": 0.00022000000000000025,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -2092,7 +2092,7 @@
     },
     {
       "name": "norton-saw.txt",
-      "time": 0.0013775510204172016,
+      "time": 0.0018650793650916023,
       "running": true,
       "elements": 24,
       "finite": true,
@@ -2101,7 +2101,7 @@
     },
     {
       "name": "norton.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 33,
       "finite": true,
@@ -2128,7 +2128,7 @@
     },
     {
       "name": "ohms.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -2137,7 +2137,7 @@
     },
     {
       "name": "opamp-regulator.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -2182,7 +2182,7 @@
     },
     {
       "name": "opint-slew.txt",
-      "time": 8e-7,
+      "time": 6e-7,
       "running": true,
       "elements": 107,
       "finite": true,
@@ -2191,7 +2191,7 @@
     },
     {
       "name": "opint.txt",
-      "time": 0.000024999999999999998,
+      "time": 0.000019999999999999998,
       "running": true,
       "elements": 102,
       "finite": true,
@@ -2209,7 +2209,7 @@
     },
     {
       "name": "ota-ringmod.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -2218,7 +2218,7 @@
     },
     {
       "name": "ota-vca.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -2263,7 +2263,7 @@
     },
     {
       "name": "phaseseq.txt",
-      "time": 0.00036,
+      "time": 0.00034,
       "running": true,
       "elements": 67,
       "finite": true,
@@ -2281,7 +2281,7 @@
     },
     {
       "name": "phasesplit.txt",
-      "time": 0.00025000000000000033,
+      "time": 0.0002350000000000003,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -2308,7 +2308,7 @@
     },
     {
       "name": "pll2.txt",
-      "time": 0.00021500000000000024,
+      "time": 0.0002000000000000002,
       "running": true,
       "elements": 22,
       "finite": true,
@@ -2326,7 +2326,7 @@
     },
     {
       "name": "plot2d-checker.txt",
-      "time": 0.000023000000000000007,
+      "time": 0.000025000000000000008,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -2335,7 +2335,7 @@
     },
     {
       "name": "plot2d-color.txt",
-      "time": 0.000023000000000000007,
+      "time": 0.00002600000000000001,
       "running": true,
       "elements": 28,
       "finite": true,
@@ -2344,7 +2344,7 @@
     },
     {
       "name": "plot2d-smile.txt",
-      "time": 0.00011199999999999978,
+      "time": 0.00009199999999999984,
       "running": true,
       "elements": 35,
       "finite": true,
@@ -2353,7 +2353,7 @@
     },
     {
       "name": "pmosfet.txt",
-      "time": 0.00015500000000000008,
+      "time": 0.0001600000000000001,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -2371,7 +2371,7 @@
     },
     {
       "name": "pot.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014000000000000004,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -2380,7 +2380,7 @@
     },
     {
       "name": "potdivide.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -2389,7 +2389,7 @@
     },
     {
       "name": "powerfactor1.txt",
-      "time": 0.00018500000000000016,
+      "time": 0.00019000000000000017,
       "running": true,
       "elements": 6,
       "finite": true,
@@ -2398,7 +2398,7 @@
     },
     {
       "name": "powerfactor2.txt",
-      "time": 0.00029500000000000045,
+      "time": 0.0002800000000000004,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -2407,7 +2407,7 @@
     },
     {
       "name": "priencoder.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -2416,7 +2416,7 @@
     },
     {
       "name": "pushpull.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 19,
       "finite": true,
@@ -2434,7 +2434,7 @@
     },
     {
       "name": "qam-256.txt",
-      "time": 0.00011999999999999999,
+      "time": 0.00007999999999999999,
       "running": true,
       "elements": 172,
       "finite": true,
@@ -2452,7 +2452,7 @@
     },
     {
       "name": "rectify.txt",
-      "time": 0.00015000000000000007,
+      "time": 0.00017500000000000013,
       "running": true,
       "elements": 4,
       "finite": true,
@@ -2461,7 +2461,7 @@
     },
     {
       "name": "relaxosc.txt",
-      "time": 0.000046875,
+      "time": 0.00003125,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -2506,7 +2506,7 @@
     },
     {
       "name": "relaymux.txt",
-      "time": 0.0004199999999999997,
+      "time": 0.0004049999999999997,
       "running": true,
       "elements": 31,
       "finite": true,
@@ -2524,7 +2524,7 @@
     },
     {
       "name": "relayosc.txt",
-      "time": 0.0017950000000000043,
+      "time": 0.0018900000000000045,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -2533,7 +2533,7 @@
     },
     {
       "name": "relays.txt",
-      "time": 0.00026000000000000003,
+      "time": 0.00025,
       "running": true,
       "elements": 60,
       "finite": true,
@@ -2551,7 +2551,7 @@
     },
     {
       "name": "relayxor.txt",
-      "time": 0.0004349999999999997,
+      "time": 0.0004049999999999997,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -2560,7 +2560,7 @@
     },
     {
       "name": "res-par.txt",
-      "time": 0.00019500000000000019,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 30,
       "finite": true,
@@ -2578,7 +2578,7 @@
     },
     {
       "name": "resistors.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -2587,7 +2587,7 @@
     },
     {
       "name": "ringcascade.txt",
-      "time": 0.0005450000000000011,
+      "time": 0.0005750000000000012,
       "running": true,
       "elements": 46,
       "finite": true,
@@ -2596,7 +2596,7 @@
     },
     {
       "name": "ringing.txt",
-      "time": 0.00006500000000000001,
+      "time": 0.00006,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -2614,7 +2614,7 @@
     },
     {
       "name": "rmsconverter.txt",
-      "time": 0.003959999999999923,
+      "time": 0.0019400000000000047,
       "running": true,
       "elements": 91,
       "finite": true,
@@ -2623,7 +2623,7 @@
     },
     {
       "name": "rossler.txt",
-      "time": 0.00005,
+      "time": 0.000035000000000000004,
       "running": true,
       "elements": 66,
       "finite": true,
@@ -2632,7 +2632,7 @@
     },
     {
       "name": "rtlinverter.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 8,
       "finite": true,
@@ -2650,7 +2650,7 @@
     },
     {
       "name": "rtlnor.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 23,
       "finite": true,
@@ -2659,7 +2659,7 @@
     },
     {
       "name": "samplenhold.txt",
-      "time": 0.00019000000000000017,
+      "time": 0.00015000000000000007,
       "running": true,
       "elements": 29,
       "finite": true,
@@ -2686,7 +2686,7 @@
     },
     {
       "name": "satcore-transformer.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.000025,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -2704,7 +2704,7 @@
     },
     {
       "name": "schmitt.txt",
-      "time": 0.0002000000000000002,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 25,
       "finite": true,
@@ -2722,7 +2722,7 @@
     },
     {
       "name": "scractrig.txt",
-      "time": 0.00017500000000000013,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 8,
       "finite": true,
@@ -2740,7 +2740,7 @@
     },
     {
       "name": "sinediode.txt",
-      "time": 0.00005,
+      "time": 0.000045,
       "running": true,
       "elements": 54,
       "finite": true,
@@ -2749,7 +2749,7 @@
     },
     {
       "name": "sipo-sr.txt",
-      "time": 0.00015500000000000008,
+      "time": 0.000125,
       "running": true,
       "elements": 24,
       "finite": true,
@@ -2758,7 +2758,7 @@
     },
     {
       "name": "spark-marx.txt",
-      "time": 0.0007600000000000007,
+      "time": 0.0007000000000000005,
       "running": true,
       "elements": 33,
       "finite": true,
@@ -2767,7 +2767,7 @@
     },
     {
       "name": "spark-sawtooth.txt",
-      "time": 0.0001069999999999998,
+      "time": 0.00011399999999999978,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -2776,7 +2776,7 @@
     },
     {
       "name": "spikegen.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 8,
       "finite": true,
@@ -2785,7 +2785,7 @@
     },
     {
       "name": "sram.txt",
-      "time": 0.00017500000000000013,
+      "time": 0.000125,
       "running": true,
       "elements": 88,
       "finite": true,
@@ -2821,7 +2821,7 @@
     },
     {
       "name": "synccounter.txt",
-      "time": 0.00013000000000000002,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 47,
       "finite": true,
@@ -2839,7 +2839,7 @@
     },
     {
       "name": "td4-ctr-dn.txt",
-      "time": 0.000025,
+      "time": 0.00005,
       "running": true,
       "elements": 109,
       "finite": true,
@@ -2848,7 +2848,7 @@
     },
     {
       "name": "td4-ctr-up-dn.txt",
-      "time": 0.00021000000000000023,
+      "time": 0.0008000000000000018,
       "running": true,
       "elements": 109,
       "finite": true,
@@ -2857,7 +2857,7 @@
     },
     {
       "name": "td4-ctr.txt",
-      "time": 0.000045,
+      "time": 0.00005,
       "running": true,
       "elements": 109,
       "finite": true,
@@ -2884,7 +2884,7 @@
     },
     {
       "name": "tdosc.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -2911,7 +2911,7 @@
     },
     {
       "name": "thevenin.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014000000000000004,
       "running": true,
       "elements": 31,
       "finite": true,
@@ -2920,7 +2920,7 @@
     },
     {
       "name": "tl.txt",
-      "time": 1.35e-10,
+      "time": 1.2499999999999998e-10,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -2929,7 +2929,7 @@
     },
     {
       "name": "tlfreq.txt",
-      "time": 1.6000000000000004e-10,
+      "time": 1.7500000000000007e-10,
       "running": true,
       "elements": 16,
       "finite": true,
@@ -2938,7 +2938,7 @@
     },
     {
       "name": "tllight.txt",
-      "time": 7.099999999999995e-10,
+      "time": 6.699999999999997e-10,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -2947,7 +2947,7 @@
     },
     {
       "name": "tllopass.txt",
-      "time": 1.4499999999999998e-11,
+      "time": 1.7000000000000006e-11,
       "running": true,
       "elements": 35,
       "finite": true,
@@ -2956,7 +2956,7 @@
     },
     {
       "name": "tlmatch1.txt",
-      "time": 6.599999999999997e-10,
+      "time": 7.899999999999992e-10,
       "running": true,
       "elements": 29,
       "finite": true,
@@ -2974,7 +2974,7 @@
     },
     {
       "name": "tlmis1.txt",
-      "time": 3.2499999999999986e-10,
+      "time": 3.0499999999999993e-10,
       "running": true,
       "elements": 12,
       "finite": true,
@@ -2992,7 +2992,7 @@
     },
     {
       "name": "tlstand.txt",
-      "time": 8e-12,
+      "time": 6.999999999999999e-12,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -3001,7 +3001,7 @@
     },
     {
       "name": "tlterm.txt",
-      "time": 1.900000000000001e-10,
+      "time": 2.2000000000000015e-10,
       "running": true,
       "elements": 32,
       "finite": true,
@@ -3028,7 +3028,7 @@
     },
     {
       "name": "trans-diffamp-cursrc.txt",
-      "time": 0.00007500000000000001,
+      "time": 0.00008,
       "running": true,
       "elements": 27,
       "finite": true,
@@ -3037,7 +3037,7 @@
     },
     {
       "name": "trans-diffamp.txt",
-      "time": 0.00007000000000000001,
+      "time": 0.00008,
       "running": true,
       "elements": 21,
       "finite": true,
@@ -3055,7 +3055,7 @@
     },
     {
       "name": "transformerdc.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -3091,7 +3091,7 @@
     },
     {
       "name": "transswitch.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 9,
       "finite": true,
@@ -3118,7 +3118,7 @@
     },
     {
       "name": "trianglevco.txt",
-      "time": 0.000115,
+      "time": 0.00012,
       "running": true,
       "elements": 43,
       "finite": true,
@@ -3136,7 +3136,7 @@
     },
     {
       "name": "triodeamp.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00015500000000000008,
       "running": true,
       "elements": 17,
       "finite": true,
@@ -3145,7 +3145,7 @@
     },
     {
       "name": "ttlinverter.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000105,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -3154,7 +3154,7 @@
     },
     {
       "name": "ttlnand.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 16,
       "finite": true,
@@ -3172,7 +3172,7 @@
     },
     {
       "name": "twint.txt",
-      "time": 0.000125,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 14,
       "finite": true,
@@ -3190,7 +3190,7 @@
     },
     {
       "name": "unishiftreg.txt",
-      "time": 0.00012,
+      "time": 0.00011,
       "running": true,
       "elements": 216,
       "finite": true,
@@ -3199,7 +3199,7 @@
     },
     {
       "name": "updownctr.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.000125,
       "running": true,
       "elements": 67,
       "finite": true,
@@ -3244,7 +3244,7 @@
     },
     {
       "name": "voltdivide.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 15,
       "finite": true,
@@ -3262,7 +3262,7 @@
     },
     {
       "name": "voltdouble2.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013500000000000003,
       "running": true,
       "elements": 10,
       "finite": true,
@@ -3271,7 +3271,7 @@
     },
     {
       "name": "voltinvert.txt",
-      "time": 0.000045,
+      "time": 0.00005,
       "running": true,
       "elements": 20,
       "finite": true,
@@ -3289,7 +3289,7 @@
     },
     {
       "name": "volttriple.txt",
-      "time": 0.00018000000000000015,
+      "time": 0.00026500000000000037,
       "running": true,
       "elements": 13,
       "finite": true,
@@ -3316,7 +3316,7 @@
     },
     {
       "name": "wienbridge.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00015500000000000008,
       "running": true,
       "elements": 16,
       "finite": true,
@@ -3343,7 +3343,7 @@
     },
     {
       "name": "zeneriv.txt",
-      "time": 0.00013500000000000003,
+      "time": 0.00014500000000000006,
       "running": true,
       "elements": 3,
       "finite": true,
@@ -3352,7 +3352,7 @@
     },
     {
       "name": "zenerref.txt",
-      "time": 0.00014000000000000004,
+      "time": 0.00021000000000000023,
       "running": true,
       "elements": 7,
       "finite": true,
@@ -3361,7 +3361,7 @@
     },
     {
       "name": "zenerreffollow.txt",
-      "time": 0.00014500000000000006,
+      "time": 0.00013000000000000002,
       "running": true,
       "elements": 12,
       "finite": true,
