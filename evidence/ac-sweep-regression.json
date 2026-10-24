@@ -1,0 +1,47 @@
+{
+  "beforeRevision": "40f3143a4d9d600304a392b82e951a061bee49ff",
+  "nativeEngine": "ngspice 42",
+  "reproductions": [
+    {
+      "command": "ac dec 1 1720.75273802 17207.5273802",
+      "before": "Native engine stalled with infinite reference frequency; bounded wrapper timed out after 15 seconds."
+    },
+    {
+      "command": "ac dec 40 1000 1000.001",
+      "before": "Native engine stalled with infinite reference frequency; bounded wrapper timed out after 15 seconds."
+    }
+  ],
+  "fix": "Use explicitly disclosed three-point linear sampling when the requested logarithmic grid has fewer than two intervals; retain both endpoints. Reject ranges that collapse at solver input precision.",
+  "regression": "UniversityTests.test_sparse_and_narrow_ac_sweeps_have_real_endpoints",
+  "redRun": {
+    "command": "python -m unittest discover -s tests -p test_university.py -k sparse -v",
+    "exitCode": 1,
+    "errors": 2,
+    "seconds": 30.119
+  },
+  "greenRun": {
+    "command": "python -m unittest discover -s tests -p test_university.py -k sparse -v",
+    "exitCode": 0,
+    "errors": 0,
+    "seconds": 0.022
+  },
+  "scope": "A genuine native-engine integration defect found by seeded numerical tests, not a mocked timeout.",
+  "additionalPrecisionRegression": {
+    "before": "At 1000 to 1000.00001 Hz and 1000 to 1000.000001 Hz, default wrdata precision produced duplicate frequency values despite successful solver completion.",
+    "fix": "Write 15-digit solver values and reject non-increasing returned AC axes.",
+    "redFailures": 2,
+    "greenPassed": true,
+    "independentlyConfirmedAxes": [
+      [
+        1000,
+        1000.000005,
+        1000.00001
+      ],
+      [
+        1000,
+        1000.0000005,
+        1000.000001
+      ]
+    ]
+  }
+}

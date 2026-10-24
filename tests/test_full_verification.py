@@ -27,3 +27,8 @@ class VerificationReportTests(unittest.TestCase):
         self.assertFalse(report['arduinoCli']['available'])
         self.assertTrue(report['arduinoCli']['optional'])
         self.assertIn('diagnostic',report['arduinoCli'])
+
+    def test_test_counts_are_portable_with_colored_ci_output(self):
+        self.assertEqual(verifier.count_tests('circuitjs-upstream','\x1b[32mTests\x1b[39m  \x1b[32m60 passed\x1b[39m (60)'),60)
+        self.assertEqual(verifier.count_tests('python','Ran 96 tests in 20.0s\nOK'),96)
+        self.assertEqual(verifier.count_tests('node','# tests 20\n# pass 20'),20)

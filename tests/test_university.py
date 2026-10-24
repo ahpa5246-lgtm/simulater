@@ -71,3 +71,15 @@ class UniversityTests(unittest.TestCase):
         for key in ['value','frequency','ratio','x']:
             bad=copy.deepcopy(p);bad['components'][0][key]=10**400
             with self.subTest(key=key),self.assertRaises(ValueError):analyses.analyze(bad,{'type':'op'})
+
+    def test_sparse_and_narrow_ac_sweeps_have_real_endpoints(self):
+        import analyses, university
+        p=university.experiments()[0]['project']
+        for start,stop,points in [(1720.75273802,17207.5273802,1),(1000,1000.001,40),(1000,1000.00001,40),(1000,1000.000001,40)]:
+            with self.subTest(start=start,stop=stop):
+                r=analyses.analyze(p,dict(type='ac',source='Vin',startHz=start,stopHz=stop,pointsPerDecade=points))
+                self.assertGreaterEqual(len(r['axis']),3)
+                self.assertAlmostEqual(r['axis'][0],start,delta=start*1e-7)
+                self.assertAlmostEqual(r['axis'][-1],stop,delta=stop*1e-7)
+                self.assertTrue(all(a<b for a,b in zip(r['axis'],r['axis'][1:])))
+                self.assertAlmostEqual(r['currents']['R1'][0],.001,places=7)

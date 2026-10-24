@@ -1,0 +1,23 @@
+{
+  "scope": "Independent time-domain RC exponential and stopped-clock checks in the real browser engine.",
+  "rcChecks": [
+    {
+      "resistance": 1000,
+      "time": 0.0005000000000000076,
+      "voltage": 3.933176760243627,
+      "timeConstant": 0.001,
+      "expected": 3.9346934028737115,
+      "absoluteError": 0.0015166426300843305,
+      "tolerance": 0.015
+    },
+    {
+      "resistance": 4700,
+      "time": 0.0023500000000001497,
+      "voltage": 3.9343707658790135,
+      "timeConstant": 0.0047,
+      "expected": 3.934693402873859,
+      "absoluteError": 0.00032263699484547104,
+      "tolerance": 0.015
+    }
+  ]
+}

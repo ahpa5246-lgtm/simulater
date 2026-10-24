@@ -40,6 +40,8 @@ PCB editing/routing/3D/manufacturing outputs; general MCU/analog co-simulation; 
 
 ## Verify
 
+The [independent numerical audit](docs/independent-verification.md) adds 110 seeded real-engine circuit cases, analytical phasor/power comparisons and deterministic browser transient checks. It found and fixed sparse/narrow AC sweep defects; exact evidence is included under `evidence/`.
+
 ```sh
 python -m unittest discover -s tests -v
 node --check web/app.js

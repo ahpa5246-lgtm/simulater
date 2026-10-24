@@ -46,6 +46,16 @@ def source_fingerprint():
     return digest.hexdigest()
 
 
+def count_tests(label, output):
+    # CI can retain ANSI color between Vitest's label and numeric summary.
+    plain=re.sub(r'\x1b\[[0-?]*[ -/]*[@-~]', '', output)
+    patterns={'python':r'Ran (\d+) tests?',
+              'node':r'(?:#|ℹ) tests (\d+)',
+              'circuitjs-upstream':r'Tests\s+(\d+) passed'}
+    match=re.search(patterns[label],plain) if label in patterns else None
+    return int(match[1]) if match else None
+
+
 def main():
     with socket.socket() as probe:
         if probe.connect_ex(('127.0.0.1',8765))==0:
@@ -72,11 +82,11 @@ def main():
         except subprocess.TimeoutExpired as exc:
             output=str(exc);code=124
         (logs/(label+'.log')).write_text(output)
-        count=re.search(r'Ran (\d+) tests?',output) if label=='python' else re.search(r'(?:#|ℹ) tests (\d+)',output) if label=='node' else re.search(r'Tests\s+(\d+) passed',output) if label=='circuitjs-upstream' else None
+        count=count_tests(label,output)
         skipped=re.search(r'(?:#|ℹ) skipped (\d+)',output)
         status='passed' if code==0 else 'failed'
         if re.search(r'OK \(skipped=',output) or skipped and int(skipped[1])>0:status='incomplete'
-        results.append(dict(name=label,command=command,status=status,exitCode=code,seconds=round(time.monotonic()-begin,3),testCount=int(count[1]) if count else None,log='.state/verification/'+label+'.log'))
+        results.append(dict(name=label,command=command,status=status,exitCode=code,seconds=round(time.monotonic()-begin,3),testCount=count,log='.state/verification/'+label+'.log'))
         print(f'{status.upper()} {label} ({results[-1]["seconds"]} s)',flush=True)
         if status!='passed':print(output[-3500:],flush=True)
     source_after=source_fingerprint()

@@ -24,7 +24,7 @@ def analyze(project,settings=None):
     mode=settings.get('type','transient')
     if mode not in ('op','transient','ac','dc'):raise ValueError('Unsupported analysis mode.')
     components=project['components']; sources={c['id'].lower():c for c in components if c['type']=='V'}
-    source=None; amplitude=1
+    source=None; amplitude=1; sampling=None
     if mode in ('ac','dc'):
         sid=settings.get('source','')
         if not isinstance(sid,str) or sid.lower() not in sources:raise ValueError('Choose an existing voltage source.')
@@ -33,7 +33,14 @@ def analyze(project,settings=None):
         start=_number(settings,'startHz',10,1e-6,1e12);stop=_number(settings,'stopHz',1e6,1e-6,1e12)
         points=_number(settings,'pointsPerDecade',40,1,1000);amplitude=_number(settings,'amplitude',1,1e-12,1e6)
         if stop<=start or points!=int(points) or math.log10(stop/start)*points>20000:raise ValueError('AC requires an increasing range and at most 20,000 samples.')
-        command=f'ac dec {int(points)} {start:.12g} {stop:.12g}';label='Frequency (Hz)'
+        # ngspice 42 can divide by zero while building a logarithmic grid
+        # with fewer than two intervals (including one-decade rounding).
+        # A three-point linear sweep preserves both requested endpoints.
+        if float(f'{stop:.12g}')<=float(f'{start:.12g}'):
+            raise ValueError('AC frequency range is too narrow for solver precision.')
+        sparse=math.log10(stop/start)*points<2
+        sampling='linear-minimum-three' if sparse else 'logarithmic'
+        command=(f'ac lin 3 {start:.12g} {stop:.12g}' if sparse else f'ac dec {int(points)} {start:.12g} {stop:.12g}');label='Frequency (Hz)'
     elif mode=='dc':
         start=_number(settings,'start',0,-1e6,1e6);stop=_number(settings,'stop',10,-1e6,1e6);step=_number(settings,'step',.1,-1e6,1e6)
         if step==0 or (stop-start)*step<=0 or abs((stop-start)/step)>20000:raise ValueError('DC step must follow the sweep direction; maximum 20,000 steps.')
@@ -60,7 +67,7 @@ def analyze(project,settings=None):
     expressions=[f'v({n})' for n in nodes]+[f'i({b})' for c,b in measured]
     if not expressions:raise ValueError('No measurable circuit nodes.')
     if mode=='ac':expressions=[f'{func}({e})' for e in expressions for func in ('real','imag')]
-    deck='\n'.join(lines)+'\n'+model_cards()+f'\n.control\nset noaskquit\nset wr_singlescale\n{command}\nwrdata result.txt '+ ' '.join(expressions)+'\nquit\n.endc\n.end\n'
+    deck='\n'.join(lines)+'\n'+model_cards()+f'\n.control\nset noaskquit\nset wr_singlescale\nset numdgt=15\n{command}\nwrdata result.txt '+ ' '.join(expressions)+'\nquit\n.endc\n.end\n'
     with tempfile.TemporaryDirectory(prefix='mina-analysis-') as directory:
         path=Path(directory);(path/'circuit.cir').write_text(deck)
         env=dict(os.environ);lib=Path(__file__).parent/'.tools/usr/lib/x86_64-linux-gnu'
@@ -77,6 +84,8 @@ def analyze(project,settings=None):
             if len(row)!=len(expressions)+1 or not all(math.isfinite(v) for v in row):raise ValueError('Solver returned invalid numeric results.')
             rows.append(row)
         if not rows or len(rows)>50000:raise ValueError('Invalid solver sample count.')
+        if mode=='ac' and (len(rows)<2 or any(a[0]>=b[0] for a,b in zip(rows,rows[1:]))):
+            raise ValueError('Solver could not resolve distinct AC frequencies. Widen the frequency range.')
     count=len(nodes)+len(measured)
     vectors=[[complex(row[1+2*i],row[2+2*i]) if mode=='ac' else row[1+i] for row in rows] for i in range(count)]
     voltages=dict(zip(nodes,vectors));currents={c['id']:vectors[len(nodes)+i] for i,(c,b) in enumerate(measured)}
@@ -86,6 +95,8 @@ def analyze(project,settings=None):
         power[c['id']]=[.5*((a-z)*i.conjugate()).real if mode=='ac' else (a-z)*i for a,z,i in zip(va,vb,current)]
     result=dict(engine='ngspice · native SPICE engine',mode=mode,axis=[r[0] for r in rows],axisLabel=label,traces=voltages,currents=currents,power=power,samples=len(rows),measurementNote='Two-terminal branch currents flow from pin a to b; voltage-source current retains ngspice sign. AC traces/currents are peak magnitudes; power is average real power.')
     if mode=='ac':
+        result['sampling']=sampling
+        if sampling=='linear-minimum-three':result['measurementNote']+=' Sparse AC range: three linearly spaced samples preserve both endpoints and avoid a degenerate native logarithmic grid.'
         result['voltageReal']={n:[v.real for v in vs] for n,vs in voltages.items()}
         result['voltageImag']={n:[v.imag for v in vs] for n,vs in voltages.items()}
         result['currentReal']={n:[v.real for v in vs] for n,vs in currents.items()}

@@ -1,0 +1,4210 @@
+{
+  "seed": 20261024,
+  "circuitCases": 110,
+  "pointComparisons": 440,
+  "transientSamplesChecked": 39520,
+  "passed": true,
+  "scope": "Independent equations for ideal resistor/RLC/RC cases; not physical hardware validation.",
+  "cases": [
+    {
+      "family": "DC divider",
+      "index": 0,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.0889116804286374,
+          "expected": 0.08891168042863645,
+          "absoluteError": 9.43689570931383e-16,
+          "tolerance": 1.7882336085727288e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.0005199548261400987,
+          "expected": 0.0005199548261402443,
+          "absoluteError": 1.4560835176480325e-16,
+          "tolerance": 2.0399096522804887e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.0005199548261400987,
+          "expected": -0.0005199548261402443,
+          "absoluteError": 1.4560835176480325e-16,
+          "tolerance": 2.0399096522804887e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 6.098637220230962e-20,
+          "expected": 0,
+          "absoluteError": 6.098637220230962e-20,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 1,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -20.85160730971322,
+          "expected": -20.8516073097043,
+          "absoluteError": 8.920864047468058e-12,
+          "tolerance": 4.1704214619408595e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.001766608370041004,
+          "expected": -0.0017666083700334906,
+          "absoluteError": 7.513304214890049e-15,
+          "tolerance": 4.5332167400669815e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.001766608370041004,
+          "expected": 0.0017666083700334906,
+          "absoluteError": 7.513304214890049e-15,
+          "tolerance": 4.5332167400669815e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 2.2551405187698492e-17,
+          "expected": 0,
+          "absoluteError": 2.2551405187698492e-17,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 2,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 1.353198405052963,
+          "expected": 1.3531984050569685,
+          "absoluteError": 4.00546262824264e-12,
+          "tolerance": 2.707396810113937e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.005987555762039951,
+          "expected": 0.0059875557620479095,
+          "absoluteError": 7.958043946043603e-15,
+          "tolerance": 1.2975111524095819e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.005987555762039951,
+          "expected": -0.0059875557620479095,
+          "absoluteError": 7.958043946043603e-15,
+          "tolerance": 1.2975111524095819e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 3,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.01133842166685728,
+          "expected": 0.011338421666846841,
+          "absoluteError": 1.0439565878428425e-14,
+          "tolerance": 2.367684333369368e-08,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 1.101225645948072e-05,
+          "expected": 1.1012256459468044e-05,
+          "absoluteError": 1.267500102271335e-17,
+          "tolerance": 1.0220245129189361e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -1.101225645948072e-05,
+          "expected": -1.1012256459468044e-05,
+          "absoluteError": 1.267500102271335e-17,
+          "tolerance": 1.0220245129189361e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 2.117582368135751e-22,
+          "expected": 0,
+          "absoluteError": 2.117582368135751e-22,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 4,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 1.977651182707028,
+          "expected": 1.9776511827017025,
+          "absoluteError": 5.325517804521951e-12,
+          "tolerance": 3.956302365403404e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.04539265140322377,
+          "expected": 0.04539265140308431,
+          "absoluteError": 1.3946482857463138e-13,
+          "tolerance": 9.17853028061686e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.04539265140322377,
+          "expected": -0.04539265140308431,
+          "absoluteError": 1.3946482857463138e-13,
+          "tolerance": 9.17853028061686e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 5,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -9.654366465662106,
+          "expected": -9.6543664656697,
+          "absoluteError": 7.59392548843607e-12,
+          "tolerance": 1.9309732931339397e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.01091044884415173,
+          "expected": -0.010910448844154345,
+          "absoluteError": 2.6142282782970483e-15,
+          "tolerance": 2.2820897688308687e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.01091044884415173,
+          "expected": 0.010910448844154345,
+          "absoluteError": 2.6142282782970483e-15,
+          "tolerance": 2.2820897688308687e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -1.3877787807814457e-17,
+          "expected": 0,
+          "absoluteError": 1.3877787807814457e-17,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 6,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 15.24872841516849,
+          "expected": 15.24872841519467,
+          "absoluteError": 2.617994709908089e-11,
+          "tolerance": 3.0498456830389335e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.05090482828727766,
+          "expected": 0.05090482828741043,
+          "absoluteError": 1.327687959573609e-13,
+          "tolerance": 1.0280965657482085e-07,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.05090482828727766,
+          "expected": -0.05090482828741043,
+          "absoluteError": 1.327687959573609e-13,
+          "tolerance": 1.0280965657482085e-07,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 5.551115123125783e-17,
+          "expected": 0,
+          "absoluteError": 5.551115123125783e-17,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 7,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -5.379724886765952,
+          "expected": -5.379724886784578,
+          "absoluteError": 1.8625989639531326e-11,
+          "tolerance": 1.0760449773569155e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0002297328436295866,
+          "expected": -0.0002297328436304645,
+          "absoluteError": 8.779056041158251e-16,
+          "tolerance": 1.459465687260929e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0002297328436295866,
+          "expected": 0.0002297328436304645,
+          "absoluteError": 8.779056041158251e-16,
+          "tolerance": 1.459465687260929e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -2.168404344971009e-19,
+          "expected": 0,
+          "absoluteError": 2.168404344971009e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 8,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 14.08810552928657,
+          "expected": 14.088105529299305,
+          "absoluteError": 1.2734702181660396e-11,
+          "tolerance": 2.817721105859861e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.08068188910424307,
+          "expected": 0.08068188910411055,
+          "absoluteError": 1.3251899577682025e-13,
+          "tolerance": 1.6236377820822108e-07,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.08068188910424307,
+          "expected": -0.08068188910411055,
+          "absoluteError": 1.3251899577682025e-13,
+          "tolerance": 1.6236377820822108e-07,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -6.661338147750939e-16,
+          "expected": 0,
+          "absoluteError": 6.661338147750939e-16,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 9,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.1178220728052551,
+          "expected": 0.11782207280485354,
+          "absoluteError": 4.015537902191113e-13,
+          "tolerance": 2.3664414560970708e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 2.330937445145856e-06,
+          "expected": 2.3309374451372115e-06,
+          "absoluteError": 8.644394743203762e-18,
+          "tolerance": 1.0046618748902744e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -2.330937445145856e-06,
+          "expected": -2.3309374451372115e-06,
+          "absoluteError": 8.644394743203762e-18,
+          "tolerance": 1.0046618748902744e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 4.595885276708806e-20,
+          "expected": 0,
+          "absoluteError": 4.595885276708806e-20,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 10,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -18.97145491762486,
+          "expected": -18.971454917661752,
+          "absoluteError": 3.68913788406644e-11,
+          "tolerance": 3.794390983532351e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.00918009552978949,
+          "expected": -0.00918009552982578,
+          "absoluteError": 3.6290415117434804e-14,
+          "tolerance": 1.9360191059651558e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.00918009552978949,
+          "expected": 0.00918009552982578,
+          "absoluteError": 3.6290415117434804e-14,
+          "tolerance": 1.9360191059651558e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -3.929148673087468e-16,
+          "expected": 0,
+          "absoluteError": 3.929148673087468e-16,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 11,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 8.13010628468143,
+          "expected": 8.130106284655838,
+          "absoluteError": 2.559197298523941e-11,
+          "tolerance": 1.6261212569311673e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.04381485034359404,
+          "expected": 0.04381485034349739,
+          "absoluteError": 9.664491429361988e-14,
+          "tolerance": 8.862970068699477e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.04381485034359404,
+          "expected": -0.04381485034349739,
+          "absoluteError": 9.664491429361988e-14,
+          "tolerance": 8.862970068699477e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 12,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -0.2400313977994557,
+          "expected": -0.2400313977996855,
+          "absoluteError": 2.297884105217918e-13,
+          "tolerance": 4.81062795599371e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0005858582686245029,
+          "expected": -0.0005858582686251909,
+          "absoluteError": 6.879262784420526e-16,
+          "tolerance": 2.1717165372503817e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0005858582686245029,
+          "expected": 0.0005858582686251909,
+          "absoluteError": 6.879262784420526e-16,
+          "tolerance": 2.1717165372503817e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 7.860465750519907e-19,
+          "expected": 0,
+          "absoluteError": 7.860465750519907e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 13,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -18.72285371778121,
+          "expected": -18.722853717763403,
+          "absoluteError": 1.780620095814811e-11,
+          "tolerance": 3.7446707435526805e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.001507765215377654,
+          "expected": -0.0015077652153771242,
+          "absoluteError": 5.297411814764175e-16,
+          "tolerance": 4.015530430754249e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.001507765215377654,
+          "expected": 0.0015077652153771242,
+          "absoluteError": 5.297411814764175e-16,
+          "tolerance": 4.015530430754249e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 4.336808689942018e-19,
+          "expected": 0,
+          "absoluteError": 4.336808689942018e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 14,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -18.09854248572202,
+          "expected": -18.09854248575226,
+          "absoluteError": 3.0240698833949864e-11,
+          "tolerance": 3.6198084971504525e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.01899342720616537,
+          "expected": -0.018993427206196588,
+          "absoluteError": 3.121808367367862e-14,
+          "tolerance": 3.8986854412393174e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.01899342720616537,
+          "expected": 0.018993427206196588,
+          "absoluteError": 3.121808367367862e-14,
+          "tolerance": 3.8986854412393174e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 5.828670879282072e-16,
+          "expected": 0,
+          "absoluteError": 5.828670879282072e-16,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 15,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -14.05890400973622,
+          "expected": -14.05890400974246,
+          "absoluteError": 6.23856521997368e-12,
+          "tolerance": 2.8118808019484917e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0001619262384712624,
+          "expected": -0.0001619262384713706,
+          "absoluteError": 1.081762717597412e-16,
+          "tolerance": 1.3238524769427413e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0001619262384712624,
+          "expected": 0.0001619262384713706,
+          "absoluteError": 1.081762717597412e-16,
+          "tolerance": 1.3238524769427413e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 2.6291902682773483e-18,
+          "expected": 0,
+          "absoluteError": 2.6291902682773483e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 16,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -12.15080374195679,
+          "expected": -12.150803741912453,
+          "absoluteError": 4.433609035459085e-11,
+          "tolerance": 2.4302607483824904e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.009662769242463565,
+          "expected": -0.009662769242411228,
+          "absoluteError": 5.233660727022027e-14,
+          "tolerance": 2.0325538484822453e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.009662769242463565,
+          "expected": 0.009662769242411228,
+          "absoluteError": 5.233660727022027e-14,
+          "tolerance": 2.0325538484822453e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -1.470178145890344e-16,
+          "expected": 0,
+          "absoluteError": 1.470178145890344e-16,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 17,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -4.308421353888131,
+          "expected": -4.308421353891253,
+          "absoluteError": 3.12194714524594e-12,
+          "tolerance": 8.617842707782507e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0001387395350674787,
+          "expected": -0.00013873953506777871,
+          "absoluteError": 3.000258461810512e-16,
+          "tolerance": 1.2774790701355575e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0001387395350674787,
+          "expected": 0.00013873953506777871,
+          "absoluteError": 3.000258461810512e-16,
+          "tolerance": 1.2774790701355575e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -8.901469242695442e-18,
+          "expected": 0,
+          "absoluteError": 8.901469242695442e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 18,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 1.025911545192865,
+          "expected": 1.0259115451926721,
+          "absoluteError": 1.929567616798522e-13,
+          "tolerance": 2.0528230903853443e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.00138459911718283,
+          "expected": 0.001384599117182023,
+          "absoluteError": 8.070800971982095e-16,
+          "tolerance": 3.769198234364046e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.00138459911718283,
+          "expected": -0.001384599117182023,
+          "absoluteError": 8.070800971982095e-16,
+          "tolerance": 3.769198234364046e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 19,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.7223190504052077,
+          "expected": 0.7223190504077683,
+          "absoluteError": 2.560618383995461e-12,
+          "tolerance": 1.4456381008155368e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.000126005543477316,
+          "expected": 0.00012600554347787018,
+          "absoluteError": 5.541899404659656e-16,
+          "tolerance": 1.2520110869557404e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.000126005543477316,
+          "expected": -0.00012600554347787018,
+          "absoluteError": 5.541899404659656e-16,
+          "tolerance": 1.2520110869557404e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 6.776263578034403e-21,
+          "expected": 0,
+          "absoluteError": 6.776263578034403e-21,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 20,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.1272612607331416,
+          "expected": 0.12726126073321045,
+          "absoluteError": 6.886158310237533e-14,
+          "tolerance": 2.555225214664209e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.0008109414482613801,
+          "expected": 0.0008109414482612405,
+          "absoluteError": 1.3953681959888442e-16,
+          "tolerance": 2.621882896522481e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.0008109414482613801,
+          "expected": -0.0008109414482612405,
+          "absoluteError": 1.3953681959888442e-16,
+          "tolerance": 2.621882896522481e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -1.6263032587282567e-19,
+          "expected": 0,
+          "absoluteError": 1.6263032587282567e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 21,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -14.26584113128285,
+          "expected": -14.265841131269024,
+          "absoluteError": 1.382538528105215e-11,
+          "tolerance": 2.8532682262538044e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0091967198329585,
+          "expected": -0.009196719832930326,
+          "absoluteError": 2.8173643973339324e-14,
+          "tolerance": 1.939343966586065e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0091967198329585,
+          "expected": 0.009196719832930326,
+          "absoluteError": 2.8173643973339324e-14,
+          "tolerance": 1.939343966586065e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -1.734723475976807e-17,
+          "expected": 0,
+          "absoluteError": 1.734723475976807e-17,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 22,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -0.8587257510490716,
+          "expected": -0.8587257510474722,
+          "absoluteError": 1.5993872892750005e-12,
+          "tolerance": 1.7184515020949443e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.001367576079494705,
+          "expected": -0.0013675760794915812,
+          "absoluteError": 3.1238032993652354e-15,
+          "tolerance": 3.735152158983162e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.001367576079494705,
+          "expected": 0.0013675760794915812,
+          "absoluteError": 3.1238032993652354e-15,
+          "tolerance": 3.735152158983162e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -1.3010426069826053e-18,
+          "expected": 0,
+          "absoluteError": 1.3010426069826053e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 23,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 10.05913647620065,
+          "expected": 10.059136476184204,
+          "absoluteError": 1.644551161916752e-11,
+          "tolerance": 2.0119272952368405e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.005961721819213662,
+          "expected": 0.005961721819193129,
+          "absoluteError": 2.0533054423399477e-14,
+          "tolerance": 1.2923443638386258e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.005961721819213662,
+          "expected": -0.005961721819193129,
+          "absoluteError": 2.0533054423399477e-14,
+          "tolerance": 1.2923443638386258e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 24,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -7.586506397683033,
+          "expected": -7.586506397656027,
+          "absoluteError": 2.7005953029402008e-11,
+          "tolerance": 1.5174012795312054e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0002379076038121948,
+          "expected": -0.00023790760381169616,
+          "absoluteError": 4.986516841803956e-16,
+          "tolerance": 1.4758152076233924e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0002379076038121948,
+          "expected": 0.00023790760381169616,
+          "absoluteError": 4.986516841803956e-16,
+          "tolerance": 1.4758152076233924e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 2.168404344971009e-19,
+          "expected": 0,
+          "absoluteError": 2.168404344971009e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 25,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 13.60123831796716,
+          "expected": 13.601238317965565,
+          "absoluteError": 1.595168441781425e-12,
+          "tolerance": 2.720347663593113e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.0002305440447486489,
+          "expected": 0.00023054404474858101,
+          "absoluteError": 6.789816105190472e-17,
+          "tolerance": 1.461088089497162e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.0002305440447486489,
+          "expected": -0.00023054404474858101,
+          "absoluteError": 6.789816105190472e-17,
+          "tolerance": 1.461088089497162e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 1.0842021724855044e-18,
+          "expected": 0,
+          "absoluteError": 1.0842021724855044e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 26,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": 0.06414941265271157,
+          "expected": 0.06414941265286232,
+          "absoluteError": 1.5075440895628844e-13,
+          "tolerance": 1.2929882530572463e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": 0.0001917535065143387,
+          "expected": 0.00019175350651458103,
+          "absoluteError": 2.4231918555051024e-16,
+          "tolerance": 1.3835070130291621e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": -0.0001917535065143387,
+          "expected": -0.00019175350651458103,
+          "absoluteError": 2.4231918555051024e-16,
+          "tolerance": 1.3835070130291621e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -2.371692252312041e-20,
+          "expected": 0,
+          "absoluteError": 2.371692252312041e-20,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 27,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -1.498332213698621,
+          "expected": -1.4983322136991784,
+          "absoluteError": 5.573319583618286e-13,
+          "tolerance": 2.9976644273983566e-06,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.01707503221299717,
+          "expected": -0.017075032213013076,
+          "absoluteError": 1.590741427470732e-14,
+          "tolerance": 3.5150064426026154e-08,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.01707503221299717,
+          "expected": 0.017075032213013076,
+          "absoluteError": 1.590741427470732e-14,
+          "tolerance": 3.5150064426026154e-08,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -3.122502256758253e-17,
+          "expected": 0,
+          "absoluteError": 3.122502256758253e-17,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 28,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -0.1802746254466303,
+          "expected": -0.18027462544658832,
+          "absoluteError": 4.1994185906446546e-14,
+          "tolerance": 3.6154925089317664e-07,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0002860385439251614,
+          "expected": -0.00028603854392518583,
+          "absoluteError": 2.4448758989548125e-17,
+          "tolerance": 1.5720770878503717e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0002860385439251614,
+          "expected": 0.00028603854392518583,
+          "absoluteError": 2.4448758989548125e-17,
+          "tolerance": 1.5720770878503717e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": -2.371692252312041e-19,
+          "expected": 0,
+          "absoluteError": 2.371692252312041e-19,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "DC divider",
+      "index": 29,
+      "checks": [
+        {
+          "label": "divider Vout",
+          "actual": -17.5154194134201,
+          "expected": -17.515419413410523,
+          "absoluteError": 9.57811607804615e-12,
+          "tolerance": 3.503183882682105e-05,
+          "passed": true
+        },
+        {
+          "label": "resistor current",
+          "actual": -0.0002536594911220422,
+          "expected": -0.00025365949112203534,
+          "absoluteError": 6.884683795282953e-18,
+          "tolerance": 1.5073189822440708e-09,
+          "passed": true
+        },
+        {
+          "label": "source current",
+          "actual": 0.0002536594911220422,
+          "expected": 0.00025365949112203534,
+          "absoluteError": 6.884683795282953e-18,
+          "tolerance": 1.5073189822440708e-09,
+          "passed": true
+        },
+        {
+          "label": "power balance",
+          "actual": 8.95822045016148e-18,
+          "expected": 0,
+          "absoluteError": 8.95822045016148e-18,
+          "tolerance": 1e-06,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 0,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 4.305415343797465,
+          "expected": 4.305415343798222,
+          "absoluteError": 7.567280135845067e-13,
+          "tolerance": 8.611830687596444e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 4.401708879781219,
+          "expected": 4.401708879781463,
+          "absoluteError": 2.4424906541753444e-13,
+          "tolerance": 8.804417759562926e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -5.421010862427522e-20,
+          "expected": 0,
+          "absoluteError": 5.421010862427522e-20,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 5.204170427930421e-18,
+          "expected": 0,
+          "absoluteError": 5.204170427930421e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 1,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 2.361173388268818,
+          "expected": 2.3611733882668746,
+          "absoluteError": 1.943334382303874e-12,
+          "tolerance": 4.723346776533749e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 2.591367538867898,
+          "expected": 2.591367538865943,
+          "absoluteError": 1.9548807017599756e-12,
+          "tolerance": 5.183735077731886e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 2.0328790734103208e-19,
+          "expected": 0,
+          "absoluteError": 2.0328790734103208e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 2,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 2.090764013103213,
+          "expected": 2.0907640130974787,
+          "absoluteError": 5.7340798775840085e-12,
+          "tolerance": 4.1825280261949565e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 11.19922188475468,
+          "expected": 11.199221884727729,
+          "absoluteError": 2.69508859673806e-11,
+          "tolerance": 2.2399443769455455e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 3,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 9.682305500197025,
+          "expected": 9.68230550019555,
+          "absoluteError": 1.4743761767022079e-12,
+          "tolerance": 1.93656110003911e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 13.61270639321881,
+          "expected": 13.612706393222634,
+          "absoluteError": 3.824496275228739e-12,
+          "tolerance": 2.7226412786445267e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -9.974659986866641e-18,
+          "expected": 0,
+          "absoluteError": 9.974659986866641e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 4,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 11.03334552155318,
+          "expected": 11.03334552157943,
+          "absoluteError": 2.62492250158175e-11,
+          "tolerance": 2.2067691043158857e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 12.88054093730208,
+          "expected": 12.88054093733448,
+          "absoluteError": 3.240074875066057e-11,
+          "tolerance": 2.576208187466896e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 3.122502256758253e-17,
+          "expected": 0,
+          "absoluteError": 3.122502256758253e-17,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 5,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 1.375066877074139,
+          "expected": 1.3750668770764298,
+          "absoluteError": 2.290834189011548e-12,
+          "tolerance": 2.7511337541528594e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 1.337614782678553,
+          "expected": 1.3376147826802582,
+          "absoluteError": 1.7053025658242404e-12,
+          "tolerance": 2.6762295653605166e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -4.37069000783219e-19,
+          "expected": 0,
+          "absoluteError": 4.37069000783219e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -4.336808689942018e-19,
+          "expected": 0,
+          "absoluteError": 4.336808689942018e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 6,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 8.875796164114059,
+          "expected": 8.875796164106081,
+          "absoluteError": 7.977618565746525e-12,
+          "tolerance": 1.775259232821216e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 7.516430688363427,
+          "expected": 7.516430688356285,
+          "absoluteError": 7.142730851228407e-12,
+          "tolerance": 1.5033861376712569e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 4.336808689942018e-19,
+          "expected": 0,
+          "absoluteError": 4.336808689942018e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -3.469446951953614e-18,
+          "expected": 0,
+          "absoluteError": 3.469446951953614e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 7,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 16.23625862908251,
+          "expected": 16.236258629080194,
+          "absoluteError": 2.3163693185779266e-12,
+          "tolerance": 3.247351725816039e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 13.11193368394401,
+          "expected": 13.111933683942498,
+          "absoluteError": 1.5116796703296131e-12,
+          "tolerance": 2.6224867367884993e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 1.3877787807814457e-17,
+          "expected": 0,
+          "absoluteError": 1.3877787807814457e-17,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -1.734723475976807e-18,
+          "expected": 0,
+          "absoluteError": 1.734723475976807e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 8,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 1.655386112194431,
+          "expected": 1.6553861121968942,
+          "absoluteError": 2.4631408024333723e-12,
+          "tolerance": 3.3117722243937884e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 1.255831956099419,
+          "expected": 1.2558319561011004,
+          "absoluteError": 1.681543793097262e-12,
+          "tolerance": 2.512663912202201e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 2.168404344971009e-19,
+          "expected": 0,
+          "absoluteError": 2.168404344971009e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 1.3010426069826053e-18,
+          "expected": 0,
+          "absoluteError": 1.3010426069826053e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 9,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 4.577602789098952,
+          "expected": 4.577602789083361,
+          "absoluteError": 1.5591083979415998e-11,
+          "tolerance": 9.156205578166722e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 10.77162264551601,
+          "expected": 10.771622645491162,
+          "absoluteError": 2.4847679469530703e-11,
+          "tolerance": 2.1544245290982322e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 6.5052130349130266e-18,
+          "expected": 0,
+          "absoluteError": 6.5052130349130266e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -1.3877787807814457e-17,
+          "expected": 0,
+          "absoluteError": 1.3877787807814457e-17,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 10,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 8.690235666176402,
+          "expected": 8.690235666157792,
+          "absoluteError": 1.8610890606396424e-11,
+          "tolerance": 1.7381471332315583e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 8.288808591333357,
+          "expected": 8.288808591315291,
+          "absoluteError": 1.8065549056700547e-11,
+          "tolerance": 1.657861718263058e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 11,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 13.99713792234813,
+          "expected": 13.997137922373874,
+          "absoluteError": 2.574296331658843e-11,
+          "tolerance": 2.7995275844747745e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 1.381585862926683,
+          "expected": 1.3815858629305364,
+          "absoluteError": 3.853362073868993e-12,
+          "tolerance": 2.764171725861073e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 1.6263032587282567e-17,
+          "expected": 0,
+          "absoluteError": 1.6263032587282567e-17,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 12,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 15.66038723520519,
+          "expected": 15.660387235218282,
+          "absoluteError": 1.3091749906379846e-11,
+          "tolerance": 3.132177447043657e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 14.83672317887509,
+          "expected": 14.836723178891273,
+          "absoluteError": 1.6182610806936282e-11,
+          "tolerance": 2.9674446357782544e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -9.215718466126788e-19,
+          "expected": 0,
+          "absoluteError": 9.215718466126788e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -1.3010426069826053e-18,
+          "expected": 0,
+          "absoluteError": 1.3010426069826053e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 13,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 5.56874623993779,
+          "expected": 5.568746239948297,
+          "absoluteError": 1.0507150705052481e-11,
+          "tolerance": 1.1138492479896594e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 5.172859205662919,
+          "expected": 5.1728592056707745,
+          "absoluteError": 7.855938122247608e-12,
+          "tolerance": 1.0346718411341549e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 14,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 2.881592816183775,
+          "expected": 2.8815928161824056,
+          "absoluteError": 1.3695711231775931e-12,
+          "tolerance": 5.7641856323648105e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 0.179803873576253,
+          "expected": 0.17980387357676272,
+          "absoluteError": 5.09731146181025e-13,
+          "tolerance": 3.6060774715352544e-07,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 3.0357660829594124e-18,
+          "expected": 0,
+          "absoluteError": 3.0357660829594124e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 15,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 5.683842741985716,
+          "expected": 5.683842741991802,
+          "absoluteError": 6.085798531785258e-12,
+          "tolerance": 1.1368685483983604e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 6.247627864424204,
+          "expected": 6.24762786443527,
+          "absoluteError": 1.106581493104386e-11,
+          "tolerance": 1.249625572887054e-05,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -8.890457814381136e-18,
+          "expected": 0,
+          "absoluteError": 8.890457814381136e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -1.0842021724855044e-19,
+          "expected": 0,
+          "absoluteError": 1.0842021724855044e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 16,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 5.03010469995668,
+          "expected": 5.030104699956592,
+          "absoluteError": 8.79296635503124e-14,
+          "tolerance": 1.0061209399913183e-05,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 4.899507881415434,
+          "expected": 4.89950788141536,
+          "absoluteError": 7.37188088351104e-14,
+          "tolerance": 9.80001576283072e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 8.456776945386935e-18,
+          "expected": 0,
+          "absoluteError": 8.456776945386935e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 17,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 0.7089811365944744,
+          "expected": 0.7089811365934904,
+          "absoluteError": 9.839906667252762e-13,
+          "tolerance": 1.4189622731869808e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 1.106418155043344,
+          "expected": 1.1064181550414653,
+          "absoluteError": 1.87871940227069e-12,
+          "tolerance": 2.2138363100829305e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": -6.505213034913027e-19,
+          "expected": 0,
+          "absoluteError": 6.505213034913027e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": -8.673617379884035e-19,
+          "expected": 0,
+          "absoluteError": 8.673617379884035e-19,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 18,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 4.718849587459735,
+          "expected": 4.718849587460352,
+          "absoluteError": 6.17284001691587e-13,
+          "tolerance": 9.438699174920703e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 4.749762992819075,
+          "expected": 4.749762992819653,
+          "absoluteError": 5.773159728050814e-13,
+          "tolerance": 9.500525985639306e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 5.421010862427522e-20,
+          "expected": 0,
+          "absoluteError": 5.421010862427522e-20,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 4.119968255444917e-18,
+          "expected": 0,
+          "absoluteError": 4.119968255444917e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Resistive bridge",
+      "index": 19,
+      "checks": [
+        {
+          "label": "bridge node 1",
+          "actual": 2.336093114629922,
+          "expected": 2.336093114631285,
+          "absoluteError": 1.3629097850298422e-12,
+          "tolerance": 4.6731862292625695e-06,
+          "passed": true
+        },
+        {
+          "label": "bridge node 2",
+          "actual": 1.34287958645073,
+          "expected": 1.3428795864526115,
+          "absoluteError": 1.8816059821347153e-12,
+          "tolerance": 2.686759172905223e-06,
+          "passed": true
+        },
+        {
+          "label": "KCL node 1",
+          "actual": 5.9631119486702744e-18,
+          "expected": 0,
+          "absoluteError": 5.9631119486702744e-18,
+          "tolerance": 1e-09,
+          "passed": true
+        },
+        {
+          "label": "KCL node 2",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-09,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 0,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.0004167057416578183,
+          "expected": -0.0004167057416582716,
+          "absoluteError": 4.533049283161894e-16,
+          "tolerance": 1.8334114833165432e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -6.712966238560025e-05,
+          "expected": -6.71296623857662e-05,
+          "absoluteError": 1.6595069502606252e-16,
+          "tolerance": 1.1342593247715325e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0004961740561642732,
+          "expected": 0.0004961740561653633,
+          "absoluteError": 1.0901652844341747e-15,
+          "tolerance": 1.9923481123307267e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.003079988349675536,
+          "expected": -0.0030799883496780488,
+          "absoluteError": 2.512746954952405e-15,
+          "tolerance": 7.159976699356097e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0023648913833645645,
+          "expected": 0.002364891383370219,
+          "absoluteError": 5.654331169946403e-15,
+          "tolerance": 5.7297827667404375e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 4.337073387738035e-19,
+          "expected": 0,
+          "absoluteError": 4.337073387738035e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 1,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.1552976998703962,
+          "expected": -0.15529769987051367,
+          "absoluteError": 1.1746159600534156e-13,
+          "tolerance": 3.1159539974102735e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1108030241128241,
+          "expected": -0.11080302411330972,
+          "absoluteError": 4.856254287588513e-13,
+          "tolerance": 2.2260604822661942e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.001065784616808352,
+          "expected": 0.001065784616812547,
+          "absoluteError": 4.194995045780914e-15,
+          "tolerance": 3.131569233625094e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.001493766987614487,
+          "expected": -0.00149376698761495,
+          "absoluteError": 4.629543276513104e-16,
+          "tolerance": 3.9875339752299e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.002896294630383661,
+          "expected": 0.0028962946303965607,
+          "absoluteError": 1.2899837448232532e-14,
+          "tolerance": 6.792589260793121e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 4.0657581468206416e-19,
+          "expected": 0,
+          "absoluteError": 4.0657581468206416e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 2,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 2.316507959186651,
+          "expected": 2.3165079591838893,
+          "absoluteError": 2.7617907960575394e-12,
+          "tolerance": 4.634015918367778e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.06183798398672866,
+          "expected": -0.061837983986546524,
+          "absoluteError": 1.8213902608366084e-13,
+          "tolerance": 1.2467596797309303e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 4.46304893091283e-06,
+          "expected": 4.46304893088622e-06,
+          "absoluteError": 2.66103870709411e-17,
+          "tolerance": 1.0089260978617726e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0001671899325326627,
+          "expected": 0.00016718993253199137,
+          "absoluteError": 6.713379852030243e-16,
+          "tolerance": 1.3343798650639829e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 5.173001114818566e-06,
+          "expected": 5.173001114782543e-06,
+          "absoluteError": 3.6022617180830885e-17,
+          "tolerance": 1.0103460022295651e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -4.743590007307513e-22,
+          "expected": 0,
+          "absoluteError": 4.743590007307513e-22,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 3,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 5.142362191208649,
+          "expected": 5.142362191204922,
+          "absoluteError": 3.7267966490617255e-12,
+          "tolerance": 1.0285724382409846e-05,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.008789803559068401,
+          "expected": -0.008789803559088807,
+          "absoluteError": 2.0405552247915182e-14,
+          "tolerance": 1.8579607118177612e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 2.009988663981277e-07,
+          "expected": 2.009988663935892e-07,
+          "absoluteError": 4.538508410506948e-18,
+          "tolerance": 1.0004019977327873e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0001175918169350165,
+          "expected": 0.00011759181693527989,
+          "absoluteError": 2.6339336527819723e-16,
+          "tolerance": 1.2351836338705598e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 5.168055163945106e-07,
+          "expected": 5.168055163968679e-07,
+          "absoluteError": 2.357292692208718e-18,
+          "tolerance": 1.0010336110327939e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 3.568246919131834e-17,
+          "expected": 0,
+          "absoluteError": 3.568246919131834e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 4,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.3469554960273452,
+          "expected": 0.3469554960263782,
+          "absoluteError": 9.670042544485113e-13,
+          "tolerance": 6.949109920527564e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -1.581995158387427,
+          "expected": -1.5819951583849898,
+          "absoluteError": 2.4371615836571436e-12,
+          "tolerance": 3.1649903167699794e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.003663734272394139,
+          "expected": 0.003663734272394159,
+          "absoluteError": 1.9949319973733282e-17,
+          "tolerance": 8.327468544788317e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0008035124096628816,
+          "expected": 0.0008035124096618842,
+          "absoluteError": 9.973575784694155e-16,
+          "tolerance": 2.607024819323768e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.01382128652969021,
+          "expected": 0.013821286529684585,
+          "absoluteError": 5.6257082325927854e-15,
+          "tolerance": 2.8642573059369168e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -3.070494433796839e-20,
+          "expected": 0,
+          "absoluteError": 3.070494433796839e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 5,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.2418794490191402,
+          "expected": 0.24187944902169986,
+          "absoluteError": 2.559646938848914e-12,
+          "tolerance": 4.847588980433996e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.8001376037773531,
+          "expected": -0.8001376037806698,
+          "absoluteError": 3.3166802637651926e-12,
+          "tolerance": 1.6012752075613395e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0005740090949617914,
+          "expected": 0.0005740090949612728,
+          "absoluteError": 5.185738990998168e-16,
+          "tolerance": 2.1480181899225455e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0001735214080251719,
+          "expected": 0.00017352140802613214,
+          "absoluteError": 9.60223654061787e-16,
+          "tolerance": 1.3470428160522643e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0007545081981114365,
+          "expected": 0.0007545081981102878,
+          "absoluteError": 1.148712201748392e-15,
+          "tolerance": 2.5090163962205756e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.1175823681357508e-20,
+          "expected": 0,
+          "absoluteError": 2.1175823681357508e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 6,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.3495795744976653,
+          "expected": 0.3495795744978938,
+          "absoluteError": 2.284838984678572e-13,
+          "tolerance": 7.001591489957875e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1975394936224154,
+          "expected": -0.19753949362244613,
+          "absoluteError": 3.072542220650121e-14,
+          "tolerance": 3.960789872448923e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.001239508658519117,
+          "expected": 0.0012395086585189668,
+          "absoluteError": 1.5005358067199381e-16,
+          "tolerance": 3.4790173170379335e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.002193520401846956,
+          "expected": 0.002193520401847783,
+          "absoluteError": 8.270294171719428e-16,
+          "tolerance": 5.387040803695565e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.00028511376367570495,
+          "expected": 0.000285113763675787,
+          "absoluteError": 8.201989434852841e-17,
+          "tolerance": 1.5702275273515739e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.785121936338438e-19,
+          "expected": 0,
+          "absoluteError": 1.785121936338438e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 7,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.50521747938635,
+          "expected": 0.5052174793876396,
+          "absoluteError": 1.2896350654045818e-12,
+          "tolerance": 1.0114349587752792e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -2.113319152523852,
+          "expected": -2.113319152526816,
+          "absoluteError": 2.963851386539318e-12,
+          "tolerance": 4.227638305053631e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.01791792841504186,
+          "expected": 0.017917928415049297,
+          "absoluteError": 7.435024818036595e-15,
+          "tolerance": 3.6835856830098595e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.00428352273193641,
+          "expected": 0.004283522731943113,
+          "absoluteError": 6.702971511174383e-15,
+          "tolerance": 9.567045463886226e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.08233823946437317,
+          "expected": 0.08233823946443948,
+          "absoluteError": 6.630807014573747e-14,
+          "tolerance": 1.6567647892887896e-07,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.3091741232762466e-17,
+          "expected": 0,
+          "absoluteError": 1.3091741232762466e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 8,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.01390940182062611,
+          "expected": -0.013909401820646386,
+          "absoluteError": 2.027544798721692e-14,
+          "tolerance": 2.881880364129277e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1315344362524595,
+          "expected": -0.13153443625246278,
+          "absoluteError": 3.2751579226442118e-15,
+          "tolerance": 2.6406887250492554e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.008424494684028706,
+          "expected": 0.008424494684030453,
+          "absoluteError": 1.7468665403086447e-15,
+          "tolerance": 1.7848989368060905e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.0008908669473519165,
+          "expected": -0.0008908669473533779,
+          "absoluteError": 1.4613961082932114e-15,
+          "tolerance": 2.7817338947067555e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.027369865257074754,
+          "expected": 0.027369865257093718,
+          "absoluteError": 1.8963997039378455e-14,
+          "tolerance": 5.5739730514187435e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 3.333921680392926e-18,
+          "expected": 0,
+          "absoluteError": 3.333921680392926e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 9,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.05760449723864407,
+          "expected": 0.05760449723868145,
+          "absoluteError": 3.737982146034824e-14,
+          "tolerance": 1.1620899447736288e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.5868376737121633,
+          "expected": -0.5868376737123732,
+          "absoluteError": 2.0983215165415459e-13,
+          "tolerance": 1.1746753474247464e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.008750906682879105,
+          "expected": 0.008750906682883322,
+          "absoluteError": 4.217112770099618e-15,
+          "tolerance": 1.8501813365766643e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.00085899662279827,
+          "expected": 0.0008589966227989341,
+          "absoluteError": 6.640738306473715e-16,
+          "tolerance": 2.7179932455978683e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.026126059034581338,
+          "expected": 0.026126059034595826,
+          "absoluteError": 1.4488410471358293e-14,
+          "tolerance": 5.325211806919165e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.2705494208814505e-20,
+          "expected": 0,
+          "absoluteError": 1.2705494208814505e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 10,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 2.105374942254385,
+          "expected": 2.1053749422547776,
+          "absoluteError": 3.9257486150745535e-13,
+          "tolerance": 4.211749884509555e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.3981362462329873,
+          "expected": -0.398136246234446,
+          "absoluteError": 1.458666520903762e-12,
+          "tolerance": 7.97272492468892e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 7.080392135845603e-05,
+          "expected": 7.080392135890576e-05,
+          "absoluteError": 4.497270611469872e-16,
+          "tolerance": 1.1416078427178115e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0003744165552668845,
+          "expected": 0.00037441655526796114,
+          "absoluteError": 1.0766669673867302e-15,
+          "tolerance": 1.7488331105359223e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 7.719855743489077e-05,
+          "expected": 7.719855743541413e-05,
+          "absoluteError": 5.233579411859091e-16,
+          "tolerance": 1.1543971148708282e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 5.2033796432648206e-21,
+          "expected": 0,
+          "absoluteError": 5.2033796432648206e-21,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 11,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.609791876896296,
+          "expected": 0.6097918768978499,
+          "absoluteError": 1.553868145265369e-12,
+          "tolerance": 1.2205837537956998e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -2.061021428085954,
+          "expected": -2.0610214280886887,
+          "absoluteError": 2.7347013542566856e-12,
+          "tolerance": 4.123042856177377e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.04969055668787618,
+          "expected": 0.049690556687879577,
+          "absoluteError": 3.3931191190106347e-15,
+          "tolerance": 1.0038111337575915e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.01470188393667595,
+          "expected": 0.014701883936694908,
+          "absoluteError": 1.8958792868950525e-14,
+          "tolerance": 3.0403767873389814e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.16301397725236008,
+          "expected": 0.1630139772524574,
+          "absoluteError": 9.731104810839497e-14,
+          "tolerance": 3.270279545049148e-07,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 3.0357660829594124e-18,
+          "expected": 0,
+          "absoluteError": 3.0357660829594124e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 12,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -2.689158779128017e-05,
+          "expected": -2.6891587791224125e-05,
+          "absoluteError": 5.604647605392254e-17,
+          "tolerance": 1.0537831755824483e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.0002909963781953567,
+          "expected": -0.0002909963781942688,
+          "absoluteError": 1.0879426699805794e-15,
+          "tolerance": 1.5819927563885376e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0001879059159589126,
+          "expected": 0.00018790591595870554,
+          "absoluteError": 2.070555098904192e-16,
+          "tolerance": 1.3758118319174112e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -1.736478119366038e-05,
+          "expected": -1.736478119366997e-05,
+          "absoluteError": 9.58841296291868e-18,
+          "tolerance": 1.03472956238734e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 3.9756706891062236e-05,
+          "expected": 3.975670689099625e-05,
+          "absoluteError": 6.598725472289901e-17,
+          "tolerance": 1.0795134137819926e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 6.671625230546445e-21,
+          "expected": 0,
+          "absoluteError": 6.671625230546445e-21,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 13,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.02872262163954765,
+          "expected": -0.028722621639521488,
+          "absoluteError": 2.6163099464682205e-14,
+          "tolerance": 5.8445243279042974e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.008436098765566192,
+          "expected": -0.008436098765557086,
+          "absoluteError": 9.10556352540226e-15,
+          "tolerance": 1.7872197531114172e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0001041929553471936,
+          "expected": 0.00010419295534730212,
+          "absoluteError": 1.0851508493864293e-16,
+          "tolerance": 1.2083859106946042e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.000354748671999796,
+          "expected": -0.00035474867200022527,
+          "absoluteError": 4.292898501956355e-16,
+          "tolerance": 1.7094973440004507e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 9.259496236443597e-05,
+          "expected": 9.25949623647821e-05,
+          "absoluteError": 3.461315435659973e-16,
+          "tolerance": 1.1851899247295642e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.7316812548951186e-20,
+          "expected": 0,
+          "absoluteError": 2.7316812548951186e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 14,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 2.327784459570276,
+          "expected": 2.3277844595734045,
+          "absoluteError": 3.128608483393691e-12,
+          "tolerance": 4.656568919146809e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -1.26188967190485,
+          "expected": -1.261889671905879,
+          "absoluteError": 1.028954699222595e-12,
+          "tolerance": 2.524779343811758e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.01132291727229615,
+          "expected": 0.011322917272296161,
+          "absoluteError": 1.214306433183765e-17,
+          "tolerance": 2.364583454459232e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.02088717536111051,
+          "expected": 0.020887175361121595,
+          "absoluteError": 1.1084883011491797e-14,
+          "tolerance": 4.277435072224319e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.01698012773246568,
+          "expected": 0.016980127732484755,
+          "absoluteError": 1.907501934184097e-14,
+          "tolerance": 3.496025546496951e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -1.9292022406663945e-17,
+          "expected": 0,
+          "absoluteError": 1.9292022406663945e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 15,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 1.701519394975984,
+          "expected": 1.7015193949760934,
+          "absoluteError": 1.0946799022804043e-13,
+          "tolerance": 3.4040387899521865e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.06688277266675717,
+          "expected": -0.06688277266686207,
+          "absoluteError": 1.0490219803926948e-13,
+          "tolerance": 1.3476554533372415e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 3.886406307821409e-06,
+          "expected": 3.886406307832943e-06,
+          "absoluteError": 1.1534047642761808e-17,
+          "tolerance": 1.007772812615666e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 9.887143498764747e-05,
+          "expected": 9.887143498779586e-05,
+          "absoluteError": 1.4838661983179735e-16,
+          "tolerance": 1.1977428699755918e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 3.309245901626202e-06,
+          "expected": 3.309245901636374e-06,
+          "absoluteError": 1.0172018663576893e-17,
+          "tolerance": 1.0066184918032728e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.8735640874326077e-22,
+          "expected": 0,
+          "absoluteError": 1.8735640874326077e-22,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 16,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.00199554467149832,
+          "expected": -0.0019955446715174234,
+          "absoluteError": 1.9103208598325594e-14,
+          "tolerance": 4.991089343034847e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1106877237996123,
+          "expected": -0.11068772379950015,
+          "absoluteError": 1.1214640327494863e-13,
+          "tolerance": 2.2237544759900027e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.05177021939667385,
+          "expected": 0.05177021939674064,
+          "absoluteError": 6.678685382510707e-14,
+          "tolerance": 1.0454043879348127e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.0009333445653500137,
+          "expected": -0.000933344565361098,
+          "absoluteError": 1.1084340910405555e-14,
+          "tolerance": 2.8666891307221963e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.17193654406409783,
+          "expected": 0.1719365440644102,
+          "absoluteError": 3.123612479782878e-13,
+          "tolerance": 3.448730881288204e-07,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -6.776263578034403e-21,
+          "expected": 0,
+          "absoluteError": 6.776263578034403e-21,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 17,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.0005890997001160907,
+          "expected": -0.0005890997001146513,
+          "absoluteError": 1.4393868041917557e-15,
+          "tolerance": 2.1781994002293023e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.002997741607413987,
+          "expected": -0.002997741607410732,
+          "absoluteError": 3.2552086026704785e-15,
+          "tolerance": 6.995483214821464e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0009007527097484938,
+          "expected": 0.0009007527097477264,
+          "absoluteError": 7.6739829768524e-16,
+          "tolerance": 2.801505419495453e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.0001770109704849934,
+          "expected": -0.00017701097048460225,
+          "absoluteError": 3.9115303877845786e-16,
+          "tolerance": 1.3540219409692046e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0021726655483475217,
+          "expected": 0.0021726655483451586,
+          "absoluteError": 2.3631270551494055e-15,
+          "tolerance": 5.345331096690317e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 4.473392752686774e-19,
+          "expected": 0,
+          "absoluteError": 4.473392752686774e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 18,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 8.255339605577378,
+          "expected": 8.25533960558315,
+          "absoluteError": 5.771383371211414e-12,
+          "tolerance": 1.6511679211166295e-05,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -2.618424677175521,
+          "expected": -2.61842467716686,
+          "absoluteError": 8.661071859705771e-12,
+          "tolerance": 5.237849354333719e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.002773843821560682,
+          "expected": 0.002773843821547118,
+          "absoluteError": 1.3564236539531649e-14,
+          "tolerance": 6.547687643094235e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.00874534332013595,
+          "expected": 0.008745343320128201,
+          "absoluteError": 7.749009767188397e-15,
+          "tolerance": 1.84906866402564e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.010019931827180532,
+          "expected": 0.010019931827136822,
+          "absoluteError": 4.370982742418761e-14,
+          "tolerance": 2.103986365427364e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.211772431870429e-17,
+          "expected": 0,
+          "absoluteError": 2.211772431870429e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 19,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 4.149112109808713,
+          "expected": 4.149112109812633,
+          "absoluteError": 3.920419544556353e-12,
+          "tolerance": 8.299224219625266e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1725243100662643,
+          "expected": -0.17252431006582547,
+          "absoluteError": 4.3884340605870875e-13,
+          "tolerance": 3.4604862013165097e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0003572711202134982,
+          "expected": 0.00035727112021170424,
+          "absoluteError": 1.79397512470314e-15,
+          "tolerance": 1.7145422404234085e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.008592168435817886,
+          "expected": 0.008592168435805502,
+          "absoluteError": 1.2384190894998426e-14,
+          "tolerance": 1.8184336871611002e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0007387877765334475,
+          "expected": 0.0007387877765305055,
+          "absoluteError": 2.942091015256665e-15,
+          "tolerance": 2.477575553061011e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -5.739071734121512e-17,
+          "expected": 0,
+          "absoluteError": 5.739071734121512e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 20,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 7.733528082454758,
+          "expected": 7.733528082450562,
+          "absoluteError": 4.196643033083092e-12,
+          "tolerance": 1.546805616490112e-05,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.04744922715821698,
+          "expected": -0.047449227158084036,
+          "absoluteError": 1.329422683049586e-13,
+          "tolerance": 9.589845431616807e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 1.804406931199543e-05,
+          "expected": 1.8044069311954246e-05,
+          "absoluteError": 4.118274189550408e-17,
+          "tolerance": 1.0360881386239086e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.002940918643016114,
+          "expected": 0.002940918643011197,
+          "absoluteError": 4.91707369265626e-15,
+          "tolerance": 6.881837286022394e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 6.871344537685054e-05,
+          "expected": 6.871344537654507e-05,
+          "absoluteError": 3.0547396209779087e-16,
+          "tolerance": 1.1374268907530901e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.0768668671622822e-16,
+          "expected": 0,
+          "absoluteError": 1.0768668671622822e-16,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 21,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.5623204890428958,
+          "expected": 0.5623204890408313,
+          "absoluteError": 2.0644597142904786e-12,
+          "tolerance": 1.1256409780816627e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.818635001141646,
+          "expected": -0.8186350011397887,
+          "absoluteError": 1.8572920978954244e-12,
+          "tolerance": 1.6382700022795775e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0003839100993086612,
+          "expected": 0.0003839100993079629,
+          "absoluteError": 6.982804091892891e-16,
+          "tolerance": 1.7678201986159257e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0002637078972810741,
+          "expected": 0.0002637078972802244,
+          "absoluteError": 8.496892425768898e-16,
+          "tolerance": 1.527415794560449e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0003365371712776779,
+          "expected": 0.00033653717127647107,
+          "absoluteError": 1.206825438193615e-15,
+          "tolerance": 1.6730743425529422e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.4816459132049832e-20,
+          "expected": 0,
+          "absoluteError": 1.4816459132049832e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 22,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.02501893589169799,
+          "expected": 0.02501893589186377,
+          "absoluteError": 1.6578058370519955e-13,
+          "tolerance": 5.1037871783727537e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.3702129575109649,
+          "expected": -0.37021295751229527,
+          "absoluteError": 1.330380250408325e-12,
+          "tolerance": 7.414259150245905e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.002259448527016387,
+          "expected": 0.0022594485270185875,
+          "absoluteError": 2.2004967292765798e-15,
+          "tolerance": 5.518897054037175e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0001526931910435365,
+          "expected": 0.0001526931910441483,
+          "absoluteError": 6.11788180879258e-16,
+          "tolerance": 1.3053863820882966e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0061977129128350785,
+          "expected": 0.006197712912844786,
+          "absoluteError": 9.707512571566213e-15,
+          "tolerance": 1.3395425825689572e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -8.731453848313743e-19,
+          "expected": 0,
+          "absoluteError": 8.731453848313743e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 23,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 1.281947446033236,
+          "expected": 1.2819474460302407,
+          "absoluteError": 2.9953817204386723e-12,
+          "tolerance": 2.5648948920604814e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.02241677213822069,
+          "expected": -0.022416772137964013,
+          "absoluteError": 2.566766243994323e-13,
+          "tolerance": 4.583354427592803e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 1.906759790048368e-05,
+          "expected": 1.9067597900176796e-05,
+          "absoluteError": 3.0688342492202203e-16,
+          "tolerance": 1.0381351958003536e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.00109041829393615,
+          "expected": 0.0010904182939285255,
+          "absoluteError": 7.624543357787061e-15,
+          "tolerance": 3.180836587857051e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 9.037810398125539e-06,
+          "expected": 9.037810397976608e-06,
+          "absoluteError": 1.489304149839346e-16,
+          "tolerance": 1.0180756207959533e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.3298417271892515e-19,
+          "expected": 0,
+          "absoluteError": 1.3298417271892515e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 24,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.004738054030854504,
+          "expected": -0.004738054030860614,
+          "absoluteError": 6.1096960823903146e-15,
+          "tolerance": 1.0476108061721228e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -8.132547082369112e-05,
+          "expected": -8.132547082389658e-05,
+          "absoluteError": 2.054563116860031e-16,
+          "tolerance": 1.1626509416477932e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 2.482799475998776e-05,
+          "expected": 2.482799476005606e-05,
+          "absoluteError": 6.830134873479776e-17,
+          "tolerance": 1.0496559895201122e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.001446488774785525,
+          "expected": -0.0014464887747874394,
+          "absoluteError": 1.9144841961749037e-15,
+          "tolerance": 3.892977549574879e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 9.931342873739768e-05,
+          "expected": 9.931342873768702e-05,
+          "absoluteError": 2.89346454782069e-16,
+          "tolerance": 1.1986268574753741e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 0.0,
+          "expected": 0,
+          "absoluteError": 0.0,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 25,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.3518108467600096,
+          "expected": 0.3518108467605671,
+          "absoluteError": 5.574984918155224e-13,
+          "tolerance": 7.046216935211342e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.545621997160336,
+          "expected": -0.5456219971602928,
+          "absoluteError": 4.318767565791859e-14,
+          "tolerance": 1.0922439943205857e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0001449448311444354,
+          "expected": 0.000144944831144274,
+          "absoluteError": 1.6141059842877947e-16,
+          "tolerance": 1.2898896622885481e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 9.345877556953709e-05,
+          "expected": 9.345877556958849e-05,
+          "absoluteError": 5.140473550296898e-17,
+          "tolerance": 1.186917551139177e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 8.674105265378151e-05,
+          "expected": 8.674105265361851e-05,
+          "absoluteError": 1.6299624410603952e-16,
+          "tolerance": 1.1734821053072371e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -4.65537248744844e-21,
+          "expected": 0,
+          "absoluteError": 4.65537248744844e-21,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 26,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.05343045841652611,
+          "expected": -0.05343045841658513,
+          "absoluteError": 5.901529265273098e-14,
+          "tolerance": 1.0786091683317025e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.006152929235308643,
+          "expected": -0.006152929235318116,
+          "absoluteError": 9.473324902309344e-15,
+          "tolerance": 1.3305858470636233e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.00747409212949679,
+          "expected": 0.007474092129507609,
+          "absoluteError": 1.0819470319667346e-14,
+          "tolerance": 1.5948184259015218e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.0649030979317491,
+          "expected": -0.06490309793181552,
+          "absoluteError": 6.641909244819999e-14,
+          "tolerance": 1.3080619586363104e-07,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.03466124687878289,
+          "expected": 0.034661246878815874,
+          "absoluteError": 3.2980562725271056e-14,
+          "tolerance": 7.032249375763174e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 27,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -9.089389374270495e-05,
+          "expected": -9.089389374229531e-05,
+          "absoluteError": 4.096386858193357e-16,
+          "tolerance": 1.1817877874845907e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.02373234072923636,
+          "expected": -0.023732340729299247,
+          "absoluteError": 6.288719545111121e-14,
+          "tolerance": 4.846468145859849e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0009239839245860137,
+          "expected": 0.0009239839245868225,
+          "absoluteError": 8.088148206741863e-16,
+          "tolerance": 2.847967849173645e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -3.538820616957787e-06,
+          "expected": -3.5388206169355586e-06,
+          "absoluteError": 2.2228262118320977e-17,
+          "tolerance": 1.0070776412338712e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0029614475594581646,
+          "expected": 0.0029614475594630105,
+          "absoluteError": 4.845950030141211e-15,
+          "tolerance": 6.9228951189260205e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 1.3234889800848443e-23,
+          "expected": 0,
+          "absoluteError": 1.3234889800848443e-23,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 28,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.6639404113729143,
+          "expected": 0.6639404113723452,
+          "absoluteError": 5.691003224228552e-13,
+          "tolerance": 1.3288808227446904e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -1.390337427981527,
+          "expected": -1.3903374279803866,
+          "absoluteError": 1.1404210908949608e-12,
+          "tolerance": 2.7816748559607733e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.00286501909742245,
+          "expected": 0.002865019097421154,
+          "absoluteError": 1.2962721174236691e-15,
+          "tolerance": 6.7300381948423075e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.001368158491493327,
+          "expected": 0.0013681584914926569,
+          "absoluteError": 6.700369425960417e-16,
+          "tolerance": 3.736316982985314e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.004836600581095912,
+          "expected": 0.004836600581089522,
+          "absoluteError": 6.389853923760569e-15,
+          "tolerance": 1.0673201162179044e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 3.9302328752599536e-19,
+          "expected": 0,
+          "absoluteError": 3.9302328752599536e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 29,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.8072982058047731,
+          "expected": -0.8072982058011747,
+          "absoluteError": 3.598343845112595e-12,
+          "tolerance": 1.6155964116023495e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.4678686297529405,
+          "expected": -0.4678686297492563,
+          "absoluteError": 3.684219596067351e-12,
+          "tolerance": 9.367372594985126e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0193281516395935,
+          "expected": 0.01932815163948327,
+          "absoluteError": 1.1023126855747023e-13,
+          "tolerance": 3.965630327896654e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.03335034911061664,
+          "expected": -0.033350349110540425,
+          "absoluteError": 7.6216810640517e-14,
+          "tolerance": 6.770069822108085e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.04496042876899742,
+          "expected": 0.044960428768711695,
+          "absoluteError": 2.8572283428118794e-13,
+          "tolerance": 9.092085753742338e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 6.938893903907228e-18,
+          "expected": 0,
+          "absoluteError": 6.938893903907228e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 30,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 7.675104468652992,
+          "expected": 7.6751044686569285,
+          "absoluteError": 3.936406756110955e-12,
+          "tolerance": 1.5351208937313854e-05,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -2.252429431566822,
+          "expected": -2.2524294315673736,
+          "absoluteError": 5.515587986337778e-13,
+          "tolerance": 4.505858863134747e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.01175104976985752,
+          "expected": 0.01175104976984802,
+          "absoluteError": 9.499345754448996e-15,
+          "tolerance": 2.4502099539696037e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.04004144739720411,
+          "expected": 0.04004144739718243,
+          "absoluteError": 2.168404344971009e-14,
+          "tolerance": 8.108289479436485e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.048389240516075245,
+          "expected": 0.048389240516058946,
+          "absoluteError": 1.629946178027808e-14,
+          "tolerance": 9.777848103211788e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -2.0599841277224584e-18,
+          "expected": 0,
+          "absoluteError": 2.0599841277224584e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 31,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.005522956566324279,
+          "expected": 0.005522956566373854,
+          "absoluteError": 4.957492749646519e-14,
+          "tolerance": 1.2045913132747708e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.1178619418216866,
+          "expected": -0.11786194182231292,
+          "absoluteError": 6.263184415544742e-13,
+          "tolerance": 2.3672388364462584e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0005863586769981868,
+          "expected": 0.0005863586769995279,
+          "absoluteError": 1.3410496671473204e-15,
+          "tolerance": 2.172717353999056e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 2.747649881967651e-05,
+          "expected": 2.747649881983997e-05,
+          "absoluteError": 1.6346041816113488e-16,
+          "tolerance": 1.05495299763968e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0007386817039253396,
+          "expected": 0.000738681703928263,
+          "absoluteError": 2.923442737889914e-15,
+          "tolerance": 2.4773634078565264e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 4.2672179850079315e-22,
+          "expected": 0,
+          "absoluteError": 4.2672179850079315e-22,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 32,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.01338293223504795,
+          "expected": 0.013382932235483341,
+          "absoluteError": 4.353913063415149e-13,
+          "tolerance": 2.7765864470966682e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.7675374763911832,
+          "expected": -0.7675374763939572,
+          "absoluteError": 2.774003249328416e-12,
+          "tolerance": 1.5360749527879145e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.003177071440700157,
+          "expected": 0.0031770714406978923,
+          "absoluteError": 2.2646814978877217e-15,
+          "tolerance": 7.354142881395784e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 5.539603355488327e-05,
+          "expected": 5.539603355644573e-05,
+          "absoluteError": 1.5624640795595945e-15,
+          "tolerance": 1.1107920671128915e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.011083751653659496,
+          "expected": 0.011083751653659265,
+          "absoluteError": 2.3071822230491534e-16,
+          "tolerance": 2.3167503307318528e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -3.3881317890172014e-21,
+          "expected": 0,
+          "absoluteError": 3.3881317890172014e-21,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 33,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.04561396501313991,
+          "expected": 0.04561396501318234,
+          "absoluteError": 4.2424397328488794e-14,
+          "tolerance": 9.222793002636466e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.5661128115410016,
+          "expected": -0.5661128115413775,
+          "absoluteError": 3.75921516138078e-13,
+          "tolerance": 1.133225623082755e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.00174705793878453,
+          "expected": 0.0017470579387844022,
+          "absoluteError": 1.2771901591879242e-16,
+          "tolerance": 4.494115877568804e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0001407674196221122,
+          "expected": 0.00014076741962213934,
+          "absoluteError": 2.713215936644975e-17,
+          "tolerance": 1.2815348392442788e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.005955431893850478,
+          "expected": 0.005955431893852674,
+          "absoluteError": 2.1961599205866378e-15,
+          "tolerance": 1.2910863787705348e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -1.1858461261560205e-20,
+          "expected": 0,
+          "absoluteError": 1.1858461261560205e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 34,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 0.453813922332033,
+          "expected": 0.45381392233155343,
+          "absoluteError": 4.795608354868364e-13,
+          "tolerance": 9.086278446631068e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.9343138688571617,
+          "expected": -0.9343138688574025,
+          "absoluteError": 2.4080737404119645e-13,
+          "tolerance": 1.869627737714805e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.0005705681373994568,
+          "expected": 0.0005705681373999969,
+          "absoluteError": 5.401495223322783e-16,
+          "tolerance": 2.141136274799994e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0002771357388793244,
+          "expected": 0.00027713573887922253,
+          "absoluteError": 1.0186079410501314e-16,
+          "tolerance": 1.554271477758445e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0006773866815544828,
+          "expected": 0.0006773866815558494,
+          "absoluteError": 1.3666368384179783e-15,
+          "tolerance": 2.3547733631116986e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.1281702799764296e-20,
+          "expected": 0,
+          "absoluteError": 2.1281702799764296e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 35,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 6.736718858715592,
+          "expected": 6.736718858716023,
+          "absoluteError": 4.3165471197426086e-13,
+          "tolerance": 1.3474437717432047e-05,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.01236220377900731,
+          "expected": -0.012362203779034497,
+          "absoluteError": 2.718658631550852e-14,
+          "tolerance": 2.572440755806899e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 1.879522916956033e-07,
+          "expected": 1.879522917036664e-07,
+          "absoluteError": 8.063118383150499e-18,
+          "tolerance": 1.0003759045834073e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.000102423626943042,
+          "expected": 0.00010242362694314646,
+          "absoluteError": 1.0446287931897835e-16,
+          "tolerance": 1.204847253886293e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 6.330899507319708e-07,
+          "expected": 6.330899507340087e-07,
+          "absoluteError": 2.03785539197544e-18,
+          "tolerance": 1.001266179901468e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.3372019326317376e-17,
+          "expected": 0,
+          "absoluteError": 2.3372019326317376e-17,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 36,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.06661500268438238,
+          "expected": -0.06661500268440212,
+          "absoluteError": 1.9748092050519972e-14,
+          "tolerance": 1.3423000536880423e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.03313267962152164,
+          "expected": -0.03313267962152393,
+          "absoluteError": 2.2898349882893854e-15,
+          "tolerance": 6.726535924304785e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.02797436038157734,
+          "expected": 0.027974360381561748,
+          "absoluteError": 1.5591694602079542e-14,
+          "tolerance": 5.6948720763123494e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.05624392935312707,
+          "expected": -0.05624392935310846,
+          "absoluteError": 1.8610113450279187e-14,
+          "tolerance": 1.134878587062169e-07,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.133461674480657,
+          "expected": 0.13346167448064866,
+          "absoluteError": 8.326672684688674e-15,
+          "tolerance": 2.679233489612973e-07,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -4.336808689942018e-19,
+          "expected": 0,
+          "absoluteError": 4.336808689942018e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 37,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 3.861751710024684,
+          "expected": 3.8617517100193104,
+          "absoluteError": 5.373479439185758e-12,
+          "tolerance": 7.724503420038621e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -2.610809507227906,
+          "expected": -2.6108095072268434,
+          "absoluteError": 1.0627054791711998e-12,
+          "tolerance": 5.2226190144536864e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.000492566773068118,
+          "expected": 0.0004925667730677503,
+          "absoluteError": 3.677613769070831e-16,
+          "tolerance": 1.9851335461355003e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.0007285750158834158,
+          "expected": 0.0007285750158821548,
+          "absoluteError": 1.2609271266006417e-15,
+          "tolerance": 2.4571500317643095e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0013849281514572837,
+          "expected": 0.0013849281514551784,
+          "absoluteError": 2.1053037785323525e-15,
+          "tolerance": 3.769856302910357e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": -1.2176098616780567e-19,
+          "expected": 0,
+          "absoluteError": 1.2176098616780567e-19,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 38,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": -0.01075181072792834,
+          "expected": -0.010751810727904558,
+          "absoluteError": 2.378132413216605e-14,
+          "tolerance": 2.2503621455809114e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.04111909372318023,
+          "expected": -0.041119093723201716,
+          "absoluteError": 2.148281552649678e-14,
+          "tolerance": 8.323818744640342e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.001799351772540925,
+          "expected": 0.001799351772541888,
+          "absoluteError": 9.62988369601625e-16,
+          "tolerance": 4.5987035450837754e-09,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": -0.0004704940683168856,
+          "expected": -0.0004704940683158511,
+          "absoluteError": 1.034491502877044e-15,
+          "tolerance": 1.9409881366317023e-09,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.005202975382703073,
+          "expected": 0.0052029753827101,
+          "absoluteError": 7.0273648011820455e-15,
+          "tolerance": 1.14059507654202e-08,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 5.421010862427522e-20,
+          "expected": 0,
+          "absoluteError": 5.421010862427522e-20,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "Complex RLC",
+      "index": 39,
+      "checks": [
+        {
+          "label": "RLC real Vc",
+          "actual": 1.549809133345846,
+          "expected": 1.5498091333522213,
+          "absoluteError": 6.375344696607499e-12,
+          "tolerance": 3.1006182667044426e-06,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary Vc",
+          "actual": -0.4211667418582287,
+          "expected": -0.4211667418595814,
+          "absoluteError": 1.3526957332032907e-12,
+          "tolerance": 8.433334837191628e-07,
+          "passed": true
+        },
+        {
+          "label": "RLC real I",
+          "actual": 0.005217566218836803,
+          "expected": 0.00521756621885978,
+          "absoluteError": 2.2977279801050798e-14,
+          "tolerance": 1.143513243771956e-08,
+          "passed": true
+        },
+        {
+          "label": "RLC imaginary I",
+          "actual": 0.01919959715744124,
+          "expected": 0.019199597157543085,
+          "absoluteError": 1.0184561527459834e-13,
+          "tolerance": 3.939919431508617e-08,
+          "passed": true
+        },
+        {
+          "label": "average R power",
+          "actual": 0.0036617043364152186,
+          "expected": 0.00366170433644382,
+          "absoluteError": 2.860125331016761e-14,
+          "tolerance": 8.323408672887639e-09,
+          "passed": true
+        },
+        {
+          "label": "AC power balance",
+          "actual": 2.2768245622195593e-18,
+          "expected": 0,
+          "absoluteError": 2.2768245622195593e-18,
+          "tolerance": 1e-07,
+          "passed": true
+        }
+      ]
+    },
+    {
+      "family": "RC exponential",
+      "index": 0,
+      "maxFullScaleError": 3.3929519926476667e-06,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 1,
+      "maxFullScaleError": 2.7078238348909774e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 2,
+      "maxFullScaleError": 3.474797219760488e-06,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 3,
+      "maxFullScaleError": 2.576813892657743e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 4,
+      "maxFullScaleError": 1.0157585607752536e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 5,
+      "maxFullScaleError": 6.841276758660527e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 6,
+      "maxFullScaleError": 9.120838923013714e-08,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 7,
+      "maxFullScaleError": 1.1513995249872138e-06,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 8,
+      "maxFullScaleError": 3.0122432652385974e-05,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 9,
+      "maxFullScaleError": 2.5400921997848394e-06,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 10,
+      "maxFullScaleError": 3.937936611173472e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 11,
+      "maxFullScaleError": 4.99976091357671e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 12,
+      "maxFullScaleError": 8.452736096823621e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 13,
+      "maxFullScaleError": 2.655888096425534e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 14,
+      "maxFullScaleError": 1.0858909907138264e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 15,
+      "maxFullScaleError": 1.0062738774637304e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 16,
+      "maxFullScaleError": 1.1076074643444808e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 17,
+      "maxFullScaleError": 3.4294806418693493e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 18,
+      "maxFullScaleError": 1.758559305834765e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    },
+    {
+      "family": "RC exponential",
+      "index": 19,
+      "maxFullScaleError": 1.669244829629265e-07,
+      "samplesChecked": 1976,
+      "passed": true
+    }
+  ]
+}

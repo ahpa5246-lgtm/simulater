@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-23T22:54:53.477593+00:00",
-  "baseCommit": "2b229067862858a895438b178f82356c2af84a79",
+  "timestamp": "2026-10-24T05:50:22.137029+00:00",
+  "baseCommit": "40f3143a4d9d600304a392b82e951a061bee49ff",
   "workingTreeModified": true,
-  "sourceSha256": "01f922b348dd86f23cfafb170f1d234e7b9ed5f00d5be6aced16f6ecbf851b1a",
+  "sourceSha256": "74181d497d457373dbad067b4774a545506fc5529fa4c243d60d5028bc598245",
   "sourceStable": true,
   "platform": "linux",
   "python": "3.12.14",
@@ -15,7 +15,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 1.49,
+      "seconds": 1.301,
       "testCount": 60,
       "log": ".state/verification/circuitjs-upstream.log"
     },
@@ -27,7 +27,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.541,
+      "seconds": 0.411,
       "testCount": null,
       "log": ".state/verification/native-peripherals.log"
     },
@@ -44,8 +44,8 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 23.396,
-      "testCount": 93,
+      "seconds": 23.854,
+      "testCount": 97,
       "log": ".state/verification/python.log"
     },
     {
@@ -61,7 +61,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.821,
+      "seconds": 0.804,
       "testCount": 20,
       "log": ".state/verification/node.log"
     },
@@ -74,7 +74,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.065,
+      "seconds": 0.049,
       "testCount": null,
       "log": ".state/verification/syntax-analog-ui.log"
     },
@@ -100,7 +100,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.053,
+      "seconds": 0.057,
       "testCount": null,
       "log": ".state/verification/syntax-boards.log"
     },
@@ -113,7 +113,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.065,
+      "seconds": 0.05,
       "testCount": null,
       "log": ".state/verification/syntax-component-library.log"
     },
@@ -126,7 +126,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.056,
+      "seconds": 0.049,
       "testCount": null,
       "log": ".state/verification/syntax-integrations.log"
     },
@@ -139,7 +139,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.051,
+      "seconds": 0.054,
       "testCount": null,
       "log": ".state/verification/syntax-lab.log"
     },
@@ -152,7 +152,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.053,
+      "seconds": 0.061,
       "testCount": null,
       "log": ".state/verification/syntax-parts-ui.log"
     },
@@ -165,7 +165,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 0.051,
+      "seconds": 0.05,
       "testCount": null,
       "log": ".state/verification/syntax-university.log"
     },
@@ -177,7 +177,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.21,
+      "seconds": 2.331,
       "testCount": null,
       "log": ".state/verification/analog-parts-browser.log"
     },
@@ -189,7 +189,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 5.839,
+      "seconds": 5.231,
       "testCount": null,
       "log": ".state/verification/boards-browser.log"
     },
@@ -201,7 +201,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 2.054,
+      "seconds": 1.984,
       "testCount": null,
       "log": ".state/verification/browser.log"
     },
@@ -213,7 +213,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 15.53,
+      "seconds": 18.867,
       "testCount": null,
       "log": ".state/verification/circuitjs-browser.log"
     },
@@ -225,7 +225,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.242,
+      "seconds": 2.854,
       "testCount": null,
       "log": ".state/verification/component-library-browser.log"
     },
@@ -237,7 +237,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 7.452,
+      "seconds": 6.981,
       "testCount": null,
       "log": ".state/verification/instruments-browser.log"
     },
@@ -249,7 +249,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 3.344,
+      "seconds": 3.014,
       "testCount": null,
       "log": ".state/verification/parts-browser.log"
     },
@@ -261,7 +261,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.812,
+      "seconds": 4.681,
       "testCount": null,
       "log": ".state/verification/practical-browser.log"
     },
@@ -273,7 +273,7 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.259,
+      "seconds": 4.055,
       "testCount": null,
       "log": ".state/verification/university-browser.log"
     },
@@ -285,21 +285,21 @@
       ],
       "status": "passed",
       "exitCode": 0,
-      "seconds": 4.067,
+      "seconds": 3.817,
       "testCount": null,
       "log": ".state/verification/upstream-browser.log"
     }
   ],
-  "seconds": 79.555,
+  "seconds": 80.646,
   "allPassed": true,
-  "unitTests": 173,
+  "unitTests": 177,
   "browserSuites": 10,
   "scope": "Internal solver, firmware and browser regression tests; no physical validation, public hosting or Proteus parity certification.",
   "dependencies": {
     "node": {
       "available": true,
       "optional": false,
-      "version": "v24.19.0",
+      "version": "v24.22.1",
       "exitCode": 0
     },
     "ngspice": {

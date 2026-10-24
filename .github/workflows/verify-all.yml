@@ -31,6 +31,6 @@ jobs:
           name: simulator-verification
           include-hidden-files: true
           path: |
-            evidence/full-verification.json
+            evidence/
             .state/verification/
             screenshots/
