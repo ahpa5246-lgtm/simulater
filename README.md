@@ -1,5 +1,34 @@
 # Mina Circuit Workbench
 
+## Download, setup and project overview
+
+Mina Circuit Workbench: a local schematic and firmware simulation environment.
+
+SVG editor; ngspice circuits; supported board execution; sensor protocols; imported component artwork.
+
+![Project workflow illustration](docs/project-overview.svg)
+
+[Download source ZIP](https://github.com/ahpa5246-lgtm/simulater/archive/refs/heads/main.zip) · [Changes and branches](https://github.com/ahpa5246-lgtm/simulater/branches) · [Verification notes](docs/QUALITY_REVIEW.md)
+
+The ZIP contains source code. Installation steps and external runtime requirements are listed below.
+
+```bash
+git clone https://github.com/ahpa5246-lgtm/simulater.git
+cd simulater
+```
+
+From the repository directory:
+
+```text
+# Install ngspice and Node.js first.
+npm ci
+python server.py
+# Open http://127.0.0.1:8765
+```
+
+The diagram is a project illustration. Test results and runtime limitations are recorded in [the review](docs/QUALITY_REVIEW.md); it is not a production-readiness certification.
+
+
 A local electronics workbench with an interactive SVG schematic editor and **real ngspice simulation**. This is an initial working milestone, not a complete Proteus replacement.
 
 ![Actual running application](screenshots/workbench.png)
